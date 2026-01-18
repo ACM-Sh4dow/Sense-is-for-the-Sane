@@ -8,6 +8,7 @@ public class ProtagonistController : MonoBehaviour
     {
         Idle,
         Walking,
+        Falling
     }
     public MovementState currentState =  MovementState.Idle;
     public Vector3 movementDir; 
@@ -15,7 +16,8 @@ public class ProtagonistController : MonoBehaviour
     private static Vector2 movementInput;
 
     [SerializeField] float movementSpeed;
-    [SerializeField] float gravity;
+    [SerializeField] float gravity = 20f;
+    [SerializeField] float groundCheckDistance = 0.1f;
     private const float MaxSlopeAngle = 55f;
     private const int MaxDepth = 3;
 
@@ -27,11 +29,15 @@ public class ProtagonistController : MonoBehaviour
     private float targetPitch;
     private static Vector2 lookInput;
 
+    private const float LeewayFraction = 0.95f;
+    private const float FloatingPointErrorCheck = 0.001f;
     private const float BottomClamp = -30;
     private const float TopClamp = 35;
     private const int RotationOffset = -30;
     
     private Vector3 velocity;
+    private float verticalVelocity; // Separate gravity velocity
+    private bool isGrounded;
     
     #endregion
     #region Initialization
@@ -77,7 +83,7 @@ public class ProtagonistController : MonoBehaviour
         
         float distance = velocity.magnitude;
         
-        if (distance < 0.0001f)
+        if (distance < FloatingPointErrorCheck)
         {
             return Vector3.zero;
         }
@@ -90,12 +96,12 @@ public class ProtagonistController : MonoBehaviour
         if (Physics.CapsuleCast(
                 point1, 
                 point2, 
-                capsuleRadius * 0.95f, // Slightly smaller to avoid self-collision
+                capsuleRadius * LeewayFraction,
                 velocity.normalized,
                 out hit,
                 distance))
         {
-            Vector3 snapToSurface = velocity.normalized * (hit.distance - 0.001f); // Small offset
+            Vector3 snapToSurface = velocity.normalized * Mathf.Max(0, hit.distance - FloatingPointErrorCheck);
             Vector3 remainder = velocity - snapToSurface;
             float angle = Vector3.Angle(Vector3.up, hit.normal);
 
@@ -127,6 +133,24 @@ public class ProtagonistController : MonoBehaviour
         return velocity;
         
         #endregion
+    }
+    
+    #endregion
+    #region Ground Check
+    
+    private bool CheckGrounded()
+    {
+        Vector3 spherePosition = new Vector3(
+            transform.position.x, 
+            transform.position.y - capsulePointFromCenter - (capsuleRadius * 0.5f),
+            transform.position.z
+        );
+    
+        return Physics.CheckSphere(
+            spherePosition,
+            capsuleRadius * LeewayFraction,
+            LayerMask.GetMask("Default")
+        );
     }
     
     #endregion
@@ -168,15 +192,31 @@ public class ProtagonistController : MonoBehaviour
         transform.position += velocity;
         
         #endregion
+        #region Gravity
+        
+        isGrounded = CheckGrounded();
+
+        if (!isGrounded)
+        {
+            currentState =  MovementState.Falling;
+            
+            velocity = CollideAndSlide(Vector3.down * (gravity * Time.deltaTime), transform.position, Vector3.down, 0);
+            transform.position += velocity;
+        }
+        
+        #endregion
         #region Look
 
         Look();
 
         #endregion
-
+        
         #region Animation Information
 
-        currentState = velocity.magnitude > 0 ? MovementState.Walking : MovementState.Idle;
+        if (isGrounded)
+        {
+            currentState = velocity.magnitude > 0 ? MovementState.Walking : MovementState.Idle;
+        }
         movementDir = velocity.normalized;
 
         #endregion

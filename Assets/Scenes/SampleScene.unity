@@ -537,7 +537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 658539101}
   - component: {fileID: 658539100}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CinemachineCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -664,7 +664,7 @@ GameObject:
   - component: {fileID: 843248938}
   - component: {fileID: 843248937}
   - component: {fileID: 843248936}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Protagonist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -683,8 +683,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 648e26d91639e4a4f8f891b217d0673e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterController
+  currentState: 0
+  movementDir: {x: 0, y: 0, z: 0}
   movementSpeed: 10
   gravity: 9.81
+  groundCheckDistance: 0.1
   aimSensitivity: 50
 --- !u!136 &843248937
 CapsuleCollider:
