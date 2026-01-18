@@ -4,6 +4,14 @@ public class ProtagonistController : MonoBehaviour
 {
     #region Variables
 
+    public enum MovementState
+    {
+        Idle,
+        Walking,
+    }
+    public MovementState currentState =  MovementState.Idle;
+    public Vector3 movementDir; 
+    
     private static Vector2 movementInput;
 
     [SerializeField] float movementSpeed;
@@ -163,6 +171,13 @@ public class ProtagonistController : MonoBehaviour
         #region Look
 
         Look();
+
+        #endregion
+
+        #region Animation Information
+
+        currentState = velocity.magnitude > 0 ? MovementState.Walking : MovementState.Idle;
+        movementDir = velocity.normalized;
 
         #endregion
     }
