@@ -4,6 +4,8 @@ public class ProtagonistController : MonoBehaviour
 {
     #region Variables
 
+    public static Vector3 playerPosition;
+
     public enum MovementState
     {
         Idle,
@@ -17,7 +19,6 @@ public class ProtagonistController : MonoBehaviour
 
     [SerializeField] float movementSpeed;
     [SerializeField] float gravity = 20f;
-    [SerializeField] float groundCheckDistance = 0.1f;
     private const float MaxSlopeAngle = 55f;
     private const int MaxDepth = 3;
 
@@ -176,7 +177,28 @@ public class ProtagonistController : MonoBehaviour
         if (lfAngle > 360f) lfAngle -= 360f;
         return Mathf.Clamp(lfAngle, lfMin, lfMax);
     }
-    
+
+    #endregion
+    #region Interact
+
+    public static void Interact()
+    {
+        float interactionRange = 5;
+
+        Ray centerRay = Camera.main.ScreenPointToRay(new Vector3(
+                Screen.width / 2,
+                Screen.height / 2,
+                0f));
+
+        if (Physics.Raycast(centerRay, out RaycastHit hitInfo , interactionRange))
+        {
+            if (hitInfo.collider.TryGetComponent<InteractionPoint>(out InteractionPoint interaction))
+            {
+                interaction.Interact();
+            }
+        }
+    }
+
     #endregion
 
     private void Update()
@@ -210,7 +232,12 @@ public class ProtagonistController : MonoBehaviour
         //Look();
 
         #endregion
-        
+        #region Update Position Information
+
+        playerPosition = transform.position;
+
+        #endregion
+
         #region Animation Information
 
         if (isGrounded)
