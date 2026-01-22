@@ -11,7 +11,7 @@ public class Saving_And_Loading : MonoBehaviour
     public static void SaveCurrentData()
     {
         SaveData newSaveData = new SaveData();
-        newSaveData.playerPos = ProtagonistController.i.transform.position;
+        newSaveData.playerPos = ProtagonistController.playerPosition;
 
         string convertedData = JsonUtility.ToJson(newSaveData);
         System.IO.File.WriteAllText(Application.persistentDataPath + "/SaveData.json", convertedData);

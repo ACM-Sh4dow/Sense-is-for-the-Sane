@@ -4,6 +4,8 @@ public class ProtagonistController : MonoBehaviour
 {
     #region Variables
 
+    public static Vector3 playerPosition;
+
     public enum MovementState
     {
         Idle,
@@ -230,7 +232,12 @@ public class ProtagonistController : MonoBehaviour
         Look();
 
         #endregion
-        
+        #region Update Position Information
+
+        playerPosition = transform.position;
+
+        #endregion
+
         #region Animation Information
 
         if (isGrounded)
