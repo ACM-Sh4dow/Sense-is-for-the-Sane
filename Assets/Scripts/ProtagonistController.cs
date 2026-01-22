@@ -17,7 +17,6 @@ public class ProtagonistController : MonoBehaviour
 
     [SerializeField] float movementSpeed;
     [SerializeField] float gravity = 20f;
-    [SerializeField] float groundCheckDistance = 0.1f;
     private const float MaxSlopeAngle = 55f;
     private const int MaxDepth = 3;
 
@@ -159,13 +158,13 @@ public class ProtagonistController : MonoBehaviour
     private void Look()
     {
         targetYaw += lookInput.x * aimSensitivity * Time.deltaTime;
-        targetPitch += lookInput.y * aimSensitivity * Time.deltaTime;
+        targetPitch -= lookInput.y * aimSensitivity * Time.deltaTime;
 
         targetYaw = ClampAngle(targetYaw, float.MinValue, float.MaxValue);
         targetPitch = ClampAngle(targetPitch, BottomClamp, TopClamp);
 
         transform.rotation = Quaternion.Euler(
-            0f,
+            targetPitch,
             targetYaw + RotationOffset,
             0f);
     }
@@ -176,7 +175,28 @@ public class ProtagonistController : MonoBehaviour
         if (lfAngle > 360f) lfAngle -= 360f;
         return Mathf.Clamp(lfAngle, lfMin, lfMax);
     }
-    
+
+    #endregion
+    #region Interact
+
+    public static void Interact()
+    {
+        float interactionRange = 5;
+
+        Ray centerRay = Camera.main.ScreenPointToRay(new Vector3(
+                Screen.width / 2,
+                Screen.height / 2,
+                0f));
+
+        if (Physics.Raycast(centerRay, out RaycastHit hitInfo , interactionRange))
+        {
+            if (hitInfo.collider.TryGetComponent<InteractionPoint>(out InteractionPoint interaction))
+            {
+                interaction.Interact();
+            }
+        }
+    }
+
     #endregion
 
     private void Update()

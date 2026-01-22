@@ -12,4 +12,11 @@ public class InputHandler : MonoBehaviour
     {
         ProtagonistController.SyncLookInput(input.ReadValue<Vector2>());
     }
+
+    public void RecieveInteractInput(InputAction.CallbackContext input)
+    {
+        if (!input.started) return;
+
+        ProtagonistController.Interact();
+    }
 }
