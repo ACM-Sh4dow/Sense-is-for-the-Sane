@@ -68,6 +68,33 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584327632266015992
     List: []
+  - PhysicalPath: SoundBanks\Soundbanks WU.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Soundbanks WU
+      ObjectType: 12
+      guid: f07745933e5d8a42b73e28d4a0c7c93c
+    ParentPath: SoundBanks\Soundbanks WU
+    guid: f07745933e5d8a42b73e28d4a0c7c93c
+    GuidInternal: 
+    m_lastTime: -8584327625942669339
+    List:
+    - name: Test
+      guid: 41d7c7fac62c714591aeb86c57b75fdf
+      id: 3157003241
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Soundbanks WU
+        ObjectType: 12
+        guid: f07745933e5d8a42b73e28d4a0c7c93c
+      - ElementName: Test
+        ObjectType: 7
+        guid: 41d7c7fac62c714591aeb86c57b75fdf
+      Path: SoundBanks\Soundbanks WU\Test
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
