@@ -159,17 +159,17 @@ public class ProtagonistController : MonoBehaviour
     private void Look()
     {
         targetYaw += lookInput.x * aimSensitivity * Time.deltaTime;
-        targetPitch += lookInput.y * aimSensitivity * Time.deltaTime;
+        targetPitch -= lookInput.y * aimSensitivity * Time.deltaTime;
 
         targetYaw = ClampAngle(targetYaw, float.MinValue, float.MaxValue);
         targetPitch = ClampAngle(targetPitch, BottomClamp, TopClamp);
 
         transform.rotation = Quaternion.Euler(
-            0f,
+            targetPitch,
             targetYaw + RotationOffset,
             0f);
     }
-
+    
     private static float ClampAngle(float lfAngle, float lfMin, float lfMax)
     {
         if (lfAngle < -360f) lfAngle += 360f;
@@ -207,7 +207,7 @@ public class ProtagonistController : MonoBehaviour
         #endregion
         #region Look
 
-        Look();
+        //Look();
 
         #endregion
         
