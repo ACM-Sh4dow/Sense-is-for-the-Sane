@@ -32,8 +32,6 @@ public class DistanceBasedAnimation : MonoBehaviour
 
     private void Update()
     {
-        
-        
         playerPosition = player.transform.position;
 
         float distanceFromPlayer =  Vector3.Distance(playerPosition, transform.position);
