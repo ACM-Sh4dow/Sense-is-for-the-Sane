@@ -229,7 +229,7 @@ public class ProtagonistController : MonoBehaviour
         #endregion
         #region Look
 
-        //Look();
+        Look();
 
         #endregion
         #region Update Position Information
