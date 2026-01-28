@@ -686,6 +686,66 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!1001 &598094555
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 918906922487881660, guid: 2e0554f1f9c17be468b30bbf19ae055d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.594819
+      objectReference: {fileID: 0}
+    - target: {fileID: 918906922487881660, guid: 2e0554f1f9c17be468b30bbf19ae055d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 918906922487881660, guid: 2e0554f1f9c17be468b30bbf19ae055d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.7475786
+      objectReference: {fileID: 0}
+    - target: {fileID: 918906922487881660, guid: 2e0554f1f9c17be468b30bbf19ae055d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 918906922487881660, guid: 2e0554f1f9c17be468b30bbf19ae055d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 918906922487881660, guid: 2e0554f1f9c17be468b30bbf19ae055d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 918906922487881660, guid: 2e0554f1f9c17be468b30bbf19ae055d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 918906922487881660, guid: 2e0554f1f9c17be468b30bbf19ae055d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 918906922487881660, guid: 2e0554f1f9c17be468b30bbf19ae055d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 918906922487881660, guid: 2e0554f1f9c17be468b30bbf19ae055d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172380167416355656, guid: 2e0554f1f9c17be468b30bbf19ae055d, type: 3}
+      propertyPath: m_Name
+      value: Ashigaru
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7031172225001448883, guid: 2e0554f1f9c17be468b30bbf19ae055d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1408208761}
+  m_SourcePrefab: {fileID: 100100000, guid: 2e0554f1f9c17be468b30bbf19ae055d, type: 3}
 --- !u!1 &658539099
 GameObject:
   m_ObjectHideFlags: 0
@@ -825,7 +885,7 @@ GameObject:
   - component: {fileID: 843248936}
   m_Layer: 3
   m_Name: Protagonist
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -844,9 +904,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharacterController
   currentState: 0
   movementDir: {x: 0, y: 0, z: 0}
-  movementSpeed: 10
+  movementSpeed: 2
   gravity: 9.81
-  aimSensitivity: 50
+  aimSensitivity: 10
 --- !u!136 &843248937
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1054,6 +1114,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1408208759 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7031172225001448883, guid: 2e0554f1f9c17be468b30bbf19ae055d, type: 3}
+  m_PrefabInstance: {fileID: 598094555}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1408208761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408208759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 852bd80a48b938042af0ecdf0cef33cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DistanceBasedAnimation
+  animationName: Heavy Attack_Unlocked
+  animationStartDistance: 15
+  animationEndDistance: 5
 --- !u!1 &1822863037
 GameObject:
   m_ObjectHideFlags: 0
@@ -1524,3 +1604,4 @@ SceneRoots:
   - {fileID: 1822863041}
   - {fileID: 43400282}
   - {fileID: 1849348670}
+  - {fileID: 598094555}
