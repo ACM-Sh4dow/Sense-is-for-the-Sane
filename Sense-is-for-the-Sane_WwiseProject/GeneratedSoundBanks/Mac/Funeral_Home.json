@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3934820040",
+    "Type": "User",
+    "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
+    "Language": "SFX",
+    "Hash": "{F50899AA-604F-BAE0-C9E0-9CADDA0ADE3D}",
+    "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
+    "ShortName": "Funeral_Home",
+    "Path": "Funeral_Home.bnk"
+   }
+  ],
+  "FileHash": "{DE0DAF59-B993-737E-7BB7-9EF6A5BD3E8F}"
+ }
+}

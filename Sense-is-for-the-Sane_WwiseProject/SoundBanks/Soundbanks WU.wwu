@@ -8,6 +8,26 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Void" ID="{68D5CE59-62C2-45C9-8AA7-B31C8321D127}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Apartment" ID="{9F2C9685-C3F4-4D21-9319-4FF075E9A3CD}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Funeral_Home" ID="{36ACC5E3-9754-4EFE-8814-73F1D671A324}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Clinic" ID="{A92A9F14-6B30-4EEE-B9F9-73F5B6FC7976}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

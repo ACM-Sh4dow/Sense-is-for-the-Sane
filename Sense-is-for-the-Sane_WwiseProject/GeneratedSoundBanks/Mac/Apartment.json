@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4154495109",
+    "Type": "User",
+    "GUID": "{9F2C9685-C3F4-4D21-9319-4FF075E9A3CD}",
+    "Language": "SFX",
+    "Hash": "{976F4BFA-D716-BA07-4379-A18D2B7B869C}",
+    "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Apartment",
+    "ShortName": "Apartment",
+    "Path": "Apartment.bnk"
+   }
+  ],
+  "FileHash": "{63961357-57F1-61F2-962A-A3290A064413}"
+ }
+}

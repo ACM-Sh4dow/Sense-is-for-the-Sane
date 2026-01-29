@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3370470011",
+    "Type": "User",
+    "GUID": "{68D5CE59-62C2-45C9-8AA7-B31C8321D127}",
+    "Language": "SFX",
+    "Hash": "{A1994C68-BE4E-0E83-9BA1-80CD90ECAE38}",
+    "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Void",
+    "ShortName": "Void",
+    "Path": "Void.bnk"
+   }
+  ],
+  "FileHash": "{56EEAD85-059F-365C-D5DF-BFB934354ECC}"
+ }
+}

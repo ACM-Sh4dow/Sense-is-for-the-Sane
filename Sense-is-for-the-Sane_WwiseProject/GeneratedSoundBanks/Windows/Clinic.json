@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "839997033",
+    "Type": "User",
+    "GUID": "{A92A9F14-6B30-4EEE-B9F9-73F5B6FC7976}",
+    "Language": "SFX",
+    "Hash": "{55BA206E-B825-49CC-350C-6650AEED05FC}",
+    "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Clinic",
+    "ShortName": "Clinic",
+    "Path": "Clinic.bnk"
+   }
+  ],
+  "FileHash": "{1E0733D1-4F47-56D3-D4DF-44A7B1EF08F7}"
+ }
+}

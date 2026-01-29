@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4154495109",
+    "Type": "User",
+    "GUID": "{9F2C9685-C3F4-4D21-9319-4FF075E9A3CD}",
+    "Language": "SFX",
+    "Hash": "{976F4BFA-D716-BA07-4379-A18D2B7B869C}",
+    "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Apartment",
+    "ShortName": "Apartment",
+    "Path": "Apartment.bnk"
+   }
+  ],
+  "FileHash": "{3A20FDA8-BCBA-7324-21EA-7E9905995DDD}"
+ }
+}

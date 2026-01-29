@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "839997033",
+    "Type": "User",
+    "GUID": "{A92A9F14-6B30-4EEE-B9F9-73F5B6FC7976}",
+    "Language": "SFX",
+    "Hash": "{55BA206E-B825-49CC-350C-6650AEED05FC}",
+    "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Clinic",
+    "ShortName": "Clinic",
+    "Path": "Clinic.bnk"
+   }
+  ],
+  "FileHash": "{6D73071E-E5E2-4ECB-6E58-2D1D8F2D4BF0}"
+ }
+}
