@@ -720,6 +720,7 @@ GameObject:
   - component: {fileID: 581617171}
   - component: {fileID: 581617170}
   - component: {fileID: 581617169}
+  - component: {fileID: 581617172}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -861,6 +862,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3adcb5a3f66df8745acfeb0209f0cfdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+--- !u!114 &581617172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581617165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85ef3ef1bcfaf8b49a68c183573c5090, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Unlockingmouse
 --- !u!1 &620027859
 GameObject:
   m_ObjectHideFlags: 0
