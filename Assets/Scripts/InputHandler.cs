@@ -18,5 +18,9 @@ public class InputHandler : MonoBehaviour
         if (!input.started) return;
 
         ProtagonistController.Interact();
+        if (ProtagonistController.Instance.perspectivePuzzle != null)
+        {
+            ProtagonistController.Instance.perspectivePuzzle.SolvePuzzle();
+        }
     }
 }

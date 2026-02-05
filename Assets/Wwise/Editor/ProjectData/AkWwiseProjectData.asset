@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: ede88cb9b519ad42b043b7baa79cad7e
     GuidInternal: 
-    m_lastTime: -8584319833984487220
+    m_lastTime: -8584313200260726161
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -54,6 +54,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Reverb_Apartment
+      guid: e4588ab2bf2b4948b95c3acc849a967e
+      id: 624627402
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ede88cb9b519ad42b043b7baa79cad7e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverb_Apartment
+        ObjectType: 1
+        guid: e4588ab2bf2b4948b95c3acc849a967e
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Apartment
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -79,8 +96,50 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584319833984424523
+    m_lastTime: -8584313200257485276
     List:
+    - name: Apartment
+      guid: 85962c9ff4c3214d93194ff075e9a3cd
+      id: 4154495109
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Soundbanks WU
+        ObjectType: 12
+        guid: f07745933e5d8a42b73e28d4a0c7c93c
+      - ElementName: Apartment
+        ObjectType: 7
+        guid: 85962c9ff4c3214d93194ff075e9a3cd
+      Path: SoundBanks\Soundbanks WU\Apartment
+    - name: Clinic
+      guid: 149f2aa9306bee4eb9f973f5b6fc7976
+      id: 839997033
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Soundbanks WU
+        ObjectType: 12
+        guid: f07745933e5d8a42b73e28d4a0c7c93c
+      - ElementName: Clinic
+        ObjectType: 7
+        guid: 149f2aa9306bee4eb9f973f5b6fc7976
+      Path: SoundBanks\Soundbanks WU\Clinic
+    - name: Funeral_Home
+      guid: e3c5ac365497fe4e881473f1d671a324
+      id: 3934820040
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Soundbanks WU
+        ObjectType: 12
+        guid: f07745933e5d8a42b73e28d4a0c7c93c
+      - ElementName: Funeral_Home
+        ObjectType: 7
+        guid: e3c5ac365497fe4e881473f1d671a324
+      Path: SoundBanks\Soundbanks WU\Funeral_Home
     - name: Test
       guid: 41d7c7fac62c714591aeb86c57b75fdf
       id: 3157003241
@@ -95,6 +154,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: 41d7c7fac62c714591aeb86c57b75fdf
       Path: SoundBanks\Soundbanks WU\Test
+    - name: Void
+      guid: 59ced568c262c9458aa7b31c8321d127
+      id: 3370470011
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Soundbanks WU
+        ObjectType: 12
+        guid: f07745933e5d8a42b73e28d4a0c7c93c
+      - ElementName: Void
+        ObjectType: 7
+        guid: 59ced568c262c9458aa7b31c8321d127
+      Path: SoundBanks\Soundbanks WU\Void
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -108,6 +181,19 @@ MonoBehaviour:
     guid: 5cd231f69da5114cafe3abcbe28566f5
     GuidInternal: 
     m_lastTime: -8584319833984572084
+    List: []
+  - PhysicalPath: Events\Events WU.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Events WU
+      ObjectType: 12
+      guid: 1ff59692a3e328449b9b4c99fad941f7
+    ParentPath: Events\Events WU
+    guid: 1ff59692a3e328449b9b4c99fad941f7
+    GuidInternal: 
+    m_lastTime: -8584313200260846244
     List: []
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
@@ -123,6 +209,19 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584319833984557971
     List: []
+  - PhysicalPath: Game Parameters\Game Parameters WU.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Game Parameters WU
+      ObjectType: 12
+      guid: c4a7a3998bd1784ea5fc8d535b50ceee
+    ParentPath: Game Parameters\Game Parameters WU
+    guid: c4a7a3998bd1784ea5fc8d535b50ceee
+    GuidInternal: 
+    m_lastTime: -8584313200260836180
+    List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -137,6 +236,19 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584319833984409487
     List: []
+  - PhysicalPath: States\States WU.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: States WU
+      ObjectType: 12
+      guid: 7d31013722dbbd43af5130094b358f20
+    ParentPath: States\States WU
+    guid: 7d31013722dbbd43af5130094b358f20
+    GuidInternal: 
+    m_lastTime: -8584313200257474868
+    List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -150,6 +262,19 @@ MonoBehaviour:
     guid: 8e107472216dc4408dbacc42c7679e8d
     GuidInternal: 
     m_lastTime: -8584319833984396810
+    List: []
+  - PhysicalPath: Switches\Switches WU.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Switches WU
+      ObjectType: 12
+      guid: a20079f489c43045be7add0633c9b245
+    ParentPath: Switches\Switches WU
+    guid: a20079f489c43045be7add0633c9b245
+    GuidInternal: 
+    m_lastTime: -8584313200257465250
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu

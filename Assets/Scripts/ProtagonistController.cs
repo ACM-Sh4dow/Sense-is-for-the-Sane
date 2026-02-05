@@ -4,7 +4,12 @@ public class ProtagonistController : MonoBehaviour
 {
     #region Variables
 
+    public static ProtagonistController Instance;
+    
+    public PerspectivePuzzleSolve perspectivePuzzle;
+    
     public static Vector3 playerPosition;
+    public static Quaternion playerRotation;
 
     public enum MovementState
     {
@@ -45,6 +50,8 @@ public class ProtagonistController : MonoBehaviour
 
     void Start()
     {
+        Instance = this;
+        
         var playerCollider = GetComponent<CapsuleCollider>();
         capsuleRadius = playerCollider.radius;
         float capsuleHeight =  playerCollider.height;
@@ -200,6 +207,17 @@ public class ProtagonistController : MonoBehaviour
     }
 
     #endregion
+    #region Perspective Puzzle
+
+    public void GivePuzzle(PerspectivePuzzleSolve puzzle)
+    {
+        if (!perspectivePuzzle)
+        {
+            perspectivePuzzle = puzzle;
+        }
+    }
+
+    #endregion
 
     private void Update()
     {
@@ -232,9 +250,10 @@ public class ProtagonistController : MonoBehaviour
         Look();
 
         #endregion
-        #region Update Position Information
+        #region Update Player Information
 
         playerPosition = transform.position;
+        playerRotation = transform.rotation;
 
         #endregion
 
