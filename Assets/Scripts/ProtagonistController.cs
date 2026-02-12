@@ -100,6 +100,8 @@ public class ProtagonistController : MonoBehaviour
         
         Vector3 point1 = new Vector3(position.x, position.y + capsulePointFromCenter, position.z);
         Vector3 point2 = new Vector3(position.x, position.y - capsulePointFromCenter, position.z);
+
+        LayerMask layerMask = ~0;
         
         if (Physics.CapsuleCast(
                 point1, 
@@ -107,7 +109,9 @@ public class ProtagonistController : MonoBehaviour
                 capsuleRadius * LeewayFraction,
                 velocity.normalized,
                 out hit,
-                distance))
+                distance,
+                layerMask,
+                QueryTriggerInteraction.Ignore))
         {
             Vector3 snapToSurface = velocity.normalized * Mathf.Max(0, hit.distance - FloatingPointErrorCheck);
             Vector3 remainder = velocity - snapToSurface;
