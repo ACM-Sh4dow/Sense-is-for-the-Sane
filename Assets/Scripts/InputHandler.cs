@@ -5,7 +5,7 @@ public class InputHandler : MonoBehaviour
 {
     public void ReceiveMovementInput(InputAction.CallbackContext input)
     {
-        ProtagonistController.SyncMovementInput(input.ReadValue<Vector2>());
+        ProtagonistController.SyncMovementInput(input);
     }
 
     public void RecieveLookInput(InputAction.CallbackContext input)

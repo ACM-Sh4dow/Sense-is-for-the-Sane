@@ -1,10 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class ProtagonistController : MonoBehaviour
 {
     #region Variables
 
     public static ProtagonistController Instance;
+
+    public static bool walkingStarted;
+    public static bool walkingFinished;
+
+    public Coroutine SoundCoroutine;
+    public float SecondsBetweenFootsteps;
     
     public PerspectivePuzzleSolve perspectivePuzzle;
     
@@ -64,9 +73,27 @@ public class ProtagonistController : MonoBehaviour
     #endregion
     #region Synchronise Input
     
-    public static void SyncMovementInput(Vector2 input)
+    public static void SyncMovementInput(InputAction.CallbackContext input)
     {
-        movementInput = input;
+        if (input.started)
+        {
+            walkingStarted = true;
+        }
+        else
+        {
+            walkingStarted = false;
+        }
+
+            movementInput = input.ReadValue<Vector2>();
+
+        if (input.canceled)
+        {
+            walkingFinished = true;
+        }
+        else
+        {
+            walkingFinished = false;
+        }
     }
 
     public static void SyncLookInput(Vector2 input)
@@ -223,6 +250,28 @@ public class ProtagonistController : MonoBehaviour
 
     #endregion
 
+    #region Audio
+
+    public IEnumerator BeginWalking()
+    {
+        // Begin walking sfx
+
+        yield return new WaitForSeconds(SecondsBetweenFootsteps);
+
+        SoundCoroutine = StartCoroutine(ContinueWalking());
+    }
+
+    public IEnumerator ContinueWalking()
+    {
+        // Continue Walking sfx
+
+        yield return new WaitForSeconds(SecondsBetweenFootsteps);
+
+        SoundCoroutine = StartCoroutine(ContinueWalking());
+    }
+
+    #endregion
+
     private void Update()
     {
         #region Movement
@@ -268,6 +317,23 @@ public class ProtagonistController : MonoBehaviour
             currentState = velocity.magnitude > 0 ? MovementState.Walking : MovementState.Idle;
         }
         movementDir = velocity.normalized;
+
+        #endregion
+        #region Audio Information
+
+        if (walkingStarted)
+        {
+            SoundCoroutine = StartCoroutine(BeginWalking());
+            walkingStarted = false;
+        }
+
+        if (walkingFinished)
+        {
+            StopCoroutine(SoundCoroutine);
+
+            // Finish Walking sfx
+            walkingFinished = false;
+        }
 
         #endregion
     }
