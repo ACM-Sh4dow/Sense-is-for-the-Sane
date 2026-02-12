@@ -327,7 +327,7 @@ public class ProtagonistController : MonoBehaviour
             walkingStarted = false;
         }
 
-        if (walkingFinished)
+        if (walkingFinished && SoundCoroutine != null)
         {
             StopCoroutine(SoundCoroutine);
 
