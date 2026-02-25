@@ -1,6 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}" SchemaVersion="123" RootDocumentID="{BF741298-DE34-4CC2-A30E-67805D71477A}" ParentDocumentID="{BF741298-DE34-4CC2-A30E-67805D71477A}">
 	<AudioObjects>
-		<WorkUnit Name="Funeral Home" ID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}" OwnerID="{BF741298-DE34-4CC2-A30E-67805D71477A}" PersistMode="Nested"/>
+		<WorkUnit Name="Funeral Home" ID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}" OwnerID="{BF741298-DE34-4CC2-A30E-67805D71477A}" PersistMode="Nested">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Flowers Rand" ID="{86CBE7F3-2996-489E-9ACB-3079F8CB7C9F}" ShortID="151857652">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{5D63F0F9-34FB-4D13-8830-435B437A21B2}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="30"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{FA50C017-2775-448F-9250-3206B563469D}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="50"/>
+											<Property Name="Min" Type="Real64" Value="-50"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Flower_Vase_01" ID="{0F10704C-F68C-40DD-AC40-742A1E8642FB}" ShortID="736911642">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flower_Vase_01" ID="{A94507B6-4576-4B5D-A3AB-36BD9CBE1DC3}">
+									<Language>SFX</Language>
+									<AudioFile>Flower_Vase_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="230791500"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flower_Vase_01" ID="{A94507B6-4576-4B5D-A3AB-36BD9CBE1DC3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flower_Vase_02" ID="{E749287D-0FF0-4EBC-8B05-648C29B801FD}" ShortID="1029521484">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flower_Vase_02" ID="{59474789-C055-4CE1-A7BF-D0421A4B181B}">
+									<Language>SFX</Language>
+									<AudioFile>Flower_Vase_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="52400242"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flower_Vase_02" ID="{59474789-C055-4CE1-A7BF-D0421A4B181B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flower_Vase_03" ID="{638AF835-57DA-4982-8FD6-08AD260FDF65}" ShortID="169570408">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Flower_Vase_03" ID="{DE172DCB-5850-4413-997A-471426265BE9}">
+									<Language>SFX</Language>
+									<AudioFile>Flower_Vase_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="59700195"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Flower_Vase_03" ID="{DE172DCB-5850-4413-997A-471426265BE9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="Picture_Frame" ID="{E365E117-D214-43EA-B016-31523676118E}" ShortID="972449552">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-100</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Picture_Frame" ID="{A21FE412-0CD8-414A-8EDE-DC1D420ACAD5}">
+							<Language>SFX</Language>
+							<AudioFile>Picture_Frame.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="188404886"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Picture_Frame" ID="{A21FE412-0CD8-414A-8EDE-DC1D420ACAD5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
