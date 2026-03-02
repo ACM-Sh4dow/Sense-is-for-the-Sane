@@ -38,6 +38,8 @@ public class ProtagonistController : MonoBehaviour
     private Vector3 velocity;
     private float verticalVelocity; // Separate gravity velocity
     private bool isGrounded;
+
+    public bool islocked;
     
     #endregion
     #region Initialization
@@ -158,16 +160,19 @@ public class ProtagonistController : MonoBehaviour
     
     private void Look()
     {
-        targetYaw += lookInput.x * aimSensitivity * Time.deltaTime;
-        targetPitch += lookInput.y * aimSensitivity * Time.deltaTime;
+        if (!islocked)
+        {
+            targetYaw += lookInput.x * aimSensitivity * Time.deltaTime;
+            targetPitch += lookInput.y * aimSensitivity * Time.deltaTime;
 
-        targetYaw = ClampAngle(targetYaw, float.MinValue, float.MaxValue);
-        targetPitch = ClampAngle(targetPitch, BottomClamp, TopClamp);
+            targetYaw = ClampAngle(targetYaw, float.MinValue, float.MaxValue);
+            targetPitch = ClampAngle(targetPitch, BottomClamp, TopClamp);
 
-        transform.rotation = Quaternion.Euler(
-            0f,
-            targetYaw + RotationOffset,
-            0f);
+            transform.rotation = Quaternion.Euler(
+                0f,
+                targetYaw + RotationOffset,
+                0f);
+        }
     }
 
     private static float ClampAngle(float lfAngle, float lfMin, float lfMax)
@@ -182,14 +187,16 @@ public class ProtagonistController : MonoBehaviour
     private void Update()
     {
         #region Movement
-        
-        Vector3 newMovementInput = new Vector3(movementInput.x, 0, movementInput.y);
-        Vector3 moveDirection = Quaternion.Euler(0, Camera.main.transform.eulerAngles.y, 0) * newMovementInput;
-        
-        velocity = moveDirection * movementSpeed;
-        velocity = CollideAndSlide(velocity * Time.deltaTime, transform.position, moveDirection, 0);
-        
-        transform.position += velocity;
+        if (!islocked)
+        {
+            Vector3 newMovementInput = new Vector3(movementInput.x, 0, movementInput.y);
+            Vector3 moveDirection = Quaternion.Euler(0, Camera.main.transform.eulerAngles.y, 0) * newMovementInput;
+
+            velocity = moveDirection * movementSpeed;
+            velocity = CollideAndSlide(velocity * Time.deltaTime, transform.position, moveDirection, 0);
+
+            transform.position += velocity;
+        }
         
         #endregion
         #region Gravity

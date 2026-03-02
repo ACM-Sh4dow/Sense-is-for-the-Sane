@@ -779,6 +779,7 @@ MonoBehaviour:
   gravity: 9.81
   groundCheckDistance: 0.1
   aimSensitivity: 50
+  islocked: 0
 --- !u!136 &843248937
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -888,7 +889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction
   InteractionSource: {fileID: 0}
-  InteractionRange: 10
+  InteractionRange: 1
 --- !u!1 &946085004
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,7 +1186,7 @@ Transform:
   m_GameObject: {fileID: 1253566322}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.13, y: 0.489, z: 3.65}
+  m_LocalPosition: {x: 5.13, y: -0.18, z: 3.65}
   m_LocalScale: {x: 2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1204,6 +1205,7 @@ GameObject:
   - component: {fileID: 1728851105}
   - component: {fileID: 1728851104}
   - component: {fileID: 1728851108}
+  - component: {fileID: 1728851109}
   m_Layer: 0
   m_Name: Interactable item
   m_TagString: canPickUp
@@ -1297,7 +1299,7 @@ Transform:
   m_GameObject: {fileID: 1728851102}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.12, y: 1.642, z: 3.74}
+  m_LocalPosition: {x: 5.12, y: 0.97299993, z: 3.74}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1317,6 +1319,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Item_rotation
   itemToExamine: {fileID: 1728851107}
   rotationSpeed: 100
+--- !u!114 &1728851109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728851102}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85ef3ef1bcfaf8b49a68c183573c5090, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Unlockingmouse
 --- !u!1 &1822863037
 GameObject:
   m_ObjectHideFlags: 0

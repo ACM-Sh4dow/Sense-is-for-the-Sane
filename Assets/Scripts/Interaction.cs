@@ -11,21 +11,35 @@ public class Interaction : MonoBehaviour
     public Transform InteractionSource;
     public float InteractionRange;
 
-
+    private GameObject ActiveObject;
+    private Transform OriginalPosition;
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Ray r = new Ray(InteractionSource.position, InteractionSource.forward);
+            Ray r = new Ray(this.gameObject.transform.position, this.gameObject.transform.forward);
             if (Physics.Raycast(r, out RaycastHit hitInfo, InteractionRange))
             {
-                if (hitInfo.collider.gameObject.TryGetComponent(out IInteracable interactObj))
-                {
-                    interactObj.Interact();
-                }
+                Cursor.lockState = CursorLockMode.None;
+                Time.timeScale = 1f;
+
+                
+
+                //lock player movement
+
+                ActiveObject = hitInfo.collider.gameObject;
+                OriginalPosition = ActiveObject.transform;
             }
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            //unlock player movement
+            //lock cursor state
+
+            //reset object to original rotation
+            // ActiveObject.transform set it to OriginalPosition
         }
     }
 }
