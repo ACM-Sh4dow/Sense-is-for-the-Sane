@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: ede88cb9b519ad42b043b7baa79cad7e
     GuidInternal: 
-    m_lastTime: -8584307446772002562
+    m_lastTime: -8584291422323480428
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -71,6 +71,23 @@ MonoBehaviour:
         ObjectType: 1
         guid: e4588ab2bf2b4948b95c3acc849a967e
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Apartment
+    - name: Reverb_FuneralHome
+      guid: ea4a034c67779849b9eb53b83227d7cb
+      id: 579784244
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ede88cb9b519ad42b043b7baa79cad7e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverb_FuneralHome
+        ObjectType: 1
+        guid: ea4a034c67779849b9eb53b83227d7cb
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_FuneralHome
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -96,7 +113,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584307446767962855
+    m_lastTime: -8584291422320072479
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -193,7 +210,7 @@ MonoBehaviour:
     ParentPath: Events\Events WU
     guid: 1ff59692a3e328449b9b4c99fad941f7
     GuidInternal: 
-    m_lastTime: -8584307446772264416
+    m_lastTime: -8584291422323585794
     List: []
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
@@ -220,7 +237,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Game Parameters WU
     guid: c4a7a3998bd1784ea5fc8d535b50ceee
     GuidInternal: 
-    m_lastTime: -8584307446772247080
+    m_lastTime: -8584291422323585794
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -247,7 +264,7 @@ MonoBehaviour:
     ParentPath: States\States WU
     guid: 7d31013722dbbd43af5130094b358f20
     GuidInternal: 
-    m_lastTime: -8584307446767944198
+    m_lastTime: -8584291422320062400
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -274,8 +291,74 @@ MonoBehaviour:
     ParentPath: Switches\Switches WU
     guid: a20079f489c43045be7add0633c9b245
     GuidInternal: 
-    m_lastTime: -8584307446767933828
-    List: []
+    m_lastTime: -8584291422320062400
+    List:
+    - name: FootstepsSwitch
+      guid: 5730594340ad384db05ee3bbbf32e638
+      id: 3586861854
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Switches WU
+        ObjectType: 12
+        guid: a20079f489c43045be7add0633c9b245
+      - ElementName: FootstepsSwitch
+        ObjectType: 11
+        guid: 5730594340ad384db05ee3bbbf32e638
+      Path: Switches\Switches WU\FootstepsSwitch
+      values:
+      - name: Carpet
+        guid: 64b5ebef23f31c42b416de7b81c944d2
+        id: 2412606308
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Switches WU
+          ObjectType: 12
+          guid: a20079f489c43045be7add0633c9b245
+        - ElementName: FootstepsSwitch
+          ObjectType: 11
+          guid: 5730594340ad384db05ee3bbbf32e638
+        - ElementName: Carpet
+          ObjectType: 10
+          guid: 64b5ebef23f31c42b416de7b81c944d2
+      - name: Void
+        guid: c546748cffede34f9c23ccee1966000c
+        id: 3370470011
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Switches WU
+          ObjectType: 12
+          guid: a20079f489c43045be7add0633c9b245
+        - ElementName: FootstepsSwitch
+          ObjectType: 11
+          guid: 5730594340ad384db05ee3bbbf32e638
+        - ElementName: Void
+          ObjectType: 10
+          guid: c546748cffede34f9c23ccee1966000c
+      - name: Wood
+        guid: 6e5991738aeaac458eac58bf193c4023
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Switches WU
+          ObjectType: 12
+          guid: a20079f489c43045be7add0633c9b245
+        - ElementName: FootstepsSwitch
+          ObjectType: 11
+          guid: 5730594340ad384db05ee3bbbf32e638
+        - ElementName: Wood
+          ObjectType: 10
+          guid: 6e5991738aeaac458eac58bf193c4023
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
