@@ -7,6 +7,9 @@ public class DistanceBasedAnimation : MonoBehaviour
     private Animator animator;
     private GameObject player;
     private Vector3 playerPosition;
+
+    [SerializeField]
+    private Transform distanceCheckObject;
     
     [SerializeField] private string animationName;
     [SerializeField] private float animationStartDistance;
@@ -28,27 +31,33 @@ public class DistanceBasedAnimation : MonoBehaviour
         {
             throw new NullReferenceException();
         }
+
+        if(distanceCheckObject == null)
+        {
+            distanceCheckObject = transform;
+            Debug.Log("Parent set:" + transform.position);
+        }
     }
 
     private void Update()
     {
         playerPosition = player.transform.position;
 
-        float distanceFromPlayer =  Vector3.Distance(playerPosition, transform.position);
+        float distanceFromPlayer =  Vector3.Distance(playerPosition, distanceCheckObject.position);
         float animationProgress;
 
         if (distanceFromPlayer <= animationEndDistance)
         {
-            animationProgress = 1f;
+            animationProgress = 0f;
         }
         else if (distanceFromPlayer >= animationStartDistance)
         {
-            animationProgress = 0f;
+            animationProgress = 1f;
         }
         else
         {
             var rangeDifference = Math.Max(animationStartDistance, animationEndDistance) 
-                             - Math.Min(animationStartDistance, animationEndDistance);
+                                - Math.Min(animationStartDistance, animationEndDistance);
             
             var playerDifference = distanceFromPlayer - animationEndDistance;
             
