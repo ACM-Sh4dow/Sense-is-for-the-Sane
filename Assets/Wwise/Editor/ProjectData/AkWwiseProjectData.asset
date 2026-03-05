@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: ede88cb9b519ad42b043b7baa79cad7e
     GuidInternal: 
-    m_lastTime: -8584291422323480428
+    m_lastTime: -8584288846046788140
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -88,6 +88,23 @@ MonoBehaviour:
         ObjectType: 1
         guid: ea4a034c67779849b9eb53b83227d7cb
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_FuneralHome
+    - name: Reverb_Void
+      guid: 0cae77aeb76c4d4391313a80aa5fd3a6
+      id: 2057947822
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ede88cb9b519ad42b043b7baa79cad7e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverb_Void
+        ObjectType: 1
+        guid: 0cae77aeb76c4d4391313a80aa5fd3a6
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Void
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
