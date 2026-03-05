@@ -10,11 +10,37 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{E8C73C05-9AC5-A17E-EA11-491BBCB2A45E}",
+    "Hash": "{E65AEFFF-E796-D22B-5AE3-DAA0CFA685D1}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "484890516",
+       "Name": "Church_Small_Wood",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Cathedrals\\Church_Small_Wood",
+       "GUID": "{940CCB47-F031-4C6A-B0E6-726CAC418C02}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2513915904",
+       "Name": "Hall_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large",
+       "GUID": "{6D154498-FF6D-4823-96FC-56841B70E079}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -41,9 +67,78 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "579784244",
+      "Name": "Reverb_FuneralHome",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_FuneralHome",
+      "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "484890516"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "624627402",
+      "Name": "Reverb_Apartment",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_Apartment",
+      "GUID": "{B28A58E4-2BBF-4849-B95C-3ACC849A967E}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2995775460"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2057947822",
+      "Name": "Reverb_Void",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_Void",
+      "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2513915904"
+        }
+       ]
+      }
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3586861854",
+      "Name": "FootstepsSwitch",
+      "ObjectPath": "\\Switches\\Switches WU\\FootstepsSwitch",
+      "GUID": "{43593057-AD40-4D38-B05E-E3BBBF32E638}",
+      "Switches": [
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Switches WU\\FootstepsSwitch\\Wood",
+        "GUID": "{7391596E-EA8A-45AC-8EAC-58BF193C4023}"
+       },
+       {
+        "Id": "2412606308",
+        "Name": "Carpet",
+        "ObjectPath": "\\Switches\\Switches WU\\FootstepsSwitch\\Carpet",
+        "GUID": "{EFEBB564-F323-421C-B416-DE7B81C944D2}"
+       },
+       {
+        "Id": "3370470011",
+        "Name": "Void",
+        "ObjectPath": "\\Switches\\Switches WU\\FootstepsSwitch\\Void",
+        "GUID": "{8C7446C5-EDFF-4FE3-9C23-CCEE1966000C}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{0FA207B9-10AF-F8D5-0963-DB7B1068D31E}"
+  "FileHash": "{AF9B96F1-C261-7671-7F37-D8B10E394FEA}"
  }
 }

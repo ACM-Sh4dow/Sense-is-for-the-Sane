@@ -10,12 +10,177 @@
     "Type": "User",
     "GUID": "{9F2C9685-C3F4-4D21-9319-4FF075E9A3CD}",
     "Language": "SFX",
-    "Hash": "{976F4BFA-D716-BA07-4379-A18D2B7B869C}",
+    "Hash": "{86E25DED-929C-AB84-D07B-B4F707056099}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Apartment",
     "ShortName": "Apartment",
-    "Path": "Apartment.bnk"
+    "Path": "Apartment.bnk",
+    "Media": [
+     {
+      "Id": "9956793",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_004.wav",
+      "CachePath": "48/{484EFE33-1020-A02F-447B-7493CDC93136}.wem"
+     },
+     {
+      "Id": "62290821",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_006.wav",
+      "CachePath": "78/{78C76BF6-EBB3-DC89-CC73-732491555FC1}.wem"
+     },
+     {
+      "Id": "285034747",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_007.wav",
+      "CachePath": "3E/{3EECB60C-8136-FCE4-3646-E33561A9295C}.wem"
+     },
+     {
+      "Id": "302930732",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Clock Tick.wav",
+      "CachePath": "3D/{3D72F646-24E5-C2D9-835A-FE18F22DAFDE}.wem"
+     },
+     {
+      "Id": "352828321",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Water_Drip.wav",
+      "CachePath": "5C/{5C2C9096-6BCE-80DF-62D1-772DEDDB6F1F}.wem"
+     },
+     {
+      "Id": "373803995",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_008.wav",
+      "CachePath": "05/{057AA93A-B9A6-1D85-FCA8-64671A69E155}.wem"
+     },
+     {
+      "Id": "449296932",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_002.wav",
+      "CachePath": "2A/{2A59306A-DA1A-0F40-8A67-CF67B7948CE9}.wem"
+     },
+     {
+      "Id": "530166292",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_003.wav",
+      "CachePath": "17/{17E3C15A-542A-B676-7E07-7302385F2DF9}.wem"
+     },
+     {
+      "Id": "573529530",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_001.wav",
+      "CachePath": "75/{75C149F1-74CE-E40E-3937-7D5D78EDCC7F}.wem"
+     },
+     {
+      "Id": "622806989",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_005.wav",
+      "CachePath": "3F/{3F496687-B5A0-A353-31DF-5CAFE4D5DE1C}.wem"
+     },
+     {
+      "Id": "872160095",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fireplace.wav",
+      "CachePath": "46/{467E714F-D2BD-8C6D-655F-E5FE149E8B40}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1056431533",
+      "Name": "Apt_Clock",
+      "ObjectPath": "\\Events\\Ambient Events\\Apt_Clock",
+      "GUID": "{F10211CC-A6EE-4420-BDFD-304BA4A2A9E5}",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "302930732"
+       }
+      ]
+     },
+     {
+      "Id": "329135517",
+      "Name": "Apt_Creaking",
+      "ObjectPath": "\\Events\\Ambient Events\\Apt_Creaking",
+      "GUID": "{72658927-421A-4DDD-B605-EE4D528A914C}",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "9956793"
+       },
+       {
+        "Id": "62290821"
+       },
+       {
+        "Id": "285034747"
+       },
+       {
+        "Id": "373803995"
+       },
+       {
+        "Id": "449296932"
+       },
+       {
+        "Id": "530166292"
+       },
+       {
+        "Id": "573529530"
+       },
+       {
+        "Id": "622806989"
+       }
+      ]
+     },
+     {
+      "Id": "2202553018",
+      "Name": "Apt_Fireplace",
+      "ObjectPath": "\\Events\\Ambient Events\\Apt_Fireplace",
+      "GUID": "{DD55A7FB-4693-4A66-A895-996329466B19}",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "872160095"
+       }
+      ]
+     },
+     {
+      "Id": "751812660",
+      "Name": "Apt_Sink",
+      "ObjectPath": "\\Events\\Ambient Events\\Apt_Sink",
+      "GUID": "{5A644377-9F79-44E2-BC1C-122FF672AE25}",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "352828321"
+       }
+      ]
+     }
+    ]
    }
   ],
-  "FileHash": "{63961357-57F1-61F2-962A-A3290A064413}"
+  "FileHash": "{2CB82F73-557A-A141-37FB-80B308E4F836}"
  }
 }

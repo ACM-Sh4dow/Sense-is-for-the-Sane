@@ -70,7 +70,7 @@
 														</Point>
 														<Point>
 															<XPos>100</XPos>
-															<YPos>-0</YPos>
+															<YPos>0</YPos>
 															<Flags>37</Flags>
 														</Point>
 													</PointList>
@@ -486,6 +486,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -530,7 +535,7 @@
 																</Point>
 																<Point>
 																	<XPos>100</XPos>
-																	<YPos>-0</YPos>
+																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>

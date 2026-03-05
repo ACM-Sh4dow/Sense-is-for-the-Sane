@@ -11,6 +11,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AuxBus Name="Reverb_Apartment" ID="{B28A58E4-2BBF-4849-B95C-3ACC849A967E}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<Reference>

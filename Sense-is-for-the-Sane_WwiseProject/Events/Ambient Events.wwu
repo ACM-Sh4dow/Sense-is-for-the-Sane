@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{057411D9-A0B8-473A-9061-CBCBA6CA8032}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Ambient Events" ID="{057411D9-A0B8-473A-9061-CBCBA6CA8032}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Apt_Fireplace" ID="{DD55A7FB-4693-4A66-A895-996329466B19}">
+					<ChildrenList>
+						<Action Name="" ID="{9782E608-7DFB-41BC-B507-8AC54385A334}" ShortID="723037748">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fireplace" ID="{A06ADD81-B491-4B80-9B50-4EB45E507992}" WorkUnitID="{A692D158-CB31-48BD-AAB0-5A0CC3E6E356}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Apt_Clock" ID="{F10211CC-A6EE-4420-BDFD-304BA4A2A9E5}">
+					<ChildrenList>
+						<Action Name="" ID="{D085D9D3-BE7E-4BE8-B5B1-70FD82FAAEB4}" ShortID="1073690734">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clock Tick" ID="{6447FC8D-C954-4DF2-90EB-F129408B13A7}" WorkUnitID="{A692D158-CB31-48BD-AAB0-5A0CC3E6E356}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Apt_Sink" ID="{5A644377-9F79-44E2-BC1C-122FF672AE25}">
+					<ChildrenList>
+						<Action Name="" ID="{E03268DB-4F14-4987-877A-12339EE1BF08}" ShortID="849267837">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sink Dripping Seq" ID="{89C31ADA-4856-48CB-8673-F7EA08C2D8F2}" WorkUnitID="{A692D158-CB31-48BD-AAB0-5A0CC3E6E356}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Apt_Creaking" ID="{72658927-421A-4DDD-B605-EE4D528A914C}">
+					<ChildrenList>
+						<Action Name="" ID="{C62B083D-8A8D-48EE-9990-7E17C7D3F37D}" ShortID="286597101">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creaking Rand" ID="{5515BB15-3F7D-42B1-BB42-7FDE24710F1E}" WorkUnitID="{A692D158-CB31-48BD-AAB0-5A0CC3E6E356}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
