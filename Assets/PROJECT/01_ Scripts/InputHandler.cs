@@ -23,4 +23,11 @@ public class InputHandler : MonoBehaviour
             ProtagonistController.Instance.perspectivePuzzle.SolvePuzzle();
         }
     }
+
+    public void RecieveManualAnimationInput(InputAction.CallbackContext input)
+    {
+        if (!input.started && !input.canceled) return;
+
+        ManualAnimationProgression.SyncManualAnimationInput();
+    }
 }
