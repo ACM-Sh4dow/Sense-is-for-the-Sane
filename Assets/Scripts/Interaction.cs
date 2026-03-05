@@ -23,7 +23,6 @@ public class Interaction : MonoBehaviour
             if (Physics.Raycast(r, out RaycastHit hitInfo, InteractionRange))
             {
                 Cursor.lockState = CursorLockMode.None;
-                Time.timeScale = 1f;
 
                 
 
@@ -35,11 +34,16 @@ public class Interaction : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            //unlock player movement
-            //lock cursor state
+            Ray r = new Ray(this.gameObject.transform.position, this.gameObject.transform.forward);
+            if (Physics.Raycast(r, out RaycastHit hitInfo, InteractionRange))
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+                //unlock player movement
+                //lock cursor state
 
-            //reset object to original rotation
-            // ActiveObject.transform set it to OriginalPosition
+                //reset object to original rotation
+                // ActiveObject.transform set it to OriginalPosition
+            }
         }
     }
 }

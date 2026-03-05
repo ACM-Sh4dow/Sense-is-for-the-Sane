@@ -173,6 +173,10 @@ public class ProtagonistController : MonoBehaviour
                 targetYaw + RotationOffset,
                 0f);
         }
+        else
+        {
+            return;
+        }
     }
 
     private static float ClampAngle(float lfAngle, float lfMin, float lfMax)
@@ -197,11 +201,15 @@ public class ProtagonistController : MonoBehaviour
 
             transform.position += velocity;
         }
-        
-        #endregion
-        #region Gravity
-        
-        isGrounded = CheckGrounded();
+        else
+        {
+            return;
+        }
+
+            #endregion
+            #region Gravity
+
+            isGrounded = CheckGrounded();
 
         if (!isGrounded)
         {
