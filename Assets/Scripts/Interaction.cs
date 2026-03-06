@@ -14,7 +14,14 @@ public class Interaction : MonoBehaviour
     private GameObject ActiveObject;
     private Transform OriginalPosition;
 
+    private ProtagonistController controller;
+
     // Update is called once per frame
+
+    private void Start()
+    {
+        controller = GetComponent<ProtagonistController>();
+    }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
@@ -24,8 +31,8 @@ public class Interaction : MonoBehaviour
             {
                 Cursor.lockState = CursorLockMode.None;
 
-                
 
+                controller.islocked = true;
                 //lock player movement
 
                 ActiveObject = hitInfo.collider.gameObject;
@@ -38,9 +45,9 @@ public class Interaction : MonoBehaviour
             if (Physics.Raycast(r, out RaycastHit hitInfo, InteractionRange))
             {
                 Cursor.lockState = CursorLockMode.Locked;
-                //unlock player movement
-                //lock cursor state
+                // ActiveObject.transform.rotation = OriginalPosition.rotation.eulerAngles(;
 
+                controller.islocked = false;
                 //reset object to original rotation
                 // ActiveObject.transform set it to OriginalPosition
             }
