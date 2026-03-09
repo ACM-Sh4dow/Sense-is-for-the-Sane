@@ -363,6 +363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Transition
   transitionDirection: {x: 0, y: 0, z: 0}
+  retrograde: {fileID: 0}
 --- !u!1 &391151129194835588
 GameObject:
   m_ObjectHideFlags: 0
