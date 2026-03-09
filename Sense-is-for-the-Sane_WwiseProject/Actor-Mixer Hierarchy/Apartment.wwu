@@ -24,6 +24,11 @@
 						<Sound Name="Fireplace" ID="{A06ADD81-B491-4B80-9B50-4EB45E507992}" ShortID="581664467">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -55,6 +60,11 @@
 						<Sound Name="Clock Tick" ID="{6447FC8D-C954-4DF2-90EB-F129408B13A7}" ShortID="261146982">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>73</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -65,7 +75,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-22</Value>
+										<Value>-18</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -237,6 +247,15 @@
 						<Sound Name="Gramophone" ID="{2889BD84-6DCE-48C9-92B8-3B768F2E21A5}" ShortID="677934813">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="GameAuxSendVolume" Type="Real64">
+									<ValueList>
+										<Value>9</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -255,6 +274,7 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
+												<Property Name="RadiusMax" Type="Real64" Value="10"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -270,8 +290,13 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
-																	<YPos>-14.49811</YPos>
+																	<XPos>1.56459</XPos>
+																	<YPos>-13.94331</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -279,10 +304,33 @@
 													</CurveUsageInfo>
 												</VolumeDryUsage>
 												<VolumeWetGameUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeWetGame" ID="{B5E130C9-0B42-49B9-8D6E-8959E5888B85}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>-16.69865</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>2.07715</XPos>
+																	<YPos>-5.47024</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>-0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</VolumeWetGameUsage>
 												<VolumeWetUserUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+													<CurveUsageInfo Platform="Linked" CurveToUse="None">
 														<Curve Name="VolumeWetUser" ID="{436C5BFB-C2AE-4E6E-B1E0-11974DC69B75}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
@@ -294,7 +342,7 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>10</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -306,7 +354,7 @@
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 												</LowPassFilterUsage>
 												<HighPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="HighPassFilter" ID="{F429B4C7-E372-400A-9ABB-24287F767C42}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
@@ -318,8 +366,13 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
-																	<YPos>100</YPos>
+																	<XPos>1.58848</XPos>
+																	<YPos>27</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>40</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -431,6 +484,9 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{7C64C512-4C4E-489D-BA93-EB72D561E6BF}">
@@ -955,11 +1011,6 @@
 						<Sound Name="Fridge_Buzz" ID="{B0C2CEF8-4F03-470F-A5BE-0F079DD9EABF}" ShortID="564369862">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>5</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

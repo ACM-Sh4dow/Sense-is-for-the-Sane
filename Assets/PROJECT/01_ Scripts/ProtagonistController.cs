@@ -12,7 +12,7 @@ public class ProtagonistController : MonoBehaviour
     public static bool walkingStarted;
     public static bool walkingFinished;
 
-    public Coroutine SoundCoroutine;
+    public static Coroutine SoundCoroutine;
     public float SecondsBetweenFootsteps;
     
     public PerspectivePuzzleSolve perspectivePuzzle;
@@ -77,22 +77,14 @@ public class ProtagonistController : MonoBehaviour
     {
         if (input.started)
         {
-            walkingStarted = true;
-        }
-        else
-        {
-            walkingStarted = false;
+            SoundCoroutine = Instance.StartCoroutine(Instance.PlayFootsteps());
         }
 
             movementInput = input.ReadValue<Vector2>();
 
         if (input.canceled)
         {
-            walkingFinished = true;
-        }
-        else
-        {
-            walkingFinished = false;
+            Instance.StopCoroutine(SoundCoroutine);
         }
     }
 
@@ -252,22 +244,19 @@ public class ProtagonistController : MonoBehaviour
 
     #region Audio
 
-    public IEnumerator BeginWalking()
+    public IEnumerator PlayFootsteps()
     {
-        // Begin walking sfx
+        AkUnitySoundEngine.PostEvent("Footstep_Scratch", gameObject);
 
         yield return new WaitForSeconds(SecondsBetweenFootsteps);
 
-        SoundCoroutine = StartCoroutine(ContinueWalking());
-    }
+        while (true)
+        {
+            AkUnitySoundEngine.PostEvent("Footstep", gameObject);
 
-    public IEnumerator ContinueWalking()
-    {
-        // Continue Walking sfx
-
-        yield return new WaitForSeconds(SecondsBetweenFootsteps);
-
-        SoundCoroutine = StartCoroutine(ContinueWalking());
+            yield return new WaitForSeconds(SecondsBetweenFootsteps);
+        }
+        //  Coroutine is stopped in SyncMovementInput
     }
 
     #endregion
@@ -321,19 +310,12 @@ public class ProtagonistController : MonoBehaviour
         #endregion
         #region Audio Information
 
-        if (walkingStarted)
-        {
-            SoundCoroutine = StartCoroutine(BeginWalking());
-            walkingStarted = false;
-        }
-
-        if (walkingFinished && SoundCoroutine != null)
-        {
-            StopCoroutine(SoundCoroutine);
-
-            // Finish Walking sfx
-            walkingFinished = false;
-        }
+        //if (walkingStarted)
+        //{
+        //    SoundCoroutine = StartCoroutine(PlayFootsteps());
+        //    Debug.Log("Start " + SoundCoroutine);
+        //    walkingStarted = false;
+        //}
 
         #endregion
     }

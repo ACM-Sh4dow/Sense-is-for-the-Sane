@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAC7D741-2CC6-4571-91AE-B86C57B75FDF}",
     "Language": "SFX",
-    "Hash": "{3A2FCFDF-21D0-9280-94A9-CB92CD9DACDA}",
+    "Hash": "{05E52D3C-F960-B93A-18EF-75652F343040}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -133,7 +133,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Fridge_Buzz.wav",
-      "CachePath": "7D/{7D587619-C139-5DCE-FD7D-2EEB45559753}.wem"
+      "CachePath": "22/{228B9216-16BA-4ED6-865F-11B8D101A9CA}.wem"
      },
      {
       "Id": "449296932",
@@ -206,6 +206,14 @@
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_005.wav",
       "CachePath": "3F/{3F496687-B5A0-A353-31DF-5CAFE4D5DE1C}.wem"
+     },
+     {
+      "Id": "661953013",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "The World Behind Your Eyes (Gramophone) 3.wav",
+      "CachePath": "64/{64B46DB6-FB94-984F-7845-10B839ACB1A1}.wem"
      },
      {
       "Id": "872160095",
@@ -355,6 +363,21 @@
       ]
      },
      {
+      "Id": "2839848505",
+      "Name": "Apt_Gramophone",
+      "ObjectPath": "\\Events\\Ambient Events\\Apt_Gramophone",
+      "GUID": "{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}",
+      "MaxAttenuation": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "116.620026",
+      "DurationMax": "116.620026",
+      "MediaRefs": [
+       {
+        "Id": "661953013"
+       }
+      ]
+     },
+     {
       "Id": "751812660",
       "Name": "Apt_Sink",
       "ObjectPath": "\\Events\\Ambient Events\\Apt_Sink",
@@ -374,7 +397,7 @@
       "GUID": "{651BF6F5-5E00-4EEC-BC2C-B99851AB9555}",
       "MaxAttenuation": "100",
       "DurationType": "OneShot",
-      "DurationMin": "1.2743537",
+      "DurationMin": "1.2380754",
       "DurationMax": "1.6299093",
       "MediaRefs": [
        {
@@ -485,6 +508,78 @@
        {
         "Id": "1031315078"
        }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3586861854",
+         "Id": "2412606308",
+         "GUID": "{EFEBB564-F323-421C-B416-DE7B81C944D2}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "915187023"
+         },
+         {
+          "Id": "1022953155"
+         },
+         {
+          "Id": "1037693336"
+         },
+         {
+          "Id": "1043232266"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3586861854",
+         "Id": "2058049674",
+         "GUID": "{7391596E-EA8A-45AC-8EAC-58BF193C4023}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "33010830"
+         },
+         {
+          "Id": "84603492"
+         },
+         {
+          "Id": "501430916"
+         },
+         {
+          "Id": "1034704073"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3586861854",
+         "Id": "3370470011",
+         "GUID": "{8C7446C5-EDFF-4FE3-9C23-CCEE1966000C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "120927134"
+         },
+         {
+          "Id": "182800792"
+         },
+         {
+          "Id": "274169833"
+         },
+         {
+          "Id": "596096215"
+         },
+         {
+          "Id": "967988697"
+         }
+        ]
+       }
       ]
      }
     ],
@@ -518,6 +613,6 @@
     ]
    }
   ],
-  "FileHash": "{FF3C3365-27DE-32A2-FF9C-D40060CD8C1A}"
+  "FileHash": "{3FBC8B33-B2A1-AEEE-D2ED-B476987C3241}"
  }
 }

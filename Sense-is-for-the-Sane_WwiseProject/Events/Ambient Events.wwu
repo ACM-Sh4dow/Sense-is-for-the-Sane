@@ -58,7 +58,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Apt_Gramophone" ID="{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}"/>
+				<Event Name="Apt_Gramophone" ID="{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}">
+					<ChildrenList>
+						<Action Name="" ID="{06B50C93-9DC9-410B-BF4C-C3FD6FA14468}" ShortID="900056855">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gramophone" ID="{2889BD84-6DCE-48C9-92B8-3B768F2E21A5}" WorkUnitID="{A692D158-CB31-48BD-AAB0-5A0CC3E6E356}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

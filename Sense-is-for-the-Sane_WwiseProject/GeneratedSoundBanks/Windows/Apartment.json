@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9F2C9685-C3F4-4D21-9319-4FF075E9A3CD}",
     "Language": "SFX",
-    "Hash": "{E4C0BAE5-0250-9893-EC4D-E9EC0881B566}",
+    "Hash": "{FA8DE5F8-DBAD-C607-6CDC-800AFC2D6852}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Apartment",
     "ShortName": "Apartment",
     "Path": "Apartment.bnk",
@@ -69,7 +69,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Fridge_Buzz.wav",
-      "CachePath": "7D/{7D587619-C139-5DCE-FD7D-2EEB45559753}.wem"
+      "CachePath": "22/{228B9216-16BA-4ED6-865F-11B8D101A9CA}.wem"
      },
      {
       "Id": "449296932",
@@ -102,6 +102,14 @@
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_005.wav",
       "CachePath": "3F/{3F496687-B5A0-A353-31DF-5CAFE4D5DE1C}.wem"
+     },
+     {
+      "Id": "661953013",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "The World Behind Your Eyes (Gramophone) 3.wav",
+      "CachePath": "64/{64B46DB6-FB94-984F-7845-10B839ACB1A1}.wem"
      },
      {
       "Id": "872160095",
@@ -187,6 +195,21 @@
       ]
      },
      {
+      "Id": "2839848505",
+      "Name": "Apt_Gramophone",
+      "ObjectPath": "\\Events\\Ambient Events\\Apt_Gramophone",
+      "GUID": "{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}",
+      "MaxAttenuation": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "116.620026",
+      "DurationMax": "116.620026",
+      "MediaRefs": [
+       {
+        "Id": "661953013"
+       }
+      ]
+     },
+     {
       "Id": "751812660",
       "Name": "Apt_Sink",
       "ObjectPath": "\\Events\\Ambient Events\\Apt_Sink",
@@ -202,6 +225,6 @@
     ]
    }
   ],
-  "FileHash": "{4268A8D3-B53C-C494-9391-9A7EE75CA32C}"
+  "FileHash": "{F72538D3-9C6F-4CEC-4B30-84975E88D772}"
  }
 }

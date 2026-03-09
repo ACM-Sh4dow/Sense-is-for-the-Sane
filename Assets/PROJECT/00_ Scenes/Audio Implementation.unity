@@ -9110,7 +9110,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 93631270ea49df949bbf688d9bcddb51, type: 2}
   reverbLevel: 1
-  transmissionLoss: 1
+  transmissionLoss: 0.9
   roomToneEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -20198,7 +20198,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 93631270ea49df949bbf688d9bcddb51, type: 2}
   reverbLevel: 1
-  transmissionLoss: 1
+  transmissionLoss: 0.9
   roomToneEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -21810,6 +21810,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1285524254}
+  - {fileID: 520068029}
   - {fileID: 1191709900}
   - {fileID: 475383853}
   - {fileID: 1884614638}
@@ -24478,6 +24479,79 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516922135}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &520068028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 520068029}
+  - component: {fileID: 520068031}
+  - component: {fileID: 520068030}
+  m_Layer: 0
+  m_Name: HW-SB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &520068029
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520068028}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.70687014, z: -0, w: 0.7073434}
+  m_LocalPosition: {x: -1.99, y: -0.05812949, z: -0.89}
+  m_LocalScale: {x: 0.93999994, y: 1.88374, z: 0.17000002}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 467877605}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &520068030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520068028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 019b78e165bad9e4e83ff59336bcbddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkRoomPortal
+  triggerList: f7e1664c
+  useOtherObject: 0
+  initialState: 0
+  closePortalTriggerList: 
+  rooms:
+  - {fileID: 2139871127}
+  - {fileID: 216408728}
+--- !u!65 &520068031
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520068028}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &523261794
 GameObject:
   m_ObjectHideFlags: 0
@@ -30054,7 +30128,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 93631270ea49df949bbf688d9bcddb51, type: 2}
   reverbLevel: 1
-  transmissionLoss: 1
+  transmissionLoss: 0.9
   roomToneEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -37752,6 +37826,8 @@ MonoBehaviour:
   movementSpeed: 2
   gravity: 9.81
   aimSensitivity: 20
+  BottomClamp: 0
+  TopClamp: 0
 --- !u!136 &843248937
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -43950,7 +44026,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 93631270ea49df949bbf688d9bcddb51, type: 2}
   reverbLevel: 1
-  transmissionLoss: 1
+  transmissionLoss: 0.9
   roomToneEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -89008,7 +89084,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 93631270ea49df949bbf688d9bcddb51, type: 2}
   reverbLevel: 1
-  transmissionLoss: 1
+  transmissionLoss: 0.9
   roomToneEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -91730,7 +91806,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 93631270ea49df949bbf688d9bcddb51, type: 2}
   reverbLevel: 1
-  transmissionLoss: 1
+  transmissionLoss: 0.9
   roomToneEvent:
     idInternal: 0
     valueGuidInternal: 

@@ -12,6 +12,29 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{2B667526-9983-4808-B8A2-164623D3CA0B}" ShortID="477685057">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0CB7C512-9E50-43A6-B005-C40FFAD4AA56}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+								<Property Name="Probability" Type="Real64" Value="50"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps Switch" ID="{4BE0EC3E-0585-45FE-B090-4D2DDFEE9057}" WorkUnitID="{5617E81F-15D7-467B-96EE-EEF11E47BC75}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Footstep" ID="{651BF6F5-5E00-4EEC-BC2C-B99851AB9555}">
