@@ -424,7 +424,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 952687276}
-  m_VersionIndex: 377
+  m_VersionIndex: 380
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -1125,7 +1125,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 697401573}
-  m_VersionIndex: 377
+  m_VersionIndex: 380
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -1897,7 +1897,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 655855023}
-  m_VersionIndex: 377
+  m_VersionIndex: 380
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -2287,7 +2287,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 1509174875}
-  m_VersionIndex: 377
+  m_VersionIndex: 380
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -4101,7 +4101,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 2121868754}
-  m_VersionIndex: 377
+  m_VersionIndex: 380
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -4630,6 +4630,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alternate
       objectReference: {fileID: 0}
+    - target: {fileID: 3775782347180963539, guid: ec123f1f06854314d8576ac3759dde8f, type: 3}
+      propertyPath: retrograde
+      value: 
+      objectReference: {fileID: -5786517501709008051, guid: f288ae1f4751b564a96ac7587541f7a2, type: 2}
     - target: {fileID: 3775782347180963539, guid: ec123f1f06854314d8576ac3759dde8f, type: 3}
       propertyPath: transitionDirection.y
       value: -3.56
@@ -6605,6 +6609,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 3.37
       objectReference: {fileID: 0}
+    - target: {fileID: 3775782347180963539, guid: ec123f1f06854314d8576ac3759dde8f, type: 3}
+      propertyPath: retrograde
+      value: 
+      objectReference: {fileID: -5786517501709008051, guid: f288ae1f4751b564a96ac7587541f7a2, type: 2}
     - target: {fileID: 3775782347180963539, guid: ec123f1f06854314d8576ac3759dde8f, type: 3}
       propertyPath: transitionDirection.y
       value: 3.56
