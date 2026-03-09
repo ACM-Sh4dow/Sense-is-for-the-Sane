@@ -37,8 +37,8 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>2.5</XPos>
-											<YPos>-13.14365</YPos>
+											<XPos>1.52866</XPos>
+											<YPos>-9.1332</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
@@ -59,8 +59,13 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>-2.65251</YPos>
+											<YPos>-5.86675</YPos>
 											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>1.46496815286624</XPos>
+											<YPos>-1.78809058361905</YPos>
+											<Flags>0</Flags>
 										</Point>
 										<Point>
 											<XPos>5</XPos>

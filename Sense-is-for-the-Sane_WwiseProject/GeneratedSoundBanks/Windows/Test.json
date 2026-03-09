@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAC7D741-2CC6-4571-91AE-B86C57B75FDF}",
     "Language": "SFX",
-    "Hash": "{05E52D3C-F960-B93A-18EF-75652F343040}",
+    "Hash": "{60C40C8B-D361-70C4-8535-1F308566CFA4}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -61,7 +61,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_006.wav",
-      "CachePath": "78/{78C76BF6-EBB3-DC89-CC73-732491555FC1}.wem"
+      "CachePath": "0D/{0D7D4F28-770F-E6AA-40F3-1FD38E43B573}.wem"
      },
      {
       "Id": "84603492",
@@ -109,7 +109,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Clock Tick.wav",
-      "CachePath": "3D/{3D72F646-24E5-C2D9-835A-FE18F22DAFDE}.wem"
+      "CachePath": "8B/{8BA552AD-505E-355B-E962-1095047E7D66}.wem"
      },
      {
       "Id": "352828321",
@@ -141,7 +141,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_002.wav",
-      "CachePath": "2A/{2A59306A-DA1A-0F40-8A67-CF67B7948CE9}.wem"
+      "CachePath": "52/{523BE0EF-A5C1-0A48-DF95-D70CEDFCDEE3}.wem"
      },
      {
       "Id": "501430916",
@@ -198,14 +198,6 @@
       "Location": "Memory",
       "ShortName": "Footstep_Scratch_002.wav",
       "CachePath": "01/{010B3AF5-0FD0-21FE-D65C-230DC32D3868}.wem"
-     },
-     {
-      "Id": "622806989",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Creaking\\Wooden_Creaking_Ambient_005.wav",
-      "CachePath": "3F/{3F496687-B5A0-A353-31DF-5CAFE4D5DE1C}.wem"
      },
      {
       "Id": "661953013",
@@ -330,9 +322,6 @@
        },
        {
         "Id": "573529530"
-       },
-       {
-        "Id": "622806989"
        }
       ]
      },
@@ -613,6 +602,6 @@
     ]
    }
   ],
-  "FileHash": "{3FBC8B33-B2A1-AEEE-D2ED-B476987C3241}"
+  "FileHash": "{A3DF0CD7-B213-0968-9E68-9C2E47224013}"
  }
 }

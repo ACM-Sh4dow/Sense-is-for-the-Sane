@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9F2C9685-C3F4-4D21-9319-4FF075E9A3CD}",
     "Language": "SFX",
-    "Hash": "{FA8DE5F8-DBAD-C607-6CDC-800AFC2D6852}",
+    "Hash": "{B18B22F5-B784-BE6F-CEFF-032387559D4C}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Apartment",
     "ShortName": "Apartment",
     "Path": "Apartment.bnk",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_006.wav",
-      "CachePath": "78/{78C76BF6-EBB3-DC89-CC73-732491555FC1}.wem"
+      "CachePath": "0D/{0D7D4F28-770F-E6AA-40F3-1FD38E43B573}.wem"
      },
      {
       "Id": "285034747",
@@ -45,7 +45,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Clock Tick.wav",
-      "CachePath": "3D/{3D72F646-24E5-C2D9-835A-FE18F22DAFDE}.wem"
+      "CachePath": "8B/{8BA552AD-505E-355B-E962-1095047E7D66}.wem"
      },
      {
       "Id": "352828321",
@@ -77,7 +77,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_002.wav",
-      "CachePath": "2A/{2A59306A-DA1A-0F40-8A67-CF67B7948CE9}.wem"
+      "CachePath": "52/{523BE0EF-A5C1-0A48-DF95-D70CEDFCDEE3}.wem"
      },
      {
       "Id": "530166292",
@@ -94,14 +94,6 @@
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_001.wav",
       "CachePath": "75/{75C149F1-74CE-E40E-3937-7D5D78EDCC7F}.wem"
-     },
-     {
-      "Id": "622806989",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Creaking\\Wooden_Creaking_Ambient_005.wav",
-      "CachePath": "3F/{3F496687-B5A0-A353-31DF-5CAFE4D5DE1C}.wem"
      },
      {
       "Id": "661953013",
@@ -162,9 +154,6 @@
        },
        {
         "Id": "573529530"
-       },
-       {
-        "Id": "622806989"
        }
       ]
      },
@@ -225,6 +214,6 @@
     ]
    }
   ],
-  "FileHash": "{F3E7C012-70D6-87B5-0405-68C69AFE4C24}"
+  "FileHash": "{5B2DAD69-7666-8866-5A64-EB806A634D58}"
  }
 }

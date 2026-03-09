@@ -16,10 +16,10 @@
 				</Event>
 				<Event Name="Apt_Clock" ID="{F10211CC-A6EE-4420-BDFD-304BA4A2A9E5}">
 					<ChildrenList>
-						<Action Name="" ID="{D085D9D3-BE7E-4BE8-B5B1-70FD82FAAEB4}" ShortID="1073690734">
+						<Action Name="" ID="{2D7E22DC-B79A-424C-AE29-F67D48E57436}" ShortID="289264449">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Clock Tick" ID="{6447FC8D-C954-4DF2-90EB-F129408B13A7}" WorkUnitID="{A692D158-CB31-48BD-AAB0-5A0CC3E6E356}"/>
+									<ObjectRef Name="Clock Seq" ID="{155C9280-3A22-4067-8629-02D834257753}" WorkUnitID="{A692D158-CB31-48BD-AAB0-5A0CC3E6E356}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
