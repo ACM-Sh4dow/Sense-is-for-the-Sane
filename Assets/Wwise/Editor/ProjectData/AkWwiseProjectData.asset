@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: ede88cb9b519ad42b043b7baa79cad7e
     GuidInternal: 
-    m_lastTime: -8584288846046788140
+    m_lastTime: -8584285360367842329
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -130,7 +130,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584291422320072479
+    m_lastTime: -8584285360367557897
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -203,6 +203,121 @@ MonoBehaviour:
         guid: 59ced568c262c9458aa7b31c8321d127
       Path: SoundBanks\Soundbanks WU\Void
   EventWwu:
+  - PhysicalPath: Events\Ambient Events.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Ambient Events
+      ObjectType: 12
+      guid: d9117405b8a03a479061cbcba6ca8032
+    ParentPath: Events\Ambient Events
+    guid: d9117405b8a03a479061cbcba6ca8032
+    GuidInternal: 
+    m_lastTime: -8584285360369325901
+    List:
+    - name: Apt_Clock
+      guid: cc1102f1eea62044bdfd304ba4a2a9e5
+      id: 1056431533
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambient Events
+        ObjectType: 12
+        guid: d9117405b8a03a479061cbcba6ca8032
+      - ElementName: Apt_Clock
+        ObjectType: 3
+        guid: cc1102f1eea62044bdfd304ba4a2a9e5
+      Path: Events\Ambient Events\Apt_Clock
+      maxAttenuation: 5
+      maxDuration: 0
+      minDuration: 0
+    - name: Apt_Creaking
+      guid: 278965721a42dd4db605ee4d528a914c
+      id: 329135517
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambient Events
+        ObjectType: 12
+        guid: d9117405b8a03a479061cbcba6ca8032
+      - ElementName: Apt_Creaking
+        ObjectType: 3
+        guid: 278965721a42dd4db605ee4d528a914c
+      Path: Events\Ambient Events\Apt_Creaking
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
+    - name: Apt_Fireplace
+      guid: fba755dd9346664aa895996329466b19
+      id: 2202553018
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambient Events
+        ObjectType: 12
+        guid: d9117405b8a03a479061cbcba6ca8032
+      - ElementName: Apt_Fireplace
+        ObjectType: 3
+        guid: fba755dd9346664aa895996329466b19
+      Path: Events\Ambient Events\Apt_Fireplace
+      maxAttenuation: 5
+      maxDuration: 0
+      minDuration: 0
+    - name: Apt_Fridge
+      guid: 29e91bf951f6a244a96f6a1a868c61e4
+      id: 2280025682
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambient Events
+        ObjectType: 12
+        guid: d9117405b8a03a479061cbcba6ca8032
+      - ElementName: Apt_Fridge
+        ObjectType: 3
+        guid: 29e91bf951f6a244a96f6a1a868c61e4
+      Path: Events\Ambient Events\Apt_Fridge
+      maxAttenuation: 5
+      maxDuration: 0
+      minDuration: 0
+    - name: Apt_Gramophone
+      guid: 919ecae3d4e0c7409e1e26f0a2bf6c0c
+      id: 2839848505
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambient Events
+        ObjectType: 12
+        guid: d9117405b8a03a479061cbcba6ca8032
+      - ElementName: Apt_Gramophone
+        ObjectType: 3
+        guid: 919ecae3d4e0c7409e1e26f0a2bf6c0c
+      Path: Events\Ambient Events\Apt_Gramophone
+      maxAttenuation: 10
+      maxDuration: 116.620026
+      minDuration: 116.620026
+    - name: Apt_Sink
+      guid: 7743645a799fe244bc1c122ff672ae25
+      id: 751812660
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambient Events
+        ObjectType: 12
+        guid: d9117405b8a03a479061cbcba6ca8032
+      - ElementName: Apt_Sink
+        ObjectType: 3
+        guid: 7743645a799fe244bc1c122ff672ae25
+      Path: Events\Ambient Events\Apt_Sink
+      maxAttenuation: 5
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -216,19 +331,53 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584307446772264416
     List: []
-  - PhysicalPath: Events\Events WU.wwu
+  - PhysicalPath: Events\General Events.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
       guid: 00000000000000000000000000000000
-    - ElementName: Events WU
+    - ElementName: General Events
       ObjectType: 12
       guid: 1ff59692a3e328449b9b4c99fad941f7
-    ParentPath: Events\Events WU
+    ParentPath: Events\General Events
     guid: 1ff59692a3e328449b9b4c99fad941f7
     GuidInternal: 
-    m_lastTime: -8584291422323585794
-    List: []
+    m_lastTime: -8584285360369180056
+    List:
+    - name: Footstep
+      guid: f5f61b65005eec4ebc2cb99851ab9555
+      id: 1866025847
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: General Events
+        ObjectType: 12
+        guid: 1ff59692a3e328449b9b4c99fad941f7
+      - ElementName: Footstep
+        ObjectType: 3
+        guid: f5f61b65005eec4ebc2cb99851ab9555
+      Path: Events\General Events\Footstep
+      maxAttenuation: 100
+      maxDuration: 1.6299093
+      minDuration: 1.2380754
+    - name: Footstep_Scratch
+      guid: 26768d7e0683ec4e907257bfa5dbcc6c
+      id: 1003760220
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: General Events
+        ObjectType: 12
+        guid: 1ff59692a3e328449b9b4c99fad941f7
+      - ElementName: Footstep_Scratch
+        ObjectType: 3
+        guid: 26768d7e0683ec4e907257bfa5dbcc6c
+      Path: Events\General Events\Footstep_Scratch
+      maxAttenuation: 100
+      maxDuration: 2.0249887
+      minDuration: 1.3667574
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -391,7 +540,7 @@ MonoBehaviour:
     m_lastTime: -8584307446767933828
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0200000003000000040000000500000006000000070000000b0000000c0000000d0000000f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

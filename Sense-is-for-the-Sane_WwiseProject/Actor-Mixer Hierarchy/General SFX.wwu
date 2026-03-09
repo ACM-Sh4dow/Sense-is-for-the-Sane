@@ -7,6 +7,7 @@
 					<PropertyList>
 						<Property Name="3DPosition" Type="int16" Value="2"/>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -101,6 +102,35 @@
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Foot Scratches" ID="{0E96253A-A728-47C3-A2EF-84EC3DFA42A6}" ShortID="760982005">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
+								<Property Name="InitialDelay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3EF91888-927D-4798-9933-36117D0C94A3}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>27</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
@@ -212,11 +242,6 @@
 										<Value>44</Value>
 									</ValueList>
 								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-4</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -235,14 +260,49 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="Wood" ID="{5F5D34D1-DA58-4920-90AD-7E6DFA80DB73}" ShortID="857537640">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1C4094F0-6D58-45F2-BCDD-ACB95D50F4B3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9B656F48-F5D4-470F-AC32-5E5E933DC482}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.83"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>-1</Value>
 											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{05829844-20E8-4228-B2EB-5F5B34F27E86}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -629,6 +689,57 @@
 							</GroupingInfo>
 						</SwitchContainer>
 						<RandomSequenceContainer Name="Floor Creaks" ID="{BA0423AB-F1AA-4938-82B6-2C7FBD3BC298}" ShortID="197637565">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{5B83561E-CC1A-41FD-9B84-81CAFB773985}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{389302D7-6C08-4268-965B-0CF428A7F006}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="30"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{36A990E0-0792-46EB-BF46-903C3C8BBD7E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{70AEEC93-DF4E-4AE0-9661-CF27E1D23C86}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
@@ -649,6 +760,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Footstep_Creak_001" ID="{79966DC9-8AC1-4714-B9F7-FEBF965E6F43}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0968312364731422"/>
+												<Property Name="FadeInShape" Type="int16" Value="8"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.111566424632099"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Footstep_Creak_001.wav</AudioFile>
 											<MediaIDList>
@@ -671,6 +788,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Footstep_Creak_002" ID="{74923B5C-A5D8-4D96-94A6-0EAFA15CC00D}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.104114040163519"/>
+												<Property Name="FadeInShape" Type="int16" Value="8"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.146676804135766"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Footstep_Creak_002.wav</AudioFile>
 											<MediaIDList>
@@ -693,6 +816,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Footstep_Creak_003" ID="{1EC68D0E-BB7F-4BD6-A18C-831CBC90806E}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0922338539980165"/>
+												<Property Name="FadeInShape" Type="int16" Value="8"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.157037416404799"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Footstep_Creak_003.wav</AudioFile>
 											<MediaIDList>
@@ -715,6 +844,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Footstep_Creak_004" ID="{117EE0F6-E1E6-47F9-A993-79855BF6911D}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0781303177709164"/>
+												<Property Name="FadeInShape" Type="int16" Value="8"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.106482640556667"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Footstep_Creak_004.wav</AudioFile>
 											<MediaIDList>
@@ -736,8 +871,8 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>0.5</YPos>
-											<ZPos>-2</ZPos>
+											<YPos>0</YPos>
+											<ZPos>2</ZPos>
 											<Flags>12</Flags>
 											<Time>0</Time>
 										</Point>

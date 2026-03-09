@@ -11,6 +11,34 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID APT_CLOCK = 1056431533U;
+        static const AkUniqueID APT_CREAKING = 329135517U;
+        static const AkUniqueID APT_FIREPLACE = 2202553018U;
+        static const AkUniqueID APT_FRIDGE = 2280025682U;
+        static const AkUniqueID APT_GRAMOPHONE = 2839848505U;
+        static const AkUniqueID APT_SINK = 751812660U;
+        static const AkUniqueID FOOTSTEP = 1866025847U;
+        static const AkUniqueID FOOTSTEP_SCRATCH = 1003760220U;
+    } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace FOOTSTEPSSWITCH
+        {
+            static const AkUniqueID GROUP = 3586861854U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID CARPET = 2412606308U;
+                static const AkUniqueID VOID = 3370470011U;
+                static const AkUniqueID WOOD = 2058049674U;
+            } // namespace SWITCH
+        } // namespace FOOTSTEPSSWITCH
+
+    } // namespace SWITCHES
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
@@ -25,6 +53,13 @@ namespace AK
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID REVERB_APARTMENT = 624627402U;
+        static const AkUniqueID REVERB_FUNERALHOME = 579784244U;
+        static const AkUniqueID REVERB_VOID = 2057947822U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {
