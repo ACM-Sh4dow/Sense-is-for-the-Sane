@@ -83,4 +83,4 @@ crashlytics-build.properties
 *.wsettings
 IncrementalSoundBankData.xml
 *.bnk
-/Yokai-Invasion_WwiseProject/GeneratedSoundBanks
+Assets/Wwise/Editor/ProjectData.meta
