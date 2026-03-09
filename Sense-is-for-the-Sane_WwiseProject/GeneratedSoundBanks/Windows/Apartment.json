@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9F2C9685-C3F4-4D21-9319-4FF075E9A3CD}",
     "Language": "SFX",
-    "Hash": "{86E25DED-929C-AB84-D07B-B4F707056099}",
+    "Hash": "{E4C0BAE5-0250-9893-EC4D-E9EC0881B566}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Apartment",
     "ShortName": "Apartment",
     "Path": "Apartment.bnk",
@@ -64,6 +64,14 @@
       "CachePath": "05/{057AA93A-B9A6-1D85-FCA8-64671A69E155}.wem"
      },
      {
+      "Id": "395211181",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fridge_Buzz.wav",
+      "CachePath": "7D/{7D587619-C139-5DCE-FD7D-2EEB45559753}.wem"
+     },
+     {
       "Id": "449296932",
       "Language": "SFX",
       "Streaming": "false",
@@ -101,7 +109,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Fireplace.wav",
-      "CachePath": "46/{467E714F-D2BD-8C6D-655F-E5FE149E8B40}.wem"
+      "CachePath": "55/{557DEBEF-29C7-F4BD-9FA7-4A30C4E54628}.wem"
      }
     ],
     "Events": [
@@ -123,7 +131,7 @@
       "Name": "Apt_Creaking",
       "ObjectPath": "\\Events\\Ambient Events\\Apt_Creaking",
       "GUID": "{72658927-421A-4DDD-B605-EE4D528A914C}",
-      "MaxAttenuation": "5",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -166,6 +174,19 @@
       ]
      },
      {
+      "Id": "2280025682",
+      "Name": "Apt_Fridge",
+      "ObjectPath": "\\Events\\Ambient Events\\Apt_Fridge",
+      "GUID": "{F91BE929-F651-44A2-A96F-6A1A868C61E4}",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "395211181"
+       }
+      ]
+     },
+     {
       "Id": "751812660",
       "Name": "Apt_Sink",
       "ObjectPath": "\\Events\\Ambient Events\\Apt_Sink",
@@ -181,6 +202,6 @@
     ]
    }
   ],
-  "FileHash": "{C2A3430B-5888-4D90-F230-F351B6648CA7}"
+  "FileHash": "{4268A8D3-B53C-C494-9391-9A7EE75CA32C}"
  }
 }

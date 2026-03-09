@@ -47,6 +47,18 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Apt_Fridge" ID="{F91BE929-F651-44A2-A96F-6A1A868C61E4}">
+					<ChildrenList>
+						<Action Name="" ID="{9FBA83FB-F764-40B8-8A07-36907A6979F2}" ShortID="991855031">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fridge_Buzz" ID="{B0C2CEF8-4F03-470F-A5BE-0F079DD9EABF}" WorkUnitID="{A692D158-CB31-48BD-AAB0-5A0CC3E6E356}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Apt_Gramophone" ID="{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

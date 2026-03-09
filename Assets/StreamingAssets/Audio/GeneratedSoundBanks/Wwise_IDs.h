@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID APT_CLOCK = 1056431533U;
         static const AkUniqueID APT_CREAKING = 329135517U;
         static const AkUniqueID APT_FIREPLACE = 2202553018U;
+        static const AkUniqueID APT_FRIDGE = 2280025682U;
         static const AkUniqueID APT_SINK = 751812660U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
         static const AkUniqueID FOOTSTEP_SCRATCH = 1003760220U;

@@ -9394,7 +9394,7 @@
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>-3</YPos>
+										<YPos>-6</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -9457,7 +9457,7 @@
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>-12</YPos>
+										<YPos>-15</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -9478,7 +9478,7 @@
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>75</YPos>
+										<YPos>80</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
