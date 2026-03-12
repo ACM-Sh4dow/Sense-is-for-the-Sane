@@ -1790,6 +1790,7 @@ MonoBehaviour:
   puzzleSolution: {fileID: 253686142}
   puzzleComponents:
   - {fileID: 1584155280}
+  - {fileID: 1584155280}
   puzzleResult: {fileID: 1935323122}
 --- !u!1 &476392651
 GameObject:

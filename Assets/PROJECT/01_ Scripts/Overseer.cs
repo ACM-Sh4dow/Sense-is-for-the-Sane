@@ -14,6 +14,7 @@ public class Overseer : MonoBehaviour
 
     private Type[] managerTypes = new Type[]
     {
+        typeof(PuzzleTracker)
     };
 
     private void Awake()

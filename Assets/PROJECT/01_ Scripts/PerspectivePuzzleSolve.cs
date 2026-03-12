@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class PerspectivePuzzleSolve : MonoBehaviour
+public class PerspectivePuzzleSolve : MonoBehaviour, Puzzle
 {
     #region Variables
 
@@ -13,20 +13,24 @@ public class PerspectivePuzzleSolve : MonoBehaviour
     [SerializeField] private GameObject puzzleSolution;
     [SerializeField] private GameObject[] puzzleComponents;
     [SerializeField] private GameObject puzzleResult;
-    
-    private bool isPuzzleSolved;
+
+    private enum PuzzleState : byte
+    {
+        notSolvable,
+        solvable, 
+        solved
+    }
+
+    private PuzzleState state;
 
     #endregion
     
     #region Solving
     public void SolvePuzzle()
     {
-        if (isPuzzleSolved) return;
+        if (state == PuzzleState.solved) return;
 
-        if ((Vector3.Distance(ProtagonistController.playerPosition, puzzleSolution.transform.position) <=
-             distanceTolerance)
-            && Quaternion.Dot(ProtagonistController.playerRotation.normalized, puzzleSolution.transform.rotation.normalized) <=
-            angleTolerance)
+        if (state == PuzzleState.solvable)
         {
             puzzleResult.SetActive(true);
 
@@ -34,8 +38,24 @@ public class PerspectivePuzzleSolve : MonoBehaviour
             {
                 puzzleComponent.SetActive(false);
             }
-            
-            isPuzzleSolved = true;
+
+            state = PuzzleState.solved;
+        }
+    }
+    public void CheckPuzzleSolution()
+    {
+        if (state == PuzzleState.solved) return;
+
+        if ((Vector3.Distance(ProtagonistController.playerPosition, puzzleSolution.transform.position) <=
+             distanceTolerance)
+            && Quaternion.Dot(ProtagonistController.playerRotation.normalized, puzzleSolution.transform.rotation.normalized) <=
+            angleTolerance)
+        {
+            state = PuzzleState.solvable;
+        }
+        else
+        {
+            state = PuzzleState.notSolvable;
         }
     }
     #endregion
@@ -44,6 +64,7 @@ public class PerspectivePuzzleSolve : MonoBehaviour
     private void Update()
     {
         ProtagonistController.Instance.GivePuzzle(this);
+        CheckPuzzleSolution();
     }
 
     #endregion
