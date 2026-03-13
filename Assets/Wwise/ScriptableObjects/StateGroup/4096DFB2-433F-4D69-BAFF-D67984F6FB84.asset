@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1a140b85413deb44af2b0486a86f8e8, type: 3}
+  m_Name: 4096DFB2-433F-4D69-BAFF-D67984F6FB84
+  m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseStateGroupReference
+  objectName: CurrentScene
+  id: 2121736680
+  guid: 4096DFB2-433F-4D69-BAFF-D67984F6FB84

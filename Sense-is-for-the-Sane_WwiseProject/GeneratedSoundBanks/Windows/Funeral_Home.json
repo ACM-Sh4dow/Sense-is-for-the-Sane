@@ -10,12 +10,58 @@
     "Type": "User",
     "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
     "Language": "SFX",
-    "Hash": "{F50899AA-604F-BAE0-C9E0-9CADDA0ADE3D}",
+    "Hash": "{9CF69C5E-47D6-7E2E-FF4F-7DB0E53EEF49}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
     "ShortName": "Funeral_Home",
-    "Path": "Funeral_Home.bnk"
+    "Path": "Funeral_Home.bnk",
+    "Media": [
+     {
+      "Id": "840959845",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Funeral_Ambience_Thunderstorm.wav",
+      "CachePath": "9B/{9BE456B0-777A-A4B0-4029-8C85F5A85C83}.wem"
+     },
+     {
+      "Id": "864067602",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Funeral_Amb_Organ.wav",
+      "CachePath": "62/{62316797-4ECE-7F8A-F9AE-0D292CCD37B8}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "789063245",
+      "Name": "Fnrl_Organ",
+      "ObjectPath": "\\Events\\Ambient Events\\Fnrl_Organ",
+      "GUID": "{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "864067602"
+       }
+      ]
+     },
+     {
+      "Id": "1084206483",
+      "Name": "Fnrl_Thunderstorm",
+      "ObjectPath": "\\Events\\Ambient Events\\Fnrl_Thunderstorm",
+      "GUID": "{748EF433-A22E-494E-927C-79CFE002E9FF}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "840959845"
+       }
+      ]
+     }
+    ]
    }
   ],
-  "FileHash": "{02BE0FEA-1087-D4F6-5C41-AAE13BB84D2A}"
+  "FileHash": "{FB0F5757-542C-E8FA-AB74-D39690860E39}"
  }
 }

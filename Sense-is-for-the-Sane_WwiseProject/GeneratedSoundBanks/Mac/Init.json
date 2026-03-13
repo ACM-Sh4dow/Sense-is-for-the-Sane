@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{E68151F6-8241-04B3-32BA-D781051A9EE0}",
+    "Hash": "{EF8B5A61-3A05-425E-5980-C2DDB55B237E}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -109,6 +109,60 @@
       }
      }
     ],
+    "StateGroups": [
+     {
+      "Id": "2121736680",
+      "Name": "CurrentScene",
+      "ObjectPath": "\\States\\States WU\\CurrentScene",
+      "GUID": "{4096DFB2-433F-4D69-BAFF-D67984F6FB84}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\States WU\\CurrentScene\\None",
+        "GUID": "{A69EBB97-976D-4175-A28B-344441D6C540}"
+       },
+       {
+        "Id": "4154495109",
+        "Name": "Apartment",
+        "ObjectPath": "\\States\\States WU\\CurrentScene\\Apartment",
+        "GUID": "{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"
+       },
+       {
+        "Id": "4219119955",
+        "Name": "FuneralHome",
+        "ObjectPath": "\\States\\States WU\\CurrentScene\\FuneralHome",
+        "GUID": "{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"
+       }
+      ]
+     },
+     {
+      "Id": "3585118241",
+      "Name": "FuneralHomeVersion",
+      "ObjectPath": "\\States\\States WU\\FuneralHomeVersion",
+      "GUID": "{F0D40430-B72C-4672-A0D9-74C2EC3DDC10}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\States WU\\FuneralHomeVersion\\None",
+        "GUID": "{873F2610-2C00-4B76-B36A-67906D77920C}"
+       },
+       {
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\States\\States WU\\FuneralHomeVersion\\Normal",
+        "GUID": "{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"
+       },
+       {
+        "Id": "2915544473",
+        "Name": "Alternate",
+        "ObjectPath": "\\States\\States WU\\FuneralHomeVersion\\Alternate",
+        "GUID": "{DCCA95AB-DF88-4C88-AC1B-F2C2B6E3BD12}"
+       }
+      ]
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "3586861854",
@@ -139,6 +193,6 @@
     ]
    }
   ],
-  "FileHash": "{5B0F4373-9BC0-86B5-9A32-9BFD9C399E57}"
+  "FileHash": "{13FA0EDD-A5FF-1200-A687-4B0EF8760375}"
  }
 }

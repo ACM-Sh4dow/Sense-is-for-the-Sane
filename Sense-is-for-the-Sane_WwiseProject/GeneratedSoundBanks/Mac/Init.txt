@@ -1,3 +1,15 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2121736680	CurrentScene			\States WU\CurrentScene	
+	3585118241	FuneralHomeVersion			\States WU\FuneralHomeVersion	
+
+State	ID	Name	State Group			Notes
+	748895195	None	CurrentScene			
+	4154495109	Apartment	CurrentScene			
+	4219119955	FuneralHome	CurrentScene			
+	748895195	None	FuneralHomeVersion			
+	1160234136	Normal	FuneralHomeVersion			
+	2915544473	Alternate	FuneralHomeVersion			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

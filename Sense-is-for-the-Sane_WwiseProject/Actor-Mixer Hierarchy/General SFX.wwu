@@ -408,6 +408,35 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="CurrentScene" ID="{4096DFB2-433F-4D69-BAFF-D67984F6FB84}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="None" ID="{A69EBB97-976D-4175-A28B-344441D6C540}"/>
+												<CustomState Name="" ID="{C6A093D9-0EFE-41C8-928E-AF7F0627B951}" ShortID="221589841"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
+												<CustomState Name="" ID="{FF81AB25-4CF8-4B7B-B1D6-26A67A2EE050}" ShortID="515218931">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-5"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Apartment" ID="{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"/>
+												<CustomState Name="" ID="{3A1701F1-BD69-4F1E-80A0-484D911AF982}" ShortID="493852000">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-5"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Void" ID="{D742ACC7-6012-45DF-975D-C49E4F4FBB73}" ShortID="310786458">
 									<PropertyList>
@@ -978,6 +1007,32 @@
 									</ChildrenList>
 								</Position>
 							</PositioningInfo>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="CurrentScene" ID="{4096DFB2-433F-4D69-BAFF-D67984F6FB84}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="None" ID="{A69EBB97-976D-4175-A28B-344441D6C540}"/>
+										<CustomState Name="" ID="{9B2AA943-8464-4F15-BEFD-6F4DD782E44E}" ShortID="441771110"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
+										<CustomState Name="" ID="{C061F154-902B-4629-B945-D470208412FB}" ShortID="267899346">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16" Value="10"/>
+												<Property Name="Pitch" Type="int32" Value="-800"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Apartment" ID="{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"/>
+										<CustomState Name="" ID="{812BCDF0-0D6A-4BA6-AD36-21AF1C72103B}" ShortID="907006226"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</RandomSequenceContainer>
 					</ChildrenList>
 					<PositioningInfo>
@@ -997,6 +1052,31 @@
 							</ChildrenList>
 						</Position>
 					</PositioningInfo>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="CurrentScene" ID="{4096DFB2-433F-4D69-BAFF-D67984F6FB84}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="None" ID="{A69EBB97-976D-4175-A28B-344441D6C540}"/>
+								<CustomState Name="" ID="{42AD59B9-EBD2-4471-A4A2-4B80C57EEF6B}" ShortID="32480831"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
+								<CustomState Name="" ID="{20351198-CCAD-491E-8D83-FA4D872B84E4}" ShortID="463817309">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-4"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Apartment" ID="{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"/>
+								<CustomState Name="" ID="{917FC8A0-352B-4BCF-B44D-E404CB8F3557}" ShortID="344934920"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</ActorMixer>
 				<RandomSequenceContainer Name="Door Close Rand" ID="{AE870C7D-2881-478C-A293-CC3EF61DB9BF}" ShortID="601593495">
 					<PropertyList>

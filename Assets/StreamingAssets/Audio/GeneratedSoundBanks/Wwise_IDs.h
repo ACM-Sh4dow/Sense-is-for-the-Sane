@@ -19,9 +19,39 @@ namespace AK
         static const AkUniqueID APT_FRIDGE = 2280025682U;
         static const AkUniqueID APT_GRAMOPHONE = 2839848505U;
         static const AkUniqueID APT_SINK = 751812660U;
+        static const AkUniqueID FNRL_ORGAN = 789063245U;
+        static const AkUniqueID FNRL_THUNDERSTORM = 1084206483U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
         static const AkUniqueID FOOTSTEP_SCRATCH = 1003760220U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace CURRENTSCENE
+        {
+            static const AkUniqueID GROUP = 2121736680U;
+
+            namespace STATE
+            {
+                static const AkUniqueID APARTMENT = 4154495109U;
+                static const AkUniqueID FUNERALHOME = 4219119955U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace CURRENTSCENE
+
+        namespace FUNERALHOMEVERSION
+        {
+            static const AkUniqueID GROUP = 3585118241U;
+
+            namespace STATE
+            {
+                static const AkUniqueID ALTERNATE = 2915544473U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID NORMAL = 1160234136U;
+            } // namespace STATE
+        } // namespace FUNERALHOMEVERSION
+
+    } // namespace STATES
 
     namespace SWITCHES
     {

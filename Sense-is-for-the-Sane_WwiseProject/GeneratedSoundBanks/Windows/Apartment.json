@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9F2C9685-C3F4-4D21-9319-4FF075E9A3CD}",
     "Language": "SFX",
-    "Hash": "{B18B22F5-B784-BE6F-CEFF-032387559D4C}",
+    "Hash": "{BC216A0F-3A48-A460-4253-40AD4A238978}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Apartment",
     "ShortName": "Apartment",
     "Path": "Apartment.bnk",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_006.wav",
-      "CachePath": "0D/{0D7D4F28-770F-E6AA-40F3-1FD38E43B573}.wem"
+      "CachePath": "81/{81A7A2C7-882C-2978-EB88-B27EC14E0B8B}.wem"
      },
      {
       "Id": "285034747",
@@ -77,7 +77,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_002.wav",
-      "CachePath": "52/{523BE0EF-A5C1-0A48-DF95-D70CEDFCDEE3}.wem"
+      "CachePath": "5A/{5ABDEA1E-D732-3479-4427-E43D648A2439}.wem"
      },
      {
       "Id": "530166292",
@@ -214,6 +214,6 @@
     ]
    }
   ],
-  "FileHash": "{9A24C6B3-C3DF-FEF6-69E7-1040E579A326}"
+  "FileHash": "{5F59808A-E8E2-8BD7-AF27-F4C59C51F55A}"
  }
 }

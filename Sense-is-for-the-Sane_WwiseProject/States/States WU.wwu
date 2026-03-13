@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3701317D-DB22-43BD-AF51-30094B358F20}" SchemaVersion="123">
 	<States>
-		<WorkUnit Name="States WU" ID="{3701317D-DB22-43BD-AF51-30094B358F20}" PersistMode="Standalone"/>
+		<WorkUnit Name="States WU" ID="{3701317D-DB22-43BD-AF51-30094B358F20}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="CurrentScene" ID="{4096DFB2-433F-4D69-BAFF-D67984F6FB84}">
+					<ChildrenList>
+						<State Name="None" ID="{A69EBB97-976D-4175-A28B-344441D6C540}"/>
+						<State Name="Apartment" ID="{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"/>
+						<State Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="FuneralHomeVersion" ID="{F0D40430-B72C-4672-A0D9-74C2EC3DDC10}">
+					<ChildrenList>
+						<State Name="None" ID="{873F2610-2C00-4B76-B36A-67906D77920C}"/>
+						<State Name="Normal" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
+						<State Name="Alternate" ID="{DCCA95AB-DF88-4C88-AC1B-F2C2B6E3BD12}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

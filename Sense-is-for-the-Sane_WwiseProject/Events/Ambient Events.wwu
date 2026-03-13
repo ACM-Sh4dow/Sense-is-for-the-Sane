@@ -69,6 +69,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Fnrl_Organ" ID="{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}">
+					<ChildrenList>
+						<Action Name="" ID="{6BC3F98F-7153-48F0-B6F6-527DDD9E5614}" ShortID="168261419">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Funeral_Amb_Organ" ID="{8B5523C6-3AA3-4D81-BC92-DC301F91D3A6}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fnrl_Thunderstorm" ID="{748EF433-A22E-494E-927C-79CFE002E9FF}">
+					<ChildrenList>
+						<Action Name="" ID="{90B0F40E-E3DC-472D-8D91-A33F72CA399A}" ShortID="743044250">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Funeral_Ambience_Thunderstorm" ID="{3BE334AD-425A-4353-8638-25F082B86FBD}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAC7D741-2CC6-4571-91AE-B86C57B75FDF}",
     "Language": "SFX",
-    "Hash": "{60C40C8B-D361-70C4-8535-1F308566CFA4}",
+    "Hash": "{60F1982A-AE56-976D-07E7-1765C6D3F113}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -61,7 +61,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_006.wav",
-      "CachePath": "0D/{0D7D4F28-770F-E6AA-40F3-1FD38E43B573}.wem"
+      "CachePath": "81/{81A7A2C7-882C-2978-EB88-B27EC14E0B8B}.wem"
      },
      {
       "Id": "84603492",
@@ -141,7 +141,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_002.wav",
-      "CachePath": "52/{523BE0EF-A5C1-0A48-DF95-D70CEDFCDEE3}.wem"
+      "CachePath": "5A/{5ABDEA1E-D732-3479-4427-E43D648A2439}.wem"
      },
      {
       "Id": "501430916",
@@ -206,6 +206,22 @@
       "Location": "Memory",
       "ShortName": "The World Behind Your Eyes (Gramophone) 3.wav",
       "CachePath": "64/{64B46DB6-FB94-984F-7845-10B839ACB1A1}.wem"
+     },
+     {
+      "Id": "840959845",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Funeral_Ambience_Thunderstorm.wav",
+      "CachePath": "9B/{9BE456B0-777A-A4B0-4029-8C85F5A85C83}.wem"
+     },
+     {
+      "Id": "864067602",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Funeral_Amb_Organ.wav",
+      "CachePath": "62/{62316797-4ECE-7F8A-F9AE-0D292CCD37B8}.wem"
      },
      {
       "Id": "872160095",
@@ -376,6 +392,32 @@
       "MediaRefs": [
        {
         "Id": "352828321"
+       }
+      ]
+     },
+     {
+      "Id": "789063245",
+      "Name": "Fnrl_Organ",
+      "ObjectPath": "\\Events\\Ambient Events\\Fnrl_Organ",
+      "GUID": "{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "864067602"
+       }
+      ]
+     },
+     {
+      "Id": "1084206483",
+      "Name": "Fnrl_Thunderstorm",
+      "ObjectPath": "\\Events\\Ambient Events\\Fnrl_Thunderstorm",
+      "GUID": "{748EF433-A22E-494E-927C-79CFE002E9FF}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "840959845"
        }
       ]
      },
@@ -602,6 +644,6 @@
     ]
    }
   ],
-  "FileHash": "{870051AC-7A37-665D-21D8-BB3AAA5BF02F}"
+  "FileHash": "{026132EB-5F8E-BA94-AFD7-ECF2BB886313}"
  }
 }

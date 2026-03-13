@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	789063245	Fnrl_Organ			\Ambient Events\Fnrl_Organ	
+	1084206483	Fnrl_Thunderstorm			\Ambient Events\Fnrl_Thunderstorm	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	840959845	Funeral_Ambience_Thunderstorm	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\9B\{9BE456B0-777A-A4B0-4029-8C85F5A85C83}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Funeral Home\Ambience\Funeral_Ambience_Thunderstorm		22695772
+	864067602	Funeral_Amb_Organ	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\62\{62316797-4ECE-7F8A-F9AE-0D292CCD37B8}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Funeral Home\Ambience\Funeral_Amb_Organ		6939064
+

@@ -6,9 +6,11 @@
 				<SoundBank Name="Test" ID="{FAC7D741-2CC6-4571-91AE-B86C57B75FDF}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Apt_Gramophone" ID="{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}" WorkUnitID="{057411D9-A0B8-473A-9061-CBCBA6CA8032}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fnrl_Organ" ID="{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}" WorkUnitID="{057411D9-A0B8-473A-9061-CBCBA6CA8032}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Apt_Clock" ID="{F10211CC-A6EE-4420-BDFD-304BA4A2A9E5}" WorkUnitID="{057411D9-A0B8-473A-9061-CBCBA6CA8032}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Apt_Fridge" ID="{F91BE929-F651-44A2-A96F-6A1A868C61E4}" WorkUnitID="{057411D9-A0B8-473A-9061-CBCBA6CA8032}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Apt_Sink" ID="{5A644377-9F79-44E2-BC1C-122FF672AE25}" WorkUnitID="{057411D9-A0B8-473A-9061-CBCBA6CA8032}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fnrl_Thunderstorm" ID="{748EF433-A22E-494E-927C-79CFE002E9FF}" WorkUnitID="{057411D9-A0B8-473A-9061-CBCBA6CA8032}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Apt_Fireplace" ID="{DD55A7FB-4693-4A66-A895-996329466B19}" WorkUnitID="{057411D9-A0B8-473A-9061-CBCBA6CA8032}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Apt_Creaking" ID="{72658927-421A-4DDD-B605-EE4D528A914C}" WorkUnitID="{057411D9-A0B8-473A-9061-CBCBA6CA8032}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footstep" ID="{651BF6F5-5E00-4EEC-BC2C-B99851AB9555}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
@@ -35,7 +37,10 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Funeral_Home" ID="{36ACC5E3-9754-4EFE-8814-73F1D671A324}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Fnrl_Organ" ID="{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}" WorkUnitID="{057411D9-A0B8-473A-9061-CBCBA6CA8032}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fnrl_Thunderstorm" ID="{748EF433-A22E-494E-927C-79CFE002E9FF}" WorkUnitID="{057411D9-A0B8-473A-9061-CBCBA6CA8032}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

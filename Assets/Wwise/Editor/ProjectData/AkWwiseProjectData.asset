@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: ede88cb9b519ad42b043b7baa79cad7e
     GuidInternal: 
-    m_lastTime: -8584285327425538534
+    m_lastTime: -8584282884683082776
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -130,7 +130,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584285341321418952
+    m_lastTime: -8584282892477087067
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -214,7 +214,7 @@ MonoBehaviour:
     ParentPath: Events\Ambient Events
     guid: d9117405b8a03a479061cbcba6ca8032
     GuidInternal: 
-    m_lastTime: -8584285337529944914
+    m_lastTime: -8584282894029448100
     List:
     - name: Apt_Clock
       guid: cc1102f1eea62044bdfd304ba4a2a9e5
@@ -316,6 +316,40 @@ MonoBehaviour:
         guid: 7743645a799fe244bc1c122ff672ae25
       Path: Events\Ambient Events\Apt_Sink
       maxAttenuation: 5
+      maxDuration: 0
+      minDuration: 0
+    - name: Fnrl_Organ
+      guid: 0bd17b976c9adb419fe4362ac1b5a8d3
+      id: 789063245
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambient Events
+        ObjectType: 12
+        guid: d9117405b8a03a479061cbcba6ca8032
+      - ElementName: Fnrl_Organ
+        ObjectType: 3
+        guid: 0bd17b976c9adb419fe4362ac1b5a8d3
+      Path: Events\Ambient Events\Fnrl_Organ
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
+    - name: Fnrl_Thunderstorm
+      guid: 33f48e742ea24e49927c79cfe002e9ff
+      id: 1084206483
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambient Events
+        ObjectType: 12
+        guid: d9117405b8a03a479061cbcba6ca8032
+      - ElementName: Fnrl_Thunderstorm
+        ObjectType: 3
+        guid: 33f48e742ea24e49927c79cfe002e9ff
+      Path: Events\Ambient Events\Fnrl_Thunderstorm
+      maxAttenuation: 100
       maxDuration: 0
       minDuration: 0
   - PhysicalPath: Events\Default Work Unit.wwu
@@ -430,8 +464,140 @@ MonoBehaviour:
     ParentPath: States\States WU
     guid: 7d31013722dbbd43af5130094b358f20
     GuidInternal: 
-    m_lastTime: -8584291422320062400
-    List: []
+    m_lastTime: -8584282886331163569
+    List:
+    - name: CurrentScene
+      guid: b2df96403f43694dbaffd67984f6fb84
+      id: 2121736680
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: States WU
+        ObjectType: 12
+        guid: 7d31013722dbbd43af5130094b358f20
+      - ElementName: CurrentScene
+        ObjectType: 9
+        guid: b2df96403f43694dbaffd67984f6fb84
+      Path: States\States WU\CurrentScene
+      values:
+      - name: Apartment
+        guid: 8239f7ef459da74cae54c32c65fe126e
+        id: 4154495109
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 7d31013722dbbd43af5130094b358f20
+        - ElementName: CurrentScene
+          ObjectType: 9
+          guid: b2df96403f43694dbaffd67984f6fb84
+        - ElementName: Apartment
+          ObjectType: 8
+          guid: 8239f7ef459da74cae54c32c65fe126e
+      - name: FuneralHome
+        guid: f0a5cd5084f9a345ae5cb0a598dd576c
+        id: 4219119955
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 7d31013722dbbd43af5130094b358f20
+        - ElementName: CurrentScene
+          ObjectType: 9
+          guid: b2df96403f43694dbaffd67984f6fb84
+        - ElementName: FuneralHome
+          ObjectType: 8
+          guid: f0a5cd5084f9a345ae5cb0a598dd576c
+      - name: None
+        guid: 97bb9ea66d977541a28b344441d6c540
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 7d31013722dbbd43af5130094b358f20
+        - ElementName: CurrentScene
+          ObjectType: 9
+          guid: b2df96403f43694dbaffd67984f6fb84
+        - ElementName: None
+          ObjectType: 8
+          guid: 97bb9ea66d977541a28b344441d6c540
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: FuneralHomeVersion
+      guid: 3004d4f02cb77246a0d974c2ec3ddc10
+      id: 3585118241
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: States WU
+        ObjectType: 12
+        guid: 7d31013722dbbd43af5130094b358f20
+      - ElementName: FuneralHomeVersion
+        ObjectType: 9
+        guid: 3004d4f02cb77246a0d974c2ec3ddc10
+      Path: States\States WU\FuneralHomeVersion
+      values:
+      - name: Alternate
+        guid: ab95cadc88df884cac1bf2c2b6e3bd12
+        id: 2915544473
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 7d31013722dbbd43af5130094b358f20
+        - ElementName: FuneralHomeVersion
+          ObjectType: 9
+          guid: 3004d4f02cb77246a0d974c2ec3ddc10
+        - ElementName: Alternate
+          ObjectType: 8
+          guid: ab95cadc88df884cac1bf2c2b6e3bd12
+      - name: None
+        guid: 10263f87002c764bb36a67906d77920c
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 7d31013722dbbd43af5130094b358f20
+        - ElementName: FuneralHomeVersion
+          ObjectType: 9
+          guid: 3004d4f02cb77246a0d974c2ec3ddc10
+        - ElementName: None
+          ObjectType: 8
+          guid: 10263f87002c764bb36a67906d77920c
+      - name: Normal
+        guid: 7b4d28d9f708c94da8cc337fd32e14cb
+        id: 1160234136
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 7d31013722dbbd43af5130094b358f20
+        - ElementName: FuneralHomeVersion
+          ObjectType: 9
+          guid: 3004d4f02cb77246a0d974c2ec3ddc10
+        - ElementName: Normal
+          ObjectType: 8
+          guid: 7b4d28d9f708c94da8cc337fd32e14cb
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -457,7 +623,7 @@ MonoBehaviour:
     ParentPath: Switches\Switches WU
     guid: a20079f489c43045be7add0633c9b245
     GuidInternal: 
-    m_lastTime: -8584288883667557632
+    m_lastTime: -8584282886657394701
     List:
     - name: FootstepsSwitch
       guid: 5730594340ad384db05ee3bbbf32e638
@@ -540,7 +706,7 @@ MonoBehaviour:
     m_lastTime: -8584307446767933828
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0200000003000000040000000500000006000000070000000b0000000c0000000d0000000f000000
+  ExpandedWaapiItemIds: 0200000003000000040000000500000006000000070000000b0000000c0000000d0000000f0000001300000014000000150000001600000017000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
