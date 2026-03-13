@@ -1,8 +1,10 @@
+using NUnit.Framework;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PuzzleTracker : MonoBehaviour
 {
-    private bool[] puzzles = new bool[7];
+    public bool[] puzzles;
 
     public void RegisterCompletion(byte id)
     {

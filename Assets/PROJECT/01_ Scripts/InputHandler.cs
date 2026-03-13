@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
 
 public class InputHandler : MonoBehaviour
 {
@@ -8,12 +9,12 @@ public class InputHandler : MonoBehaviour
         ProtagonistController.SyncMovementInput(input);
     }
 
-    public void RecieveLookInput(InputAction.CallbackContext input)
+    public void ReceiveLookInput(InputAction.CallbackContext input)
     {
         ProtagonistController.SyncLookInput(input.ReadValue<Vector2>());
     }
 
-    public void RecieveInteractInput(InputAction.CallbackContext input)
+    public void ReceiveInteractInput(InputAction.CallbackContext input)
     {
         if (!input.started) return;
 
@@ -24,7 +25,7 @@ public class InputHandler : MonoBehaviour
         }
     }
 
-    public void RecieveManualAnimationInput(InputAction.CallbackContext input)
+    public void ReceiveManualAnimationInput(InputAction.CallbackContext input)
     {
         if (!input.started && !input.canceled) return;
 
