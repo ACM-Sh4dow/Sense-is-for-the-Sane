@@ -2,11 +2,13 @@ using UnityEngine;
 
 public static class CollideAndSlide
 {
+    #region Variables
     public const int MaxDepth = 3;
     private const float FloatingPointErrorCheck = 0.001f;
     private const float LeewayFraction = 0.95f;
     private const float MaxSlopeAngle = 55f;
-
+    #endregion
+    
     public static Vector3 Execute(CapsuleCollider collider, LayerMask collisionLayers, Vector3 velocity, Vector3 position, Vector3 targetDirection, int depth)
     {
         #region Base Case

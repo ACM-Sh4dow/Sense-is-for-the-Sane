@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Looking : Behaviour
 {
+    #region Variables
     public static Vector2 input;
 
     private float targetYaw;
@@ -11,6 +12,7 @@ public class Looking : Behaviour
     private static float BottomClamp = 270;
     
     private float sensitivity = 30f;
+    #endregion
     
     public static void SyncInput(Vector2 Input)
     {
@@ -19,8 +21,7 @@ public class Looking : Behaviour
     
     public static float ClampAngle(float Angle)
     {
-        var clampSplit = TopClamp + ((BottomClamp - TopClamp) / 2);
-
+        #region Angle 0-360
         while (Angle > 360)
         {
             Angle -= 360;
@@ -29,7 +30,9 @@ public class Looking : Behaviour
         {
             Angle += 360;
         }
-        
+        #endregion
+        #region Clamp Angle
+        var clampSplit = TopClamp + ((BottomClamp - TopClamp) / 2);
         if (Angle >= TopClamp && Angle <= clampSplit) 
         {
             Angle = TopClamp;
@@ -38,30 +41,42 @@ public class Looking : Behaviour
         {
             Angle = BottomClamp;
         }
+        #endregion
         
         return Angle;
     }
     
     public void Begin()
     {
-        targetYaw = JackBehaviour.Instance.CameraHolder.transform.rotation.eulerAngles.y;
-        targetPitch = JackBehaviour.Instance.CameraHolder.transform.rotation.eulerAngles.x;
+        #region Initial Yaw/Pitch
+        targetYaw = PlayerBehaviour.Instance.CameraHolder.transform.rotation.eulerAngles.y;
+        targetPitch = PlayerBehaviour.Instance.CameraHolder.transform.rotation.eulerAngles.x;
+        #endregion
     }
 
     public void Run()
     {
+        #region Get Targets
         targetYaw += input.x * sensitivity * Time.deltaTime;
         targetPitch -= input.y * sensitivity * Time.deltaTime;
-        
         targetPitch = ClampAngle(targetPitch);
+        #endregion
         
-        JackBehaviour.Instance.CameraHolder.transform.rotation = Quaternion.Euler(
+        #region Apply Rotation
+        PlayerBehaviour.Instance.CameraHolder.transform.rotation = Quaternion.Euler(
             targetPitch,
             targetYaw,
             0f);
+        #endregion
     }
 
     public void End()
     {
+        #region Set Rotation To Current
+        PlayerBehaviour.Instance.CameraHolder.transform.rotation = Quaternion.Euler(
+            PlayerBehaviour.Instance.CameraHolder.transform.rotation.eulerAngles.x,
+            PlayerBehaviour.Instance.CameraHolder.transform.rotation.eulerAngles.y,
+            0f);
+        #endregion
     }
 }

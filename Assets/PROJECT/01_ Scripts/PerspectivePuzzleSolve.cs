@@ -18,37 +18,31 @@ public class PerspectivePuzzleSolve : MonoBehaviour, Puzzle
     {
         notSolvable,
         solvable, 
-        solved
+        solved,
+        fullyResolved
     }
 
-    private PuzzleState state;
+    private static PuzzleState state;
 
     #endregion
     
     #region Solving
-    public void SolvePuzzle()
+    public static void SolvePuzzle()
     {
         if (state == PuzzleState.solved) return;
 
         if (state == PuzzleState.solvable)
         {
-            puzzleResult.SetActive(true);
-
-            foreach (GameObject puzzleComponent in puzzleComponents)
-            {
-                puzzleComponent.SetActive(false);
-            }
-
             state = PuzzleState.solved;
         }
     }
-    public void CheckPuzzleSolution()
+    private void CheckPuzzleSolution()
     {
         if (state == PuzzleState.solved) return;
 
-        if ((Vector3.Distance(ProtagonistController.playerPosition, puzzleSolution.transform.position) <=
+        if ((Vector3.Distance(PlayerBehaviour.Instance.playerPosition, puzzleSolution.transform.position) <=
              distanceTolerance)
-            && Quaternion.Dot(ProtagonistController.playerRotation.normalized, puzzleSolution.transform.rotation.normalized) <=
+            && Quaternion.Dot(PlayerBehaviour.Instance.playerRotation.normalized, puzzleSolution.transform.rotation.normalized) <=
             angleTolerance)
         {
             state = PuzzleState.solvable;
@@ -59,13 +53,27 @@ public class PerspectivePuzzleSolve : MonoBehaviour, Puzzle
         }
     }
     #endregion
-    #region Setting Puzzle
 
     private void Update()
     {
-        ProtagonistController.Instance.GivePuzzle(this);
+        #region Completion
+        if (state == PuzzleState.fullyResolved) return;
+        if (state == PuzzleState.solved)
+        {
+            puzzleResult.SetActive(true);
+
+            foreach (GameObject puzzleComponent in puzzleComponents)
+            {
+                puzzleComponent.SetActive(false);
+            }
+            
+           state =  PuzzleState.fullyResolved; 
+            
+           // REGISTER COMPLETION
+           return;
+        }
+        #endregion
+        
         CheckPuzzleSolution();
     }
-
-    #endregion
 }

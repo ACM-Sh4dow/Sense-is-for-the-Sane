@@ -15,36 +15,43 @@ public class Falling : Behaviour
     
     public void Begin()
     {
+        #region Initialize Values
         gravityCurrent = 0;
-        
         StartTime = Time.time;
+        #endregion
     }
 
     public void Run()
     {
-        if (GroundCheck.Execute(JackBehaviour.Instance.playerCollider, JackBehaviour.Instance.collisionLayers) != null)
+        #region End State
+        if (GroundCheck.Execute(PlayerBehaviour.Instance.playerCollider, PlayerBehaviour.Instance.collisionLayers) != null)
         {
-            JackBehaviour.Instance.End<Falling>();
+            PlayerBehaviour.Instance.End<Falling>();
             return;
         }
+        #endregion
         
+        #region Logic
         gravityCurrent += gravityIncrease;
 
         gravityCurrent = Mathf.Min(gravityCurrent, gravityMax);
 
         var velocity = CollideAndSlide.Execute(
-            JackBehaviour.Instance.playerCollider,
-            JackBehaviour.Instance.collisionLayers,
+            PlayerBehaviour.Instance.playerCollider,
+            PlayerBehaviour.Instance.collisionLayers,
             Vector3.down * (gravityCurrent * Time.deltaTime),
-            JackBehaviour.Instance.transform.position,
+            PlayerBehaviour.Instance.transform.position,
             Vector3.down,
             0);
-        JackBehaviour.Instance.transform.position += velocity;
+        PlayerBehaviour.Instance.transform.position += velocity;
+        #endregion
     }
 
     public void End()
     {
+        #region Reset Values
         gravityCurrent = 0;
         StartTime = float.MaxValue;
+        #endregion
     }
 }
