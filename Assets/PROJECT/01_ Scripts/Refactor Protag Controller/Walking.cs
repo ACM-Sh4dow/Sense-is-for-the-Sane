@@ -35,7 +35,7 @@ public class Walking : Behaviour
         
         #region Logic
         Vector3 newMovementInput = new Vector3(input.x, 0, input.y);
-        Vector3 moveDirection = Quaternion.Euler(0, Camera.main.transform.eulerAngles.y, 0) * newMovementInput;
+        Vector3 moveDirection = Quaternion.Euler(0, PlayerBehaviour.Instance.transform.eulerAngles.y, 0) * newMovementInput;
 
         velocity = moveDirection * movementSpeed;
         velocity = CollideAndSlide.Execute(

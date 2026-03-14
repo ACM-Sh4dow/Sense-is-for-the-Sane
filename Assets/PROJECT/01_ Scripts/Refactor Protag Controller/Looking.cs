@@ -4,6 +4,7 @@ public class Looking : Behaviour
 {
     #region Variables
     public static Vector2 input;
+    private Vector2 staleInput;
 
     private float targetYaw;
     private float targetPitch;
@@ -56,6 +57,13 @@ public class Looking : Behaviour
 
     public void Run()
     {
+        #region Clear Stale Inputs
+        if (input == staleInput)
+        {
+            PlayerBehaviour.Instance.End<Looking>();
+            return;
+        }
+        #endregion
         #region Get Targets
         targetYaw += input.x * sensitivity * Time.deltaTime;
         targetPitch -= input.y * sensitivity * Time.deltaTime;
@@ -67,16 +75,17 @@ public class Looking : Behaviour
             targetPitch,
             targetYaw,
             0f);
+        PlayerBehaviour.Instance.transform.rotation = Quaternion.Euler(
+            0,
+            targetYaw,
+            0);
         #endregion
+
+        staleInput = input;
     }
 
     public void End()
     {
-        #region Set Rotation To Current
-        PlayerBehaviour.Instance.CameraHolder.transform.rotation = Quaternion.Euler(
-            PlayerBehaviour.Instance.CameraHolder.transform.rotation.eulerAngles.x,
-            PlayerBehaviour.Instance.CameraHolder.transform.rotation.eulerAngles.y,
-            0f);
-        #endregion
+        input = Vector2.zero;
     }
 }
