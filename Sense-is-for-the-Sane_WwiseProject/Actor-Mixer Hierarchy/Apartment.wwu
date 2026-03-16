@@ -63,17 +63,12 @@
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="GameAuxSendVolume" Type="Real64">
 									<ValueList>
-										<Value>8</Value>
+										<Value>3</Value>
 									</ValueList>
 								</Property>
 								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-7</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -251,11 +246,11 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="The World Behind Your Eyes (Gramophone) 3" ID="{2D56053D-02DC-4DD6-92A7-D5888A7E93C6}">
+								<AudioFileSource Name="The World Behind Your Eyes (Gramophone) FINAL" ID="{30A7CD24-7EFB-43E7-9F1D-3D0279713CA0}">
 									<Language>SFX</Language>
-									<AudioFile>The World Behind Your Eyes (Gramophone) 3.wav</AudioFile>
+									<AudioFile>The World Behind Your Eyes (Gramophone) FINAL.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="661953013"/>
+										<MediaID ID="1038962611"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
@@ -267,7 +262,7 @@
 								</Position>
 							</PositioningInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="The World Behind Your Eyes (Gramophone) 3" ID="{2D56053D-02DC-4DD6-92A7-D5888A7E93C6}" Platform="Linked"/>
+								<ActiveSource Name="The World Behind Your Eyes (Gramophone) FINAL" ID="{30A7CD24-7EFB-43E7-9F1D-3D0279713CA0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<RandomSequenceContainer Name="Sink Dripping Seq" ID="{89C31ADA-4856-48CB-8673-F7EA08C2D8F2}" ShortID="715303094">

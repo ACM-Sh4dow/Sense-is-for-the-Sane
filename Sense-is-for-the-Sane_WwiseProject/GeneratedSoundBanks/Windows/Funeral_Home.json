@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
     "Language": "SFX",
-    "Hash": "{9CF69C5E-47D6-7E2E-FF4F-7DB0E53EEF49}",
+    "Hash": "{9054BC7D-6AC3-95A3-E157-D25996EC2A6A}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
     "ShortName": "Funeral_Home",
     "Path": "Funeral_Home.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Funeral_Ambience_Thunderstorm.wav",
-      "CachePath": "9B/{9BE456B0-777A-A4B0-4029-8C85F5A85C83}.wem"
+      "CachePath": "15/{156798CD-B2CE-6C02-F98A-F24F52919FA7}.wem"
      },
      {
       "Id": "864067602",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Funeral_Amb_Organ.wav",
-      "CachePath": "62/{62316797-4ECE-7F8A-F9AE-0D292CCD37B8}.wem"
+      "CachePath": "55/{556954D4-E69C-A13B-FBFE-1D3E93E84DCE}.wem"
      }
     ],
     "Events": [
@@ -62,6 +62,6 @@
     ]
    }
   ],
-  "FileHash": "{FB0F5757-542C-E8FA-AB74-D39690860E39}"
+  "FileHash": "{2F15DACB-ED02-428A-635C-EC8C3C21378B}"
  }
 }

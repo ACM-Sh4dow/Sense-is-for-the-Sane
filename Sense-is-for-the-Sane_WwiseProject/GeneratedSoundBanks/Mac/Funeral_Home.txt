@@ -3,6 +3,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1084206483	Fnrl_Thunderstorm			\Ambient Events\Fnrl_Thunderstorm	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	840959845	Funeral_Ambience_Thunderstorm	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\9B\{9BE456B0-777A-A4B0-4029-8C85F5A85C83}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Funeral Home\Ambience\Funeral_Ambience_Thunderstorm		22695772
-	864067602	Funeral_Amb_Organ	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\62\{62316797-4ECE-7F8A-F9AE-0D292CCD37B8}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Funeral Home\Ambience\Funeral_Amb_Organ		6939064
+	840959845	Funeral_Ambience_Thunderstorm	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\15\{156798CD-B2CE-6C02-F98A-F24F52919FA7}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Funeral Home\Ambience\Funeral_Ambience_Thunderstorm		22695772
+	864067602	Funeral_Amb_Organ	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\55\{556954D4-E69C-A13B-FBFE-1D3E93E84DCE}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Funeral Home\Ambience\Funeral_Amb_Organ		6939064
 

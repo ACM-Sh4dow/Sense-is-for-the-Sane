@@ -37826,8 +37826,8 @@ MonoBehaviour:
   movementSpeed: 2
   gravity: 9.81
   aimSensitivity: 20
-  BottomClamp: -80
-  TopClamp: 80
+  BottomClamp: 0
+  TopClamp: 0
 --- !u!136 &843248937
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -90959,6 +90959,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 9caa3d8a-6b2f-4e8e-8bad-6ede561bd9be
     m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b4a1d0db-59dc-4c9d-98a2-dc04824af435
+    m_ActionName: 'Player/ManualAnimate[/Mouse/leftButton]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: 

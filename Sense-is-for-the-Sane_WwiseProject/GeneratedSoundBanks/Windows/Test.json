@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAC7D741-2CC6-4571-91AE-B86C57B75FDF}",
     "Language": "SFX",
-    "Hash": "{60F1982A-AE56-976D-07E7-1765C6D3F113}",
+    "Hash": "{855AAF8D-7EB8-33CD-76B5-DE46929C5DB0}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -200,20 +200,12 @@
       "CachePath": "01/{010B3AF5-0FD0-21FE-D65C-230DC32D3868}.wem"
      },
      {
-      "Id": "661953013",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "The World Behind Your Eyes (Gramophone) 3.wav",
-      "CachePath": "64/{64B46DB6-FB94-984F-7845-10B839ACB1A1}.wem"
-     },
-     {
       "Id": "840959845",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Funeral_Ambience_Thunderstorm.wav",
-      "CachePath": "9B/{9BE456B0-777A-A4B0-4029-8C85F5A85C83}.wem"
+      "CachePath": "15/{156798CD-B2CE-6C02-F98A-F24F52919FA7}.wem"
      },
      {
       "Id": "864067602",
@@ -221,7 +213,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Funeral_Amb_Organ.wav",
-      "CachePath": "62/{62316797-4ECE-7F8A-F9AE-0D292CCD37B8}.wem"
+      "CachePath": "55/{556954D4-E69C-A13B-FBFE-1D3E93E84DCE}.wem"
      },
      {
       "Id": "872160095",
@@ -286,6 +278,14 @@
       "Location": "Memory",
       "ShortName": "Footstep_Carpet_001.wav",
       "CachePath": "B5/{B56EF8C9-3B82-1968-F5A3-CD4273609D58}.wem"
+     },
+     {
+      "Id": "1038962611",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "The World Behind Your Eyes (Gramophone) FINAL.wav",
+      "CachePath": "F9/{F98BB2F3-BDB5-CC56-0EDB-DFFE57E84042}.wem"
      },
      {
       "Id": "1043232266",
@@ -374,11 +374,11 @@
       "GUID": "{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}",
       "MaxAttenuation": "10",
       "DurationType": "OneShot",
-      "DurationMin": "116.620026",
-      "DurationMax": "116.620026",
+      "DurationMin": "117",
+      "DurationMax": "117",
       "MediaRefs": [
        {
-        "Id": "661953013"
+        "Id": "1038962611"
        }
       ]
      },
@@ -644,6 +644,6 @@
     ]
    }
   ],
-  "FileHash": "{4AB964E3-6201-CAD2-3DB1-50080C2C755B}"
+  "FileHash": "{B6FDEFE3-EE2D-A96B-4228-BC3D3AE7D851}"
  }
 }

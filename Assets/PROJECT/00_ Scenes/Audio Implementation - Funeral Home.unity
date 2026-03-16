@@ -5166,7 +5166,7 @@ MonoBehaviour:
   roomToneEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 7776e543c1b82064ba5ef93bf2a25caa, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 308ab25785d5b174b8a65885ad91cd80, type: 2}
   roomToneAuxSend: 1
 --- !u!54 &1092919701
 Rigidbody:

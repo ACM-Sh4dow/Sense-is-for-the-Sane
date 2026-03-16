@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9F2C9685-C3F4-4D21-9319-4FF075E9A3CD}",
     "Language": "SFX",
-    "Hash": "{BC216A0F-3A48-A460-4253-40AD4A238978}",
+    "Hash": "{40290E9F-2F36-B0B4-8E28-8035B27A5F6A}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Apartment",
     "ShortName": "Apartment",
     "Path": "Apartment.bnk",
@@ -96,20 +96,20 @@
       "CachePath": "75/{75C149F1-74CE-E40E-3937-7D5D78EDCC7F}.wem"
      },
      {
-      "Id": "661953013",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "The World Behind Your Eyes (Gramophone) 3.wav",
-      "CachePath": "64/{64B46DB6-FB94-984F-7845-10B839ACB1A1}.wem"
-     },
-     {
       "Id": "872160095",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Fireplace.wav",
       "CachePath": "55/{557DEBEF-29C7-F4BD-9FA7-4A30C4E54628}.wem"
+     },
+     {
+      "Id": "1038962611",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "The World Behind Your Eyes (Gramophone) FINAL.wav",
+      "CachePath": "F9/{F98BB2F3-BDB5-CC56-0EDB-DFFE57E84042}.wem"
      }
     ],
     "Events": [
@@ -190,11 +190,11 @@
       "GUID": "{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}",
       "MaxAttenuation": "10",
       "DurationType": "OneShot",
-      "DurationMin": "116.620026",
-      "DurationMax": "116.620026",
+      "DurationMin": "117",
+      "DurationMax": "117",
       "MediaRefs": [
        {
-        "Id": "661953013"
+        "Id": "1038962611"
        }
       ]
      },
@@ -214,6 +214,6 @@
     ]
    }
   ],
-  "FileHash": "{5F59808A-E8E2-8BD7-AF27-F4C59C51F55A}"
+  "FileHash": "{0306D031-3F50-FD08-C7BA-594040D95ACE}"
  }
 }

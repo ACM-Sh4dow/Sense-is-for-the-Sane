@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: ede88cb9b519ad42b043b7baa79cad7e
     GuidInternal: 
-    m_lastTime: -8584282884683082776
+    m_lastTime: -8584281897013522420
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -130,7 +130,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584282892477087067
+    m_lastTime: -8584281897009853827
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -214,7 +214,7 @@ MonoBehaviour:
     ParentPath: Events\Ambient Events
     guid: d9117405b8a03a479061cbcba6ca8032
     GuidInternal: 
-    m_lastTime: -8584282894029448100
+    m_lastTime: -8584281897013602592
     List:
     - name: Apt_Clock
       guid: cc1102f1eea62044bdfd304ba4a2a9e5
@@ -299,8 +299,8 @@ MonoBehaviour:
         guid: 919ecae3d4e0c7409e1e26f0a2bf6c0c
       Path: Events\Ambient Events\Apt_Gramophone
       maxAttenuation: 10
-      maxDuration: 116.620026
-      minDuration: 116.620026
+      maxDuration: 117
+      minDuration: 117
     - name: Apt_Sink
       guid: 7743645a799fe244bc1c122ff672ae25
       id: 751812660
@@ -376,7 +376,7 @@ MonoBehaviour:
     ParentPath: Events\General Events
     guid: 1ff59692a3e328449b9b4c99fad941f7
     GuidInternal: 
-    m_lastTime: -8584285341325207718
+    m_lastTime: -8584284562368578020
     List:
     - name: Footstep
       guid: f5f61b65005eec4ebc2cb99851ab9555
@@ -464,7 +464,7 @@ MonoBehaviour:
     ParentPath: States\States WU
     guid: 7d31013722dbbd43af5130094b358f20
     GuidInternal: 
-    m_lastTime: -8584282886331163569
+    m_lastTime: -8584281897009843244
     List:
     - name: CurrentScene
       guid: b2df96403f43694dbaffd67984f6fb84
