@@ -8,7 +8,7 @@ public class Transition : MonoBehaviour, InteractionPoint
 
     public void Interact()
     {
-        ProtagonistController.Instance.transform.position += transitionDirection;
+        PlayerBehaviour.Instance.transform.position += transitionDirection;
         retrograde.SetActive(!retrograde.isActive);
     }
 }

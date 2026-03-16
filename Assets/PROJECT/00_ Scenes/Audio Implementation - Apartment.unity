@@ -90903,7 +90903,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2118472225}
         m_TargetAssemblyTypeName: InputHandler, Assembly-CSharp
-        m_MethodName: RecieveLookInput
+        m_MethodName: ReceiveLookInput
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

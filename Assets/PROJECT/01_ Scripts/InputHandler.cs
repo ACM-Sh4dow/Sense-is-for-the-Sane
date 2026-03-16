@@ -6,28 +6,53 @@ public class InputHandler : MonoBehaviour
 {
     public void ReceiveMovementInput(InputAction.CallbackContext input)
     {
-        ProtagonistController.SyncMovementInput(input);
+        if (input.started) PlayerBehaviour.Instance.Begin<Walking>();
+        if (input.canceled)
+        {
+            PlayerBehaviour.Instance.End<Walking>();
+            return;
+        }
+        
+        Walking.SyncInput(input.ReadValue<Vector2>());
     }
 
     public void ReceiveLookInput(InputAction.CallbackContext input)
     {
-        ProtagonistController.SyncLookInput(input.ReadValue<Vector2>());
+        if (input.started) PlayerBehaviour.Instance.Begin<Looking>();
+        if (input.canceled) 
+        {
+            PlayerBehaviour.Instance.End<Looking>();
+            return;
+        }
+        Looking.SyncInput(input.ReadValue<Vector2>());
     }
 
     public void ReceiveInteractInput(InputAction.CallbackContext input)
     {
-        if (!input.started) return;
+        float interactionRange = 5;
 
-        ProtagonistController.Interact();
-        if (ProtagonistController.Instance.perspectivePuzzle != null)
+        Ray centerRay = Camera.main.ScreenPointToRay(new Vector3(
+            Screen.width / 2,
+            Screen.height / 2,
+            0f));
+
+        if (Physics.Raycast(centerRay, out RaycastHit hitInfo , interactionRange))
         {
-            ProtagonistController.Instance.perspectivePuzzle.SolvePuzzle();
+            if (hitInfo.collider.TryGetComponent<InteractionPoint>(out InteractionPoint interaction))
+            {
+                interaction.Interact();
+            }
         }
+    }
+
+    public void ReceiveAlign(InputAction.CallbackContext input)
+    {
+        PerspectivePuzzleSolve.SolvePuzzle();
     }
 
     public void ReceiveManualAnimationInput(InputAction.CallbackContext input)
     {
-        if (!input.started && !input.canceled) return;
+        if (input is { started: false, canceled: false }) return;
 
         ManualAnimationProgression.SyncManualAnimationInput();
     }

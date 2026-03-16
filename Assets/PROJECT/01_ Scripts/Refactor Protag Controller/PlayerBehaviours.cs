@@ -2,27 +2,52 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JackBehaviour : MonoBehaviour
+public class PlayerBehaviour : MonoBehaviour
 {
+    #region Variables
     public List<Behaviour> CurrentBehaviours = new List<Behaviour>();
     
     public List<Behaviour> BehavioursToRemove = new List<Behaviour>();
     public List<Behaviour> BehavioursToAdd = new List<Behaviour>();
     
-    public static JackBehaviour Instance;
+    public static PlayerBehaviour Instance;
     
     public CapsuleCollider playerCollider;
     public LayerMask collisionLayers;
+    public Vector3 playerPosition;
+    public Quaternion playerRotation;
     
     public GameObject CameraHolder;
-
-    public void RunAll(List<Behaviour> behaviours)
+    #endregion
+    
+    #region Private Methods
+    private void RunAll(List<Behaviour> behaviours)
     {
         foreach (Behaviour behaviour in behaviours)
         {
             behaviour.Run();
         }
     }
+    private void ClearOldBehaviours()
+    {
+        foreach (Behaviour behaviour in BehavioursToRemove)
+        {
+            behaviour.End();
+            CurrentBehaviours.Remove(behaviour);
+        }
+        BehavioursToRemove.Clear();
+    }
+    private void AddNewBehaviours()
+    {
+        foreach (Behaviour behaviour in BehavioursToAdd)
+        {
+            behaviour.Begin();
+            CurrentBehaviours.Add(behaviour);
+        }
+        BehavioursToAdd.Clear();
+    }
+    #endregion
+    #region Public Methods
     public void Begin<T>() where T : Behaviour, new()
     {
         if (InState<T>()) return;
@@ -41,24 +66,6 @@ public class JackBehaviour : MonoBehaviour
             }
         }
     }
-    public void ClearOldBehaviours()
-    {
-        foreach (Behaviour behaviour in BehavioursToRemove)
-        {
-            behaviour.End();
-            CurrentBehaviours.Remove(behaviour);
-        }
-        BehavioursToRemove.Clear();
-    }
-    public void AddNewBehaviours()
-    {
-        foreach (Behaviour behaviour in BehavioursToAdd)
-        {
-            behaviour.Begin();
-            CurrentBehaviours.Add(behaviour);
-        }
-        BehavioursToAdd.Clear();
-    }
     public bool InState<T>() where T : Behaviour
     {
         foreach (Behaviour behaviour in CurrentBehaviours)
@@ -67,7 +74,7 @@ public class JackBehaviour : MonoBehaviour
         }
         return false;
     }
-
+    #endregion
     private void Start()
     {
         Instance = this;
@@ -79,5 +86,12 @@ public class JackBehaviour : MonoBehaviour
         RunAll(CurrentBehaviours);
         ClearOldBehaviours();
         AddNewBehaviours();
+
+        #region Update Positions & Rotations
+
+        playerPosition = transform.position;
+        playerRotation = transform.rotation;
+
+        #endregion
     }
 }
