@@ -71,10 +71,10 @@
 				</Event>
 				<Event Name="Fnrl_Organ" ID="{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}">
 					<ChildrenList>
-						<Action Name="" ID="{6BC3F98F-7153-48F0-B6F6-527DDD9E5614}" ShortID="168261419">
+						<Action Name="" ID="{CA4F0214-E019-443B-A179-3F52267B4E44}" ShortID="890630048">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Funeral_Amb_Organ" ID="{8B5523C6-3AA3-4D81-BC92-DC301F91D3A6}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+									<ObjectRef Name="Ravel Menuet Organ" ID="{3EBE1218-6351-4885-90AD-0727542F087F}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

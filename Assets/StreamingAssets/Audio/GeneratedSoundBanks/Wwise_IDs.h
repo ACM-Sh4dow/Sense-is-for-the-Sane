@@ -21,6 +21,7 @@ namespace AK
         static const AkUniqueID APT_SINK = 751812660U;
         static const AkUniqueID FNRL_ORGAN = 789063245U;
         static const AkUniqueID FNRL_THUNDERSTORM = 1084206483U;
+        static const AkUniqueID FNRL_TRANSITION = 2266869587U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
         static const AkUniqueID FOOTSTEP_SCRATCH = 1003760220U;
     } // namespace EVENTS

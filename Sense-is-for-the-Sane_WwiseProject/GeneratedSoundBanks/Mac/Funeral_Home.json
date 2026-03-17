@@ -10,11 +10,67 @@
     "Type": "User",
     "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
     "Language": "SFX",
-    "Hash": "{9054BC7D-6AC3-95A3-E157-D25996EC2A6A}",
+    "Hash": "{A506B10F-67DC-F5E7-710C-F1469E9D2409}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
     "ShortName": "Funeral_Home",
     "Path": "Funeral_Home.bnk",
     "Media": [
+     {
+      "Id": "16631637",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Exhale_003.wav",
+      "CachePath": "7D/{7D2A9971-5F2F-33B6-BDC5-EAAEF137F72A}.wem"
+     },
+     {
+      "Id": "276076711",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ravel Menuet Loop 2.wav",
+      "CachePath": "4E/{4ECEE229-4F7C-0C44-58B2-1674F7204355}.wem"
+     },
+     {
+      "Id": "277586871",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Exhale_002.wav",
+      "CachePath": "76/{76B3B84B-0C3D-1B44-5FE8-8E4E9985A00A}.wem"
+     },
+     {
+      "Id": "336069509",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Exhale_001.wav",
+      "CachePath": "3B/{3BA8AC10-DDA1-50E1-26A3-511F817C5DB4}.wem"
+     },
+     {
+      "Id": "417704821",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Inhale_002.wav",
+      "CachePath": "8D/{8D6A8315-23C9-2B75-902D-2BD2C9B22C02}.wem"
+     },
+     {
+      "Id": "485915409",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Inhale_001.wav",
+      "CachePath": "21/{21A6DC1D-1984-091E-7D72-C12C1A0786F0}.wem"
+     },
+     {
+      "Id": "741278934",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Inhale_003.wav",
+      "CachePath": "BE/{BE2F2CE9-412B-6880-C93A-F962CF3EB501}.wem"
+     },
      {
       "Id": "840959845",
       "Language": "SFX",
@@ -24,12 +80,12 @@
       "CachePath": "15/{156798CD-B2CE-6C02-F98A-F24F52919FA7}.wem"
      },
      {
-      "Id": "864067602",
+      "Id": "1062334412",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Funeral_Amb_Organ.wav",
-      "CachePath": "55/{556954D4-E69C-A13B-FBFE-1D3E93E84DCE}.wem"
+      "ShortName": "Ravel Menuet Loop 1.wav",
+      "CachePath": "50/{5005D548-2668-B7BB-D60C-EFF2D3EBB68A}.wem"
      }
     ],
     "Events": [
@@ -42,7 +98,10 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "864067602"
+        "Id": "276076711"
+       },
+       {
+        "Id": "1062334412"
        }
       ]
      },
@@ -57,11 +116,48 @@
        {
         "Id": "840959845"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "579784244",
+        "Name": "Reverb_FuneralHome",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_FuneralHome",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       }
+      ]
+     },
+     {
+      "Id": "2266869587",
+      "Name": "Fnrl_Transition",
+      "ObjectPath": "\\Events\\General Events\\Fnrl_Transition",
+      "GUID": "{3F85E934-BD61-4E41-BC35-937B2BC821BB}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.6228118",
+      "DurationMax": "4.259184",
+      "MediaRefs": [
+       {
+        "Id": "16631637"
+       },
+       {
+        "Id": "277586871"
+       },
+       {
+        "Id": "336069509"
+       },
+       {
+        "Id": "417704821"
+       },
+       {
+        "Id": "485915409"
+       },
+       {
+        "Id": "741278934"
+       }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{1DB9203F-996F-3530-3BE9-6ABEEB144C7B}"
+  "FileHash": "{C4B8019A-B05A-56CA-DBD1-CADD73877261}"
  }
 }

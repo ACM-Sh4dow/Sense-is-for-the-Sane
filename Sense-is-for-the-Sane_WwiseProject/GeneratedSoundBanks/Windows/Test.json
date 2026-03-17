@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAC7D741-2CC6-4571-91AE-B86C57B75FDF}",
     "Language": "SFX",
-    "Hash": "{855AAF8D-7EB8-33CD-76B5-DE46929C5DB0}",
+    "Hash": "{67A8F516-7ED6-40EC-E7AD-49086AEBC4A0}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_004.wav",
       "CachePath": "48/{484EFE33-1020-A02F-447B-7493CDC93136}.wem"
+     },
+     {
+      "Id": "16631637",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Exhale_003.wav",
+      "CachePath": "7D/{7D2A9971-5F2F-33B6-BDC5-EAAEF137F72A}.wem"
      },
      {
       "Id": "27089001",
@@ -96,6 +104,22 @@
       "CachePath": "0F/{0F594E1E-CD39-7A32-8840-4C7FA066566E}.wem"
      },
      {
+      "Id": "276076711",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ravel Menuet Loop 2.wav",
+      "CachePath": "4E/{4ECEE229-4F7C-0C44-58B2-1674F7204355}.wem"
+     },
+     {
+      "Id": "277586871",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Exhale_002.wav",
+      "CachePath": "76/{76B3B84B-0C3D-1B44-5FE8-8E4E9985A00A}.wem"
+     },
+     {
       "Id": "285034747",
       "Language": "SFX",
       "Streaming": "false",
@@ -110,6 +134,14 @@
       "Location": "Memory",
       "ShortName": "Clock Tick.wav",
       "CachePath": "8B/{8BA552AD-505E-355B-E962-1095047E7D66}.wem"
+     },
+     {
+      "Id": "336069509",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Exhale_001.wav",
+      "CachePath": "3B/{3BA8AC10-DDA1-50E1-26A3-511F817C5DB4}.wem"
      },
      {
       "Id": "352828321",
@@ -136,12 +168,28 @@
       "CachePath": "22/{228B9216-16BA-4ED6-865F-11B8D101A9CA}.wem"
      },
      {
+      "Id": "417704821",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Inhale_002.wav",
+      "CachePath": "8D/{8D6A8315-23C9-2B75-902D-2BD2C9B22C02}.wem"
+     },
+     {
       "Id": "449296932",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_002.wav",
       "CachePath": "5A/{5ABDEA1E-D732-3479-4427-E43D648A2439}.wem"
+     },
+     {
+      "Id": "485915409",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Inhale_001.wav",
+      "CachePath": "21/{21A6DC1D-1984-091E-7D72-C12C1A0786F0}.wem"
      },
      {
       "Id": "501430916",
@@ -200,20 +248,20 @@
       "CachePath": "01/{010B3AF5-0FD0-21FE-D65C-230DC32D3868}.wem"
      },
      {
+      "Id": "741278934",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Inhale_003.wav",
+      "CachePath": "BE/{BE2F2CE9-412B-6880-C93A-F962CF3EB501}.wem"
+     },
+     {
       "Id": "840959845",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Funeral_Ambience_Thunderstorm.wav",
       "CachePath": "15/{156798CD-B2CE-6C02-F98A-F24F52919FA7}.wem"
-     },
-     {
-      "Id": "864067602",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Funeral_Amb_Organ.wav",
-      "CachePath": "55/{556954D4-E69C-A13B-FBFE-1D3E93E84DCE}.wem"
      },
      {
       "Id": "872160095",
@@ -285,7 +333,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "The World Behind Your Eyes (Gramophone) FINAL.wav",
-      "CachePath": "F9/{F98BB2F3-BDB5-CC56-0EDB-DFFE57E84042}.wem"
+      "CachePath": "61/{611D3641-E652-0184-9E2F-04578FB73E5A}.wem"
      },
      {
       "Id": "1043232266",
@@ -294,6 +342,14 @@
       "Location": "Memory",
       "ShortName": "Footstep_Carpet_004.wav",
       "CachePath": "73/{73ECEFA4-577E-7622-FD63-C02921AF93DA}.wem"
+     },
+     {
+      "Id": "1062334412",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ravel Menuet Loop 1.wav",
+      "CachePath": "50/{5005D548-2668-B7BB-D60C-EFF2D3EBB68A}.wem"
      }
     ],
     "Events": [
@@ -404,7 +460,10 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "864067602"
+        "Id": "276076711"
+       },
+       {
+        "Id": "1062334412"
        }
       ]
      },
@@ -418,6 +477,43 @@
       "MediaRefs": [
        {
         "Id": "840959845"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "579784244",
+        "Name": "Reverb_FuneralHome",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_FuneralHome",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       }
+      ]
+     },
+     {
+      "Id": "2266869587",
+      "Name": "Fnrl_Transition",
+      "ObjectPath": "\\Events\\General Events\\Fnrl_Transition",
+      "GUID": "{3F85E934-BD61-4E41-BC35-937B2BC821BB}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.6228118",
+      "DurationMax": "4.259184",
+      "MediaRefs": [
+       {
+        "Id": "16631637"
+       },
+       {
+        "Id": "277586871"
+       },
+       {
+        "Id": "336069509"
+       },
+       {
+        "Id": "417704821"
+       },
+       {
+        "Id": "485915409"
+       },
+       {
+        "Id": "741278934"
        }
       ]
      },
@@ -644,6 +740,6 @@
     ]
    }
   ],
-  "FileHash": "{B6FDEFE3-EE2D-A96B-4228-BC3D3AE7D851}"
+  "FileHash": "{89BF4D2F-9858-9B0B-C23B-08A90014921C}"
  }
 }

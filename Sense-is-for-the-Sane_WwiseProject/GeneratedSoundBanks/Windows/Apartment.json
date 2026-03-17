@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9F2C9685-C3F4-4D21-9319-4FF075E9A3CD}",
     "Language": "SFX",
-    "Hash": "{40290E9F-2F36-B0B4-8E28-8035B27A5F6A}",
+    "Hash": "{AA6C1BA3-716F-C63A-5F8B-576E1105AE9B}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Apartment",
     "ShortName": "Apartment",
     "Path": "Apartment.bnk",
@@ -109,7 +109,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "The World Behind Your Eyes (Gramophone) FINAL.wav",
-      "CachePath": "F9/{F98BB2F3-BDB5-CC56-0EDB-DFFE57E84042}.wem"
+      "CachePath": "61/{611D3641-E652-0184-9E2F-04578FB73E5A}.wem"
      }
     ],
     "Events": [
@@ -214,6 +214,6 @@
     ]
    }
   ],
-  "FileHash": "{0306D031-3F50-FD08-C7BA-594040D95ACE}"
+  "FileHash": "{AE1AE62E-0D87-2375-82B4-F8F1D805CA56}"
  }
 }

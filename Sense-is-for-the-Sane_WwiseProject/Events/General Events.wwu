@@ -58,6 +58,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Fnrl_Transition" ID="{3F85E934-BD61-4E41-BC35-937B2BC821BB}">
+					<ChildrenList>
+						<Action Name="" ID="{6C606B95-FBCB-4504-8A12-D1AC429DC397}" ShortID="906234400">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Breaths" ID="{5BDE8D2C-611C-4B61-BD70-8794FBC8BDEB}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
