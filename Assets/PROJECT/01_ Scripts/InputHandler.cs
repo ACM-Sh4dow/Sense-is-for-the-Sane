@@ -4,6 +4,7 @@ using UnityEngine.Serialization;
 
 public class InputHandler : MonoBehaviour
 {
+    public Camera camera;
     public void ReceiveMovementInput(InputAction.CallbackContext input)
     {
         if (input.started) PlayerBehaviour.Instance.Begin<Walking>();
@@ -29,9 +30,11 @@ public class InputHandler : MonoBehaviour
 
     public void ReceiveInteractInput(InputAction.CallbackContext input)
     {
+        if (!input.started) return;
+
         float interactionRange = 5;
 
-        Ray centerRay = Camera.main.ScreenPointToRay(new Vector3(
+        Ray centerRay = camera.ScreenPointToRay(new Vector3(
             Screen.width / 2,
             Screen.height / 2,
             0f));
