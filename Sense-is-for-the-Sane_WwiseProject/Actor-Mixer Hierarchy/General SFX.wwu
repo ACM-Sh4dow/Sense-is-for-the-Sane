@@ -720,7 +720,7 @@
 						<RandomSequenceContainer Name="Floor Creaks" ID="{BA0423AB-F1AA-4938-82B6-2C7FBD3BC298}" ShortID="197637565">
 							<PropertyList>
 								<Property Name="3DPosition" Type="int16" Value="1"/>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
 										<Value>30</Value>
@@ -907,8 +907,10 @@
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.104114040163519"/>
 												<Property Name="FadeInShape" Type="int16" Value="8"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.281825538796027"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.146676804135766"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.645096044852107"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Footstep_Creak_002.wav</AudioFile>
@@ -1017,7 +1019,7 @@
 										<StateRef Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
 										<CustomState Name="" ID="{C061F154-902B-4629-B945-D470208412FB}" ShortID="267899346">
 											<PropertyList>
-												<Property Name="Highpass" Type="int16" Value="10"/>
+												<Property Name="Highpass" Type="int16" Value="7"/>
 												<Property Name="Pitch" Type="int32" Value="-800"/>
 												<Property Name="Volume" Type="Real64" Value="3"/>
 											</PropertyList>

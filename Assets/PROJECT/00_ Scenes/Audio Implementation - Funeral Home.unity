@@ -4653,6 +4653,106 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1316314040}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &861489451 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7738383649717645475, guid: ec123f1f06854314d8576ac3759dde8f, type: 3}
+  m_PrefabInstance: {fileID: 1246091438}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &861489456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861489451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fdbdb2fd6aa26642a4cea0000029d6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkTriggerExit
+  triggerObject: {fileID: 805364319}
+--- !u!114 &861489457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861489451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09c7be96fc4137e4bbf01ea3b4c46f78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkSwitch
+  triggerList: 3f2ff36a
+  useOtherObject: 1
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e39c95424455451499080761a4cf66b2, type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
+--- !u!114 &861489458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861489451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416d61425183da34c82fec7f08549f24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkTriggerEnter
+  triggerObject: {fileID: 805364319}
+--- !u!114 &861489459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861489451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09c7be96fc4137e4bbf01ea3b4c46f78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkSwitch
+  triggerList: f7f422d6
+  useOtherObject: 1
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 788a6510b7616a54aab0a184db93075e, type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
+--- !u!65 &861489460
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861489451}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.019999998, y: 0.019999996, z: -0.002}
+  m_Center: {x: 0, y: 0, z: 0.001}
 --- !u!1 &886400038
 GameObject:
   m_ObjectHideFlags: 0
@@ -5280,6 +5380,10 @@ PrefabInstance:
       propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ReceiveInteractInput
       objectReference: {fileID: 0}
+    - target: {fileID: 6433289225438412474, guid: dac9fedaf35bf4245b12f3c8069b1247, type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1732113599}
     - target: {fileID: 7989928153464783053, guid: dac9fedaf35bf4245b12f3c8069b1247, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -7553,7 +7657,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 3.03
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4428744803850660290, guid: ec123f1f06854314d8576ac3759dde8f, type: 3}
     m_RemovedGameObjects:
     - {fileID: 5378656381686998661, guid: ec123f1f06854314d8576ac3759dde8f, type: 3}
     - {fileID: 5080467501474822385, guid: ec123f1f06854314d8576ac3759dde8f, type: 3}
@@ -7590,7 +7695,22 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 57222925937047034, guid: ec123f1f06854314d8576ac3759dde8f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1711891401}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7738383649717645475, guid: ec123f1f06854314d8576ac3759dde8f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 861489460}
+    - targetCorrespondingSourceObject: {fileID: 7738383649717645475, guid: ec123f1f06854314d8576ac3759dde8f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 861489459}
+    - targetCorrespondingSourceObject: {fileID: 7738383649717645475, guid: ec123f1f06854314d8576ac3759dde8f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 861489458}
+    - targetCorrespondingSourceObject: {fileID: 7738383649717645475, guid: ec123f1f06854314d8576ac3759dde8f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 861489457}
+    - targetCorrespondingSourceObject: {fileID: 7738383649717645475, guid: ec123f1f06854314d8576ac3759dde8f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 861489456}
   m_SourcePrefab: {fileID: 100100000, guid: ec123f1f06854314d8576ac3759dde8f, type: 3}
 --- !u!43 &1249828302
 Mesh:
@@ -10446,6 +10566,11 @@ MonoBehaviour:
   scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!20 &1732113599 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 5486933195025069025, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
+  m_PrefabInstance: {fileID: 805364318}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1807111999
 GameObject:
   m_ObjectHideFlags: 0
@@ -11586,8 +11711,8 @@ MonoBehaviour:
   roomToneEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  roomToneAuxSend: 0
+    WwiseObjectReference: {fileID: 11400000, guid: 308ab25785d5b174b8a65885ad91cd80, type: 2}
+  roomToneAuxSend: 1
 --- !u!4 &1987167446 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7439431500304984903, guid: ec123f1f06854314d8576ac3759dde8f, type: 3}
@@ -12577,8 +12702,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.019999998, y: 0.019999996, z: -0.005}
-  m_Center: {x: 0, y: 0, z: 0.000059406648}
+  m_Size: {x: 0.019999998, y: 0.019999996, z: -0.002}
+  m_Center: {x: 0, y: 0, z: 0.001}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

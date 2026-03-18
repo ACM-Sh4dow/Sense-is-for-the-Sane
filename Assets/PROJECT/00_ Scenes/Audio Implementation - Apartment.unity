@@ -91259,6 +91259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adbc31159f92444699146d2ed1d78bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputHandler
+  camera: {fileID: 0}
 --- !u!114 &2118472226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92766,6 +92767,7 @@ GameObject:
   - component: {fileID: 2146642548}
   - component: {fileID: 2146642547}
   - component: {fileID: 2146642549}
+  - component: {fileID: 2146642550}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -92838,6 +92840,30 @@ MonoBehaviour:
   unloadTriggerList: 958ca0ea
   bankNameInternal: 
   valueGuidInternal: 
+--- !u!114 &2146642550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146642546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 557584b5663f1d0478dfbac3050a5638, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkState
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 322d2f004d73e3d4989681017b11ec33, type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
 --- !u!1001 &4503585437197942405
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -632,13 +632,13 @@
 											<PointList>
 												<Point>
 													<XPos>-50</XPos>
-													<YPos>0</YPos>
+													<YPos>10</YPos>
 													<Flags>12</Flags>
 													<Time>0</Time>
 												</Point>
 												<Point>
 													<XPos>50</XPos>
-													<YPos>0</YPos>
+													<YPos>10</YPos>
 													<Flags>0</Flags>
 													<Time>5000</Time>
 												</Point>
@@ -653,13 +653,13 @@
 											<PointList>
 												<Point>
 													<XPos>50</XPos>
-													<YPos>0</YPos>
+													<YPos>10</YPos>
 													<Flags>12</Flags>
 													<Time>0</Time>
 												</Point>
 												<Point>
 													<XPos>-50</XPos>
-													<YPos>0</YPos>
+													<YPos>10</YPos>
 													<Flags>0</Flags>
 													<Time>5000</Time>
 												</Point>
