@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{EF8B5A61-3A05-425E-5980-C2DDB55B237E}",
+    "Hash": "{3CFF9D82-16D5-F5EC-0A5A-0F7FF4D0744A}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -109,6 +109,14 @@
       }
      }
     ],
+    "GameParameters": [
+     {
+      "Id": "3895577369",
+      "Name": "VoidAmbPitch",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\VoidAmbPitch",
+      "GUID": "{0637F457-59EF-4A64-A851-7E4A97659893}"
+     }
+    ],
     "StateGroups": [
      {
       "Id": "2121736680",
@@ -193,6 +201,6 @@
     ]
    }
   ],
-  "FileHash": "{13FA0EDD-A5FF-1200-A687-4B0EF8760375}"
+  "FileHash": "{09031C7A-3266-32D1-31CB-CA8A6DC09AB2}"
  }
 }

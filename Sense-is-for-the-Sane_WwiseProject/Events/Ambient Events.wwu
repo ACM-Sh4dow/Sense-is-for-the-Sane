@@ -91,6 +91,37 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Fnrl_Organ_Pause" ID="{BF907AB0-5AFC-4334-801F-DDC3DFF36A05}">
+					<ChildrenList>
+						<Action Name="" ID="{1F07F7FB-50B7-40D0-98F1-0F903942249A}" ShortID="908921688">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ravel Menuet Organ" ID="{3EBE1218-6351-4885-90AD-0727542F087F}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6A61E9B7-2F82-482F-97F3-6520AE79D04A}" ShortID="1037932722">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+								<Property Name="Delay" Type="Real64" Value="0.3"/>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ravel Menuet Organ" ID="{3EBE1218-6351-4885-90AD-0727542F087F}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

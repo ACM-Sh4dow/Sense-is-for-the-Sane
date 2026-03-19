@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAC7D741-2CC6-4571-91AE-B86C57B75FDF}",
     "Language": "SFX",
-    "Hash": "{05DE4945-4559-233F-8305-10BF5280BF82}",
+    "Hash": "{67BB268F-A878-2A9A-3050-03F0C70130FC}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -277,7 +277,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep_Creak_002.wav",
-      "CachePath": "5E/{5E1BD76E-72E7-8AC8-CE0E-DE287FB32CCF}.wem"
+      "CachePath": "53/{5374BBDA-C560-3C69-CB09-9531B8D5B004}.wem"
      },
      {
       "Id": "915187023",
@@ -740,6 +740,6 @@
     ]
    }
   ],
-  "FileHash": "{61999B61-5FA9-A5D3-D2B7-0221CB667332}"
+  "FileHash": "{AFDCA2A9-3257-3AAF-6DC7-2FBA8A087A99}"
  }
 }

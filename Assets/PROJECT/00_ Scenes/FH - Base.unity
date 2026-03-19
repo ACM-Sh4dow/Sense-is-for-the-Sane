@@ -5459,7 +5459,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1832288291
 Transform:
   m_ObjectHideFlags: 0
@@ -6343,6 +6343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Transition
   transitionDirection: {x: 0, y: -3.56, z: 0}
   retrograde: {fileID: 856154793}
+  audioStateName: Normal
 --- !u!4 &4071676763232004018
 Transform:
   m_ObjectHideFlags: 0
@@ -6441,6 +6442,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Transition
   transitionDirection: {x: 0, y: 3.56, z: 0}
   retrograde: {fileID: 856154793}
+  audioStateName: Alternate
 --- !u!1 &6790226308635116233
 GameObject:
   m_ObjectHideFlags: 0

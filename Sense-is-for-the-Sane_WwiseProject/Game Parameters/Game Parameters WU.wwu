@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{99A3A7C4-D18B-4E78-A5FC-8D535B50CEEE}" SchemaVersion="123">
 	<GameParameters>
-		<WorkUnit Name="Game Parameters WU" ID="{99A3A7C4-D18B-4E78-A5FC-8D535B50CEEE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Game Parameters WU" ID="{99A3A7C4-D18B-4E78-A5FC-8D535B50CEEE}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="VoidAmbPitch" ID="{0637F457-59EF-4A64-A851-7E4A97659893}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="12"/>
+						<Property Name="Min" Type="Real64" Value="-12"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

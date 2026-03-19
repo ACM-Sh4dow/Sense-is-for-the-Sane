@@ -6,12 +6,13 @@
 				<ActorMixer Name="Footsteps" ID="{200D264E-2BF9-4FAB-83FB-B5057E63ABC0}" ShortID="292424213">
 					<PropertyList>
 						<Property Name="3DPosition" Type="int16" Value="2"/>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="GameAuxSendVolume" Type="Real64">
 							<ValueList>
 								<Value>2</Value>
 							</ValueList>
 						</Property>
+						<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
@@ -731,7 +732,6 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
-								<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 								<Property Name="Lowpass" Type="int16">
 									<ModifierList>
 										<ModifierInfo>
@@ -1041,7 +1041,7 @@
 										<Point>
 											<XPos>0</XPos>
 											<YPos>0</YPos>
-											<ZPos>2</ZPos>
+											<ZPos>-2</ZPos>
 											<Flags>12</Flags>
 											<Time>0</Time>
 										</Point>

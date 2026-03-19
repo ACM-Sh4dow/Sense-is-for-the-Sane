@@ -230,9 +230,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: cc1102f1eea62044bdfd304ba4a2a9e5
       Path: Events\Ambient Events\Apt_Clock
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 5
+      maxDuration: 0
+      minDuration: 0
     - name: Apt_Creaking
       guid: 278965721a42dd4db605ee4d528a914c
       id: 329135517
@@ -247,9 +247,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 278965721a42dd4db605ee4d528a914c
       Path: Events\Ambient Events\Apt_Creaking
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
     - name: Apt_Fireplace
       guid: fba755dd9346664aa895996329466b19
       id: 2202553018
@@ -264,9 +264,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: fba755dd9346664aa895996329466b19
       Path: Events\Ambient Events\Apt_Fireplace
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 5
+      maxDuration: 0
+      minDuration: 0
     - name: Apt_Fridge
       guid: 29e91bf951f6a244a96f6a1a868c61e4
       id: 2280025682
@@ -281,9 +281,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 29e91bf951f6a244a96f6a1a868c61e4
       Path: Events\Ambient Events\Apt_Fridge
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 5
+      maxDuration: 0
+      minDuration: 0
     - name: Apt_Gramophone
       guid: 919ecae3d4e0c7409e1e26f0a2bf6c0c
       id: 2839848505
@@ -298,9 +298,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 919ecae3d4e0c7409e1e26f0a2bf6c0c
       Path: Events\Ambient Events\Apt_Gramophone
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 10
+      maxDuration: 117
+      minDuration: 117
     - name: Apt_Sink
       guid: 7743645a799fe244bc1c122ff672ae25
       id: 751812660
@@ -315,9 +315,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 7743645a799fe244bc1c122ff672ae25
       Path: Events\Ambient Events\Apt_Sink
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 5
+      maxDuration: 0
+      minDuration: 0
     - name: Fnrl_Organ
       guid: 0bd17b976c9adb419fe4362ac1b5a8d3
       id: 789063245
@@ -332,9 +332,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0bd17b976c9adb419fe4362ac1b5a8d3
       Path: Events\Ambient Events\Fnrl_Organ
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
     - name: Fnrl_Thunderstorm
       guid: 33f48e742ea24e49927c79cfe002e9ff
       id: 1084206483
@@ -349,9 +349,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 33f48e742ea24e49927c79cfe002e9ff
       Path: Events\Ambient Events\Fnrl_Thunderstorm
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -376,7 +376,7 @@ MonoBehaviour:
     ParentPath: Events\General Events
     guid: 1ff59692a3e328449b9b4c99fad941f7
     GuidInternal: 
-    m_lastTime: -8584276750714120619
+    m_lastTime: -8584276690671498556
     List:
     - name: Fnrl_Transition
       guid: 34e9853f61bd414ebc35937b2bc821bb
@@ -393,8 +393,8 @@ MonoBehaviour:
         guid: 34e9853f61bd414ebc35937b2bc821bb
       Path: Events\General Events\Fnrl_Transition
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.259184
+      minDuration: 2.6228118
     - name: Footstep
       guid: f5f61b65005eec4ebc2cb99851ab9555
       id: 1866025847
@@ -409,6 +409,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: f5f61b65005eec4ebc2cb99851ab9555
       Path: Events\General Events\Footstep
+      maxAttenuation: 100
+      maxDuration: 1.6299093
+      minDuration: 1.2380754
+    - name: Footstep_Mirror
+      guid: 489196df7a2a7a4fbf5ae92b0ec7818e
+      id: 3956741547
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: General Events
+        ObjectType: 12
+        guid: 1ff59692a3e328449b9b4c99fad941f7
+      - ElementName: Footstep_Mirror
+        ObjectType: 3
+        guid: 489196df7a2a7a4fbf5ae92b0ec7818e
+      Path: Events\General Events\Footstep_Mirror
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -426,6 +443,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 26768d7e0683ec4e907257bfa5dbcc6c
       Path: Events\General Events\Footstep_Scratch
+      maxAttenuation: 100
+      maxDuration: 2.0249887
+      minDuration: 1.3667574
+    - name: TestFootstepMirror
+      guid: 9b768b25df2d814d9bdf86acdc764f7f
+      id: 1056145946
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: General Events
+        ObjectType: 12
+        guid: 1ff59692a3e328449b9b4c99fad941f7
+      - ElementName: TestFootstepMirror
+        ObjectType: 3
+        guid: 9b768b25df2d814d9bdf86acdc764f7f
+      Path: Events\General Events\TestFootstepMirror
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -454,8 +488,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Game Parameters WU
     guid: c4a7a3998bd1784ea5fc8d535b50ceee
     GuidInternal: 
-    m_lastTime: -8584291422323585794
-    List: []
+    m_lastTime: -8584276765350303578
+    List:
+    - name: VoidAmbPitch
+      guid: 57f43706ef59644aa8517e4a97659893
+      id: 3895577369
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Game Parameters WU
+        ObjectType: 12
+        guid: c4a7a3998bd1784ea5fc8d535b50ceee
+      - ElementName: VoidAmbPitch
+        ObjectType: 13
+        guid: 57f43706ef59644aa8517e4a97659893
+      Path: Game Parameters\Game Parameters WU\VoidAmbPitch
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -720,7 +768,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 5e6c65bc00e3d14d8cf646bbfd9c0af4
     GuidInternal: 
-    m_lastTime: -8584307446767933828
+    m_lastTime: -8584276763263330814
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 0200000003000000040000000500000006000000070000000b0000000c0000000d0000000f0000001300000014000000150000001600000017000000
