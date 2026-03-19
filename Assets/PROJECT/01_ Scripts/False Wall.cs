@@ -10,7 +10,7 @@ public class FalseWall : MonoBehaviour
 
     private void Start()
     {
-        camera = Camera.main;
+        camera = PlayerBehaviour.Instance.Camera;
         renderer = GetComponent<Renderer>();
         collider = gameObject.GetComponent<Collider>();
     }
@@ -29,6 +29,7 @@ public class FalseWall : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
+        if (!other.CompareTag("Player")) return;
         transform.parent.gameObject.SetActive(false);
     }
 

@@ -443,6 +443,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0, z: 0}
   playerRotation: {x: 0, y: 0, z: 0, w: 0}
   CameraHolder: {fileID: 1417287168784072518}
+  Camera: {fileID: 5486933195025069025}
 --- !u!114 &5720838414708838460
 MonoBehaviour:
   m_ObjectHideFlags: 0

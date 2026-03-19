@@ -18,6 +18,7 @@ public class PlayerBehaviour : MonoBehaviour
     public Quaternion playerRotation;
     
     public GameObject CameraHolder;
+    public Camera Camera;
     #endregion
     
     #region Private Methods
