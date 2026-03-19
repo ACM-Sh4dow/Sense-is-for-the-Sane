@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 6a1ba4cd252fc04e9a23c9c659d053c7
     GuidInternal: 
-    m_lastTime: -8584325029934480128
+    m_lastTime: -8584276645807618912
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: ede88cb9b519ad42b043b7baa79cad7e
     GuidInternal: 
-    m_lastTime: -8584276741045568636
+    m_lastTime: -8584276645819210609
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -117,7 +117,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a256c055eefeec45b9b376a6156165d8
     GuidInternal: 
-    m_lastTime: -8584325029934519455
+    m_lastTime: -8584276645807686961
     List: []
   - PhysicalPath: SoundBanks\Soundbanks WU.wwu
     PathAndIcons:
@@ -130,7 +130,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584276741039306435
+    m_lastTime: -8584276645807676964
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -214,7 +214,7 @@ MonoBehaviour:
     ParentPath: Events\Ambient Events
     guid: d9117405b8a03a479061cbcba6ca8032
     GuidInternal: 
-    m_lastTime: -8584276741045721678
+    m_lastTime: -8584276645819477000
     List:
     - name: Apt_Clock
       guid: cc1102f1eea62044bdfd304ba4a2a9e5
@@ -230,9 +230,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: cc1102f1eea62044bdfd304ba4a2a9e5
       Path: Events\Ambient Events\Apt_Clock
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 5
+      maxDuration: 0
+      minDuration: 0
     - name: Apt_Creaking
       guid: 278965721a42dd4db605ee4d528a914c
       id: 329135517
@@ -247,9 +247,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 278965721a42dd4db605ee4d528a914c
       Path: Events\Ambient Events\Apt_Creaking
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
     - name: Apt_Fireplace
       guid: fba755dd9346664aa895996329466b19
       id: 2202553018
@@ -264,9 +264,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: fba755dd9346664aa895996329466b19
       Path: Events\Ambient Events\Apt_Fireplace
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 5
+      maxDuration: 0
+      minDuration: 0
     - name: Apt_Fridge
       guid: 29e91bf951f6a244a96f6a1a868c61e4
       id: 2280025682
@@ -281,9 +281,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 29e91bf951f6a244a96f6a1a868c61e4
       Path: Events\Ambient Events\Apt_Fridge
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 5
+      maxDuration: 0
+      minDuration: 0
     - name: Apt_Gramophone
       guid: 919ecae3d4e0c7409e1e26f0a2bf6c0c
       id: 2839848505
@@ -298,9 +298,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 919ecae3d4e0c7409e1e26f0a2bf6c0c
       Path: Events\Ambient Events\Apt_Gramophone
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 10
+      maxDuration: 117
+      minDuration: 117
     - name: Apt_Sink
       guid: 7743645a799fe244bc1c122ff672ae25
       id: 751812660
@@ -315,9 +315,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 7743645a799fe244bc1c122ff672ae25
       Path: Events\Ambient Events\Apt_Sink
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 5
+      maxDuration: 0
+      minDuration: 0
     - name: Fnrl_Organ
       guid: 0bd17b976c9adb419fe4362ac1b5a8d3
       id: 789063245
@@ -332,9 +332,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0bd17b976c9adb419fe4362ac1b5a8d3
       Path: Events\Ambient Events\Fnrl_Organ
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
     - name: Fnrl_Thunderstorm
       guid: 33f48e742ea24e49927c79cfe002e9ff
       id: 1084206483
@@ -349,9 +349,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 33f48e742ea24e49927c79cfe002e9ff
       Path: Events\Ambient Events\Fnrl_Thunderstorm
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -363,7 +363,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 5cd231f69da5114cafe3abcbe28566f5
     GuidInternal: 
-    m_lastTime: -8584325029934713975
+    m_lastTime: -8584276645819466871
     List: []
   - PhysicalPath: Events\General Events.wwu
     PathAndIcons:
@@ -376,7 +376,7 @@ MonoBehaviour:
     ParentPath: Events\General Events
     guid: 1ff59692a3e328449b9b4c99fad941f7
     GuidInternal: 
-    m_lastTime: -8584276741045721678
+    m_lastTime: -8584276645819456890
     List:
     - name: Fnrl_Transition
       guid: 34e9853f61bd414ebc35937b2bc821bb
@@ -393,8 +393,8 @@ MonoBehaviour:
         guid: 34e9853f61bd414ebc35937b2bc821bb
       Path: Events\General Events\Fnrl_Transition
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.259184
+      minDuration: 2.6228118
     - name: Footstep
       guid: f5f61b65005eec4ebc2cb99851ab9555
       id: 1866025847
@@ -409,9 +409,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: f5f61b65005eec4ebc2cb99851ab9555
       Path: Events\General Events\Footstep
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 100
+      maxDuration: 1.6299093
+      minDuration: 1.2380754
     - name: Footstep_Scratch
       guid: 26768d7e0683ec4e907257bfa5dbcc6c
       id: 1003760220
@@ -426,9 +426,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 26768d7e0683ec4e907257bfa5dbcc6c
       Path: Events\General Events\Footstep_Scratch
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 100
+      maxDuration: 2.0249887
+      minDuration: 1.3667574
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -441,7 +441,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 6508ce08d333e444a17a29eba1f4fb11
     GuidInternal: 
-    m_lastTime: -8584325029934713975
+    m_lastTime: -8584276645819446596
     List: []
   - PhysicalPath: Game Parameters\Game Parameters WU.wwu
     PathAndIcons:
@@ -454,7 +454,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Game Parameters WU
     guid: c4a7a3998bd1784ea5fc8d535b50ceee
     GuidInternal: 
-    m_lastTime: -8584313075479445912
+    m_lastTime: -8584276645819431520
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -468,7 +468,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 2a8868259461934db03e1b9c72605ca7
     GuidInternal: 
-    m_lastTime: -8584325029934499445
+    m_lastTime: -8584276645807658961
     List: []
   - PhysicalPath: States\States WU.wwu
     PathAndIcons:
@@ -481,7 +481,7 @@ MonoBehaviour:
     ParentPath: States\States WU
     guid: 7d31013722dbbd43af5130094b358f20
     GuidInternal: 
-    m_lastTime: -8584276741039306435
+    m_lastTime: -8584276645807658961
     List:
     - name: CurrentScene
       guid: b2df96403f43694dbaffd67984f6fb84
@@ -627,7 +627,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 8e107472216dc4408dbacc42c7679e8d
     GuidInternal: 
-    m_lastTime: -8584325029934499445
+    m_lastTime: -8584276645807648908
     List: []
   - PhysicalPath: Switches\Switches WU.wwu
     PathAndIcons:
@@ -640,7 +640,7 @@ MonoBehaviour:
     ParentPath: Switches\Switches WU
     guid: a20079f489c43045be7add0633c9b245
     GuidInternal: 
-    m_lastTime: -8584279330704040264
+    m_lastTime: -8584276645807638911
     List:
     - name: FootstepsSwitch
       guid: 5730594340ad384db05ee3bbbf32e638
@@ -720,7 +720,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 5e6c65bc00e3d14d8cf646bbfd9c0af4
     GuidInternal: 
-    m_lastTime: -8584325029934485173
+    m_lastTime: -8584276645807628908
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 
