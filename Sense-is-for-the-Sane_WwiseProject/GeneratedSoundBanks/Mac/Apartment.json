@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9F2C9685-C3F4-4D21-9319-4FF075E9A3CD}",
     "Language": "SFX",
-    "Hash": "{AA6C1BA3-716F-C63A-5F8B-576E1105AE9B}",
+    "Hash": "{D6B7E2F2-DB02-466B-4649-2294B6D4C741}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Apartment",
     "ShortName": "Apartment",
     "Path": "Apartment.bnk",
@@ -116,7 +116,7 @@
      {
       "Id": "1056431533",
       "Name": "Apt_Clock",
-      "ObjectPath": "\\Events\\Ambient Events\\Apt_Clock",
+      "ObjectPath": "\\Events\\Apartment\\Apt_Clock",
       "GUID": "{F10211CC-A6EE-4420-BDFD-304BA4A2A9E5}",
       "MaxAttenuation": "5",
       "DurationType": "Infinite",
@@ -129,7 +129,7 @@
      {
       "Id": "329135517",
       "Name": "Apt_Creaking",
-      "ObjectPath": "\\Events\\Ambient Events\\Apt_Creaking",
+      "ObjectPath": "\\Events\\Apartment\\Apt_Creaking",
       "GUID": "{72658927-421A-4DDD-B605-EE4D528A914C}",
       "MaxAttenuation": "100",
       "DurationType": "Infinite",
@@ -160,7 +160,7 @@
      {
       "Id": "2202553018",
       "Name": "Apt_Fireplace",
-      "ObjectPath": "\\Events\\Ambient Events\\Apt_Fireplace",
+      "ObjectPath": "\\Events\\Apartment\\Apt_Fireplace",
       "GUID": "{DD55A7FB-4693-4A66-A895-996329466B19}",
       "MaxAttenuation": "5",
       "DurationType": "Infinite",
@@ -173,7 +173,7 @@
      {
       "Id": "2280025682",
       "Name": "Apt_Fridge",
-      "ObjectPath": "\\Events\\Ambient Events\\Apt_Fridge",
+      "ObjectPath": "\\Events\\Apartment\\Apt_Fridge",
       "GUID": "{F91BE929-F651-44A2-A96F-6A1A868C61E4}",
       "MaxAttenuation": "5",
       "DurationType": "Infinite",
@@ -186,7 +186,7 @@
      {
       "Id": "2839848505",
       "Name": "Apt_Gramophone",
-      "ObjectPath": "\\Events\\Ambient Events\\Apt_Gramophone",
+      "ObjectPath": "\\Events\\Apartment\\Apt_Gramophone",
       "GUID": "{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}",
       "MaxAttenuation": "10",
       "DurationType": "OneShot",
@@ -201,7 +201,7 @@
      {
       "Id": "751812660",
       "Name": "Apt_Sink",
-      "ObjectPath": "\\Events\\Ambient Events\\Apt_Sink",
+      "ObjectPath": "\\Events\\Apartment\\Apt_Sink",
       "GUID": "{5A644377-9F79-44E2-BC1C-122FF672AE25}",
       "MaxAttenuation": "5",
       "DurationType": "Infinite",
@@ -214,6 +214,6 @@
     ]
    }
   ],
-  "FileHash": "{8D7AA823-E143-9834-94B7-170B5EBB1754}"
+  "FileHash": "{65CEF35B-7887-564B-E833-D907903B39F1}"
  }
 }

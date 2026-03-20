@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
     "Language": "SFX",
-    "Hash": "{465F9F7C-0A96-8C18-7264-127F4488E9F5}",
+    "Hash": "{8FBBF900-366A-98E5-BF61-0F151F6A2693}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
     "ShortName": "Funeral_Home",
     "Path": "Funeral_Home.bnk",
@@ -22,6 +22,30 @@
       "Location": "Memory",
       "ShortName": "Breath_Exhale_003.wav",
       "CachePath": "7D/{7D2A9971-5F2F-33B6-BDC5-EAAEF137F72A}.wem"
+     },
+     {
+      "Id": "58712416",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep_Creak_004.wav",
+      "CachePath": "BF/{BF40A8D1-113F-62EF-D086-2E6C9D7A94F5}.wem"
+     },
+     {
+      "Id": "179374628",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Funeral_Mirror_Breathing.wav",
+      "CachePath": "52/{527EE326-00CF-0FCF-C043-40A45C46D012}.wem"
+     },
+     {
+      "Id": "200443766",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Basic_Footstep_001.wav",
+      "CachePath": "7F/{7FC6AC00-100F-8B2E-0046-CE318175A29B}.wem"
      },
      {
       "Id": "276076711",
@@ -64,6 +88,30 @@
       "CachePath": "21/{21A6DC1D-1984-091E-7D72-C12C1A0786F0}.wem"
      },
      {
+      "Id": "500564140",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Basic_Footstep_003.wav",
+      "CachePath": "FB/{FBD0D180-8141-854D-6792-A6C0449F42E4}.wem"
+     },
+     {
+      "Id": "541820834",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep_Creak_003.wav",
+      "CachePath": "FA/{FAB73F71-8DBD-3108-50EB-AE5AA2F23BFE}.wem"
+     },
+     {
+      "Id": "575360998",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep_Creak_001.wav",
+      "CachePath": "98/{988D5BF2-D510-26D1-5FAA-9028BAC728AF}.wem"
+     },
+     {
       "Id": "741278934",
       "Language": "SFX",
       "Streaming": "false",
@@ -72,12 +120,28 @@
       "CachePath": "BE/{BE2F2CE9-412B-6880-C93A-F962CF3EB501}.wem"
      },
      {
+      "Id": "774388882",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Basic_Footstep_002.wav",
+      "CachePath": "30/{30F61EC1-16D3-9007-5B1C-0E97244A8C3C}.wem"
+     },
+     {
       "Id": "840959845",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Funeral_Ambience_Thunderstorm.wav",
       "CachePath": "15/{156798CD-B2CE-6C02-F98A-F24F52919FA7}.wem"
+     },
+     {
+      "Id": "897507631",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep_Creak_002.wav",
+      "CachePath": "53/{5374BBDA-C560-3C69-CB09-9531B8D5B004}.wem"
      },
      {
       "Id": "1062334412",
@@ -90,9 +154,63 @@
     ],
     "Events": [
      {
+      "Id": "1736817776",
+      "Name": "Fnrl_Mirror_Breathing",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Mirror_Breathing",
+      "GUID": "{E6C0F4EC-AFAA-4EC8-8C9A-EE291FC65B35}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "179374628"
+       }
+      ]
+     },
+     {
+      "Id": "3801545580",
+      "Name": "Fnrl_Mirror_Footstep",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Mirror_Footstep",
+      "GUID": "{DF969148-2A7A-4F7A-BF5A-E92B0EC7818E}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1539447",
+      "DurationMax": "1.3479413",
+      "MediaRefs": [
+       {
+        "Id": "58712416"
+       },
+       {
+        "Id": "200443766"
+       },
+       {
+        "Id": "500564140"
+       },
+       {
+        "Id": "541820834"
+       },
+       {
+        "Id": "575360998"
+       },
+       {
+        "Id": "774388882"
+       },
+       {
+        "Id": "897507631"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "579784244",
+        "Name": "Reverb_FuneralHome",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_FuneralHome",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       }
+      ]
+     },
+     {
       "Id": "789063245",
       "Name": "Fnrl_Organ",
-      "ObjectPath": "\\Events\\Ambient Events\\Fnrl_Organ",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Organ",
       "GUID": "{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}",
       "MaxAttenuation": "100",
       "DurationType": "Infinite",
@@ -106,9 +224,19 @@
       ]
      },
      {
+      "Id": "3413802590",
+      "Name": "Fnrl_Organ_Pause",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Organ_Pause",
+      "GUID": "{BF907AB0-5AFC-4334-801F-DDC3DFF36A05}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "1084206483",
       "Name": "Fnrl_Thunderstorm",
-      "ObjectPath": "\\Events\\Ambient Events\\Fnrl_Thunderstorm",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Thunderstorm",
       "GUID": "{748EF433-A22E-494E-927C-79CFE002E9FF}",
       "MaxAttenuation": "100",
       "DurationType": "Infinite",
@@ -121,7 +249,7 @@
        {
         "Id": "579784244",
         "Name": "Reverb_FuneralHome",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_FuneralHome",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_FuneralHome",
         "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
        }
       ]
@@ -129,7 +257,7 @@
      {
       "Id": "2266869587",
       "Name": "Fnrl_Transition",
-      "ObjectPath": "\\Events\\General Events\\Fnrl_Transition",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Transition",
       "GUID": "{3F85E934-BD61-4E41-BC35-937B2BC821BB}",
       "DurationType": "OneShot",
       "DurationMin": "2.6228118",
@@ -155,9 +283,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3800925872",
+      "Name": "PuzzleDistance",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\PuzzleDistance",
+      "GUID": "{55BD23C9-D128-4C2A-B2F8-B1224C5F1FD8}"
+     }
     ]
    }
   ],
-  "FileHash": "{05394EB1-D276-6663-5B06-52B3081FD958}"
+  "FileHash": "{F8E349A9-748F-B290-FE85-F4F93FF5AC25}"
  }
 }

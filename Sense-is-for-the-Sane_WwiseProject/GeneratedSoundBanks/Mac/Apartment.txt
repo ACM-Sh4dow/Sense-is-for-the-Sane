@@ -1,22 +1,22 @@
 Event	ID	Name			Wwise Object Path	Notes
-	329135517	Apt_Creaking			\Ambient Events\Apt_Creaking	
-	751812660	Apt_Sink			\Ambient Events\Apt_Sink	
-	1056431533	Apt_Clock			\Ambient Events\Apt_Clock	
-	2202553018	Apt_Fireplace			\Ambient Events\Apt_Fireplace	
-	2280025682	Apt_Fridge			\Ambient Events\Apt_Fridge	
-	2839848505	Apt_Gramophone			\Ambient Events\Apt_Gramophone	
+	329135517	Apt_Creaking			\Apartment\Apt_Creaking	
+	751812660	Apt_Sink			\Apartment\Apt_Sink	
+	1056431533	Apt_Clock			\Apartment\Apt_Clock	
+	2202553018	Apt_Fireplace			\Apartment\Apt_Fireplace	
+	2280025682	Apt_Fridge			\Apartment\Apt_Fridge	
+	2839848505	Apt_Gramophone			\Apartment\Apt_Gramophone	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	9956793	Wooden_Creaking_Ambient_004	C:\Users\ACM Student\Documents\GitHub\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\48\{484EFE33-1020-A02F-447B-7493CDC93136}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Creaking Rand\Wooden_Creaking_Ambient_004		466920
-	62290821	Wooden_Creaking_Ambient_006	C:\Users\ACM Student\Documents\GitHub\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\81\{81A7A2C7-882C-2978-EB88-B27EC14E0B8B}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Creaking Rand\Wooden_Creaking_Ambient_006		352020
-	285034747	Wooden_Creaking_Ambient_007	C:\Users\ACM Student\Documents\GitHub\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\3E\{3EECB60C-8136-FCE4-3646-E33561A9295C}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Creaking Rand\Wooden_Creaking_Ambient_007		242336
-	302930732	Clock Tick	C:\Users\ACM Student\Documents\GitHub\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\8B\{8BA552AD-505E-355B-E962-1095047E7D66}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Clock Seq\Clock Tick		243828
-	352828321	Water_Drip	C:\Users\ACM Student\Documents\GitHub\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\5C\{5C2C9096-6BCE-80DF-62D1-772DEDDB6F1F}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Sink Dripping Seq\Water_Drip		81256
-	373803995	Wooden_Creaking_Ambient_008	C:\Users\ACM Student\Documents\GitHub\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\05\{057AA93A-B9A6-1D85-FCA8-64671A69E155}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Creaking Rand\Wooden_Creaking_Ambient_008		297152
-	395211181	Fridge_Buzz	C:\Users\ACM Student\Documents\GitHub\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\22\{228B9216-16BA-4ED6-865F-11B8D101A9CA}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Fridge_Buzz		5459164
-	449296932	Wooden_Creaking_Ambient_002	C:\Users\ACM Student\Documents\GitHub\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\5A\{5ABDEA1E-D732-3479-4427-E43D648A2439}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Creaking Rand\Wooden_Creaking_Ambient_002		329468
-	530166292	Wooden_Creaking_Ambient_003	C:\Users\ACM Student\Documents\GitHub\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\17\{17E3C15A-542A-B676-7E07-7302385F2DF9}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Creaking Rand\Wooden_Creaking_Ambient_003		506200
-	573529530	Wooden_Creaking_Ambient_001	C:\Users\ACM Student\Documents\GitHub\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\75\{75C149F1-74CE-E40E-3937-7D5D78EDCC7F}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Creaking Rand\Wooden_Creaking_Ambient_001		590688
-	872160095	Fireplace	C:\Users\ACM Student\Documents\GitHub\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\55\{557DEBEF-29C7-F4BD-9FA7-4A30C4E54628}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Fireplace		5309360
-	1038962611	Gramophone	C:\Users\ACM Student\Documents\GitHub\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\61\{611D3641-E652-0184-9E2F-04578FB73E5A}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Gramophone		20638896
+	9956793	Wooden_Creaking_Ambient_004	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\48\{484EFE33-1020-A02F-447B-7493CDC93136}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Creaking Rand\Wooden_Creaking_Ambient_004		466920
+	62290821	Wooden_Creaking_Ambient_006	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\81\{81A7A2C7-882C-2978-EB88-B27EC14E0B8B}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Creaking Rand\Wooden_Creaking_Ambient_006		352020
+	285034747	Wooden_Creaking_Ambient_007	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\3E\{3EECB60C-8136-FCE4-3646-E33561A9295C}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Creaking Rand\Wooden_Creaking_Ambient_007		242336
+	302930732	Clock Tick	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\8B\{8BA552AD-505E-355B-E962-1095047E7D66}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Clock Seq\Clock Tick		243828
+	352828321	Water_Drip	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\5C\{5C2C9096-6BCE-80DF-62D1-772DEDDB6F1F}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Sink Dripping Seq\Water_Drip		81256
+	373803995	Wooden_Creaking_Ambient_008	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\05\{057AA93A-B9A6-1D85-FCA8-64671A69E155}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Creaking Rand\Wooden_Creaking_Ambient_008		297152
+	395211181	Fridge_Buzz	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\22\{228B9216-16BA-4ED6-865F-11B8D101A9CA}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Fridge_Buzz		5459164
+	449296932	Wooden_Creaking_Ambient_002	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\5A\{5ABDEA1E-D732-3479-4427-E43D648A2439}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Creaking Rand\Wooden_Creaking_Ambient_002		329468
+	530166292	Wooden_Creaking_Ambient_003	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\17\{17E3C15A-542A-B676-7E07-7302385F2DF9}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Creaking Rand\Wooden_Creaking_Ambient_003		506200
+	573529530	Wooden_Creaking_Ambient_001	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\75\{75C149F1-74CE-E40E-3937-7D5D78EDCC7F}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Creaking Rand\Wooden_Creaking_Ambient_001		590688
+	872160095	Fireplace	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\55\{557DEBEF-29C7-F4BD-9FA7-4A30C4E54628}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Fireplace		5309360
+	1038962611	Gramophone	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\61\{611D3641-E652-0184-9E2F-04578FB73E5A}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Gramophone		20638896
 

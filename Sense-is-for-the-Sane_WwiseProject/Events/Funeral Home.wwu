@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Funeral Home" ID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Fnrl_Thunderstorm" ID="{748EF433-A22E-494E-927C-79CFE002E9FF}">
+					<ChildrenList>
+						<Action Name="" ID="{90B0F40E-E3DC-472D-8D91-A33F72CA399A}" ShortID="743044250">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Funeral_Ambience_Thunderstorm" ID="{3BE334AD-425A-4353-8638-25F082B86FBD}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fnrl_Organ" ID="{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}">
+					<ChildrenList>
+						<Action Name="" ID="{CA4F0214-E019-443B-A179-3F52267B4E44}" ShortID="890630048">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ravel Menuet Organ" ID="{3EBE1218-6351-4885-90AD-0727542F087F}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fnrl_Ambience_Pause" ID="{BF907AB0-5AFC-4334-801F-DDC3DFF36A05}">
+					<ChildrenList>
+						<Action Name="" ID="{1F07F7FB-50B7-40D0-98F1-0F903942249A}" ShortID="908921688">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{E7A93E93-08F5-4018-ABCB-463D6A26C406}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6A61E9B7-2F82-482F-97F3-6520AE79D04A}" ShortID="1037932722">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+								<Property Name="Delay" Type="Real64" Value="0.3"/>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{E7A93E93-08F5-4018-ABCB-463D6A26C406}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fnrl_Transition" ID="{3F85E934-BD61-4E41-BC35-937B2BC821BB}">
+					<ChildrenList>
+						<Action Name="" ID="{6C606B95-FBCB-4504-8A12-D1AC429DC397}" ShortID="906234400">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Breaths" ID="{5BDE8D2C-611C-4B61-BD70-8794FBC8BDEB}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fnrl_Mirror_Footstep" ID="{DF969148-2A7A-4F7A-BF5A-E92B0EC7818E}">
+					<ChildrenList>
+						<Action Name="" ID="{C9D8CEB0-EAA5-49BC-B9FB-23BF18628D26}" ShortID="521661901">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.075"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mirror Footsteps" ID="{97639639-4F9A-4634-8959-98AC7C998F4E}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A822F422-B66B-4ADE-BD61-63494BEE7CB7}" ShortID="61741761">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Probability" Type="Real64" Value="20"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Floor Creaks" ID="{BA0423AB-F1AA-4938-82B6-2C7FBD3BC298}" WorkUnitID="{5617E81F-15D7-467B-96EE-EEF11E47BC75}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fnrl_Mirror_Breathing" ID="{E6C0F4EC-AFAA-4EC8-8C9A-EE291FC65B35}">
+					<ChildrenList>
+						<Action Name="" ID="{F3E14821-1872-4237-9CBC-5F971D466263}" ShortID="738477697">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Funeral_Mirror_Breathing" ID="{173E51BA-2D88-4C0F-8AE1-AA9A9E5E731B}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

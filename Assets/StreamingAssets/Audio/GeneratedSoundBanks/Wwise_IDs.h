@@ -19,7 +19,10 @@ namespace AK
         static const AkUniqueID APT_FRIDGE = 2280025682U;
         static const AkUniqueID APT_GRAMOPHONE = 2839848505U;
         static const AkUniqueID APT_SINK = 751812660U;
+        static const AkUniqueID FNRL_MIRROR_BREATHING = 1736817776U;
+        static const AkUniqueID FNRL_MIRROR_FOOTSTEP = 3801545580U;
         static const AkUniqueID FNRL_ORGAN = 789063245U;
+        static const AkUniqueID FNRL_ORGAN_PAUSE = 3413802590U;
         static const AkUniqueID FNRL_THUNDERSTORM = 1084206483U;
         static const AkUniqueID FNRL_TRANSITION = 2266869587U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
@@ -72,6 +75,7 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID PUZZLEDISTANCE = 3800925872U;
         static const AkUniqueID VOIDAMBPITCH = 3895577369U;
     } // namespace GAME_PARAMETERS
 
@@ -79,15 +83,19 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID APARTMENT = 4154495109U;
-        static const AkUniqueID CLINIC = 839997033U;
         static const AkUniqueID FUNERAL_HOME = 3934820040U;
+        static const AkUniqueID GENERAL = 133642231U;
         static const AkUniqueID TEST = 3157003241U;
         static const AkUniqueID VOID = 3370470011U;
     } // namespace BANKS
 
     namespace BUSSES
     {
+        static const AkUniqueID AMBIENCE = 85412153U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID PLAYER = 1069431850U;
+        static const AkUniqueID REVERB = 348963605U;
+        static const AkUniqueID WORLD = 2609808943U;
     } // namespace BUSSES
 
     namespace AUX_BUSSES

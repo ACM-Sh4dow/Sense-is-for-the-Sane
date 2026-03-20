@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{FDDDAE17-0D00-4B01-8338-BFA5961E1172}" SchemaVersion="123" RootDocumentID="{BF741298-DE34-4CC2-A30E-67805D71477A}" ParentDocumentID="{BF741298-DE34-4CC2-A30E-67805D71477A}">
-	<AudioObjects>
-		<WorkUnit Name="Clinic" ID="{FDDDAE17-0D00-4B01-8338-BFA5961E1172}" OwnerID="{BF741298-DE34-4CC2-A30E-67805D71477A}" PersistMode="Nested"/>
-	</AudioObjects>
-</WwiseDocument>

@@ -10,6 +10,12 @@
 						<Property Name="Min" Type="Real64" Value="-12"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="PuzzleDistance" ID="{55BD23C9-D128-4C2A-B2F8-B1224C5F1FD8}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="2"/>
+						<Property Name="Max" Type="Real64" Value="3"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BAC012F6-E6DD-4F2B-8309-3679909AE332}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Tests" ID="{BAC012F6-E6DD-4F2B-8309-3679909AE332}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="TestFootstepMirror" ID="{258B769B-2DDF-4D81-9BDF-86ACDC764F7F}">
+					<ChildrenList>
+						<Action Name="" ID="{C2EE0B49-1590-4AD7-BC0A-E85FB5BD13B7}" ShortID="668011351">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstep" ID="{651BF6F5-5E00-4EEC-BC2C-B99851AB9555}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{372CBFD1-C006-444A-ADB8-931C2C8FE414}" ShortID="319231507">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fnrl_Mirror_Footstep" ID="{DF969148-2A7A-4F7A-BF5A-E92B0EC7818E}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

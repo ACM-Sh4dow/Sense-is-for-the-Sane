@@ -7,7 +7,6 @@
 				<WorkUnit Name="Apartment" ID="{A692D158-CB31-48BD-AAB0-5A0CC3E6E356}" PersistMode="Reference"/>
 				<WorkUnit Name="Funeral Home" ID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}" PersistMode="Reference"/>
 				<WorkUnit Name="Void" ID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}" PersistMode="Reference"/>
-				<WorkUnit Name="Clinic" ID="{FDDDAE17-0D00-4B01-8338-BFA5961E1172}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

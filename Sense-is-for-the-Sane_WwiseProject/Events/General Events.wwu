@@ -56,62 +56,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Fnrl_Transition" ID="{3F85E934-BD61-4E41-BC35-937B2BC821BB}">
-					<ChildrenList>
-						<Action Name="" ID="{6C606B95-FBCB-4504-8A12-D1AC429DC397}" ShortID="906234400">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Breaths" ID="{5BDE8D2C-611C-4B61-BD70-8794FBC8BDEB}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Footstep_Mirror" ID="{DF969148-2A7A-4F7A-BF5A-E92B0EC7818E}">
-					<ChildrenList>
-						<Action Name="" ID="{C9D8CEB0-EAA5-49BC-B9FB-23BF18628D26}" ShortID="521661901">
+						<Action Name="" ID="{94A902C7-85C4-4965-A00C-F92AEAABB421}" ShortID="631140472">
 							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="0.075"/>
+								<Property Name="Delay" Type="Real64" Value="0.07"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Mirror Footsteps" ID="{97639639-4F9A-4634-8959-98AC7C998F4E}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{A822F422-B66B-4ADE-BD61-63494BEE7CB7}" ShortID="61741761">
-							<PropertyList>
-								<Property Name="Probability" Type="Real64" Value="20"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Floor Creaks" ID="{BA0423AB-F1AA-4938-82B6-2C7FBD3BC298}" WorkUnitID="{5617E81F-15D7-467B-96EE-EEF11E47BC75}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="TestFootstepMirror" ID="{258B769B-2DDF-4D81-9BDF-86ACDC764F7F}">
-					<ChildrenList>
-						<Action Name="" ID="{C2EE0B49-1590-4AD7-BC0A-E85FB5BD13B7}" ShortID="668011351">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="41"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Footstep" ID="{651BF6F5-5E00-4EEC-BC2C-B99851AB9555}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{372CBFD1-C006-444A-ADB8-931C2C8FE414}" ShortID="319231507">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="41"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Footstep_Mirror" ID="{DF969148-2A7A-4F7A-BF5A-E92B0EC7818E}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

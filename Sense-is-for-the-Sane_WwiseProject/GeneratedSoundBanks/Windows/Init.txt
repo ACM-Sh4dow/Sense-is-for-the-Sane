@@ -11,12 +11,16 @@ State	ID	Name	State Group			Notes
 	2915544473	Alternate	FuneralHomeVersion			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\Ambience	
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
+	1069431850	Player			\Default Work Unit\Master Audio Bus\Player	
+	2609808943	World			\Default Work Unit\Master Audio Bus\World	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	579784244	Reverb_FuneralHome			\Default Work Unit\Master Audio Bus\Reverb_FuneralHome	
-	624627402	Reverb_Apartment			\Default Work Unit\Master Audio Bus\Reverb_Apartment	
-	2057947822	Reverb_Void			\Default Work Unit\Master Audio Bus\Reverb_Void	
+	579784244	Reverb_FuneralHome			\Default Work Unit\Master Audio Bus\Reverb\Reverb_FuneralHome	
+	624627402	Reverb_Apartment			\Default Work Unit\Master Audio Bus\Reverb\Reverb_Apartment	
+	2057947822	Reverb_Void			\Default Work Unit\Master Audio Bus\Reverb\Reverb_Void	
 
 Effect plug-ins	ID	Name	Type				Notes
 	484890516	Church_Small_Wood	Wwise RoomVerb			
