@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 6a1ba4cd252fc04e9a23c9c659d053c7
     GuidInternal: 
-    m_lastTime: -8584307446767906118
+    m_lastTime: -8584276645807618912
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: ede88cb9b519ad42b043b7baa79cad7e
     GuidInternal: 
-    m_lastTime: -8584276750713989463
+    m_lastTime: -8584276645819210609
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -117,7 +117,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a256c055eefeec45b9b376a6156165d8
     GuidInternal: 
-    m_lastTime: -8584307446767962855
+    m_lastTime: -8584276645807686961
     List: []
   - PhysicalPath: SoundBanks\Soundbanks WU.wwu
     PathAndIcons:
@@ -130,7 +130,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584276750710098796
+    m_lastTime: -8584276645807676964
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -214,7 +214,7 @@ MonoBehaviour:
     ParentPath: Events\Ambient Events
     guid: d9117405b8a03a479061cbcba6ca8032
     GuidInternal: 
-    m_lastTime: -8584276750714130604
+    m_lastTime: -8584276645819477000
     List:
     - name: Apt_Clock
       guid: cc1102f1eea62044bdfd304ba4a2a9e5
@@ -363,7 +363,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 5cd231f69da5114cafe3abcbe28566f5
     GuidInternal: 
-    m_lastTime: -8584307446772264416
+    m_lastTime: -8584276645819466871
     List: []
   - PhysicalPath: Events\General Events.wwu
     PathAndIcons:
@@ -376,7 +376,7 @@ MonoBehaviour:
     ParentPath: Events\General Events
     guid: 1ff59692a3e328449b9b4c99fad941f7
     GuidInternal: 
-    m_lastTime: -8584276690671498556
+    m_lastTime: -8584276645819456890
     List:
     - name: Fnrl_Transition
       guid: 34e9853f61bd414ebc35937b2bc821bb
@@ -412,23 +412,6 @@ MonoBehaviour:
       maxAttenuation: 100
       maxDuration: 1.6299093
       minDuration: 1.2380754
-    - name: Footstep_Mirror
-      guid: 489196df7a2a7a4fbf5ae92b0ec7818e
-      id: 3956741547
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: General Events
-        ObjectType: 12
-        guid: 1ff59692a3e328449b9b4c99fad941f7
-      - ElementName: Footstep_Mirror
-        ObjectType: 3
-        guid: 489196df7a2a7a4fbf5ae92b0ec7818e
-      Path: Events\General Events\Footstep_Mirror
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
     - name: Footstep_Scratch
       guid: 26768d7e0683ec4e907257bfa5dbcc6c
       id: 1003760220
@@ -446,23 +429,6 @@ MonoBehaviour:
       maxAttenuation: 100
       maxDuration: 2.0249887
       minDuration: 1.3667574
-    - name: TestFootstepMirror
-      guid: 9b768b25df2d814d9bdf86acdc764f7f
-      id: 1056145946
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: General Events
-        ObjectType: 12
-        guid: 1ff59692a3e328449b9b4c99fad941f7
-      - ElementName: TestFootstepMirror
-        ObjectType: 3
-        guid: 9b768b25df2d814d9bdf86acdc764f7f
-      Path: Events\General Events\TestFootstepMirror
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -475,7 +441,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 6508ce08d333e444a17a29eba1f4fb11
     GuidInternal: 
-    m_lastTime: -8584307446772251342
+    m_lastTime: -8584276645819446596
     List: []
   - PhysicalPath: Game Parameters\Game Parameters WU.wwu
     PathAndIcons:
@@ -488,22 +454,8 @@ MonoBehaviour:
     ParentPath: Game Parameters\Game Parameters WU
     guid: c4a7a3998bd1784ea5fc8d535b50ceee
     GuidInternal: 
-    m_lastTime: -8584276765350303578
-    List:
-    - name: VoidAmbPitch
-      guid: 57f43706ef59644aa8517e4a97659893
-      id: 3895577369
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Game Parameters WU
-        ObjectType: 12
-        guid: c4a7a3998bd1784ea5fc8d535b50ceee
-      - ElementName: VoidAmbPitch
-        ObjectType: 13
-        guid: 57f43706ef59644aa8517e4a97659893
-      Path: Game Parameters\Game Parameters WU\VoidAmbPitch
+    m_lastTime: -8584276645819431520
+    List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -516,7 +468,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 2a8868259461934db03e1b9c72605ca7
     GuidInternal: 
-    m_lastTime: -8584307446767944198
+    m_lastTime: -8584276645807658961
     List: []
   - PhysicalPath: States\States WU.wwu
     PathAndIcons:
@@ -529,7 +481,7 @@ MonoBehaviour:
     ParentPath: States\States WU
     guid: 7d31013722dbbd43af5130094b358f20
     GuidInternal: 
-    m_lastTime: -8584276750710093493
+    m_lastTime: -8584276645807658961
     List:
     - name: CurrentScene
       guid: b2df96403f43694dbaffd67984f6fb84
@@ -675,7 +627,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 8e107472216dc4408dbacc42c7679e8d
     GuidInternal: 
-    m_lastTime: -8584307446767933828
+    m_lastTime: -8584276645807648908
     List: []
   - PhysicalPath: Switches\Switches WU.wwu
     PathAndIcons:
@@ -688,7 +640,7 @@ MonoBehaviour:
     ParentPath: Switches\Switches WU
     guid: a20079f489c43045be7add0633c9b245
     GuidInternal: 
-    m_lastTime: -8584282886657394701
+    m_lastTime: -8584276645807638911
     List:
     - name: FootstepsSwitch
       guid: 5730594340ad384db05ee3bbbf32e638
@@ -768,10 +720,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 5e6c65bc00e3d14d8cf646bbfd9c0af4
     GuidInternal: 
-    m_lastTime: -8584276763263330814
+    m_lastTime: -8584276645807628908
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0200000003000000040000000500000006000000070000000b0000000c0000000d0000000f0000001300000014000000150000001600000017000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
