@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class PerspectivePuzzleSolve : MonoBehaviour, Puzzle
+public class PerspectivePuzzleSolve : Puzzle
 {
     #region Variables
 
@@ -14,42 +14,39 @@ public class PerspectivePuzzleSolve : MonoBehaviour, Puzzle
     [SerializeField] private GameObject[] puzzleComponents;
     [SerializeField] private GameObject puzzleResult;
 
-    private enum PuzzleState : byte
-    {
-        notSolvable,
-        solvable, 
-        solved,
-        fullyResolved
-    }
-
-    private static PuzzleState state;
-
+    private static bool puzzleSolveAttempted = false;
     #endregion
     
     #region Solving
-    public static void SolvePuzzle()
-    {
-        if (state == PuzzleState.solved) return;
 
-        if (state == PuzzleState.solvable)
+    public static void AttemptPuzzle()
+    {
+        puzzleSolveAttempted = true;
+    }
+    public void SolvePuzzle()
+    {
+        if (state == Puzzle.State.solved) return;
+
+        if (state == Puzzle.State.solvable)
         {
-            state = PuzzleState.solved;
+            state = Puzzle.State.solved;
         }
     }
+
     private void CheckPuzzleSolution()
     {
-        if (state == PuzzleState.solved) return;
+        if (state == Puzzle.State.solved) return;
 
         if ((Vector3.Distance(PlayerBehaviour.Instance.playerPosition, puzzleSolution.transform.position) <=
              distanceTolerance)
             && Quaternion.Dot(PlayerBehaviour.Instance.playerRotation.normalized, puzzleSolution.transform.rotation.normalized) <=
             angleTolerance)
         {
-            state = PuzzleState.solvable;
+            state = Puzzle.State.solvable;
         }
         else
         {
-            state = PuzzleState.notSolvable;
+            state = Puzzle.State.notSolvable;
         }
     }
     #endregion
@@ -57,8 +54,8 @@ public class PerspectivePuzzleSolve : MonoBehaviour, Puzzle
     private void Update()
     {
         #region Completion
-        if (state == PuzzleState.fullyResolved) return;
-        if (state == PuzzleState.solved)
+        if (state == Puzzle.State.fullyResolved) return;
+        if (state == Puzzle.State.solved)
         {
             puzzleResult.SetActive(true);
 
@@ -67,7 +64,7 @@ public class PerspectivePuzzleSolve : MonoBehaviour, Puzzle
                 puzzleComponent.SetActive(false);
             }
             
-           state =  PuzzleState.fullyResolved; 
+           state =  Puzzle.State.fullyResolved; 
             
            // REGISTER COMPLETION
            return;
@@ -75,5 +72,11 @@ public class PerspectivePuzzleSolve : MonoBehaviour, Puzzle
         #endregion
         
         CheckPuzzleSolution();
+
+        if (puzzleSolveAttempted == true)
+        {
+            SolvePuzzle();
+            puzzleSolveAttempted = false;
+        }
     }
 }
