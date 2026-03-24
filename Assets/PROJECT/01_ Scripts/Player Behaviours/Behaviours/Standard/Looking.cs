@@ -63,10 +63,11 @@ public class Looking : Behaviour
             PlayerBehaviour.Instance.End<Looking>();
             return;
         }
+        staleInput = input;
         #endregion
         #region Get Targets
-        targetYaw += input.x * sensitivity * Time.deltaTime;
-        targetPitch -= input.y * sensitivity * Time.deltaTime;
+        targetYaw += input.x * sensitivity;
+        targetPitch -= input.y * sensitivity;
         targetPitch = ClampAngle(targetPitch);
         #endregion
         
@@ -80,8 +81,6 @@ public class Looking : Behaviour
             targetYaw,
             0);
         #endregion
-
-        staleInput = input;
     }
 
     public void End()
