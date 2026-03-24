@@ -19,11 +19,14 @@ namespace AK
         static const AkUniqueID APT_FRIDGE = 2280025682U;
         static const AkUniqueID APT_GRAMOPHONE = 2839848505U;
         static const AkUniqueID APT_SINK = 751812660U;
+        static const AkUniqueID FNRL_AMB_PAUSE = 2963388045U;
+        static const AkUniqueID FNRL_AMB_THUNDERSTORM = 1612838152U;
         static const AkUniqueID FNRL_MIRROR_BREATHING = 1736817776U;
         static const AkUniqueID FNRL_MIRROR_FOOTSTEP = 3801545580U;
-        static const AkUniqueID FNRL_ORGAN = 789063245U;
-        static const AkUniqueID FNRL_ORGAN_PAUSE = 3413802590U;
-        static const AkUniqueID FNRL_THUNDERSTORM = 1084206483U;
+        static const AkUniqueID FNRL_MUS_ORGAN = 1578407477U;
+        static const AkUniqueID FNRL_MUS_PIANO = 2549568769U;
+        static const AkUniqueID FNRL_MUS_STRINGS = 3506702008U;
+        static const AkUniqueID FNRL_MUS_WINDS = 3153082963U;
         static const AkUniqueID FNRL_TRANSITION = 2266869587U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
         static const AkUniqueID FOOTSTEP_SCRATCH = 1003760220U;
@@ -55,6 +58,19 @@ namespace AK
             } // namespace STATE
         } // namespace FUNERALHOMEVERSION
 
+        namespace PUZZLESCOMPLETED
+        {
+            static const AkUniqueID GROUP = 3649513479U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID ONE = 1064933119U;
+                static const AkUniqueID TWO = 678209053U;
+                static const AkUniqueID ZERO = 766521211U;
+            } // namespace STATE
+        } // namespace PUZZLESCOMPLETED
+
     } // namespace STATES
 
     namespace SWITCHES
@@ -75,7 +91,7 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
-        static const AkUniqueID PUZZLEDISTANCE = 3800925872U;
+        static const AkUniqueID DISTANCEFROMTARGET = 1768319275U;
         static const AkUniqueID VOIDAMBPITCH = 3895577369U;
     } // namespace GAME_PARAMETERS
 
@@ -93,6 +109,7 @@ namespace AK
     {
         static const AkUniqueID AMBIENCE = 85412153U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID PLAYER = 1069431850U;
         static const AkUniqueID REVERB = 348963605U;
         static const AkUniqueID WORLD = 2609808943U;

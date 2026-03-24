@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{39E76D16-3659-462C-8AE1-BE0B06954A63}",
     "Language": "SFX",
-    "Hash": "{0DDF3BF3-6268-79CC-D1EE-7B657F36B731}",
+    "Hash": "{DAF5A422-73BF-6977-0F89-568148628B3F}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\General",
     "ShortName": "General",
     "Path": "General.bnk",
@@ -72,28 +72,12 @@
       "CachePath": "1A/{1A124A26-3F3D-ED78-A712-042705634F98}.wem"
      },
      {
-      "Id": "200443766",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Basic_Footstep_001.wav",
-      "CachePath": "7F/{7FC6AC00-100F-8B2E-0046-CE318175A29B}.wem"
-     },
-     {
       "Id": "274169833",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep_Void_05.wav",
       "CachePath": "0F/{0F594E1E-CD39-7A32-8840-4C7FA066566E}.wem"
-     },
-     {
-      "Id": "500564140",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Basic_Footstep_003.wav",
-      "CachePath": "FB/{FBD0D180-8141-854D-6792-A6C0449F42E4}.wem"
      },
      {
       "Id": "501430916",
@@ -134,14 +118,6 @@
       "Location": "Memory",
       "ShortName": "Footstep_Scratch_002.wav",
       "CachePath": "01/{010B3AF5-0FD0-21FE-D65C-230DC32D3868}.wem"
-     },
-     {
-      "Id": "774388882",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Basic_Footstep_002.wav",
-      "CachePath": "30/{30F61EC1-16D3-9007-5B1C-0E97244A8C3C}.wem"
      },
      {
       "Id": "897507631",
@@ -223,30 +199,13 @@
         "Id": "58712416"
        },
        {
-        "Id": "200443766"
-       },
-       {
-        "Id": "500564140"
-       },
-       {
         "Id": "541820834"
        },
        {
         "Id": "575360998"
        },
        {
-        "Id": "774388882"
-       },
-       {
         "Id": "897507631"
-       }
-      ],
-      "AuxBusRefs": [
-       {
-        "Id": "579784244",
-        "Name": "Reverb_FuneralHome",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_FuneralHome",
-        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
        }
       ],
       "SwitchContainers": [
@@ -419,14 +378,6 @@
       ]
      }
     ],
-    "GameParameters": [
-     {
-      "Id": "3800925872",
-      "Name": "PuzzleDistance",
-      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\PuzzleDistance",
-      "GUID": "{55BD23C9-D128-4C2A-B2F8-B1224C5F1FD8}"
-     }
-    ],
     "SwitchGroups": [
      {
       "Id": "3586861854",
@@ -457,6 +408,6 @@
     ]
    }
   ],
-  "FileHash": "{245E4392-B6BD-A0FD-A002-0B144E95E784}"
+  "FileHash": "{86BD134A-E877-F151-BA89-337B6205D3CC}"
  }
 }

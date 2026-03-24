@@ -27,6 +27,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="TestFnrlMusic" ID="{58650438-C1AA-4E65-9412-3C22B64073A1}">
+					<ChildrenList>
+						<Action Name="" ID="{A25221CF-E9E7-4B9B-B312-157114C9A5E6}" ShortID="763422130">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fnrl_Mus_Organ" ID="{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E94E395A-65BB-41F4-A3C0-17C878B67A2E}" ShortID="128501063">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fnrl_Mus_Strings" ID="{2A588BC6-F874-4660-A5A5-061650ED2C5C}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0B78F9FF-8CB8-4203-9577-AE0B31E911B9}" ShortID="871591534">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fnrl_Mus_Winds" ID="{E52DB62D-C829-4CA3-ADF8-B3ECCB3CE7CB}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5810DD42-3A02-4837-AAFE-E09305606399}" ShortID="606747241">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fnrl_Mus_Piano" ID="{9F02AAE3-A025-471B-A281-B77A69F45B8A}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,6 +1,7 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	2121736680	CurrentScene			\States WU\CurrentScene	
 	3585118241	FuneralHomeVersion			\States WU\FuneralHomeVersion	
+	3649513479	PuzzlesCompleted			\States WU\PuzzlesCompleted	
 
 State	ID	Name	State Group			Notes
 	748895195	None	CurrentScene			
@@ -9,6 +10,10 @@ State	ID	Name	State Group			Notes
 	748895195	None	FuneralHomeVersion			
 	1160234136	Normal	FuneralHomeVersion			
 	2915544473	Alternate	FuneralHomeVersion			
+	678209053	Two	PuzzlesCompleted			
+	748895195	None	PuzzlesCompleted			
+	766521211	Zero	PuzzlesCompleted			
+	1064933119	One	PuzzlesCompleted			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	85412153	Ambience			\Default Work Unit\Master Audio Bus\Ambience	
@@ -16,6 +21,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1069431850	Player			\Default Work Unit\Master Audio Bus\Player	
 	2609808943	World			\Default Work Unit\Master Audio Bus\World	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	579784244	Reverb_FuneralHome			\Default Work Unit\Master Audio Bus\Reverb\Reverb_FuneralHome	

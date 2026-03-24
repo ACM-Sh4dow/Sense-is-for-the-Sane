@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 6a1ba4cd252fc04e9a23c9c659d053c7
     GuidInternal: 
-    m_lastTime: -8584276645807618912
+    m_lastTime: -8584275934083329455
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: ede88cb9b519ad42b043b7baa79cad7e
     GuidInternal: 
-    m_lastTime: -8584275886320817580
+    m_lastTime: -8584273281779788875
     List:
     - name: Ambience
       guid: f2bf24467fbfab469dd8e53fb1f29da0
@@ -71,6 +71,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Music
+      guid: 77d1e6970ad28243ad5165da9e26df07
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ede88cb9b519ad42b043b7baa79cad7e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music
+        ObjectType: 2
+        guid: 77d1e6970ad28243ad5165da9e26df07
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
     - name: Player
       guid: 5b1e9e0ed3c7e24cbb5e212342a3d2f2
       id: 1069431850
@@ -194,7 +211,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a256c055eefeec45b9b376a6156165d8
     GuidInternal: 
-    m_lastTime: -8584276645807686961
+    m_lastTime: -8584275934083419904
     List: []
   - PhysicalPath: SoundBanks\Soundbanks WU.wwu
     PathAndIcons:
@@ -207,7 +224,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584275821026844036
+    m_lastTime: -8584273168674119639
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -291,7 +308,7 @@ MonoBehaviour:
     ParentPath: Events\Apartment
     guid: 403f5a0f3ccb46478134079334a4da23
     GuidInternal: 
-    m_lastTime: -8584275894388809607
+    m_lastTime: -8584273414576970073
     List:
     - name: Apt_Clock
       guid: cc1102f1eea62044bdfd304ba4a2a9e5
@@ -406,7 +423,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 5cd231f69da5114cafe3abcbe28566f5
     GuidInternal: 
-    m_lastTime: -8584276645819466871
+    m_lastTime: -8584275934085037021
     List: []
   - PhysicalPath: Events\Funeral Home.wwu
     PathAndIcons:
@@ -419,11 +436,11 @@ MonoBehaviour:
     ParentPath: Events\Funeral Home
     guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
     GuidInternal: 
-    m_lastTime: -8584275821026768173
+    m_lastTime: -8584273192788369738
     List:
-    - name: Fnrl_Ambience_Pause
+    - name: Fnrl_Amb_Pause
       guid: b07a90bffc5a3443801fddc3dff36a05
-      id: 453321177
+      id: 2963388045
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -431,13 +448,30 @@ MonoBehaviour:
       - ElementName: Funeral Home
         ObjectType: 12
         guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
-      - ElementName: Fnrl_Ambience_Pause
+      - ElementName: Fnrl_Amb_Pause
         ObjectType: 3
         guid: b07a90bffc5a3443801fddc3dff36a05
-      Path: Events\Funeral Home\Fnrl_Ambience_Pause
+      Path: Events\Funeral Home\Fnrl_Amb_Pause
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
+    - name: Fnrl_Amb_Thunderstorm
+      guid: 33f48e742ea24e49927c79cfe002e9ff
+      id: 1612838152
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Funeral Home
+        ObjectType: 12
+        guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
+      - ElementName: Fnrl_Amb_Thunderstorm
+        ObjectType: 3
+        guid: 33f48e742ea24e49927c79cfe002e9ff
+      Path: Events\Funeral Home\Fnrl_Amb_Thunderstorm
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
     - name: Fnrl_Mirror_Breathing
       guid: ecf4c0e6aaafc84e8c9aee291fc65b35
       id: 1736817776
@@ -452,7 +486,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: ecf4c0e6aaafc84e8c9aee291fc65b35
       Path: Events\Funeral Home\Fnrl_Mirror_Breathing
-      maxAttenuation: 100
+      maxAttenuation: 2
       maxDuration: 0
       minDuration: 0
     - name: Fnrl_Mirror_Footstep
@@ -472,9 +506,9 @@ MonoBehaviour:
       maxAttenuation: 100
       maxDuration: 1.3479413
       minDuration: 1.1539447
-    - name: Fnrl_Organ
+    - name: Fnrl_Mus_Organ
       guid: 0bd17b976c9adb419fe4362ac1b5a8d3
-      id: 789063245
+      id: 1578407477
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -482,16 +516,19 @@ MonoBehaviour:
       - ElementName: Funeral Home
         ObjectType: 12
         guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
-      - ElementName: Fnrl_Organ
+      - ElementName: Music
+        ObjectType: 4
+        guid: 6a2f87db7ef35c4297086f78e9ad04a9
+      - ElementName: Fnrl_Mus_Organ
         ObjectType: 3
         guid: 0bd17b976c9adb419fe4362ac1b5a8d3
-      Path: Events\Funeral Home\Fnrl_Organ
+      Path: Events\Funeral Home\Music\Fnrl_Mus_Organ
       maxAttenuation: 100
       maxDuration: 0
       minDuration: 0
-    - name: Fnrl_Thunderstorm
-      guid: 33f48e742ea24e49927c79cfe002e9ff
-      id: 1084206483
+    - name: Fnrl_Mus_Piano
+      guid: e3aa029f25a01b47a281b77a69f45b8a
+      id: 2549568769
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -499,10 +536,53 @@ MonoBehaviour:
       - ElementName: Funeral Home
         ObjectType: 12
         guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
-      - ElementName: Fnrl_Thunderstorm
+      - ElementName: Music
+        ObjectType: 4
+        guid: 6a2f87db7ef35c4297086f78e9ad04a9
+      - ElementName: Fnrl_Mus_Piano
         ObjectType: 3
-        guid: 33f48e742ea24e49927c79cfe002e9ff
-      Path: Events\Funeral Home\Fnrl_Thunderstorm
+        guid: e3aa029f25a01b47a281b77a69f45b8a
+      Path: Events\Funeral Home\Music\Fnrl_Mus_Piano
+      maxAttenuation: 2
+      maxDuration: 0
+      minDuration: 0
+    - name: Fnrl_Mus_Strings
+      guid: c68b582a74f86046a5a5061650ed2c5c
+      id: 3506702008
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Funeral Home
+        ObjectType: 12
+        guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
+      - ElementName: Music
+        ObjectType: 4
+        guid: 6a2f87db7ef35c4297086f78e9ad04a9
+      - ElementName: Fnrl_Mus_Strings
+        ObjectType: 3
+        guid: c68b582a74f86046a5a5061650ed2c5c
+      Path: Events\Funeral Home\Music\Fnrl_Mus_Strings
+      maxAttenuation: 2
+      maxDuration: 0
+      minDuration: 0
+    - name: Fnrl_Mus_Winds
+      guid: 2db62de529c8a34cadf8b3eccb3ce7cb
+      id: 3153082963
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Funeral Home
+        ObjectType: 12
+        guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
+      - ElementName: Music
+        ObjectType: 4
+        guid: 6a2f87db7ef35c4297086f78e9ad04a9
+      - ElementName: Fnrl_Mus_Winds
+        ObjectType: 3
+        guid: 2db62de529c8a34cadf8b3eccb3ce7cb
+      Path: Events\Funeral Home\Music\Fnrl_Mus_Winds
       maxAttenuation: 100
       maxDuration: 0
       minDuration: 0
@@ -523,6 +603,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 4.259184
       minDuration: 2.6228118
+    - name: Music
+      guid: 6a2f87db7ef35c4297086f78e9ad04a9
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Funeral Home
+        ObjectType: 12
+        guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
+      - ElementName: Music
+        ObjectType: 4
+        guid: 6a2f87db7ef35c4297086f78e9ad04a9
+      Path: Events\Funeral Home\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\General Events.wwu
     PathAndIcons:
     - ElementName: Events
@@ -534,7 +631,7 @@ MonoBehaviour:
     ParentPath: Events\General Events
     guid: 1ff59692a3e328449b9b4c99fad941f7
     GuidInternal: 
-    m_lastTime: -8584275824321590367
+    m_lastTime: -8584273214291588054
     List:
     - name: Footstep
       guid: f5f61b65005eec4ebc2cb99851ab9555
@@ -581,8 +678,25 @@ MonoBehaviour:
     ParentPath: Events\Tests
     guid: f612c0badde62b4f83093679909ae332
     GuidInternal: 
-    m_lastTime: -8584275835039407718
+    m_lastTime: -8584273192787992825
     List:
+    - name: TestFnrlMusic
+      guid: 38046558aac1654e94123c22b64073a1
+      id: 2590074396
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Tests
+        ObjectType: 12
+        guid: f612c0badde62b4f83093679909ae332
+      - ElementName: TestFnrlMusic
+        ObjectType: 3
+        guid: 38046558aac1654e94123c22b64073a1
+      Path: Events\Tests\TestFnrlMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: TestFootstepMirror
       guid: 9b768b25df2d814d9bdf86acdc764f7f
       id: 1056145946
@@ -612,7 +726,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 6508ce08d333e444a17a29eba1f4fb11
     GuidInternal: 
-    m_lastTime: -8584276645819446596
+    m_lastTime: -8584275934085015258
     List: []
   - PhysicalPath: Game Parameters\Game Parameters WU.wwu
     PathAndIcons:
@@ -625,11 +739,11 @@ MonoBehaviour:
     ParentPath: Game Parameters\Game Parameters WU
     guid: c4a7a3998bd1784ea5fc8d535b50ceee
     GuidInternal: 
-    m_lastTime: -8584275802124742199
+    m_lastTime: -8584273230448945095
     List:
-    - name: PuzzleDistance
+    - name: DistanceFromTarget
       guid: c923bd5528d12a4cb2f8b1224c5f1fd8
-      id: 3800925872
+      id: 1768319275
       PathAndIcons:
       - ElementName: Game Parameters
         ObjectType: 5
@@ -637,10 +751,10 @@ MonoBehaviour:
       - ElementName: Game Parameters WU
         ObjectType: 12
         guid: c4a7a3998bd1784ea5fc8d535b50ceee
-      - ElementName: PuzzleDistance
+      - ElementName: DistanceFromTarget
         ObjectType: 13
         guid: c923bd5528d12a4cb2f8b1224c5f1fd8
-      Path: Game Parameters\Game Parameters WU\PuzzleDistance
+      Path: Game Parameters\Game Parameters WU\DistanceFromTarget
     - name: VoidAmbPitch
       guid: 57f43706ef59644aa8517e4a97659893
       id: 3895577369
@@ -667,7 +781,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 2a8868259461934db03e1b9c72605ca7
     GuidInternal: 
-    m_lastTime: -8584276645807658961
+    m_lastTime: -8584275934083389920
     List: []
   - PhysicalPath: States\States WU.wwu
     PathAndIcons:
@@ -680,7 +794,7 @@ MonoBehaviour:
     ParentPath: States\States WU
     guid: 7d31013722dbbd43af5130094b358f20
     GuidInternal: 
-    m_lastTime: -8584276645807658961
+    m_lastTime: -8584273199781763735
     List:
     - name: CurrentScene
       guid: b2df96403f43694dbaffd67984f6fb84
@@ -814,6 +928,88 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
+    - name: PuzzlesCompleted
+      guid: f03929d78047064dac4c12717bbcdf2c
+      id: 3649513479
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: States WU
+        ObjectType: 12
+        guid: 7d31013722dbbd43af5130094b358f20
+      - ElementName: PuzzlesCompleted
+        ObjectType: 9
+        guid: f03929d78047064dac4c12717bbcdf2c
+      Path: States\States WU\PuzzlesCompleted
+      values:
+      - name: None
+        guid: f827d9ab773f424a86f423a891f082e5
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 7d31013722dbbd43af5130094b358f20
+        - ElementName: PuzzlesCompleted
+          ObjectType: 9
+          guid: f03929d78047064dac4c12717bbcdf2c
+        - ElementName: None
+          ObjectType: 8
+          guid: f827d9ab773f424a86f423a891f082e5
+      - name: One
+        guid: f9cc3e2df2c1cc4385d81d6f732b4f46
+        id: 1064933119
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 7d31013722dbbd43af5130094b358f20
+        - ElementName: PuzzlesCompleted
+          ObjectType: 9
+          guid: f03929d78047064dac4c12717bbcdf2c
+        - ElementName: One
+          ObjectType: 8
+          guid: f9cc3e2df2c1cc4385d81d6f732b4f46
+      - name: Two
+        guid: a2b44321bca70947b720e3a3b48d78ab
+        id: 678209053
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 7d31013722dbbd43af5130094b358f20
+        - ElementName: PuzzlesCompleted
+          ObjectType: 9
+          guid: f03929d78047064dac4c12717bbcdf2c
+        - ElementName: Two
+          ObjectType: 8
+          guid: a2b44321bca70947b720e3a3b48d78ab
+      - name: Zero
+        guid: d288bb988234794aa31a195f0c2a3385
+        id: 766521211
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 7d31013722dbbd43af5130094b358f20
+        - ElementName: PuzzlesCompleted
+          ObjectType: 9
+          guid: f03929d78047064dac4c12717bbcdf2c
+        - ElementName: Zero
+          ObjectType: 8
+          guid: d288bb988234794aa31a195f0c2a3385
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -826,7 +1022,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 8e107472216dc4408dbacc42c7679e8d
     GuidInternal: 
-    m_lastTime: -8584276645807648908
+    m_lastTime: -8584275934083363797
     List: []
   - PhysicalPath: Switches\Switches WU.wwu
     PathAndIcons:
@@ -839,7 +1035,7 @@ MonoBehaviour:
     ParentPath: Switches\Switches WU
     guid: a20079f489c43045be7add0633c9b245
     GuidInternal: 
-    m_lastTime: -8584276645807638911
+    m_lastTime: -8584275934083354772
     List:
     - name: FootstepsSwitch
       guid: 5730594340ad384db05ee3bbbf32e638
@@ -919,10 +1115,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 5e6c65bc00e3d14d8cf646bbfd9c0af4
     GuidInternal: 
-    m_lastTime: -8584276645807628908
+    m_lastTime: -8584275934083339506
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 1c0000001e0000008d00000096000000
+  ExpandedWaapiItemIds: 05000000060000000e0000000f000000150000001c0000001e000000210000008d00000096000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

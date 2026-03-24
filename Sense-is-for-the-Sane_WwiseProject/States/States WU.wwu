@@ -17,6 +17,14 @@
 						<State Name="Alternate" ID="{DCCA95AB-DF88-4C88-AC1B-F2C2B6E3BD12}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="PuzzlesCompleted" ID="{D72939F0-4780-4D06-AC4C-12717BBCDF2C}">
+					<ChildrenList>
+						<State Name="None" ID="{ABD927F8-3F77-4A42-86F4-23A891F082E5}"/>
+						<State Name="Zero" ID="{98BB88D2-3482-4A79-A31A-195F0C2A3385}"/>
+						<State Name="One" ID="{2D3ECCF9-C1F2-43CC-85D8-1D6F732B4F46}"/>
+						<State Name="Two" ID="{2143B4A2-A7BC-4709-B720-E3A3B48D78AB}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

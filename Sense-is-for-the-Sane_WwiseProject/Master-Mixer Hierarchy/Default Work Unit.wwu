@@ -82,6 +82,7 @@
 						<Bus Name="Ambience" ID="{4624BFF2-BF7F-46AB-9DD8-E53FB1F29DA0}"/>
 						<Bus Name="Player" ID="{0E9E1E5B-C7D3-4CE2-BB5E-212342A3D2F2}"/>
 						<Bus Name="World" ID="{0A1F617D-429D-4C52-B091-70D175819868}"/>
+						<Bus Name="Music" ID="{97E6D177-D20A-4382-AD51-65DA9E26DF07}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

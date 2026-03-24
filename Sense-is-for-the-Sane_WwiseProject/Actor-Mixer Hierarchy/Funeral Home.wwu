@@ -280,7 +280,7 @@
 						<Sound Name="Funeral_Ambience_Thunderstorm" ID="{3BE334AD-425A-4353-8638-25F082B86FBD}" ShortID="525445519">
 							<PropertyList>
 								<Property Name="3DPosition" Type="int16" Value="2"/>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
 										<Value>25</Value>
@@ -290,7 +290,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>32</Value>
+										<Value>36</Value>
 									</ValueList>
 								</Property>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
@@ -325,7 +325,7 @@
 																</Point>
 																<Point>
 																	<XPos>100</XPos>
-																	<YPos>-2.4306</YPos>
+																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -419,6 +419,9 @@
 								<Position Name="" ID="{DD65BA0C-C83D-4006-81F9-5DDBD3401768}">
 									<ChildrenList>
 										<Path2D Name="Funeral_Ambience_Thunderstorm_Path" ID="{B785FEC3-D7C8-4DB0-A8AA-6FE2635A28FA}">
+											<PropertyList>
+												<Property Name="Duration" Type="Uint32" Value="30000"/>
+											</PropertyList>
 											<PointList>
 												<Point>
 													<XPos>-10</XPos>
@@ -432,21 +435,21 @@
 													<YPos>10</YPos>
 													<ZPos>40</ZPos>
 													<Flags>0</Flags>
-													<Time>1666</Time>
+													<Time>10000</Time>
 												</Point>
 												<Point>
 													<XPos>10</XPos>
 													<YPos>-10</YPos>
 													<ZPos>40</ZPos>
 													<Flags>0</Flags>
-													<Time>3333</Time>
+													<Time>20000</Time>
 												</Point>
 												<Point>
 													<XPos>-10</XPos>
 													<YPos>-10</YPos>
 													<ZPos>40</ZPos>
 													<Flags>0</Flags>
-													<Time>5000</Time>
+													<Time>30000</Time>
 												</Point>
 											</PointList>
 										</Path2D>
@@ -484,162 +487,6 @@
 							</StateInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="Funeral_Ambience_Thunderstorm" ID="{B0E8B313-46AF-4834-B1CD-C9D97E86AC93}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Funeral_Amb_Organ" ID="{8B5523C6-3AA3-4D81-BC92-DC301F91D3A6}" ShortID="615294321">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>12</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{14FEADBB-4948-4544-A7AB-B712138A0FB2}" ShortID="142439983">
-											<CurveUsageInfoList>
-												<VolumeDryUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{AF088711-BE01-450E-9B1F-C3BC67BBB123}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="3"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>0</YPos>
-																	<Flags>5</Flags>
-																</Point>
-																<Point>
-																	<XPos>100</XPos>
-																	<YPos>-2.09471</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</VolumeDryUsage>
-												<VolumeWetGameUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetGameUsage>
-												<VolumeWetUserUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetUserUsage>
-												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</LowPassFilterUsage>
-												<HighPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</HighPassFilterUsage>
-												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</SpreadUsage>
-												<FocusUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</FocusUsage>
-												<ObstructionVolumeUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</ObstructionVolumeUsage>
-												<ObstructionLPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</ObstructionLPFUsage>
-												<ObstructionHPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</ObstructionHPFUsage>
-												<OcclusionVolumeUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</OcclusionVolumeUsage>
-												<OcclusionLPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</OcclusionLPFUsage>
-												<OcclusionHPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</OcclusionHPFUsage>
-												<DiffractionVolumeUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</DiffractionVolumeUsage>
-												<DiffractionLPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</DiffractionLPFUsage>
-												<DiffractionHPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</DiffractionHPFUsage>
-												<TransmissionVolumeUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</TransmissionVolumeUsage>
-												<TransmissionLPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</TransmissionLPFUsage>
-												<TransmissionHPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</TransmissionHPFUsage>
-											</CurveUsageInfoList>
-										</Attenuation>
-									</Custom>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Funeral_Amb_Organ" ID="{5B88D909-541C-4633-ABFF-50BD7C82AD27}">
-									<PropertyList>
-										<Property Name="LoopBegin" Type="Real64" Value="0.479710741740901"/>
-										<Property Name="LoopEnd" Type="Real64" Value="36.6324569984169"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Funeral_Amb_Organ.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="864067602"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="FuneralHomeVersion" ID="{F0D40430-B72C-4672-A0D9-74C2EC3DDC10}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="None" ID="{873F2610-2C00-4B76-B36A-67906D77920C}"/>
-										<CustomState Name="" ID="{70DE6082-784B-4E75-9FBF-12F7ED1BD123}" ShortID="12377761">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="8"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Alternate" ID="{DCCA95AB-DF88-4C88-AC1B-F2C2B6E3BD12}"/>
-										<CustomState Name="" ID="{FB46ADB1-9373-44B1-8F3F-9ACFA3797D5F}" ShortID="357475003">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-108"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Normal" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
-										<CustomState Name="" ID="{633F5C52-07FE-4DA0-B71B-1C887C19F47D}" ShortID="779233115">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="8"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
-							<ActiveSourceList>
-								<ActiveSource Name="Funeral_Amb_Organ" ID="{5B88D909-541C-4633-ABFF-50BD7C82AD27}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -1604,6 +1451,11 @@
 								<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -1779,7 +1631,7 @@
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="PuzzleDistance" ID="{55BD23C9-D128-4C2A-B2F8-B1224C5F1FD8}" WorkUnitID="{99A3A7C4-D18B-4E78-A5FC-8D535B50CEEE}"/>
+												<ObjectRef Name="DistanceFromTarget" ID="{55BD23C9-D128-4C2A-B2F8-B1224C5F1FD8}" WorkUnitID="{99A3A7C4-D18B-4E78-A5FC-8D535B50CEEE}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>

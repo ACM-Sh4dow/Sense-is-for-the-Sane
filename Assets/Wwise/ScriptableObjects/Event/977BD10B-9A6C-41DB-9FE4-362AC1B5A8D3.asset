@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaebe67caac16194b9462d2071cac2eb, type: 3}
   m_Name: 977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3
   m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseEventReference
-  objectName: Fnrl_Organ
-  id: 789063245
+  objectName: Fnrl_Mus_Organ
+  id: 1578407477
   guid: 977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3
   IsInUserDefinedSoundBank: 1

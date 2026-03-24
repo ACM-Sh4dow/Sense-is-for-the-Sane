@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{CC361135-915A-B4AC-9988-797EC8F6CE5E}",
+    "Hash": "{496A2435-C2C9-36F7-1DF5-EC201436EEF9}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -90,6 +90,12 @@
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music",
+      "GUID": "{97E6D177-D20A-4382-AD51-65DA9E26DF07}"
      }
     ],
     "AuxBusses": [
@@ -135,9 +141,9 @@
     ],
     "GameParameters": [
      {
-      "Id": "3800925872",
-      "Name": "PuzzleDistance",
-      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\PuzzleDistance",
+      "Id": "1768319275",
+      "Name": "DistanceFromTarget",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\DistanceFromTarget",
       "GUID": "{55BD23C9-D128-4C2A-B2F8-B1224C5F1FD8}"
      },
      {
@@ -199,6 +205,38 @@
         "GUID": "{DCCA95AB-DF88-4C88-AC1B-F2C2B6E3BD12}"
        }
       ]
+     },
+     {
+      "Id": "3649513479",
+      "Name": "PuzzlesCompleted",
+      "ObjectPath": "\\States\\States WU\\PuzzlesCompleted",
+      "GUID": "{D72939F0-4780-4D06-AC4C-12717BBCDF2C}",
+      "States": [
+       {
+        "Id": "678209053",
+        "Name": "Two",
+        "ObjectPath": "\\States\\States WU\\PuzzlesCompleted\\Two",
+        "GUID": "{2143B4A2-A7BC-4709-B720-E3A3B48D78AB}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\States WU\\PuzzlesCompleted\\None",
+        "GUID": "{ABD927F8-3F77-4A42-86F4-23A891F082E5}"
+       },
+       {
+        "Id": "766521211",
+        "Name": "Zero",
+        "ObjectPath": "\\States\\States WU\\PuzzlesCompleted\\Zero",
+        "GUID": "{98BB88D2-3482-4A79-A31A-195F0C2A3385}"
+       },
+       {
+        "Id": "1064933119",
+        "Name": "One",
+        "ObjectPath": "\\States\\States WU\\PuzzlesCompleted\\One",
+        "GUID": "{2D3ECCF9-C1F2-43CC-85D8-1D6F732B4F46}"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -231,6 +269,6 @@
     ]
    }
   ],
-  "FileHash": "{FCB8576D-5C8A-7FE3-44DD-65FCCF62D3AB}"
+  "FileHash": "{02225365-85DA-A68B-27E4-2CFA500ABAD7}"
  }
 }

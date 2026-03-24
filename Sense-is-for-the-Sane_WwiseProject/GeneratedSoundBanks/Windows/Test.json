@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAC7D741-2CC6-4571-91AE-B86C57B75FDF}",
     "Language": "SFX",
-    "Hash": "{CDA4AD6B-B5F1-4C6B-F2CC-9D1290134756}",
+    "Hash": "{FF3E8704-3E25-3EAE-83A2-7C1989FBFFA5}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -96,28 +96,12 @@
       "CachePath": "1A/{1A124A26-3F3D-ED78-A712-042705634F98}.wem"
      },
      {
-      "Id": "200443766",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Basic_Footstep_001.wav",
-      "CachePath": "7F/{7FC6AC00-100F-8B2E-0046-CE318175A29B}.wem"
-     },
-     {
       "Id": "274169833",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep_Void_05.wav",
       "CachePath": "0F/{0F594E1E-CD39-7A32-8840-4C7FA066566E}.wem"
-     },
-     {
-      "Id": "276076711",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Ravel Menuet Loop 2.wav",
-      "CachePath": "4E/{4ECEE229-4F7C-0C44-58B2-1674F7204355}.wem"
      },
      {
       "Id": "277586871",
@@ -200,14 +184,6 @@
       "CachePath": "21/{21A6DC1D-1984-091E-7D72-C12C1A0786F0}.wem"
      },
      {
-      "Id": "500564140",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Basic_Footstep_003.wav",
-      "CachePath": "FB/{FBD0D180-8141-854D-6792-A6C0449F42E4}.wem"
-     },
-     {
       "Id": "501430916",
       "Language": "SFX",
       "Streaming": "false",
@@ -264,20 +240,20 @@
       "CachePath": "01/{010B3AF5-0FD0-21FE-D65C-230DC32D3868}.wem"
      },
      {
+      "Id": "740299431",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Full Track\\Menuet_Organ.wav",
+      "CachePath": "1D/{1DF77038-3C31-6E17-7CEE-16793759CA79}.wem"
+     },
+     {
       "Id": "741278934",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Breath_Inhale_003.wav",
       "CachePath": "BE/{BE2F2CE9-412B-6880-C93A-F962CF3EB501}.wem"
-     },
-     {
-      "Id": "774388882",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Basic_Footstep_002.wav",
-      "CachePath": "30/{30F61EC1-16D3-9007-5B1C-0E97244A8C3C}.wem"
      },
      {
       "Id": "840959845",
@@ -366,14 +342,6 @@
       "Location": "Memory",
       "ShortName": "Footstep_Carpet_004.wav",
       "CachePath": "73/{73ECEFA4-577E-7622-FD63-C02921AF93DA}.wem"
-     },
-     {
-      "Id": "1062334412",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Ravel Menuet Loop 1.wav",
-      "CachePath": "50/{5005D548-2668-B7BB-D60C-EFF2D3EBB68A}.wem"
      }
     ],
     "Events": [
@@ -476,25 +444,9 @@
       ]
      },
      {
-      "Id": "789063245",
-      "Name": "Fnrl_Organ",
-      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Organ",
-      "GUID": "{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}",
-      "MaxAttenuation": "100",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "276076711"
-       },
-       {
-        "Id": "1062334412"
-       }
-      ]
-     },
-     {
-      "Id": "1084206483",
-      "Name": "Fnrl_Thunderstorm",
-      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Thunderstorm",
+      "Id": "1612838152",
+      "Name": "Fnrl_Amb_Thunderstorm",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Amb_Thunderstorm",
       "GUID": "{748EF433-A22E-494E-927C-79CFE002E9FF}",
       "MaxAttenuation": "100",
       "DurationType": "Infinite",
@@ -509,6 +461,19 @@
         "Name": "Reverb_FuneralHome",
         "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_FuneralHome",
         "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       }
+      ]
+     },
+     {
+      "Id": "1578407477",
+      "Name": "Fnrl_Mus_Organ",
+      "ObjectPath": "\\Events\\Funeral Home\\Music\\Fnrl_Mus_Organ",
+      "GUID": "{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "740299431"
        }
       ]
      },
@@ -555,30 +520,13 @@
         "Id": "58712416"
        },
        {
-        "Id": "200443766"
-       },
-       {
-        "Id": "500564140"
-       },
-       {
         "Id": "541820834"
        },
        {
         "Id": "575360998"
        },
        {
-        "Id": "774388882"
-       },
-       {
         "Id": "897507631"
-       }
-      ],
-      "AuxBusRefs": [
-       {
-        "Id": "579784244",
-        "Name": "Reverb_FuneralHome",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_FuneralHome",
-        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
        }
       ],
       "SwitchContainers": [
@@ -751,14 +699,6 @@
       ]
      }
     ],
-    "GameParameters": [
-     {
-      "Id": "3800925872",
-      "Name": "PuzzleDistance",
-      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\PuzzleDistance",
-      "GUID": "{55BD23C9-D128-4C2A-B2F8-B1224C5F1FD8}"
-     }
-    ],
     "SwitchGroups": [
      {
       "Id": "3586861854",
@@ -789,6 +729,6 @@
     ]
    }
   ],
-  "FileHash": "{96D0B383-BE9A-726C-9630-F23188E6ADAD}"
+  "FileHash": "{530AC69A-AD23-E232-A33E-29531A54A5D5}"
  }
 }

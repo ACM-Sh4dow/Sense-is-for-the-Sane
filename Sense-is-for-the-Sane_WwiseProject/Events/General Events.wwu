@@ -56,16 +56,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{94A902C7-85C4-4965-A00C-F92AEAABB421}" ShortID="631140472">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="0.07"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Mirror Footsteps" ID="{97639639-4F9A-4634-8959-98AC7C998F4E}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>
