@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAC7D741-2CC6-4571-91AE-B86C57B75FDF}",
     "Language": "SFX",
-    "Hash": "{FF3E8704-3E25-3EAE-83A2-7C1989FBFFA5}",
+    "Hash": "{4AEB5351-A51D-4C06-73B0-78C3736FC6D3}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -174,6 +174,14 @@
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_002.wav",
       "CachePath": "5A/{5ABDEA1E-D732-3479-4427-E43D648A2439}.wem"
+     },
+     {
+      "Id": "449394520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Menuet_Winds.wav",
+      "CachePath": "50/{5097C3B7-8F5E-859D-7C84-7228C3BBBD03}.wem"
      },
      {
       "Id": "485915409",
@@ -473,6 +481,9 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
+        "Id": "449394520"
+       },
+       {
         "Id": "740299431"
        }
       ]
@@ -729,6 +740,6 @@
     ]
    }
   ],
-  "FileHash": "{156840D5-639F-679B-6BDA-4AC716C9723F}"
+  "FileHash": "{F8127B8E-8ED4-89B7-72B5-DAA20E8F6E1B}"
  }
 }

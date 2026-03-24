@@ -1052,9 +1052,19 @@
 						</Position>
 					</PositioningInfo>
 					<StateInfo>
+						<StatePropertyList>
+							<Property Name="GameAuxSendVolume"/>
+							<Property Name="Highpass"/>
+							<Property Name="Lowpass"/>
+							<Property Name="Pitch"/>
+							<Property Name="Volume"/>
+						</StatePropertyList>
 						<StateGroupList>
 							<StateGroupInfo>
 								<StateGroupRef Name="CurrentScene" ID="{4096DFB2-433F-4D69-BAFF-D67984F6FB84}"/>
+							</StateGroupInfo>
+							<StateGroupInfo>
+								<StateGroupRef Name="FuneralHomeVersion" ID="{F0D40430-B72C-4672-A0D9-74C2EC3DDC10}"/>
 							</StateGroupInfo>
 						</StateGroupList>
 						<CustomStateList>
@@ -1071,8 +1081,24 @@
 								</CustomState>
 							</CustomState>
 							<CustomState>
+								<StateRef Name="None" ID="{873F2610-2C00-4B76-B36A-67906D77920C}"/>
+								<CustomState Name="" ID="{DA67F54B-A409-420E-95ED-82C435DD138B}" ShortID="129354113"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Alternate" ID="{DCCA95AB-DF88-4C88-AC1B-F2C2B6E3BD12}"/>
+								<CustomState Name="" ID="{2CBD40C4-9A81-4ACD-9A9D-F92AA45C22BD}" ShortID="988188288">
+									<PropertyList>
+										<Property Name="GameAuxSendVolume" Type="Real64" Value="3"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
 								<StateRef Name="Apartment" ID="{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"/>
 								<CustomState Name="" ID="{917FC8A0-352B-4BCF-B44D-E404CB8F3557}" ShortID="344934920"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Normal" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
+								<CustomState Name="" ID="{92DFD2C4-1D1E-473E-A4ED-44803F8E4112}" ShortID="810669511"/>
 							</CustomState>
 						</CustomStateList>
 					</StateInfo>

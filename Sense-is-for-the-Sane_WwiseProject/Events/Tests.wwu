@@ -49,16 +49,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{0B78F9FF-8CB8-4203-9577-AE0B31E911B9}" ShortID="871591534">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="41"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Fnrl_Mus_Winds" ID="{E52DB62D-C829-4CA3-ADF8-B3ECCB3CE7CB}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{5810DD42-3A02-4837-AAFE-E09305606399}" ShortID="606747241">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="41"/>
