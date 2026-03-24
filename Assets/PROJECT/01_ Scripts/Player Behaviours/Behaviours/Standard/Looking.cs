@@ -12,7 +12,7 @@ public class Looking : Behaviour
     private static float TopClamp = 90;
     private static float BottomClamp = 270;
     
-    private float sensitivity = 30f;
+    private float sensitivity = 2f;
     #endregion
     
     public static void SyncInput(Vector2 Input)
