@@ -50,7 +50,7 @@ public class InputHandler : MonoBehaviour
 
     public void ReceiveAlign(InputAction.CallbackContext input)
     {
-        PerspectivePuzzleSolve.SolvePuzzle();
+        PerspectivePuzzleSolve.AttemptPuzzle();
     }
 
     public void ReceiveManualAnimationInput(InputAction.CallbackContext input)

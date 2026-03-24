@@ -14,7 +14,6 @@ public class Overseer : MonoBehaviour
 
     private Type[] managerTypes = new Type[]
     {
-        typeof(PuzzleTracker)
     };
 
     private void Awake()
@@ -32,20 +31,27 @@ public class Overseer : MonoBehaviour
 
     private void InitializeManagers()
     {
-        foreach (Type type in managerTypes)
+        foreach (var type in managerTypes)
         {
-            GameObject obj = new GameObject(type.Name);
-            obj.transform.SetParent(transform);
-
-            MonoBehaviour manager = obj.AddComponent(type) as MonoBehaviour;
-            if (manager == null)
-            {
-                Debug.LogError($"Failed to add {type.Name} as MonoBehaviour.");
-                continue;
-            }
-
-            managerRegistry[type] = manager;
+            InitializeManager(type);
         }
+    }
+
+    private void InitializeManager(Type type)
+    {
+        if (managerRegistry.ContainsKey(type)) return;
+
+        GameObject obj = new GameObject(type.Name);
+        obj.transform.SetParent(transform);
+        MonoBehaviour manager = obj.AddComponent(type) as MonoBehaviour;
+
+        if (manager == null)
+        {
+            Debug.LogError($"Failed to add {type.Name} as MonoBehaviour.");
+            return;
+        }
+
+        managerRegistry[type] = manager;
     }
 
     public T GetManager<T>() where T : MonoBehaviour
@@ -58,5 +64,18 @@ public class Overseer : MonoBehaviour
 
         Debug.LogError($"Manager of type {type.Name} not found.");
         return null;
+    }
+
+    public void AddManager(MonoBehaviour newManager)
+    {
+        if (managerRegistry.ContainsKey(newManager.GetType())) return;
+
+        if (newManager == null)
+        {
+            Debug.LogError($"Failed to add {newManager} as MonoBehaviour.");
+            return;
+        }
+
+        managerRegistry[newManager.GetType()] = newManager;
     }
 }
