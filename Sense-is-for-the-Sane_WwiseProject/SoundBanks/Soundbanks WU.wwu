@@ -45,6 +45,7 @@
 						<ObjectRef Name="Fnrl_Mus_Piano" ID="{9F02AAE3-A025-471B-A281-B77A69F45B8A}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Amb_Thunderstorm" ID="{748EF433-A22E-494E-927C-79CFE002E9FF}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Mus_Winds" ID="{E52DB62D-C829-4CA3-ADF8-B3ECCB3CE7CB}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fnrl_Door_Creaking" ID="{0CBA965B-EA68-4CF1-A7E1-87707066D038}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Transition" ID="{3F85E934-BD61-4E41-BC35-937B2BC821BB}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Mirror_Breathing" ID="{E6C0F4EC-AFAA-4EC8-8C9A-EE291FC65B35}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Mirror_Footstep" ID="{DF969148-2A7A-4F7A-BF5A-E92B0EC7818E}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>

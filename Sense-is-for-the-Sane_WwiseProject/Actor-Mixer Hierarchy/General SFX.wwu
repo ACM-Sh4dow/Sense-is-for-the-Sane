@@ -7,13 +7,12 @@
 					<PropertyList>
 						<Property Name="3DPosition" Type="int16" Value="2"/>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
-						<Property Name="GameAuxSendVolume" Type="Real64">
+						<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendHPF1" Type="int16">
 							<ValueList>
-								<Value>2</Value>
+								<Value>15</Value>
 							</ValueList>
 						</Property>
-						<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
-						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -104,6 +103,15 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Player" ID="{0E9E1E5B-C7D3-4CE2-BB5E-212342A3D2F2}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb_Apartment" ID="{B28A58E4-2BBF-4849-B95C-3ACC849A967E}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+						</Reference>
+						<Reference Name="UserAuxSend1">
+							<ObjectRef Name="Reverb_FuneralHome" ID="{4C034AEA-7767-4998-B9EB-53B83227D7CB}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+						</Reference>
+						<Reference Name="UserAuxSend2">
+							<ObjectRef Name="Reverb_Void" ID="{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -419,6 +427,10 @@
 											<CustomState>
 												<StateRef Name="None" ID="{A69EBB97-976D-4175-A28B-344441D6C540}"/>
 												<CustomState Name="" ID="{C6A093D9-0EFE-41C8-928E-AF7F0627B951}" ShortID="221589841"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Void" ID="{AE9041A4-3A52-434E-87E3-476B865CAD06}"/>
+												<CustomState Name="" ID="{D2766CAA-CAFF-41E1-894A-CB39D032D713}" ShortID="93393099"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
@@ -1017,6 +1029,10 @@
 										<CustomState Name="" ID="{9B2AA943-8464-4F15-BEFD-6F4DD782E44E}" ShortID="441771110"/>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="Void" ID="{AE9041A4-3A52-434E-87E3-476B865CAD06}"/>
+										<CustomState Name="" ID="{41E82B1C-449A-440D-8EAF-A2774EB05C7F}" ShortID="1072028290"/>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
 										<CustomState Name="" ID="{C061F154-902B-4629-B945-D470208412FB}" ShortID="267899346">
 											<PropertyList>
@@ -1053,10 +1069,12 @@
 					</PositioningInfo>
 					<StateInfo>
 						<StatePropertyList>
-							<Property Name="GameAuxSendVolume"/>
 							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
 							<Property Name="Pitch"/>
+							<Property Name="UserAuxSendVolume0"/>
+							<Property Name="UserAuxSendVolume1"/>
+							<Property Name="UserAuxSendVolume2"/>
 							<Property Name="Volume"/>
 						</StatePropertyList>
 						<StateGroupList>
@@ -1070,12 +1088,29 @@
 						<CustomStateList>
 							<CustomState>
 								<StateRef Name="None" ID="{A69EBB97-976D-4175-A28B-344441D6C540}"/>
-								<CustomState Name="" ID="{42AD59B9-EBD2-4471-A4A2-4B80C57EEF6B}" ShortID="32480831"/>
+								<CustomState Name="" ID="{42AD59B9-EBD2-4471-A4A2-4B80C57EEF6B}" ShortID="32480831">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
+										<Property Name="UserAuxSendVolume1" Type="Real64" Value="-108"/>
+										<Property Name="UserAuxSendVolume2" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Void" ID="{AE9041A4-3A52-434E-87E3-476B865CAD06}"/>
+								<CustomState Name="" ID="{FAF40A48-3C1F-4559-9DEC-409FF9C58036}" ShortID="877848643">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
+										<Property Name="UserAuxSendVolume1" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
 								<CustomState Name="" ID="{20351198-CCAD-491E-8D83-FA4D872B84E4}" ShortID="463817309">
 									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
+										<Property Name="UserAuxSendVolume2" Type="Real64" Value="-108"/>
 										<Property Name="Volume" Type="Real64" Value="-4"/>
 									</PropertyList>
 								</CustomState>
@@ -1088,13 +1123,18 @@
 								<StateRef Name="Alternate" ID="{DCCA95AB-DF88-4C88-AC1B-F2C2B6E3BD12}"/>
 								<CustomState Name="" ID="{2CBD40C4-9A81-4ACD-9A9D-F92AA45C22BD}" ShortID="988188288">
 									<PropertyList>
-										<Property Name="GameAuxSendVolume" Type="Real64" Value="3"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="3"/>
 									</PropertyList>
 								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="Apartment" ID="{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"/>
-								<CustomState Name="" ID="{917FC8A0-352B-4BCF-B44D-E404CB8F3557}" ShortID="344934920"/>
+								<CustomState Name="" ID="{917FC8A0-352B-4BCF-B44D-E404CB8F3557}" ShortID="344934920">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume1" Type="Real64" Value="-108"/>
+										<Property Name="UserAuxSendVolume2" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="Normal" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>

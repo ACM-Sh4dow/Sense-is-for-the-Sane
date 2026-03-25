@@ -224,7 +224,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584272461793202157
+    m_lastTime: -8584271429457572915
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -436,7 +436,7 @@ MonoBehaviour:
     ParentPath: Events\Funeral Home
     guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
     GuidInternal: 
-    m_lastTime: -8584272336940450929
+    m_lastTime: -8584271432312534191
     List:
     - name: Fnrl_Amb_Pause
       guid: b07a90bffc5a3443801fddc3dff36a05
@@ -470,6 +470,23 @@ MonoBehaviour:
         guid: 33f48e742ea24e49927c79cfe002e9ff
       Path: Events\Funeral Home\Fnrl_Amb_Thunderstorm
       maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
+    - name: Fnrl_Door_Creaking
+      guid: 5b96ba0c68eaf14ca7e187707066d038
+      id: 3003594117
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Funeral Home
+        ObjectType: 12
+        guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
+      - ElementName: Fnrl_Door_Creaking
+        ObjectType: 3
+        guid: 5b96ba0c68eaf14ca7e187707066d038
+      Path: Events\Funeral Home\Fnrl_Door_Creaking
+      maxAttenuation: 20
       maxDuration: 0
       minDuration: 0
     - name: Fnrl_Mirror_Breathing
@@ -523,7 +540,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0bd17b976c9adb419fe4362ac1b5a8d3
       Path: Events\Funeral Home\Music\Fnrl_Mus_Organ
-      maxAttenuation: 100
+      maxAttenuation: 50
       maxDuration: 0
       minDuration: 0
     - name: Fnrl_Mus_Piano
@@ -583,7 +600,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 2db62de529c8a34cadf8b3eccb3ce7cb
       Path: Events\Funeral Home\Music\Fnrl_Mus_Winds
-      maxAttenuation: 100
+      maxAttenuation: 50
       maxDuration: 0
       minDuration: 0
     - name: Fnrl_Transition
@@ -739,8 +756,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Game Parameters WU
     guid: c4a7a3998bd1784ea5fc8d535b50ceee
     GuidInternal: 
-    m_lastTime: -8584272461795860040
+    m_lastTime: -8584271433467251510
     List:
+    - name: DistanceAnimationRate
+      guid: 931f0088f8597448a886d90134697d52
+      id: 1288081852
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Game Parameters WU
+        ObjectType: 12
+        guid: c4a7a3998bd1784ea5fc8d535b50ceee
+      - ElementName: DistanceAnimationRate
+        ObjectType: 13
+        guid: 931f0088f8597448a886d90134697d52
+      Path: Game Parameters\Game Parameters WU\DistanceAnimationRate
     - name: DistanceFromTarget
       guid: c923bd5528d12a4cb2f8b1224c5f1fd8
       id: 1768319275
@@ -794,7 +825,7 @@ MonoBehaviour:
     ParentPath: States\States WU
     guid: 7d31013722dbbd43af5130094b358f20
     GuidInternal: 
-    m_lastTime: -8584272461793186711
+    m_lastTime: -8584271545211100041
     List:
     - name: CurrentScene
       guid: b2df96403f43694dbaffd67984f6fb84
@@ -859,6 +890,22 @@ MonoBehaviour:
         - ElementName: None
           ObjectType: 8
           guid: 97bb9ea66d977541a28b344441d6c540
+      - name: Void
+        guid: a44190ae523a4e4387e3476b865cad06
+        id: 3370470011
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 7d31013722dbbd43af5130094b358f20
+        - ElementName: CurrentScene
+          ObjectType: 9
+          guid: b2df96403f43694dbaffd67984f6fb84
+        - ElementName: Void
+          ObjectType: 8
+          guid: a44190ae523a4e4387e3476b865cad06
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -1118,7 +1165,7 @@ MonoBehaviour:
     m_lastTime: -8584275934083339506
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000e0000000f000000150000001c0000001e000000210000008d00000096000000
+  ExpandedWaapiItemIds: 05000000060000000e0000000f000000150000001b0000001c0000001d00000020000000210000008d00000096000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

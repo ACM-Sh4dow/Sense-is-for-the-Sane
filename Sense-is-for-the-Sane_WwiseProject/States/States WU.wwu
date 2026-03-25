@@ -8,6 +8,7 @@
 						<State Name="None" ID="{A69EBB97-976D-4175-A28B-344441D6C540}"/>
 						<State Name="Apartment" ID="{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"/>
 						<State Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
+						<State Name="Void" ID="{AE9041A4-3A52-434E-87E3-476B865CAD06}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="FuneralHomeVersion" ID="{F0D40430-B72C-4672-A0D9-74C2EC3DDC10}">

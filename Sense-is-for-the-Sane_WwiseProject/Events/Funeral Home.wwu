@@ -155,6 +155,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Fnrl_Door_Creaking" ID="{0CBA965B-EA68-4CF1-A7E1-87707066D038}">
+					<ChildrenList>
+						<Action Name="" ID="{A158EF93-C517-4A79-8379-F30B116FF19C}" ShortID="546022825">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door Creaking Rand" ID="{46A96842-F962-40B4-97A1-5F303DEEE9B8}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

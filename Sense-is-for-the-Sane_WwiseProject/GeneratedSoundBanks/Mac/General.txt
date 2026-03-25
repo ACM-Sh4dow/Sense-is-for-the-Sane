@@ -16,6 +16,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 
 State	ID	Name	State Group			Notes
 	748895195	None	CurrentScene			
+	3370470011	Void	CurrentScene			
 	4154495109	Apartment	CurrentScene			
 	4219119955	FuneralHome	CurrentScene			
 	748895195	None	FuneralHomeVersion			

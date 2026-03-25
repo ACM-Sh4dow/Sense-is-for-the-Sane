@@ -21,6 +21,7 @@ namespace AK
         static const AkUniqueID APT_SINK = 751812660U;
         static const AkUniqueID FNRL_AMB_PAUSE = 2963388045U;
         static const AkUniqueID FNRL_AMB_THUNDERSTORM = 1612838152U;
+        static const AkUniqueID FNRL_DOOR_CREAKING = 3003594117U;
         static const AkUniqueID FNRL_MIRROR_BREATHING = 1736817776U;
         static const AkUniqueID FNRL_MIRROR_FOOTSTEP = 3801545580U;
         static const AkUniqueID FNRL_MUS_ORGAN = 1578407477U;
@@ -43,6 +44,7 @@ namespace AK
                 static const AkUniqueID APARTMENT = 4154495109U;
                 static const AkUniqueID FUNERALHOME = 4219119955U;
                 static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID VOID = 3370470011U;
             } // namespace STATE
         } // namespace CURRENTSCENE
 
@@ -91,6 +93,7 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID DISTANCEANIMATIONRATE = 1288081852U;
         static const AkUniqueID DISTANCEFROMTARGET = 1768319275U;
         static const AkUniqueID VOIDAMBPITCH = 3895577369U;
     } // namespace GAME_PARAMETERS

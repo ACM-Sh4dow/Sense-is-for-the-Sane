@@ -1386,7 +1386,8 @@
 										<Property Name="PreDelay" Type="Real32" Value="18"/>
 										<Property Name="Quality" Type="int32" Value="12"/>
 										<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
-										<Property Name="RoomSize" Type="Real32" Value="20"/>
+										<Property Name="RoomSize" Type="Real32" Value="15"/>
+										<Property Name="StereoWidth" Type="Real32" Value="145"/>
 									</PropertyList>
 								</Effect>
 							</ChildrenList>

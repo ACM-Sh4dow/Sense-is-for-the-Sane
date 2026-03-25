@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAC7D741-2CC6-4571-91AE-B86C57B75FDF}",
     "Language": "SFX",
-    "Hash": "{4AEB5351-A51D-4C06-73B0-78C3736FC6D3}",
+    "Hash": "{5198EDE0-7B09-74DB-47F6-E98CE0804560}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -477,7 +477,7 @@
       "Name": "Fnrl_Mus_Organ",
       "ObjectPath": "\\Events\\Funeral Home\\Music\\Fnrl_Mus_Organ",
       "GUID": "{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "50",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -538,6 +538,26 @@
        },
        {
         "Id": "897507631"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "579784244",
+        "Name": "Reverb_FuneralHome",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_FuneralHome",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       },
+       {
+        "Id": "624627402",
+        "Name": "Reverb_Apartment",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_Apartment",
+        "GUID": "{B28A58E4-2BBF-4849-B95C-3ACC849A967E}"
+       },
+       {
+        "Id": "2057947822",
+        "Name": "Reverb_Void",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_Void",
+        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
        }
       ],
       "SwitchContainers": [
@@ -634,6 +654,26 @@
        },
        {
         "Id": "1031315078"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "579784244",
+        "Name": "Reverb_FuneralHome",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_FuneralHome",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       },
+       {
+        "Id": "624627402",
+        "Name": "Reverb_Apartment",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_Apartment",
+        "GUID": "{B28A58E4-2BBF-4849-B95C-3ACC849A967E}"
+       },
+       {
+        "Id": "2057947822",
+        "Name": "Reverb_Void",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_Void",
+        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
        }
       ],
       "SwitchContainers": [
@@ -740,6 +780,6 @@
     ]
    }
   ],
-  "FileHash": "{F8127B8E-8ED4-89B7-72B5-DAA20E8F6E1B}"
+  "FileHash": "{70E3E4F0-BCE3-BB72-38D7-577F1CA784E0}"
  }
 }

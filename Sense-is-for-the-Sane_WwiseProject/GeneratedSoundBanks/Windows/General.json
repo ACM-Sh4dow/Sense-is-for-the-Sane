@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{39E76D16-3659-462C-8AE1-BE0B06954A63}",
     "Language": "SFX",
-    "Hash": "{72250734-C9B3-474B-4586-194D57EE7AC5}",
+    "Hash": "{7DB4144F-FBBB-B151-E909-EBABD248158E}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\General",
     "ShortName": "General",
     "Path": "General.bnk",
@@ -208,6 +208,26 @@
         "Id": "897507631"
        }
       ],
+      "AuxBusRefs": [
+       {
+        "Id": "579784244",
+        "Name": "Reverb_FuneralHome",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_FuneralHome",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       },
+       {
+        "Id": "624627402",
+        "Name": "Reverb_Apartment",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_Apartment",
+        "GUID": "{B28A58E4-2BBF-4849-B95C-3ACC849A967E}"
+       },
+       {
+        "Id": "2057947822",
+        "Name": "Reverb_Void",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_Void",
+        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
+       }
+      ],
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -302,6 +322,26 @@
        },
        {
         "Id": "1031315078"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "579784244",
+        "Name": "Reverb_FuneralHome",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_FuneralHome",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       },
+       {
+        "Id": "624627402",
+        "Name": "Reverb_Apartment",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_Apartment",
+        "GUID": "{B28A58E4-2BBF-4849-B95C-3ACC849A967E}"
+       },
+       {
+        "Id": "2057947822",
+        "Name": "Reverb_Void",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_Void",
+        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
        }
       ],
       "SwitchContainers": [
@@ -408,6 +448,6 @@
     ]
    }
   ],
-  "FileHash": "{11C66713-31AB-5FDB-1EB4-8CECC52BFDA6}"
+  "FileHash": "{4FC1CFEB-93FF-4190-08B1-9DBC9045AC8A}"
  }
 }

@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
     "Language": "SFX",
-    "Hash": "{5838AC1C-7C94-1963-4F7B-77F8CDD75DB5}",
+    "Hash": "{3115D1D7-431A-98B4-DF84-EA0B8F5FE55E}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
     "ShortName": "Funeral_Home",
     "Path": "Funeral_Home.bnk",
     "Media": [
+     {
+      "Id": "9956793",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_004.wav",
+      "CachePath": "48/{484EFE33-1020-A02F-447B-7493CDC93136}.wem"
+     },
      {
       "Id": "13189859",
       "Language": "SFX",
@@ -62,6 +70,14 @@
       "Location": "Memory",
       "ShortName": "Breath_Exhale_002.wav",
       "CachePath": "76/{76B3B84B-0C3D-1B44-5FE8-8E4E9985A00A}.wem"
+     },
+     {
+      "Id": "285034747",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_007.wav",
+      "CachePath": "3E/{3EECB60C-8136-FCE4-3646-E33561A9295C}.wem"
      },
      {
       "Id": "336069509",
@@ -120,6 +136,14 @@
       "CachePath": "98/{988D5BF2-D510-26D1-5FAA-9028BAC728AF}.wem"
      },
      {
+      "Id": "622806989",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_005.wav",
+      "CachePath": "3F/{3F496687-B5A0-A353-31DF-5CAFE4D5DE1C}.wem"
+     },
+     {
       "Id": "652604346",
       "Language": "SFX",
       "Streaming": "false",
@@ -158,6 +182,14 @@
       "Location": "Memory",
       "ShortName": "Funeral_Ambience_Thunderstorm.wav",
       "CachePath": "15/{156798CD-B2CE-6C02-F98A-F24F52919FA7}.wem"
+     },
+     {
+      "Id": "866457660",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_008.wav",
+      "CachePath": "61/{619FE3F3-1A0B-7104-A9AC-5B8368D044DC}.wem"
      },
      {
       "Id": "897507631",
@@ -209,6 +241,28 @@
       ]
      },
      {
+      "Id": "3003594117",
+      "Name": "Fnrl_Door_Creaking",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Door_Creaking",
+      "GUID": "{0CBA965B-EA68-4CF1-A7E1-87707066D038}",
+      "MaxAttenuation": "20",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "9956793"
+       },
+       {
+        "Id": "285034747"
+       },
+       {
+        "Id": "622806989"
+       },
+       {
+        "Id": "866457660"
+       }
+      ]
+     },
+     {
       "Id": "1736817776",
       "Name": "Fnrl_Mirror_Breathing",
       "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Mirror_Breathing",
@@ -252,6 +306,26 @@
        {
         "Id": "897507631"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "579784244",
+        "Name": "Reverb_FuneralHome",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_FuneralHome",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       },
+       {
+        "Id": "624627402",
+        "Name": "Reverb_Apartment",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_Apartment",
+        "GUID": "{B28A58E4-2BBF-4849-B95C-3ACC849A967E}"
+       },
+       {
+        "Id": "2057947822",
+        "Name": "Reverb_Void",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_Void",
+        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
+       }
       ]
      },
      {
@@ -259,7 +333,7 @@
       "Name": "Fnrl_Mus_Organ",
       "ObjectPath": "\\Events\\Funeral Home\\Music\\Fnrl_Mus_Organ",
       "GUID": "{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "50",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -329,7 +403,7 @@
       "Name": "Fnrl_Mus_Winds",
       "ObjectPath": "\\Events\\Funeral Home\\Music\\Fnrl_Mus_Winds",
       "GUID": "{E52DB62D-C829-4CA3-ADF8-B3ECCB3CE7CB}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "50",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -369,6 +443,12 @@
     ],
     "GameParameters": [
      {
+      "Id": "1288081852",
+      "Name": "DistanceAnimationRate",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\DistanceAnimationRate",
+      "GUID": "{88001F93-59F8-4874-A886-D90134697D52}"
+     },
+     {
       "Id": "1768319275",
       "Name": "DistanceFromTarget",
       "ObjectPath": "\\Game Parameters\\Game Parameters WU\\DistanceFromTarget",
@@ -377,6 +457,6 @@
     ]
    }
   ],
-  "FileHash": "{559D359F-3F11-606E-FB78-19AEE8084FF8}"
+  "FileHash": "{C4FE2158-32C1-AE99-7D46-748B6863BDED}"
  }
 }
