@@ -166,6 +166,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b6b548dae1a134a8179ec28f1b01f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PerspectivePuzzleSolve
+  state: 0
+  puzzleName: 
   distanceTolerance: 1
   angleTolerance: -0.975
   puzzleSolution: {fileID: 2104879818}
@@ -1149,6 +1151,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852bd80a48b938042af0ecdf0cef33cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DistanceBasedAnimation
+  state: 0
+  puzzleName: 
+  distanceCheckObject: {fileID: 0}
   animationName: Heavy Attack_Unlocked
   animationStartDistance: 15
   animationEndDistance: 5
@@ -13325,81 +13330,6 @@ Transform:
   - {fileID: 942364733}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &658539099
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 658539101}
-  - component: {fileID: 658539100}
-  m_Layer: 3
-  m_Name: CinemachineCamera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &658539100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 658539099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9dfa5b682dcd46bda6128250e975f58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineCamera
-  Priority:
-    Enabled: 0
-    m_Value: 0
-  OutputChannel: 1
-  StandbyUpdate: 2
-  m_StreamingVersion: 20241001
-  m_LegacyPriority: 0
-  Target:
-    TrackingTarget: {fileID: 0}
-    LookAtTarget: {fileID: 0}
-    CustomLookAtTarget: 0
-  Lens:
-    FieldOfView: 60.000004
-    OrthographicSize: 5
-    NearClipPlane: 0.3
-    FarClipPlane: 1000
-    Dutch: 0
-    ModeOverride: 0
-    PhysicalProperties:
-      GateFit: 2
-      SensorSize: {x: 21.946, y: 16.002}
-      LensShift: {x: 0, y: 0}
-      FocusDistance: 10
-      Iso: 200
-      ShutterSpeed: 0.005
-      Aperture: 16
-      BladeCount: 5
-      Curvature: {x: 2, y: 11}
-      BarrelClipping: 0.25
-      Anamorphism: 0
-  BlendHint: 0
---- !u!4 &658539101
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 658539099}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 843248940}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &690579405
 Mesh:
   m_ObjectHideFlags: 0
@@ -13707,6 +13637,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852bd80a48b938042af0ecdf0cef33cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DistanceBasedAnimation
+  state: 0
+  puzzleName: 
+  distanceCheckObject: {fileID: 0}
   animationName: Heavy Attack_Unlocked
   animationStartDistance: 15
   animationEndDistance: 5
@@ -18379,139 +18312,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &843248935
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 843248940}
-  - component: {fileID: 843248939}
-  - component: {fileID: 843248938}
-  - component: {fileID: 843248937}
-  - component: {fileID: 843248936}
-  m_Layer: 3
-  m_Name: Protagonist
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &843248936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 843248935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 648e26d91639e4a4f8f891b217d0673e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CharacterController
-  perspectivePuzzle: {fileID: 0}
-  currentState: 0
-  movementDir: {x: 0, y: 0, z: 0}
-  movementSpeed: 2
-  gravity: 9.81
-  aimSensitivity: 10
---- !u!136 &843248937
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 843248935}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &843248938
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 843248935}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &843248939
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 843248935}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &843248940
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 843248935}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.912578, z: -0, w: 0.40890267}
-  m_LocalPosition: {x: 191.22, y: 1, z: -26.68}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 658539101}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -131.728, z: 0}
 --- !u!1 &942364729
 GameObject:
   m_ObjectHideFlags: 0
@@ -19017,6 +18817,63 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1789772400}
   m_SourcePrefab: {fileID: 100100000, guid: 2e0554f1f9c17be468b30bbf19ae055d, type: 3}
+--- !u!1001 &1063269745
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8731733478460914661, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
+      propertyPath: m_Name
+      value: Protagonist
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060508231529228654, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.16533
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060508231529228654, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060508231529228654, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.35281
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060508231529228654, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060508231529228654, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060508231529228654, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060508231529228654, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060508231529228654, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060508231529228654, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060508231529228654, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
 --- !u!1001 &1089899889
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19672,6 +19529,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852bd80a48b938042af0ecdf0cef33cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DistanceBasedAnimation
+  state: 0
+  puzzleName: 
+  distanceCheckObject: {fileID: 0}
   animationName: Heavy Attack_Unlocked
   animationStartDistance: 15
   animationEndDistance: 5
@@ -19692,6 +19552,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852bd80a48b938042af0ecdf0cef33cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DistanceBasedAnimation
+  state: 0
+  puzzleName: 
+  distanceCheckObject: {fileID: 0}
   animationName: Heavy Attack_Unlocked
   animationStartDistance: 15
   animationEndDistance: 5
@@ -20799,6 +20662,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852bd80a48b938042af0ecdf0cef33cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DistanceBasedAnimation
+  state: 0
+  puzzleName: 
+  distanceCheckObject: {fileID: 0}
   animationName: Heavy Attack_Unlocked
   animationStartDistance: 15
   animationEndDistance: 5
@@ -28714,6 +28580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adbc31159f92444699146d2ed1d78bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputHandler
+  camera: {fileID: 0}
 --- !u!114 &2118472226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29496,7 +29363,6 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 946085008}
-  - {fileID: 843248940}
   - {fileID: 2118472227}
   - {fileID: 2136701994}
   - {fileID: 183607675}
@@ -29519,3 +29385,4 @@ SceneRoots:
   - {fileID: 646311039}
   - {fileID: 25371355}
   - {fileID: 731288680}
+  - {fileID: 1063269745}
