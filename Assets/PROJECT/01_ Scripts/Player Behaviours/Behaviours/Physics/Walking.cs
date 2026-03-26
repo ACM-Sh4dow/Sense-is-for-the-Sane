@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Walking : Behaviour
+public class Walking : PhysicsBehaviour
 {
     #region Variables
     private static Vector2 input;

@@ -12,7 +12,7 @@ public class Looking : Behaviour
     private static float TopClamp = 90;
     private static float BottomClamp = 270;
     
-    private float sensitivity = 30f;
+    private float sensitivity = 0.02f;
     #endregion
     
     public static void SyncInput(Vector2 Input)
@@ -63,10 +63,11 @@ public class Looking : Behaviour
             PlayerBehaviour.Instance.End<Looking>();
             return;
         }
+        staleInput = input;
         #endregion
         #region Get Targets
-        targetYaw += input.x * sensitivity * Time.deltaTime;
-        targetPitch -= input.y * sensitivity * Time.deltaTime;
+        targetYaw += input.x * sensitivity;
+        targetPitch -= input.y * sensitivity;
         targetPitch = ClampAngle(targetPitch);
         #endregion
         
@@ -80,8 +81,6 @@ public class Looking : Behaviour
             targetYaw,
             0);
         #endregion
-
-        staleInput = input;
     }
 
     public void End()

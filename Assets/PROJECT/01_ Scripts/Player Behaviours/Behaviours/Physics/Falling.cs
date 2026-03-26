@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Falling : Behaviour
+public class Falling : PhysicsBehaviour
 {
     #region Variables
 

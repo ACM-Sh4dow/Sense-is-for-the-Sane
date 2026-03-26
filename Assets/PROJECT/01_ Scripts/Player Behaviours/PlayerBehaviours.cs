@@ -6,6 +6,7 @@ public class PlayerBehaviour : MonoBehaviour
 {
     #region Variables
     public List<Behaviour> CurrentBehaviours = new List<Behaviour>();
+    public List<PhysicsBehaviour> CurrentPhysicsBehaviours = new List<PhysicsBehaviour>();
     
     public List<Behaviour> BehavioursToRemove = new List<Behaviour>();
     public List<Behaviour> BehavioursToAdd = new List<Behaviour>();
@@ -29,12 +30,21 @@ public class PlayerBehaviour : MonoBehaviour
             behaviour.Run();
         }
     }
+    
     private void ClearOldBehaviours()
     {
         foreach (Behaviour behaviour in BehavioursToRemove)
         {
             behaviour.End();
-            CurrentBehaviours.Remove(behaviour);
+
+            if (behaviour is PhysicsBehaviour)
+            {
+                CurrentPhysicsBehaviours.Remove((PhysicsBehaviour)behaviour);
+            }
+            else
+            {
+                CurrentBehaviours.Remove(behaviour);
+            }
         }
         BehavioursToRemove.Clear();
     }
@@ -43,7 +53,14 @@ public class PlayerBehaviour : MonoBehaviour
         foreach (Behaviour behaviour in BehavioursToAdd)
         {
             behaviour.Begin();
-            CurrentBehaviours.Add(behaviour);
+            if (behaviour is PhysicsBehaviour)
+            {
+                CurrentPhysicsBehaviours.Add((PhysicsBehaviour)behaviour);
+            }
+            else
+            {
+                CurrentBehaviours.Add(behaviour);
+            }
         }
         BehavioursToAdd.Clear();
     }
@@ -60,6 +77,14 @@ public class PlayerBehaviour : MonoBehaviour
     public void End<T>() where T : Behaviour
     {
         foreach (Behaviour behaviour in CurrentBehaviours)
+        {
+            if (behaviour is T)
+            {
+                BehavioursToRemove.Add(behaviour);
+            }
+        }
+        
+        foreach (PhysicsBehaviour behaviour in CurrentPhysicsBehaviours)
         {
             if (behaviour is T)
             {
@@ -83,6 +108,11 @@ public class PlayerBehaviour : MonoBehaviour
     }
 
     private void FixedUpdate()
+    {
+        RunAll(new List<Behaviour>(CurrentPhysicsBehaviours));
+    }
+
+    private void Update()
     {
         RunAll(CurrentBehaviours);
         ClearOldBehaviours();
