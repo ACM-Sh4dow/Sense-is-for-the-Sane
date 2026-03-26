@@ -12,7 +12,7 @@ public class Looking : Behaviour
     private static float TopClamp = 90;
     private static float BottomClamp = 270;
     
-    private float sensitivity = 0.02f;
+    private float sensitivity = 0.2f;
     #endregion
     
     public static void SyncInput(Vector2 Input)
@@ -50,8 +50,8 @@ public class Looking : Behaviour
     public void Begin()
     {
         #region Initial Yaw/Pitch
-        targetYaw = PlayerBehaviour.Instance.CameraHolder.transform.rotation.eulerAngles.y;
-        targetPitch = PlayerBehaviour.Instance.CameraHolder.transform.rotation.eulerAngles.x;
+        targetYaw = PlayerBehaviour.Instance.CameraHolder.transform.eulerAngles.y;
+        targetPitch = PlayerBehaviour.Instance.CameraHolder.transform.eulerAngles.x;
         #endregion
     }
 
@@ -72,14 +72,14 @@ public class Looking : Behaviour
         #endregion
         
         #region Apply Rotation
-        PlayerBehaviour.Instance.CameraHolder.transform.rotation = Quaternion.Euler(
+        PlayerBehaviour.Instance.CameraHolder.transform.localEulerAngles = new Vector3(
             targetPitch,
+            0f,
+            0f);
+        PlayerBehaviour.Instance.transform.eulerAngles = new Vector3(
+            0f,
             targetYaw,
             0f);
-        PlayerBehaviour.Instance.transform.rotation = Quaternion.Euler(
-            0,
-            targetYaw,
-            0);
         #endregion
     }
 
