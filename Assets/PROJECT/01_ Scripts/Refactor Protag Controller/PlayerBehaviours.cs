@@ -19,6 +19,8 @@ public class PlayerBehaviour : MonoBehaviour
     
     public GameObject CameraHolder;
     public Camera Camera;
+    
+    private bool behavioursBlocked = false;
     #endregion
     
     #region Private Methods
@@ -51,6 +53,7 @@ public class PlayerBehaviour : MonoBehaviour
     #region Public Methods
     public void Begin<T>() where T : Behaviour, new()
     {
+        if (behavioursBlocked) return;
         if (InState<T>()) return;
 
         var newBehaviour = new T();
@@ -67,6 +70,10 @@ public class PlayerBehaviour : MonoBehaviour
             }
         }
     }
+    public void End(Behaviour behaviour)
+    {
+        BehavioursToRemove.Add(behaviour);
+    }
     public bool InState<T>() where T : Behaviour
     {
         foreach (Behaviour behaviour in CurrentBehaviours)
@@ -74,6 +81,19 @@ public class PlayerBehaviour : MonoBehaviour
             if (behaviour is T) return true;
         }
         return false;
+    }
+
+    public void CullBehaviours()
+    {
+        foreach (Behaviour behaviour in CurrentBehaviours)
+        {
+            End(behaviour);
+        }
+    }
+
+    public void BlockBehaviours()
+    {
+        behavioursBlocked = !behavioursBlocked;
     }
     #endregion
     private void Start()
