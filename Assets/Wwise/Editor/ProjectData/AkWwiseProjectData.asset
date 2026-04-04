@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: ede88cb9b519ad42b043b7baa79cad7e
     GuidInternal: 
-    m_lastTime: -8584272356882129316
+    m_lastTime: -8584262992065759506
     List:
     - name: Ambience
       guid: f2bf24467fbfab469dd8e53fb1f29da0
@@ -224,7 +224,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584270847639086032
+    m_lastTime: -8584262992047717476
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -308,7 +308,7 @@ MonoBehaviour:
     ParentPath: Events\Apartment
     guid: 403f5a0f3ccb46478134079334a4da23
     GuidInternal: 
-    m_lastTime: -8584273414576970073
+    m_lastTime: -8584262992066170540
     List:
     - name: Apt_Clock
       guid: cc1102f1eea62044bdfd304ba4a2a9e5
@@ -436,7 +436,7 @@ MonoBehaviour:
     ParentPath: Events\Funeral Home
     guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
     GuidInternal: 
-    m_lastTime: -8584270847646254169
+    m_lastTime: -8584262992066157363
     List:
     - name: Fnrl_Amb_Pause
       guid: b07a90bffc5a3443801fddc3dff36a05
@@ -648,7 +648,7 @@ MonoBehaviour:
     ParentPath: Events\General Events
     guid: 1ff59692a3e328449b9b4c99fad941f7
     GuidInternal: 
-    m_lastTime: -8584272461795870084
+    m_lastTime: -8584262992066137213
     List:
     - name: Footstep
       guid: f5f61b65005eec4ebc2cb99851ab9555
@@ -695,7 +695,7 @@ MonoBehaviour:
     ParentPath: Events\Tests
     guid: f612c0badde62b4f83093679909ae332
     GuidInternal: 
-    m_lastTime: -8584270642705059611
+    m_lastTime: -8584262992066127252
     List:
     - name: TestFnrlMusic
       guid: 38046558aac1654e94123c22b64073a1
@@ -756,7 +756,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Game Parameters WU
     guid: c4a7a3998bd1784ea5fc8d535b50ceee
     GuidInternal: 
-    m_lastTime: -8584263031280852740
+    m_lastTime: -8584262992066112165
     List:
     - name: DistanceAnimationRate
       guid: 931f0088f8597448a886d90134697d52
@@ -839,7 +839,7 @@ MonoBehaviour:
     ParentPath: States\States WU
     guid: 7d31013722dbbd43af5130094b358f20
     GuidInternal: 
-    m_lastTime: -8584270642704833296
+    m_lastTime: -8584262992047683025
     List:
     - name: CurrentScene
       guid: b2df96403f43694dbaffd67984f6fb84
@@ -1179,7 +1179,7 @@ MonoBehaviour:
     m_lastTime: -8584275934083339506
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000e0000000f000000150000001b0000001c0000001d00000020000000210000008d00000096000000
+  ExpandedWaapiItemIds: 05000000060000000e0000000f0000001b0000001c0000001d00000020000000210000008d00000096000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
