@@ -68,6 +68,7 @@ public class PerspectivePuzzleSolve : Puzzle
     }
     private void SolvePuzzle()
     {
+        Debug.Log("Solving Puzzle");
         if (state == State.solved) return;
 
         if (state == State.solvable)

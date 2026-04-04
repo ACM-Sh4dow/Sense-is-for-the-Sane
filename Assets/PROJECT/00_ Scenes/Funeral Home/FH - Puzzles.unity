@@ -5675,7 +5675,7 @@ MonoBehaviour:
   transitionAudioEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: a5a76c97ec321e74b801c4168be7b6cc, type: 2}
 --- !u!4 &4071676763232004018
 Transform:
   m_ObjectHideFlags: 0
@@ -5778,7 +5778,7 @@ MonoBehaviour:
   transitionAudioEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: c777b320c76d86c4d92a112d5ddfcbb5, type: 2}
 --- !u!1 &6790226308635116233
 GameObject:
   m_ObjectHideFlags: 0
