@@ -126,6 +126,8 @@ public class PlayerBehaviour : MonoBehaviour
         Instance = this;
     }
 
+    
+    
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;

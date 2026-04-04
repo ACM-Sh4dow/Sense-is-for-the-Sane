@@ -53,10 +53,10 @@ public class InputHandler : MonoBehaviour
         PerspectivePuzzleSolve.AttemptPuzzle();
     }
 
-    public void ReceiveManualAnimationInput(InputAction.CallbackContext input)
-    {
-        if (input is { started: false, canceled: false }) return;
-
-        ManualAnimationProgression.SyncManualAnimationInput();
-    }
+    // public void ReceiveManualAnimationInput(InputAction.CallbackContext input)
+    // {
+    //     if (input is { started: false, canceled: false }) return;
+    //
+    //     ManualAnimationProgression.SyncManualAnimationInput();
+    // }
 }

@@ -13,7 +13,6 @@ public class AudioDistanceCheck : MonoBehaviour
     
     void Start()
     {
-        Debug.Log(PlayerBehaviour.Instance);
         playerCamPos = PlayerBehaviour.Instance.CameraHolder.transform;
         
         if (audioEvent != null)

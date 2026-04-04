@@ -1,10 +1,13 @@
 using System;
 using UnityEngine;
 
-public class ManualAnimationProgression : MonoBehaviour
+public class ManualAnimationProgression : Puzzle, InteractionPoint
 {
     private Animator animator;
     private float progress = 0f;
+
+    [SerializeField] [Range(0,1)] private float solutionProgressMin;
+    [SerializeField] [Range(0,1)] private float solutionProgressMax;
 
     public string animationName;
     [Range(0,1)] public float progressionRate;
@@ -23,7 +26,12 @@ public class ManualAnimationProgression : MonoBehaviour
         animator.speed = 0;
     }
 
-    public static void SyncManualAnimationInput()
+    // public static void SyncManualAnimationInput()
+    // {
+    //     canProgress = !canProgress;
+    // }
+
+    public void Interact()
     {
         canProgress = !canProgress;
     }
@@ -31,8 +39,22 @@ public class ManualAnimationProgression : MonoBehaviour
     private void Update()
     {
         if (!canProgress) return;
+        if (state == State.fullyResolved) return;
 
         progress += progressionRate;
         animator.Play(animationName, 0, progress);
+        CheckSolution();
+    }
+
+    private void CheckSolution()
+    {
+        if (progress <= solutionProgressMin || progress >= solutionProgressMax) //currently starts at correct position
+        {
+            state = State.solved;
+        }
+        else
+        {
+            state = State.solvable;
+        }
     }
 }

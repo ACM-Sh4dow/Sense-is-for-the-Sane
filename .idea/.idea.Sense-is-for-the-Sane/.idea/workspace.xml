@@ -5,9 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96fc74af-9d80-4a0a-871b-381a31421ada" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Animations/Flower Controller.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Animations/Flower Controller.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Animations/Flower.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Animations/Flower.anim.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sense-is-for-the-Sane/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sense-is-for-the-Sane/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProtagonistController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProtagonistController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Base.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Base.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Puzzles.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Puzzles.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/Audio/AudioDistanceCheck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/Audio/AudioDistanceCheck.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/DistanceBasedAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/DistanceBasedAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/FuneralManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/FuneralManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/InputHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/InputHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/ManualAnimationProgression.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/ManualAnimationProgression.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/PerspectivePuzzleSolve.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/PerspectivePuzzleSolve.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/Player Behaviours/PlayerBehaviours.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/Player Behaviours/PlayerBehaviours.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/Puzzle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/Puzzle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/PuzzleTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/PuzzleTracker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Materials/PlayerView.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Materials/PlayerView.renderTexture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Mirror Texture.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Mirror Texture.renderTexture" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/0CBA965B-EA68-4CF1-A7E1-87707066D038.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/0CBA965B-EA68-4CF1-A7E1-87707066D038.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/2A588BC6-F874-4660-A5A5-061650ED2C5C.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/2A588BC6-F874-4660-A5A5-061650ED2C5C.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/36E22E4E-5EA4-41E7-B576-76B3D3090F0E.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/36E22E4E-5EA4-41E7-B576-76B3D3090F0E.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/3F85E934-BD61-4E41-BC35-937B2BC821BB.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/3F85E934-BD61-4E41-BC35-937B2BC821BB.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/5A644377-9F79-44E2-BC1C-122FF672AE25.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/5A644377-9F79-44E2-BC1C-122FF672AE25.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/72658927-421A-4DDD-B605-EE4D528A914C.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/72658927-421A-4DDD-B605-EE4D528A914C.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/748EF433-A22E-494E-927C-79CFE002E9FF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/748EF433-A22E-494E-927C-79CFE002E9FF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/9F02AAE3-A025-471B-A281-B77A69F45B8A.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/9F02AAE3-A025-471B-A281-B77A69F45B8A.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/DD55A7FB-4693-4A66-A895-996329466B19.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/DD55A7FB-4693-4A66-A895-996329466B19.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/E52DB62D-C829-4CA3-ADF8-B3ECCB3CE7CB.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/E52DB62D-C829-4CA3-ADF8-B3ECCB3CE7CB.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/E6C0F4EC-AFAA-4EC8-8C9A-EE291FC65B35.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/E6C0F4EC-AFAA-4EC8-8C9A-EE291FC65B35.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/F10211CC-A6EE-4420-BDFD-304BA4A2A9E5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/F10211CC-A6EE-4420-BDFD-304BA4A2A9E5.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/F91BE929-F651-44A2-A96F-6A1A868C61E4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/F91BE929-F651-44A2-A96F-6A1A868C61E4.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,22 +64,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Unity.exe" />
@@ -68,7 +101,7 @@
       <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" useMixedMode="false">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -79,7 +112,6 @@
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="useMixedMode" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
@@ -101,6 +133,7 @@
       <workItem from="1769609087150" duration="4367000" />
       <workItem from="1770287383140" duration="2580000" />
       <workItem from="1770875086247" duration="4431000" />
+      <workItem from="1775310138581" duration="6485000" />
     </task>
     <servers />
   </component>

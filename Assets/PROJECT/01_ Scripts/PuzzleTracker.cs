@@ -6,8 +6,7 @@ using UnityEngine;
 
 public abstract class PuzzleTracker : MonoBehaviour
 {
-    public List<Puzzle> Puzzles = new List<Puzzle>();
-
+    public List<Puzzle> Puzzles = new ();
 
     public (int Completed, int Total) CheckCompletionProgress(Puzzle[] puzzleArray)
     {

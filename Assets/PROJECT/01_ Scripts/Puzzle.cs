@@ -14,13 +14,8 @@ public abstract class  Puzzle: MonoBehaviour
 
     public string puzzleName;
 
-    private void Start()
+    public void RegisterCompletion()
     {
-        Debug.Log("Checking for Puzzle Tracker");
-
-        if (Overseer.Instance.GetManager<FuneralManager>() != null)
-        {
-            Debug.Log("Code do a work");
-        }
+        Overseer.Instance.GetManager<FuneralManager>().OnPuzzleComplete();
     }
 }

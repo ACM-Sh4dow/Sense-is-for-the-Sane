@@ -2,7 +2,7 @@ using System;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class DistanceBasedAnimation : Puzzle
+public class DistanceBasedAnimation : MonoBehaviour
 {
     private Animator animator;
     private GameObject player;
