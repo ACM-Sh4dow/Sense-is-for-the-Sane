@@ -703,7 +703,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &117230784
 Transform:
   m_ObjectHideFlags: 0
@@ -744,6 +744,7 @@ MonoBehaviour:
   - {fileID: 293972928}
   - {fileID: 64170598}
   puzzleResult: {fileID: 804932219}
+  secondaryPuzzleComplete: 0
 --- !u!1 &159328315
 GameObject:
   m_ObjectHideFlags: 0
@@ -1634,6 +1635,7 @@ MonoBehaviour:
   - {fileID: 1584155280}
   - {fileID: 1813431603}
   puzzleResult: {fileID: 1935323122}
+  secondaryPuzzleComplete: 1
 --- !u!1 &476392651
 GameObject:
   m_ObjectHideFlags: 0
@@ -2496,6 +2498,7 @@ MonoBehaviour:
   solutionProgressMax: 0.9
   animationName: Flower
   progressionRate: 0.001
+  PerspectivePuzzleSolve: {fileID: 117230785}
 --- !u!33 &561141881
 MeshFilter:
   m_ObjectHideFlags: 0
