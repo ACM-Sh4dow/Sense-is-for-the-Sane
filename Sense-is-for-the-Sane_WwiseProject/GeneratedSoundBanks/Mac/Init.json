@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{AC172B53-8130-D09C-7E80-9E6650052609}",
+    "Hash": "{3117D418-A0EB-25C6-1DDA-F0B14963C349}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -140,6 +140,12 @@
      }
     ],
     "GameParameters": [
+     {
+      "Id": "553709980",
+      "Name": "InAudibleZone",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\InAudibleZone",
+      "GUID": "{4BEBB738-CD5B-4CE1-AFCB-393067F45FA2}"
+     },
      {
       "Id": "1288081852",
       "Name": "DistanceAnimationRate",
@@ -281,6 +287,6 @@
     ]
    }
   ],
-  "FileHash": "{2DF96C10-F852-B027-03F0-7CC7922EEBE8}"
+  "FileHash": "{3907A86A-6A4D-0FAA-9A61-246DA5BD25D0}"
  }
 }

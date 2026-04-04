@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
     "Language": "SFX",
-    "Hash": "{3115D1D7-431A-98B4-DF84-EA0B8F5FE55E}",
+    "Hash": "{8F48461E-5527-4E35-3302-0EBB7CBAEA5C}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
     "ShortName": "Funeral_Home",
     "Path": "Funeral_Home.bnk",
@@ -189,7 +189,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_008.wav",
-      "CachePath": "61/{619FE3F3-1A0B-7104-A9AC-5B8368D044DC}.wem"
+      "CachePath": "D0/{D0BDD28E-C844-F20C-4C66-79C20D3EAE6E}.wem"
      },
      {
       "Id": "897507631",
@@ -443,6 +443,12 @@
     ],
     "GameParameters": [
      {
+      "Id": "553709980",
+      "Name": "InAudibleZone",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\InAudibleZone",
+      "GUID": "{4BEBB738-CD5B-4CE1-AFCB-393067F45FA2}"
+     },
+     {
       "Id": "1288081852",
       "Name": "DistanceAnimationRate",
       "ObjectPath": "\\Game Parameters\\Game Parameters WU\\DistanceAnimationRate",
@@ -457,6 +463,6 @@
     ]
    }
   ],
-  "FileHash": "{C4FE2158-32C1-AE99-7D46-748B6863BDED}"
+  "FileHash": "{0399BBC5-5E65-1FDC-DFFC-26CD861B1463}"
  }
 }

@@ -14,10 +14,17 @@ public class DistanceBasedAnimation : Puzzle
     [SerializeField] private string animationName;
     [SerializeField] private float animationStartDistance;
     [SerializeField] private float animationEndDistance;
+
+    private float animationProgressLastFrame;
+    private float animationDelta = 0;
+    public bool logAnimDelta;
+
+    public AK.Wwise.Event audioEvent;
     
     private void Start()
     {
         animator = GetComponent<Animator>();
+        if (audioEvent != null) audioEvent.Post(gameObject);
 
         if (animator == null)
         {
@@ -49,10 +56,12 @@ public class DistanceBasedAnimation : Puzzle
         if (distanceFromPlayer <= animationEndDistance)
         {
             animationProgress = 0f;
+            animationDelta = 0f;
         }
         else if (distanceFromPlayer >= animationStartDistance)
         {
             animationProgress = 1f;
+            animationDelta = 0f;
         }
         else
         {
@@ -62,8 +71,15 @@ public class DistanceBasedAnimation : Puzzle
             var playerDifference = distanceFromPlayer - animationEndDistance;
             
             animationProgress = playerDifference / rangeDifference;
+
+            animationDelta = (animationProgressLastFrame - animationProgress) / Time.deltaTime;
+            if (logAnimDelta) Debug.Log("Anim delta for " + name + "  -  " + animationDelta);
+            
         }
         
         animator.Play(animationName, 0, animationProgress);
+        AkUnitySoundEngine.SetRTPCValue("DistanceAnimationRate", animationDelta, gameObject);
+
+        animationProgressLastFrame = animationProgress;
     }
 }

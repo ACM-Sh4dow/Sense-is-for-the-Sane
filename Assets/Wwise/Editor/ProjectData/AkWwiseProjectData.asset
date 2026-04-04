@@ -224,7 +224,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584271429457572915
+    m_lastTime: -8584270847639086032
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -436,7 +436,7 @@ MonoBehaviour:
     ParentPath: Events\Funeral Home
     guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
     GuidInternal: 
-    m_lastTime: -8584271432312534191
+    m_lastTime: -8584270847646254169
     List:
     - name: Fnrl_Amb_Pause
       guid: b07a90bffc5a3443801fddc3dff36a05
@@ -695,7 +695,7 @@ MonoBehaviour:
     ParentPath: Events\Tests
     guid: f612c0badde62b4f83093679909ae332
     GuidInternal: 
-    m_lastTime: -8584272340423200888
+    m_lastTime: -8584270642705059611
     List:
     - name: TestFnrlMusic
       guid: 38046558aac1654e94123c22b64073a1
@@ -756,7 +756,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Game Parameters WU
     guid: c4a7a3998bd1784ea5fc8d535b50ceee
     GuidInternal: 
-    m_lastTime: -8584271433467251510
+    m_lastTime: -8584263031280852740
     List:
     - name: DistanceAnimationRate
       guid: 931f0088f8597448a886d90134697d52
@@ -786,6 +786,20 @@ MonoBehaviour:
         ObjectType: 13
         guid: c923bd5528d12a4cb2f8b1224c5f1fd8
       Path: Game Parameters\Game Parameters WU\DistanceFromTarget
+    - name: InAudibleZone
+      guid: 38b7eb4b5bcde14cafcb393067f45fa2
+      id: 553709980
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Game Parameters WU
+        ObjectType: 12
+        guid: c4a7a3998bd1784ea5fc8d535b50ceee
+      - ElementName: InAudibleZone
+        ObjectType: 13
+        guid: 38b7eb4b5bcde14cafcb393067f45fa2
+      Path: Game Parameters\Game Parameters WU\InAudibleZone
     - name: VoidAmbPitch
       guid: 57f43706ef59644aa8517e4a97659893
       id: 3895577369
@@ -825,7 +839,7 @@ MonoBehaviour:
     ParentPath: States\States WU
     guid: 7d31013722dbbd43af5130094b358f20
     GuidInternal: 
-    m_lastTime: -8584271545211100041
+    m_lastTime: -8584270642704833296
     List:
     - name: CurrentScene
       guid: b2df96403f43694dbaffd67984f6fb84

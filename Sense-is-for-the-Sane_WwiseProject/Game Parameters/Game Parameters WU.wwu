@@ -18,9 +18,20 @@
 				</GameParameter>
 				<GameParameter Name="DistanceAnimationRate" ID="{88001F93-59F8-4874-A886-D90134697D52}">
 					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="1"/>
 						<Property Name="Min" Type="Real64" Value="-1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="InAudibleZone" ID="{4BEBB738-CD5B-4CE1-AFCB-393067F45FA2}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

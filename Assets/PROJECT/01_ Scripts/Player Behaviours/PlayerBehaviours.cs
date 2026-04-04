@@ -121,9 +121,13 @@ public class PlayerBehaviour : MonoBehaviour
         behavioursBlocked = !behavioursBlocked;
     }
     #endregion
-    private void Start()
+    private void Awake()
     {
         Instance = this;
+    }
+
+    private void Start()
+    {
         Cursor.lockState = CursorLockMode.Locked;
     }
 

@@ -641,6 +641,48 @@
 									</RTPC>
 								</Local>
 							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{3AF679D5-8ED5-46E9-8BA1-3675F6CAC5F3}" ShortID="738917618">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="InAudibleZone" ID="{4BEBB738-CD5B-4CE1-AFCB-393067F45FA2}" WorkUnitID="{99A3A7C4-D18B-4E78-A5FC-8D535B50CEEE}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{B2F0F6DB-AC23-41B2-A85B-822F5BE6A91A}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.5</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
 						</ObjectList>
 					</ObjectLists>
 				</MusicPlaylistContainer>

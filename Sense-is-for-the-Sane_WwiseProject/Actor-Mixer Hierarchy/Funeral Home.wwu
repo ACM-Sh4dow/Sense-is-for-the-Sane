@@ -1801,11 +1801,10 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Door Creaking Rand" ID="{46A96842-F962-40B4-97A1-5F303DEEE9B8}" ShortID="649009628">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
-						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="Highpass" Type="int16">
 							<ValueList>
-								<Value>16</Value>
+								<Value>20</Value>
 							</ValueList>
 						</Property>
 						<Property Name="InitialDelay" Type="Real64">
@@ -1817,6 +1816,9 @@
 						</Property>
 						<Property Name="OverridePositioning" Type="bool" Value="True"/>
 						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>150</Value>
+							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
 									<Modifier Name="" ID="{FF6B3A49-9128-4353-9D6A-E720E3F3295E}">
@@ -1843,7 +1845,7 @@
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>8</Value>
+								<Value>-2</Value>
 							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
@@ -1877,7 +1879,6 @@
 															<XPos>0</XPos>
 															<YPos>0</YPos>
 															<Flags>5</Flags>
-															<SegmentShape>Exp3</SegmentShape>
 														</Point>
 														<Point>
 															<XPos>20</XPos>
@@ -1916,7 +1917,7 @@
 											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 										</LowPassFilterUsage>
 										<HighPassFilterUsage>
-											<CurveUsageInfo Platform="Linked" CurveToUse="None">
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 												<Curve Name="HighPassFilter" ID="{82D0AD6A-7307-4D53-B00B-D9EE7F42808F}">
 													<PropertyList>
 														<Property Name="Flags" Type="int32" Value="65537"/>
@@ -1926,11 +1927,11 @@
 															<XPos>0</XPos>
 															<YPos>0</YPos>
 															<Flags>5</Flags>
-															<SegmentShape>Exp2</SegmentShape>
+															<SegmentShape>Exp1</SegmentShape>
 														</Point>
 														<Point>
 															<XPos>20</XPos>
-															<YPos>100</YPos>
+															<YPos>96</YPos>
 															<Flags>37</Flags>
 														</Point>
 													</PointList>
@@ -2286,19 +2287,19 @@
 														<PointList>
 															<Point>
 																<XPos>-1</XPos>
-																<YPos>0</YPos>
+																<YPos>1.5</YPos>
 																<Flags>5</Flags>
-																<SegmentShape>Log1</SegmentShape>
+																<SegmentShape>Exp3</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-97.35194</YPos>
+																<YPos>-200</YPos>
 																<Flags>0</Flags>
-																<SegmentShape>Exp1</SegmentShape>
+																<SegmentShape>Log3</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>1</XPos>
-																<YPos>0</YPos>
+																<YPos>1.5</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -2311,32 +2312,32 @@
 							</Reference>
 							<Reference>
 								<Local>
-									<RTPC Name="" ID="{87E2BEC0-5738-4FBE-9218-28D0BFC6E4D0}" ShortID="246610486">
+									<RTPC Name="" ID="{3D7FCA98-DF5F-4BEA-A1AB-FD1CA562EAFB}" ShortID="534230542">
 										<PropertyList>
-											<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">
-												<ObjectRef Name="DistanceAnimationRate" ID="{88001F93-59F8-4874-A886-D90134697D52}" WorkUnitID="{99A3A7C4-D18B-4E78-A5FC-8D535B50CEEE}"/>
+												<ObjectRef Name="InAudibleZone" ID="{4BEBB738-CD5B-4CE1-AFCB-393067F45FA2}" WorkUnitID="{99A3A7C4-D18B-4E78-A5FC-8D535B50CEEE}"/>
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
-													<Curve Name="" ID="{4C79D444-2607-4654-82F8-783EA65D4377}">
+													<Curve Name="" ID="{B8037BF1-4789-455A-85BD-6195148D247C}">
 														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="65537"/>
+															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
 														<PointList>
 															<Point>
-																<XPos>-1</XPos>
-																<YPos>0</YPos>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
 																<Flags>5</Flags>
-																<SegmentShape>Exp1</SegmentShape>
+																<SegmentShape>Constant</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>0</XPos>
-																<YPos>23</YPos>
+																<XPos>0.5</XPos>
+																<YPos>0</YPos>
 																<Flags>0</Flags>
-																<SegmentShape>Log1</SegmentShape>
+																<SegmentShape>Constant</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>1</XPos>

@@ -95,6 +95,7 @@ namespace AK
     {
         static const AkUniqueID DISTANCEANIMATIONRATE = 1288081852U;
         static const AkUniqueID DISTANCEFROMTARGET = 1768319275U;
+        static const AkUniqueID INAUDIBLEZONE = 553709980U;
         static const AkUniqueID VOIDAMBPITCH = 3895577369U;
     } // namespace GAME_PARAMETERS
 

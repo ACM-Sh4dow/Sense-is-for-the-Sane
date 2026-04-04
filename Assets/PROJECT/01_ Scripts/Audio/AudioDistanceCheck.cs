@@ -6,14 +6,16 @@ public class AudioDistanceCheck : MonoBehaviour
     public float angleFromTargetRotation;
     private Transform playerCamPos;
 
-    public float audibleDistanceRange = 1;
+    public float audibleDistanceRange = 3;
     [Range(0f, 180f)]
     public float audibleAngleRange = 60;
     public AK.Wwise.Event audioEvent;
     
     void Start()
     {
+        Debug.Log(PlayerBehaviour.Instance);
         playerCamPos = PlayerBehaviour.Instance.CameraHolder.transform;
+        
         if (audioEvent != null)
         {
             audioEvent.Post(gameObject);
