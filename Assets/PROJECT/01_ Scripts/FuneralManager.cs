@@ -24,7 +24,7 @@ public class FuneralManager : PuzzleTracker
     public void OnPuzzleComplete()
     {
         #region Check Completion Progress - Unused
-        int completedPuzzle = CheckCompletionProgress(Puzzles.ToArray()).Completed;
+        /*int completedPuzzle = CheckCompletionProgress(Puzzles.ToArray()).Completed;
 
         switch (completedPuzzle)
         {
@@ -40,14 +40,13 @@ public class FuneralManager : PuzzleTracker
 
             case 3:
                 break;
-
-        }
+                */
         #endregion
 
         PaintingSolved();
         FlowerSolved();
-        PedestalSolved();
-        CasketSolved();
+        //PedestalSolved();
+        //CasketSolved();
     }
 
     private void PaintingSolved()

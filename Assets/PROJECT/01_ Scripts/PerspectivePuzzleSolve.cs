@@ -66,7 +66,7 @@ public class PerspectivePuzzleSolve : Puzzle
             puzzleSolveAttempted = false;
         }
     }
-    public void SolvePuzzle()
+    private void SolvePuzzle()
     {
         if (state == State.solved) return;
 

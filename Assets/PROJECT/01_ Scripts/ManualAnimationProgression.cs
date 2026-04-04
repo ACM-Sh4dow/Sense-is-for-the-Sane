@@ -1,10 +1,11 @@
 using System;
+using Unity.Collections;
 using UnityEngine;
 
 public class ManualAnimationProgression : Puzzle, InteractionPoint
 {
     private Animator animator;
-    private float progress = 0f;
+    public float progress = 0f;
 
     [SerializeField] [Range(0,1)] private float solutionProgressMin;
     [SerializeField] [Range(0,1)] private float solutionProgressMax;
@@ -41,6 +42,7 @@ public class ManualAnimationProgression : Puzzle, InteractionPoint
         if (!canProgress) return;
         if (state == State.fullyResolved) return;
 
+        if (progress >= 1) progress = 0;
         progress += progressionRate;
         animator.Play(animationName, 0, progress);
         CheckSolution();
@@ -50,7 +52,9 @@ public class ManualAnimationProgression : Puzzle, InteractionPoint
     {
         if (progress <= solutionProgressMin || progress >= solutionProgressMax) //currently starts at correct position
         {
+            if (state == State.solved) return;
             state = State.solved;
+            RegisterCompletion();
         }
         else
         {
