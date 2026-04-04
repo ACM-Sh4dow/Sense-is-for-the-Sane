@@ -14,7 +14,7 @@
 				<StateGroup Name="FuneralHomeVersion" ID="{F0D40430-B72C-4672-A0D9-74C2EC3DDC10}">
 					<ChildrenList>
 						<State Name="None" ID="{873F2610-2C00-4B76-B36A-67906D77920C}"/>
-						<State Name="Normal" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
+						<State Name="Regular" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
 						<State Name="Alternate" ID="{DCCA95AB-DF88-4C88-AC1B-F2C2B6E3BD12}"/>
 					</ChildrenList>
 				</StateGroup>

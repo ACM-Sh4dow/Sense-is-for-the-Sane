@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
     "Language": "SFX",
-    "Hash": "{5E2AC8D5-21D2-AD7F-A0F9-ACF2A905E21F}",
+    "Hash": "{0EC2420D-62C2-F741-8AC8-D2D0D65977F2}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
     "ShortName": "Funeral_Home",
     "Path": "Funeral_Home.bnk",
@@ -93,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Breath_Inhale_002.wav",
-      "CachePath": "8D/{8D6A8315-23C9-2B75-902D-2BD2C9B22C02}.wem"
+      "CachePath": "0D/{0DA62E56-D0BB-54B8-8E95-1B59AF8C3E40}.wem"
      },
      {
       "Id": "449394520",
@@ -109,7 +109,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Breath_Inhale_001.wav",
-      "CachePath": "21/{21A6DC1D-1984-091E-7D72-C12C1A0786F0}.wem"
+      "CachePath": "C0/{C05FEEEE-D23B-7C7F-8EA7-022C560890B5}.wem"
      },
      {
       "Id": "500564140",
@@ -165,7 +165,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Breath_Inhale_003.wav",
-      "CachePath": "BE/{BE2F2CE9-412B-6880-C93A-F962CF3EB501}.wem"
+      "CachePath": "69/{69F5B4AB-7430-CCB1-4913-D2642C43621B}.wem"
      },
      {
       "Id": "774388882",
@@ -420,13 +420,13 @@
       ]
      },
      {
-      "Id": "2266869587",
-      "Name": "Fnrl_Transition",
-      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Transition",
+      "Id": "2938809645",
+      "Name": "Fnrl_Transition_Exhale",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Transition_Exhale",
       "GUID": "{3F85E934-BD61-4E41-BC35-937B2BC821BB}",
       "DurationType": "OneShot",
-      "DurationMin": "2.6228118",
-      "DurationMax": "4.259184",
+      "DurationMin": "1.5908475",
+      "DurationMax": "2.6253827",
       "MediaRefs": [
        {
         "Id": "16631637"
@@ -436,7 +436,18 @@
        },
        {
         "Id": "336069509"
-       },
+       }
+      ]
+     },
+     {
+      "Id": "2161155719",
+      "Name": "Fnrl_Transition_Inhale",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Transition_Inhale",
+      "GUID": "{36E22E4E-5EA4-41E7-B576-76B3D3090F0E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.48194632",
+      "DurationMax": "0.6314552",
+      "MediaRefs": [
        {
         "Id": "417704821"
        },
@@ -471,6 +482,6 @@
     ]
    }
   ],
-  "FileHash": "{ACF3AC4F-721E-877D-E076-5F46789AB7DC}"
+  "FileHash": "{F53A73D8-2BDC-CA71-B6E0-40D4195B670B}"
  }
 }

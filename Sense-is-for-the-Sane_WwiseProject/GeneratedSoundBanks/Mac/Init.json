@@ -211,9 +211,9 @@
         "GUID": "{873F2610-2C00-4B76-B36A-67906D77920C}"
        },
        {
-        "Id": "1160234136",
-        "Name": "Normal",
-        "ObjectPath": "\\States\\States WU\\FuneralHomeVersion\\Normal",
+        "Id": "2628937827",
+        "Name": "Regular",
+        "ObjectPath": "\\States\\States WU\\FuneralHomeVersion\\Regular",
         "GUID": "{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"
        },
        {
@@ -287,6 +287,6 @@
     ]
    }
   ],
-  "FileHash": "{3907A86A-6A4D-0FAA-9A61-246DA5BD25D0}"
+  "FileHash": "{3555E314-ACF7-B8CB-A082-86B3FF6FF82F}"
  }
 }

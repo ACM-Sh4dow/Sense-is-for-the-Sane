@@ -28,7 +28,8 @@ namespace AK
         static const AkUniqueID FNRL_MUS_PIANO = 2549568769U;
         static const AkUniqueID FNRL_MUS_STRINGS = 3506702008U;
         static const AkUniqueID FNRL_MUS_WINDS = 3153082963U;
-        static const AkUniqueID FNRL_TRANSITION = 2266869587U;
+        static const AkUniqueID FNRL_TRANSITION_EXHALE = 2938809645U;
+        static const AkUniqueID FNRL_TRANSITION_INHALE = 2161155719U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
         static const AkUniqueID FOOTSTEP_SCRATCH = 1003760220U;
     } // namespace EVENTS
@@ -56,7 +57,7 @@ namespace AK
             {
                 static const AkUniqueID ALTERNATE = 2915544473U;
                 static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID NORMAL = 1160234136U;
+                static const AkUniqueID REGULAR = 2628937827U;
             } // namespace STATE
         } // namespace FUNERALHOMEVERSION
 

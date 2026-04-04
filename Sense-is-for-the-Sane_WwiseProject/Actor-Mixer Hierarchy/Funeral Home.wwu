@@ -360,7 +360,7 @@
 										<CustomState Name="" ID="{BBDC016B-EAB2-42B2-801A-160935D49392}" ShortID="647600450"/>
 									</CustomState>
 									<CustomState>
-										<StateRef Name="Normal" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
+										<StateRef Name="Regular" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
 										<CustomState Name="" ID="{6E35394A-ED9B-480D-97FA-B3E3DFF09D6A}" ShortID="30085661">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
@@ -375,220 +375,6 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
-				<RandomSequenceContainer Name="Breaths" ID="{5BDE8D2C-611C-4B61-BD70-8794FBC8BDEB}" ShortID="452149986">
-					<PropertyList>
-						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
-						<Property Name="MaxSoundPerInstance" Type="int16">
-							<ValueList>
-								<Value>1</Value>
-							</ValueList>
-						</Property>
-						<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
-						<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
-						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{62C6650C-142E-423A-96F7-6552A1A3BD4C}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="0.5"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-						<Property Name="UseMaxSoundPerInstance" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-18</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Player" ID="{0E9E1E5B-C7D3-4CE2-BB5E-212342A3D2F2}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<RandomSequenceContainer Name="Inhale" ID="{0C3FFE3C-A3A3-4966-B236-097EFD05144E}" ShortID="779105626">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Breath_Inhale_001" ID="{C4AE9710-9D8C-4FB7-8CF4-8BD162EEDDA8}" ShortID="36538498">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Breath_Inhale_001" ID="{C6A69E22-FBFD-42D9-B1E7-01262167C284}">
-											<Language>SFX</Language>
-											<AudioFile>Breath_Inhale_001.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="485915409"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Breath_Inhale_001" ID="{C6A69E22-FBFD-42D9-B1E7-01262167C284}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Breath_Inhale_002" ID="{8AD384F7-D537-4BC4-8C68-4437AB904F64}" ShortID="950358659">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Breath_Inhale_002" ID="{1807511E-480E-41F2-8E25-0AA287762764}">
-											<Language>SFX</Language>
-											<AudioFile>Breath_Inhale_002.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="417704821"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Breath_Inhale_002" ID="{1807511E-480E-41F2-8E25-0AA287762764}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Breath_Inhale_003" ID="{DB97ACB0-55CF-4963-BD85-B49E032309C5}" ShortID="332031843">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Breath_Inhale_003" ID="{C3B4F9F5-8246-4B01-B94A-15BEF5CE6B28}">
-											<Language>SFX</Language>
-											<AudioFile>Breath_Inhale_003.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="741278934"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Breath_Inhale_003" ID="{C3B4F9F5-8246-4B01-B94A-15BEF5CE6B28}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Exhale" ID="{15E753F7-FE59-4236-B4A8-7977EDB7C153}" ShortID="478465855">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Breath_Exhale_001" ID="{48E2FCEE-DC6D-4915-9F2F-EBCAA7D70F68}" ShortID="951610892">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Breath_Exhale_001" ID="{A328FC55-A409-4477-B426-6DEC6EB8EB7E}">
-											<Language>SFX</Language>
-											<AudioFile>Breath_Exhale_001.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="336069509"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Breath_Exhale_001" ID="{A328FC55-A409-4477-B426-6DEC6EB8EB7E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Breath_Exhale_002" ID="{77CBB719-7C7F-4CB4-93C9-461BEF2BF08B}" ShortID="245524067">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Breath_Exhale_002" ID="{4235B5FE-C4ED-4164-8E0C-7825F6F98888}">
-											<Language>SFX</Language>
-											<AudioFile>Breath_Exhale_002.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="277586871"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Breath_Exhale_002" ID="{4235B5FE-C4ED-4164-8E0C-7825F6F98888}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Breath_Exhale_003" ID="{0A922855-FF44-48A9-B5E3-D4D34E5F7859}" ShortID="132570794">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Breath_Exhale_003" ID="{8F35B040-1360-4347-84E7-F0F41F99F5D5}">
-											<Language>SFX</Language>
-											<AudioFile>Breath_Exhale_003.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="16631637"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Breath_Exhale_003" ID="{8F35B040-1360-4347-84E7-F0F41F99F5D5}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="Playlist">
-							<Reference>
-								<ObjectRef Name="Inhale" ID="{0C3FFE3C-A3A3-4966-B236-097EFD05144E}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
-							</Reference>
-							<Reference>
-								<ObjectRef Name="Exhale" ID="{15E753F7-FE59-4236-B4A8-7977EDB7C153}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
-							</Reference>
-						</ObjectList>
-					</ObjectLists>
-				</RandomSequenceContainer>
 				<ActorMixer Name="Mirror Puzzle" ID="{03FCB1AB-F215-4718-B2CD-A8FE1F6F7388}" ShortID="666167999">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1634,7 +1420,7 @@
 								<CustomState Name="" ID="{F6A80C17-3E37-437D-8C6C-940B627B0260}" ShortID="620739887"/>
 							</CustomState>
 							<CustomState>
-								<StateRef Name="Normal" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
+								<StateRef Name="Regular" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
 								<CustomState Name="" ID="{BBF13CB4-74A4-41ED-AF3B-FC181B0A889B}" ShortID="1027028959">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64" Value="-108"/>
@@ -2364,6 +2150,269 @@
 						</ObjectList>
 					</ObjectLists>
 				</RandomSequenceContainer>
+				<ActorMixer Name="Transition" ID="{70C93818-4E54-4319-A3EC-17EDE5FC3B05}" ShortID="277320587">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{E5867032-8EE1-463D-8EC6-8CE4B1268EF5}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="50"/>
+											<Property Name="Min" Type="Real64" Value="-50"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-18</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Exhale" ID="{15E753F7-FE59-4236-B4A8-7977EDB7C153}" ShortID="478465855">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.3</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FEF04093-9836-4966-85B3-89995AC3BDCF}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Player" ID="{0E9E1E5B-C7D3-4CE2-BB5E-212342A3D2F2}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Breath_Exhale_001" ID="{48E2FCEE-DC6D-4915-9F2F-EBCAA7D70F68}" ShortID="951610892">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Breath_Exhale_001" ID="{A328FC55-A409-4477-B426-6DEC6EB8EB7E}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_Exhale_001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="336069509"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Breath_Exhale_001" ID="{A328FC55-A409-4477-B426-6DEC6EB8EB7E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Breath_Exhale_002" ID="{77CBB719-7C7F-4CB4-93C9-461BEF2BF08B}" ShortID="245524067">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Breath_Exhale_002" ID="{4235B5FE-C4ED-4164-8E0C-7825F6F98888}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_Exhale_002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="277586871"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Breath_Exhale_002" ID="{4235B5FE-C4ED-4164-8E0C-7825F6F98888}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Breath_Exhale_003" ID="{0A922855-FF44-48A9-B5E3-D4D34E5F7859}" ShortID="132570794">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>0.2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Breath_Exhale_003" ID="{8F35B040-1360-4347-84E7-F0F41F99F5D5}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_Exhale_003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="16631637"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Breath_Exhale_003" ID="{8F35B040-1360-4347-84E7-F0F41F99F5D5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Inhale" ID="{0C3FFE3C-A3A3-4966-B236-097EFD05144E}" ShortID="779105626">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Player" ID="{0E9E1E5B-C7D3-4CE2-BB5E-212342A3D2F2}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Breath_Inhale_001" ID="{C4AE9710-9D8C-4FB7-8CF4-8BD162EEDDA8}" ShortID="36538498">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Breath_Inhale_001" ID="{C6A69E22-FBFD-42D9-B1E7-01262167C284}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0431885444479114"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0971742250078006"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Breath_Inhale_001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="485915409"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Breath_Inhale_001" ID="{C6A69E22-FBFD-42D9-B1E7-01262167C284}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Breath_Inhale_002" ID="{8AD384F7-D537-4BC4-8C68-4437AB904F64}" ShortID="950358659">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Breath_Inhale_002" ID="{1807511E-480E-41F2-8E25-0AA287762764}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0366094372752221"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0639113904974217"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Breath_Inhale_002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="417704821"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Breath_Inhale_002" ID="{1807511E-480E-41F2-8E25-0AA287762764}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Breath_Inhale_003" ID="{DB97ACB0-55CF-4963-BD85-B49E032309C5}" ShortID="332031843">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Breath_Inhale_003" ID="{C3B4F9F5-8246-4B01-B94A-15BEF5CE6B28}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0451194420381552"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.106249008670494"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Breath_Inhale_003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="741278934"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Breath_Inhale_003" ID="{C3B4F9F5-8246-4B01-B94A-15BEF5CE6B28}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

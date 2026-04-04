@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7383b0cf2ff9a7844aa8e379e1763299, type: 3}
   m_Name: D9284D7B-08F7-4DC9-A8CC-337FD32E14CB
   m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseStateReference
-  objectName: Normal
-  id: 1160234136
+  objectName: Regular
+  id: 2628937827
   guid: D9284D7B-08F7-4DC9-A8CC-337FD32E14CB
   WwiseStateGroupReference: {fileID: 11400000, guid: 252c47131e199bd42bc649361fbb6bdf, type: 2}

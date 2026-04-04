@@ -7,6 +7,7 @@ public class Transition : MonoBehaviour, InteractionPoint
     public GameObject retrograde;
 
     public string audioStateName;
+    public AK.Wwise.Event transitionAudioEvent;
 
     public void Interact()
     {
@@ -14,5 +15,6 @@ public class Transition : MonoBehaviour, InteractionPoint
         retrograde.SetActive(!retrograde.activeSelf);
 
         AkUnitySoundEngine.SetState("FuneralHomeVersion", audioStateName);
+        transitionAudioEvent.Post(PlayerBehaviour.Instance.gameObject);
     }
 }

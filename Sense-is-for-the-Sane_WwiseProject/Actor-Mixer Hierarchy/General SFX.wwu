@@ -1137,7 +1137,7 @@
 								</CustomState>
 							</CustomState>
 							<CustomState>
-								<StateRef Name="Normal" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
+								<StateRef Name="Regular" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
 								<CustomState Name="" ID="{92DFD2C4-1D1E-473E-A4ED-44803F8E4112}" ShortID="810669511"/>
 							</CustomState>
 						</CustomStateList>

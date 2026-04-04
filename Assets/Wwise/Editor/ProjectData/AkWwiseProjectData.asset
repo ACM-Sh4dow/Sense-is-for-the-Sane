@@ -224,7 +224,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584262992047717476
+    m_lastTime: -8584262958882146006
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -436,7 +436,7 @@ MonoBehaviour:
     ParentPath: Events\Funeral Home
     guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
     GuidInternal: 
-    m_lastTime: -8584262992066157363
+    m_lastTime: -8584262959157876888
     List:
     - name: Fnrl_Amb_Pause
       guid: b07a90bffc5a3443801fddc3dff36a05
@@ -603,9 +603,9 @@ MonoBehaviour:
       maxAttenuation: 50
       maxDuration: 0
       minDuration: 0
-    - name: Fnrl_Transition
+    - name: Fnrl_Transition_Exhale
       guid: 34e9853f61bd414ebc35937b2bc821bb
-      id: 2266869587
+      id: 2938809645
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -613,13 +613,30 @@ MonoBehaviour:
       - ElementName: Funeral Home
         ObjectType: 12
         guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
-      - ElementName: Fnrl_Transition
+      - ElementName: Fnrl_Transition_Exhale
         ObjectType: 3
         guid: 34e9853f61bd414ebc35937b2bc821bb
-      Path: Events\Funeral Home\Fnrl_Transition
+      Path: Events\Funeral Home\Fnrl_Transition_Exhale
       maxAttenuation: 0
-      maxDuration: 4.259184
-      minDuration: 2.6228118
+      maxDuration: 2.6253827
+      minDuration: 1.5908475
+    - name: Fnrl_Transition_Inhale
+      guid: 4e2ee236a45ee741b57676b3d3090f0e
+      id: 2161155719
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Funeral Home
+        ObjectType: 12
+        guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
+      - ElementName: Fnrl_Transition_Inhale
+        ObjectType: 3
+        guid: 4e2ee236a45ee741b57676b3d3090f0e
+      Path: Events\Funeral Home\Fnrl_Transition_Inhale
+      maxAttenuation: 0
+      maxDuration: 0.6314552
+      minDuration: 0.48194632
     - name: Music
       guid: 6a2f87db7ef35c4297086f78e9ad04a9
       id: 3991942870
@@ -839,7 +856,7 @@ MonoBehaviour:
     ParentPath: States\States WU
     guid: 7d31013722dbbd43af5130094b358f20
     GuidInternal: 
-    m_lastTime: -8584262992047683025
+    m_lastTime: -8584262963029883472
     List:
     - name: CurrentScene
       guid: b2df96403f43694dbaffd67984f6fb84
@@ -970,9 +987,9 @@ MonoBehaviour:
         - ElementName: None
           ObjectType: 8
           guid: 10263f87002c764bb36a67906d77920c
-      - name: Normal
+      - name: Regular
         guid: 7b4d28d9f708c94da8cc337fd32e14cb
-        id: 1160234136
+        id: 2628937827
         PathAndIcons:
         - ElementName: States
           ObjectType: 5
@@ -983,7 +1000,7 @@ MonoBehaviour:
         - ElementName: FuneralHomeVersion
           ObjectType: 9
           guid: 3004d4f02cb77246a0d974c2ec3ddc10
-        - ElementName: Normal
+        - ElementName: Regular
           ObjectType: 8
           guid: 7b4d28d9f708c94da8cc337fd32e14cb
       ValueGuids: []
@@ -1179,7 +1196,7 @@ MonoBehaviour:
     m_lastTime: -8584275934083339506
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000e0000000f0000001b0000001c0000001d00000020000000210000008d00000096000000
+  ExpandedWaapiItemIds: 05000000060000000e0000000f000000130000001b0000001c0000001d00000020000000210000008d00000096000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

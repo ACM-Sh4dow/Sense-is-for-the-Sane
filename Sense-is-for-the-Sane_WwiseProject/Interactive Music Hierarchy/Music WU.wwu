@@ -302,7 +302,7 @@
 								</CustomState>
 							</CustomState>
 							<CustomState>
-								<StateRef Name="Normal" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
+								<StateRef Name="Regular" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
 								<CustomState Name="" ID="{1EB020F3-7EBE-43E0-A4BF-A68992D4A379}" ShortID="4435767"/>
 							</CustomState>
 						</CustomStateList>
@@ -594,7 +594,7 @@
 								</CustomState>
 							</CustomState>
 							<CustomState>
-								<StateRef Name="Normal" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
+								<StateRef Name="Regular" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
 								<CustomState Name="" ID="{1BEAAE70-54B3-4385-8C83-163AD79D451E}" ShortID="174206482"/>
 							</CustomState>
 						</CustomStateList>
@@ -981,7 +981,7 @@
 								</CustomState>
 							</CustomState>
 							<CustomState>
-								<StateRef Name="Normal" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
+								<StateRef Name="Regular" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
 								<CustomState Name="" ID="{382404CB-D6FE-456B-9598-3BB092DB1C93}" ShortID="925892494"/>
 							</CustomState>
 						</CustomStateList>
@@ -1546,7 +1546,7 @@
 								</CustomState>
 							</CustomState>
 							<CustomState>
-								<StateRef Name="Normal" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
+								<StateRef Name="Regular" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
 								<CustomState Name="" ID="{9137B991-983D-4295-A9B2-9049DF716D8C}" ShortID="331399030"/>
 							</CustomState>
 						</CustomStateList>

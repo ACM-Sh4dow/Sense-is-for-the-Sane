@@ -45,12 +45,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Fnrl_Transition" ID="{3F85E934-BD61-4E41-BC35-937B2BC821BB}">
+				<Event Name="Fnrl_Transition_Exhale" ID="{3F85E934-BD61-4E41-BC35-937B2BC821BB}">
 					<ChildrenList>
-						<Action Name="" ID="{6C606B95-FBCB-4504-8A12-D1AC429DC397}" ShortID="906234400">
+						<Action Name="" ID="{E491BDD6-3CA3-496B-B989-2A604F57E3E5}" ShortID="391978070">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Breaths" ID="{5BDE8D2C-611C-4B61-BD70-8794FBC8BDEB}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+									<ObjectRef Name="Exhale" ID="{15E753F7-FE59-4236-B4A8-7977EDB7C153}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -161,6 +161,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Door Creaking Rand" ID="{46A96842-F962-40B4-97A1-5F303DEEE9B8}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fnrl_Transition_Inhale" ID="{36E22E4E-5EA4-41E7-B576-76B3D3090F0E}">
+					<ChildrenList>
+						<Action Name="" ID="{7989E864-9D73-4CE4-B800-6746A593011C}" ShortID="435582266">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Inhale" ID="{0C3FFE3C-A3A3-4966-B236-097EFD05144E}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

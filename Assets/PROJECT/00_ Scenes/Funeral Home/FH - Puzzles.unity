@@ -4469,6 +4469,51 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.91, y: 0.59, z: 0.85}
   m_Center: {x: 0, y: 0.24, z: 0}
+--- !u!1 &1613142043
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1613142044}
+  - component: {fileID: 1613142045}
+  m_Layer: 0
+  m_Name: Funeral Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1613142044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613142043}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.27176, y: 2.2638, z: 1.21348}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1613142045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613142043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1212876ce7f720d4ab52a5bc96040aa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FuneralManager
+  Puzzles: []
 --- !u!1 &1725467116
 GameObject:
   m_ObjectHideFlags: 0
@@ -5431,7 +5476,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Transition
   transitionDirection: {x: 0, y: -3.56, z: 0}
   retrograde: {fileID: 856154793}
-  audioStateName: Normal
+  audioStateName: Regular
+  transitionAudioEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a5a76c97ec321e74b801c4168be7b6cc, type: 2}
 --- !u!4 &4071676763232004018
 Transform:
   m_ObjectHideFlags: 0
@@ -5531,6 +5580,10 @@ MonoBehaviour:
   transitionDirection: {x: 0, y: 3.56, z: 0}
   retrograde: {fileID: 856154793}
   audioStateName: Alternate
+  transitionAudioEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c777b320c76d86c4d92a112d5ddfcbb5, type: 2}
 --- !u!1 &6790226308635116233
 GameObject:
   m_ObjectHideFlags: 0
@@ -5788,6 +5841,7 @@ GameObject:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1613142044}
   - {fileID: 4071676763232004018}
   - {fileID: 950381392}
   - {fileID: 4893705011921112851}
