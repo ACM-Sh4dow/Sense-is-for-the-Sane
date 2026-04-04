@@ -509,6 +509,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1832288291}
   m_LocalEulerAnglesHint: {x: 0, y: -225.592, z: 0}
+--- !u!1 &117230783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 117230784}
+  - component: {fileID: 117230785}
+  m_Layer: 0
+  m_Name: Perspective Script (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &117230784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117230783}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -15.35, y: -0.06, z: 5.03}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1334916442}
+  m_Father: {fileID: 1269298888}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &117230785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117230783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b6b548dae1a134a8179ec28f1b01f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PerspectivePuzzleSolve
+  state: 0
+  puzzleName: Painting
+  distanceTolerance: 1
+  angleTolerance: 1
+  puzzleSolution: {fileID: 1334916441}
+  puzzleComponents:
+  - {fileID: 1584155280}
+  - {fileID: 1813431603}
+  puzzleResult: {fileID: 1935323122}
 --- !u!1 &159328315
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,7 +710,7 @@ GameObject:
   m_Component:
   - component: {fileID: 193782523}
   m_Layer: 0
-  m_Name: -------------------
+  m_Name: ____________
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3584,6 +3638,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 117230784}
   - {fileID: 441202748}
   m_Father: {fileID: 4071676763232004018}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4032,6 +4087,37 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &1334916441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1334916442}
+  m_Layer: 0
+  m_Name: Alignment Check Object
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1334916442
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334916441}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00012095898, y: -0.9996059, z: 0.027731309, w: -0.004360101}
+  m_LocalPosition: {x: -0.8779688, y: 0.32565498, z: 2.0906553}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 117230784}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1338377136
 GameObject:
   m_ObjectHideFlags: 0
@@ -5704,6 +5790,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 4071676763232004018}
   - {fileID: 950381392}
-  - {fileID: 856154794}
-  - {fileID: 193782523}
   - {fileID: 4893705011921112851}
+  - {fileID: 193782523}
+  - {fileID: 856154794}
