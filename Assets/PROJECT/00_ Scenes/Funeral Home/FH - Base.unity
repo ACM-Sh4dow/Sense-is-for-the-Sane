@@ -819,8 +819,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2831011413241894858, guid: dac9fedaf35bf4245b12f3c8069b1247, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1369073029}
   m_SourcePrefab: {fileID: 100100000, guid: dac9fedaf35bf4245b12f3c8069b1247, type: 3}
+--- !u!1 &970243229 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2831011413241894858, guid: dac9fedaf35bf4245b12f3c8069b1247, type: 3}
+  m_PrefabInstance: {fileID: 970243228}
+  m_PrefabAsset: {fileID: 0}
 --- !u!20 &1027995701 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 5486933195025069025, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
@@ -929,12 +937,29 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6433289225438412474, guid: dac9fedaf35bf4245b12f3c8069b1247, type: 3}
   m_PrefabInstance: {fileID: 970243228}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 970243229}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8adbc31159f92444699146d2ed1d78bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputHandler
+--- !u!114 &1369073029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970243229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8abc335499657140ab79ef872c73a8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  SceneNames:
+  - FH - Puzzles
+  - FH - Env - Alternate
+  - FH - Env - Regular
+  - FH - Audio
 --- !u!1 &1597612801
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 
-public class SceneManagement : MonoBehaviour
+public class MenuManager : MonoBehaviour
 {
 
     [SerializeField] GameObject resumeButton;
