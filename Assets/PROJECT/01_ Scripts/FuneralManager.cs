@@ -62,12 +62,12 @@ public class FuneralManager : PuzzleTracker
     {
         if (Puzzles[1].state == Puzzle.State.solved) // animation (1/2)
         {
-            flowerPerspectivePuzzle.SetActive(true);
+            //flowerPerspectivePuzzle.SetActive(true);
             Debug.Log("flower part 1 done");
         }
         else
         {
-            flowerPerspectivePuzzle.SetActive(false);
+            //flowerPerspectivePuzzle.SetActive(false);
         }
 
         if (Puzzles[2].state == Puzzle.State.fullyResolved) //resolve animation

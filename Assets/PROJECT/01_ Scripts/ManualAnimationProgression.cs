@@ -15,6 +15,8 @@ public class ManualAnimationProgression : Puzzle, InteractionPoint
 
     public static bool canProgress = false;
 
+    public PerspectivePuzzleSolve PerspectivePuzzleSolve;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -54,6 +56,7 @@ public class ManualAnimationProgression : Puzzle, InteractionPoint
         {
             if (state == State.solved) return;
             state = State.solved;
+            PerspectivePuzzleSolve.secondaryPuzzleComplete = true;
             RegisterCompletion();
         }
         else
