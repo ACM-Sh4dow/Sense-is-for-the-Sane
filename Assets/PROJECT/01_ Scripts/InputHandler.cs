@@ -50,7 +50,22 @@ public class InputHandler : MonoBehaviour
 
     public void ReceiveAlign(InputAction.CallbackContext input)
     {
-        PerspectivePuzzleSolve.AttemptPuzzle();
+        if (!input.started) return;
+        var puzzle = FindNearestPuzzle();
+        if (puzzle == null) return;
+        Debug.Log(puzzle.name + "!!!!!!!!!!!!!!");
+        puzzle.AttemptPuzzle();
+        
+    }
+
+    private Puzzle FindNearestPuzzle()
+    {
+        Vector3 playerPos = PlayerBehaviour.Instance.playerPosition;
+        var found = FindTarget.List<Puzzle>(playerPos, playerPos, 2);
+
+        if (found.Count <= 0) return null;
+
+        return FindTarget.Closest(found);
     }
 
     // public void ReceiveManualAnimationInput(InputAction.CallbackContext input)
@@ -59,4 +74,5 @@ public class InputHandler : MonoBehaviour
     //
     //     ManualAnimationProgression.SyncManualAnimationInput();
     // }
+    
 }

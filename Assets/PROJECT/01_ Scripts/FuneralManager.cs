@@ -5,14 +5,13 @@ using UnityEngine;
 
 public class FuneralManager : PuzzleTracker
 {
-    private bool flowerPuzzleCompleted;
-    private bool paintingPuzzleCompleted;
+    public bool flowerPuzzleCompleted;
+    public bool paintingPuzzleCompleted;
     private bool pedestalPhase1Completed;
     private bool pedestalPhase2Completed;
     private bool casketPuzzleCompleted;
-
-    [SerializeField] private GameObject flowerPerspectivePuzzle;
-    [SerializeField] private GameObject casketPerspectivePuzzle;
+    
+    public PerspectivePuzzleSolve casketPerspectivePuzzle;
     
     
     private void Start()
@@ -45,7 +44,7 @@ public class FuneralManager : PuzzleTracker
 
         PaintingSolved();
         FlowerSolved();
-        //PedestalSolved();
+        PedestalSolved(); 
         //CasketSolved();
     }
 
@@ -60,14 +59,9 @@ public class FuneralManager : PuzzleTracker
 
     private void FlowerSolved()
     {
-        if (Puzzles[1].state == Puzzle.State.solved) // animation (1/2)
+        if (Puzzles[1].state == Puzzle.State.solved) // animation (secondary puzzle complete set in manual animation) (1/2)
         {
-            //flowerPerspectivePuzzle.SetActive(true);
             Debug.Log("flower part 1 done");
-        }
-        else
-        {
-            //flowerPerspectivePuzzle.SetActive(false);
         }
 
         if (Puzzles[2].state == Puzzle.State.fullyResolved) //resolve animation
@@ -91,7 +85,7 @@ public class FuneralManager : PuzzleTracker
         if (Puzzles[3].state == Puzzle.State.fullyResolved && Puzzles[4].state == Puzzle.State.fullyResolved) // (2/2)
         {
             pedestalPhase2Completed = true;
-            casketPerspectivePuzzle.SetActive(true);
+            casketPerspectivePuzzle.secondaryPuzzleComplete = true;
         }
     }
 

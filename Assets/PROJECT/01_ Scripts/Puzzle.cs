@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class  Puzzle: MonoBehaviour
+public abstract partial class  Puzzle: MonoBehaviour
 {
     public enum State : byte
     {
@@ -18,4 +18,6 @@ public abstract class  Puzzle: MonoBehaviour
     {
         Overseer.Instance.GetManager<FuneralManager>().OnPuzzleComplete();
     }
+
+    public abstract void AttemptPuzzle();
 }

@@ -13,7 +13,7 @@ public class ManualAnimationProgression : Puzzle, InteractionPoint
     public string animationName;
     [Range(0,1)] public float progressionRate;
 
-    public static bool canProgress = false;
+    public bool canProgress = false;
 
     public PerspectivePuzzleSolve PerspectivePuzzleSolve;
 
@@ -35,6 +35,11 @@ public class ManualAnimationProgression : Puzzle, InteractionPoint
     // }
 
     public void Interact()
+    {
+        AttemptPuzzle();
+    }
+
+    public override void AttemptPuzzle()
     {
         canProgress = !canProgress;
     }
