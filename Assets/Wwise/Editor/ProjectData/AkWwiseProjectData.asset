@@ -224,7 +224,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584262951722613719
+    m_lastTime: -8584262951415691236
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -308,7 +308,7 @@ MonoBehaviour:
     ParentPath: Events\Apartment
     guid: 403f5a0f3ccb46478134079334a4da23
     GuidInternal: 
-    m_lastTime: -8584262992066170540
+    m_lastTime: -8584262980395701347
     List:
     - name: Apt_Clock
       guid: cc1102f1eea62044bdfd304ba4a2a9e5
@@ -436,7 +436,7 @@ MonoBehaviour:
     ParentPath: Events\Funeral Home
     guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
     GuidInternal: 
-    m_lastTime: -8584262951722818012
+    m_lastTime: -8584262951416364536
     List:
     - name: Fnrl_Amb_Pause
       guid: b07a90bffc5a3443801fddc3dff36a05
@@ -665,7 +665,7 @@ MonoBehaviour:
     ParentPath: Events\General Events
     guid: 1ff59692a3e328449b9b4c99fad941f7
     GuidInternal: 
-    m_lastTime: -8584262992066137213
+    m_lastTime: -8584262980395701347
     List:
     - name: Footstep
       guid: f5f61b65005eec4ebc2cb99851ab9555
@@ -773,7 +773,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Game Parameters WU
     guid: c4a7a3998bd1784ea5fc8d535b50ceee
     GuidInternal: 
-    m_lastTime: -8584262992066112165
+    m_lastTime: -8584262980395520116
     List:
     - name: DistanceAnimationRate
       guid: 931f0088f8597448a886d90134697d52
@@ -856,7 +856,7 @@ MonoBehaviour:
     ParentPath: States\States WU
     guid: 7d31013722dbbd43af5130094b358f20
     GuidInternal: 
-    m_lastTime: -8584262951722603664
+    m_lastTime: -8584262951415584329
     List:
     - name: CurrentScene
       guid: b2df96403f43694dbaffd67984f6fb84
@@ -1113,7 +1113,7 @@ MonoBehaviour:
     ParentPath: Switches\Switches WU
     guid: a20079f489c43045be7add0633c9b245
     GuidInternal: 
-    m_lastTime: -8584275934083354772
+    m_lastTime: -8584264718208627938
     List:
     - name: FootstepsSwitch
       guid: 5730594340ad384db05ee3bbbf32e638
