@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
     "Language": "SFX",
-    "Hash": "{9F0302A8-2C21-7CE7-BAB3-6F9A9BE175BA}",
+    "Hash": "{3197358F-6EEA-76A5-CF05-11EB0A50CD5C}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
     "ShortName": "Funeral_Home",
     "Path": "Funeral_Home.bnk",
@@ -128,6 +128,14 @@
       "CachePath": "FA/{FAB73F71-8DBD-3108-50EB-AE5AA2F23BFE}.wem"
      },
      {
+      "Id": "551171733",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wall_Shatter_02.wav",
+      "CachePath": "71/{71567CA8-3282-460C-304B-C360A37373DA}.wem"
+     },
+     {
       "Id": "575360998",
       "Language": "SFX",
       "Streaming": "false",
@@ -174,6 +182,14 @@
       "Location": "Memory",
       "ShortName": "Basic_Footstep_002.wav",
       "CachePath": "30/{30F61EC1-16D3-9007-5B1C-0E97244A8C3C}.wem"
+     },
+     {
+      "Id": "834748161",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wall_Shatter_01.wav",
+      "CachePath": "88/{887E5393-C033-0039-C449-EDF929C5E9F7}.wem"
      },
      {
       "Id": "840959845",
@@ -458,6 +474,32 @@
         "Id": "741278934"
        }
       ]
+     },
+     {
+      "Id": "650669748",
+      "Name": "Fnrl_Wall_Shatter",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Wall_Shatter",
+      "GUID": "{1C722E0F-588B-4920-8B98-FDF8AA4464C1}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "4.324399",
+      "DurationMax": "4.6739454",
+      "MediaRefs": [
+       {
+        "Id": "551171733"
+       },
+       {
+        "Id": "834748161"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "579784244",
+        "Name": "Reverb_FuneralHome",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_FuneralHome",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       }
+      ]
      }
     ],
     "GameParameters": [
@@ -482,6 +524,6 @@
     ]
    }
   ],
-  "FileHash": "{4D804510-35F5-F1F4-CFB2-6683BFDC3F80}"
+  "FileHash": "{2B4B188E-B213-8DD0-708F-96449A636770}"
  }
 }

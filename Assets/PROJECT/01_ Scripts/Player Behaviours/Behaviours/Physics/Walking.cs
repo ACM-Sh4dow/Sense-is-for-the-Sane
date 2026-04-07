@@ -6,7 +6,7 @@ public class Walking : PhysicsBehaviour
     private static Vector2 input;
     private Vector3 velocity;
     
-    private const float movementSpeed = 5f;
+    private const float movementSpeed = 2.5f;
     private float LastFootstepTime = float.MaxValue;
     private const float SecondsBetweenFootsteps = 0.83f;
     #endregion

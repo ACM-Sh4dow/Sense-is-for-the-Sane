@@ -436,7 +436,7 @@ MonoBehaviour:
     ParentPath: Events\Funeral Home
     guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
     GuidInternal: 
-    m_lastTime: -8584262951416364536
+    m_lastTime: -8584260083476638789
     List:
     - name: Fnrl_Amb_Pause
       guid: b07a90bffc5a3443801fddc3dff36a05
@@ -637,6 +637,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.6314552
       minDuration: 0.48194632
+    - name: Fnrl_Wall_Shatter
+      guid: 0f2e721c8b5820498b98fdf8aa4464c1
+      id: 650669748
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Funeral Home
+        ObjectType: 12
+        guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
+      - ElementName: Fnrl_Wall_Shatter
+        ObjectType: 3
+        guid: 0f2e721c8b5820498b98fdf8aa4464c1
+      Path: Events\Funeral Home\Fnrl_Wall_Shatter
+      maxAttenuation: 100
+      maxDuration: 4.6739454
+      minDuration: 4.324399
     - name: Music
       guid: 6a2f87db7ef35c4297086f78e9ad04a9
       id: 3991942870

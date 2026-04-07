@@ -30,6 +30,7 @@ namespace AK
         static const AkUniqueID FNRL_MUS_WINDS = 3153082963U;
         static const AkUniqueID FNRL_TRANSITION_EXHALE = 2938809645U;
         static const AkUniqueID FNRL_TRANSITION_INHALE = 2161155719U;
+        static const AkUniqueID FNRL_WALL_SHATTER = 650669748U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
         static const AkUniqueID FOOTSTEP_SCRATCH = 1003760220U;
     } // namespace EVENTS

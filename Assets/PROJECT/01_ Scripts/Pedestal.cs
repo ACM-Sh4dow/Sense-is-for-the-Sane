@@ -40,6 +40,6 @@ public class Pedestal : Puzzle, InteractionPoint
     {
         wallShattered.SetActive(true);
         wallIntact.SetActive(false);
-        AkUnitySoundEngine.PostEvent("Footstep", soundObject); //update to shatter sound later
+        AkUnitySoundEngine.PostEvent("Fnrl_Wall_Shatter", soundObject);
     }
 }

@@ -43,6 +43,108 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{0BDFBA54-3EE9-4118-B7A3-E03B91263FFC}" ShortID="811150264">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menuet_Organ" ID="{8BF2FB84-DD8E-4C30-8035-3B8A1A3F0151}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{78C397BA-D34B-4790-9832-0F7B0C6102EF}" ShortID="1033398405">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+								<Property Name="Delay" Type="Real64" Value="0.3"/>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menuet_Organ" ID="{8BF2FB84-DD8E-4C30-8035-3B8A1A3F0151}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{02625299-7535-4CD1-B021-C296B25306C3}" ShortID="549151822">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menuet_Piano" ID="{BAE713DF-8C12-4D5E-8A70-FFAD35334E29}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{38546E9D-50D8-4820-A9A6-CFC168D27B4E}" ShortID="796049445">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+								<Property Name="Delay" Type="Real64" Value="0.3"/>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menuet_Piano" ID="{BAE713DF-8C12-4D5E-8A70-FFAD35334E29}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B235046A-B85B-4A40-B322-D55C14914A44}" ShortID="122164402">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menuet_Strings" ID="{4F7D8D21-A3C3-468A-844E-E2885B6E910C}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{ED762C25-7D6C-46C3-A6F0-5265EB81E539}" ShortID="537564805">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+								<Property Name="Delay" Type="Real64" Value="0.3"/>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menuet_Strings" ID="{4F7D8D21-A3C3-468A-844E-E2885B6E910C}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{782D406A-5766-4566-8A84-AF5732164E52}" ShortID="702712181">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menuet_Winds" ID="{5AE1552E-B35F-4905-B103-F3A154822586}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B6E79102-1D54-431E-A672-11629270E893}" ShortID="873001972">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+								<Property Name="Delay" Type="Real64" Value="0.3"/>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menuet_Winds" ID="{5AE1552E-B35F-4905-B103-F3A154822586}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Fnrl_Transition_Exhale" ID="{3F85E934-BD61-4E41-BC35-937B2BC821BB}">
@@ -172,6 +274,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Inhale" ID="{0C3FFE3C-A3A3-4966-B236-097EFD05144E}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fnrl_Wall_Shatter" ID="{1C722E0F-588B-4920-8B98-FDF8AA4464C1}">
+					<ChildrenList>
+						<Action Name="" ID="{6C531FBF-E584-4AAD-9F62-35DAAE60D7AD}" ShortID="1000919796">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wall Shatter Seq" ID="{E5BA1B61-3DD4-4725-A0C2-B0EF6D909AA6}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

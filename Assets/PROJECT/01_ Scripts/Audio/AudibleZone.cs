@@ -16,12 +16,6 @@ public class AudibleZone : MonoBehaviour
         if (other.gameObject == player)
         {
             AkUnitySoundEngine.SetRTPCValue("InAudibleZone", 1, gameObject);
-            Debug.Log("IN AUDIO ZONE: " + name);
-
-            //foreach (GameObject obj in audioObjects)
-            //{
-            //    AkUnitySoundEngine.SetRTPCValue("InAudibleZone", 1);
-            //}
         }
     }
 
@@ -30,11 +24,6 @@ public class AudibleZone : MonoBehaviour
         if (other.gameObject == player)
         {
             AkUnitySoundEngine.SetRTPCValue("InAudibleZone", 0, gameObject);
-
-            //foreach (GameObject obj in audioObjects)
-            //{
-            //    AkUnitySoundEngine.SetRTPCValue("InAudibleZone", 0);
-            //}
         }
     }
 }
