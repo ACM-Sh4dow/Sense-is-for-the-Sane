@@ -102,16 +102,16 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Player" ID="{0E9E1E5B-C7D3-4CE2-BB5E-212342A3D2F2}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Gnrl_Player" ID="{3921049D-D54A-4108-856A-0E5E4A0614C6}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Reverb_Apartment" ID="{B28A58E4-2BBF-4849-B95C-3ACC849A967E}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Apt_Reverb" ID="{B28A58E4-2BBF-4849-B95C-3ACC849A967E}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 						<Reference Name="UserAuxSend1">
-							<ObjectRef Name="Reverb_FuneralHome" ID="{4C034AEA-7767-4998-B9EB-53B83227D7CB}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Fnrl_Reverb" ID="{4C034AEA-7767-4998-B9EB-53B83227D7CB}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 						<Reference Name="UserAuxSend2">
-							<ObjectRef Name="Reverb_Void" ID="{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Void_Reverb" ID="{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -874,7 +874,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Ambience" ID="{4624BFF2-BF7F-46AB-9DD8-E53FB1F29DA0}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+									<ObjectRef Name="Gnrl_World" ID="{5F82077A-1086-45D6-A569-B616BA0A2EFC}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1144,12 +1144,15 @@
 					</StateInfo>
 				</ActorMixer>
 				<ActorMixer Name="Doors" ID="{58E4C83A-606D-4DEB-9927-D778182C195C}" ShortID="385100237">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="World" ID="{0A1F617D-429D-4C52-B091-70D175819868}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Gnrl_World" ID="{5F82077A-1086-45D6-A569-B616BA0A2EFC}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1188,10 +1191,10 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="World" ID="{0A1F617D-429D-4C52-B091-70D175819868}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+									<ObjectRef Name="Apt_World" ID="{0A1F617D-429D-4C52-B091-70D175819868}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 								</Reference>
 								<Reference Name="UserAuxSend0">
-									<ObjectRef Name="Reverb_Apartment" ID="{B28A58E4-2BBF-4849-B95C-3ACC849A967E}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+									<ObjectRef Name="Apt_Reverb" ID="{B28A58E4-2BBF-4849-B95C-3ACC849A967E}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1368,7 +1371,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="World" ID="{0A1F617D-429D-4C52-B091-70D175819868}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+									<ObjectRef Name="Apt_World" ID="{0A1F617D-429D-4C52-B091-70D175819868}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>

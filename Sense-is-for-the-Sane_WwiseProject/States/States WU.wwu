@@ -4,6 +4,9 @@
 		<WorkUnit Name="States WU" ID="{3701317D-DB22-43BD-AF51-30094B358F20}" PersistMode="Standalone">
 			<ChildrenList>
 				<StateGroup Name="CurrentScene" ID="{4096DFB2-433F-4D69-BAFF-D67984F6FB84}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="4"/>
+					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{A69EBB97-976D-4175-A28B-344441D6C540}"/>
 						<State Name="Apartment" ID="{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"/>
@@ -24,6 +27,7 @@
 						<State Name="Zero" ID="{98BB88D2-3482-4A79-A31A-195F0C2A3385}"/>
 						<State Name="One" ID="{2D3ECCF9-C1F2-43CC-85D8-1D6F732B4F46}"/>
 						<State Name="Two" ID="{2143B4A2-A7BC-4709-B720-E3A3B48D78AB}"/>
+						<State Name="CasketComplete" ID="{FED6848A-3338-4924-AE93-DCB962C36DA4}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

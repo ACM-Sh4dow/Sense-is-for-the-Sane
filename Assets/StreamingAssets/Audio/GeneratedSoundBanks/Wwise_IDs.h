@@ -68,6 +68,7 @@ namespace AK
 
             namespace STATE
             {
+                static const AkUniqueID CASKETCOMPLETE = 1683001833U;
                 static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID ONE = 1064933119U;
                 static const AkUniqueID TWO = 678209053U;
@@ -113,19 +114,32 @@ namespace AK
 
     namespace BUSSES
     {
-        static const AkUniqueID AMBIENCE = 85412153U;
+        static const AkUniqueID APARTMENT = 4154495109U;
+        static const AkUniqueID APT_AMB = 1576174051U;
+        static const AkUniqueID APT_MUS = 1443924366U;
+        static const AkUniqueID APT_PLAYER = 3905838582U;
+        static const AkUniqueID APT_WORLD = 2287246371U;
+        static const AkUniqueID FNRL_AMB = 1559784790U;
+        static const AkUniqueID FNRL_MUS = 1156430435U;
+        static const AkUniqueID FNRL_PLAYER = 4213812209U;
+        static const AkUniqueID FNRL_WORLD = 439711954U;
+        static const AkUniqueID FUNERAL_HOME = 750859935U;
+        static const AkUniqueID GENERAL = 133642231U;
+        static const AkUniqueID GNRL_PLAYER = 2125642148U;
+        static const AkUniqueID GNRL_WORLD = 1035059981U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
-        static const AkUniqueID MUSIC = 3991942870U;
-        static const AkUniqueID PLAYER = 1069431850U;
-        static const AkUniqueID REVERB = 348963605U;
-        static const AkUniqueID WORLD = 2609808943U;
+        static const AkUniqueID VOID = 3370470011U;
+        static const AkUniqueID VOID_AMB = 3962830982U;
+        static const AkUniqueID VOID_MUS = 4096463699U;
+        static const AkUniqueID VOID_PLAYER = 6959393U;
+        static const AkUniqueID VOID_WORLD = 3863178242U;
     } // namespace BUSSES
 
     namespace AUX_BUSSES
     {
-        static const AkUniqueID REVERB_APARTMENT = 624627402U;
-        static const AkUniqueID REVERB_FUNERALHOME = 579784244U;
-        static const AkUniqueID REVERB_VOID = 2057947822U;
+        static const AkUniqueID APT_REVERB = 1676289129U;
+        static const AkUniqueID FNRL_REVERB = 1784058834U;
+        static const AkUniqueID VOID_REVERB = 3356433602U;
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES

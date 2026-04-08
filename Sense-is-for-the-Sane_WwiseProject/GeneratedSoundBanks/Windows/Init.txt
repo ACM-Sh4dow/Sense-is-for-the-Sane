@@ -17,17 +17,30 @@ State	ID	Name	State Group			Notes
 	1064933119	One	PuzzlesCompleted			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	85412153	Ambience			\Default Work Unit\Master Audio Bus\Ambience	
-	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
-	1069431850	Player			\Default Work Unit\Master Audio Bus\Player	
-	2609808943	World			\Default Work Unit\Master Audio Bus\World	
+	6959393	Void_Player			\Default Work Unit\Master Audio Bus\Void\Void_Player	
+	133642231	General			\Default Work Unit\Master Audio Bus\General	
+	439711954	Fnrl_World			\Default Work Unit\Master Audio Bus\Funeral Home\Fnrl_World	
+	750859935	Funeral Home			\Default Work Unit\Master Audio Bus\Funeral Home	
+	1035059981	Gnrl_World			\Default Work Unit\Master Audio Bus\General\Gnrl_World	
+	1156430435	Fnrl_Mus			\Default Work Unit\Master Audio Bus\Funeral Home\Fnrl_Mus	
+	1443924366	Apt_Mus			\Default Work Unit\Master Audio Bus\Apartment\Apt_Mus	
+	1559784790	Fnrl_Amb			\Default Work Unit\Master Audio Bus\Funeral Home\Fnrl_Amb	
+	1576174051	Apt_Amb			\Default Work Unit\Master Audio Bus\Apartment\Apt_Amb	
+	2125642148	Gnrl_Player			\Default Work Unit\Master Audio Bus\General\Gnrl_Player	
+	2287246371	Apt_World			\Default Work Unit\Master Audio Bus\Apartment\Apt_World	
+	3370470011	Void			\Default Work Unit\Master Audio Bus\Void	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
-	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+	3863178242	Void_World			\Default Work Unit\Master Audio Bus\Void\Void_World	
+	3905838582	Apt_Player			\Default Work Unit\Master Audio Bus\Apartment\Apt_Player	
+	3962830982	Void_Amb			\Default Work Unit\Master Audio Bus\Void\Void_Amb	
+	4096463699	Void_Mus			\Default Work Unit\Master Audio Bus\Void\Void_Mus	
+	4154495109	Apartment			\Default Work Unit\Master Audio Bus\Apartment	
+	4213812209	Fnrl_Player			\Default Work Unit\Master Audio Bus\Funeral Home\Fnrl_Player	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	579784244	Reverb_FuneralHome			\Default Work Unit\Master Audio Bus\Reverb\Reverb_FuneralHome	
-	624627402	Reverb_Apartment			\Default Work Unit\Master Audio Bus\Reverb\Reverb_Apartment	
-	2057947822	Reverb_Void			\Default Work Unit\Master Audio Bus\Reverb\Reverb_Void	
+	1676289129	Apt_Reverb			\Default Work Unit\Master Audio Bus\Apartment\Apt_Reverb	
+	1784058834	Fnrl_Reverb			\Default Work Unit\Master Audio Bus\Funeral Home\Fnrl_Reverb	
+	3356433602	Void_Reverb			\Default Work Unit\Master Audio Bus\Void\Void_Reverb	
 
 Effect plug-ins	ID	Name	Type				Notes
 	484890516	Church_Small_Wood	Wwise RoomVerb			

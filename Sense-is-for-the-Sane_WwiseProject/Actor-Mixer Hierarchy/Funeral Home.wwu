@@ -16,7 +16,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Player" ID="{0E9E1E5B-C7D3-4CE2-BB5E-212342A3D2F2}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Fnrl_World" ID="{F28C13AB-2B28-4B54-AC57-40D80E919288}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -146,10 +146,10 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="World" ID="{0A1F617D-429D-4C52-B091-70D175819868}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Fnrl_World" ID="{F28C13AB-2B28-4B54-AC57-40D80E919288}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Reverb_FuneralHome" ID="{4C034AEA-7767-4998-B9EB-53B83227D7CB}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Fnrl_Reverb" ID="{4C034AEA-7767-4998-B9EB-53B83227D7CB}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -259,7 +259,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Ambience" ID="{4624BFF2-BF7F-46AB-9DD8-E53FB1F29DA0}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Fnrl_Amb" ID="{F74A7EC4-EFC7-4FBD-BFD0-93BA88C97145}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -383,7 +383,7 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 								</Reference>
 								<Reference Name="UserAuxSend0">
-									<ObjectRef Name="Reverb_FuneralHome" ID="{4C034AEA-7767-4998-B9EB-53B83227D7CB}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+									<ObjectRef Name="Fnrl_Reverb" ID="{4C034AEA-7767-4998-B9EB-53B83227D7CB}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -483,7 +483,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="World" ID="{0A1F617D-429D-4C52-B091-70D175819868}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Fnrl_World" ID="{F28C13AB-2B28-4B54-AC57-40D80E919288}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -618,10 +618,10 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="World" ID="{0A1F617D-429D-4C52-B091-70D175819868}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+									<ObjectRef Name="Apt_World" ID="{0A1F617D-429D-4C52-B091-70D175819868}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 								</Reference>
 								<Reference Name="UserAuxSend0">
-									<ObjectRef Name="Reverb_FuneralHome" ID="{4C034AEA-7767-4998-B9EB-53B83227D7CB}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+									<ObjectRef Name="Fnrl_Reverb" ID="{4C034AEA-7767-4998-B9EB-53B83227D7CB}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1300,7 +1300,7 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 								</Reference>
 								<Reference Name="UserAuxSend0">
-									<ObjectRef Name="Reverb_FuneralHome" ID="{4C034AEA-7767-4998-B9EB-53B83227D7CB}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+									<ObjectRef Name="Fnrl_Reverb" ID="{4C034AEA-7767-4998-B9EB-53B83227D7CB}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1459,7 +1459,7 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 								</Reference>
 								<Reference Name="UserAuxSend0">
-									<ObjectRef Name="Reverb_FuneralHome" ID="{4C034AEA-7767-4998-B9EB-53B83227D7CB}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+									<ObjectRef Name="Fnrl_Reverb" ID="{4C034AEA-7767-4998-B9EB-53B83227D7CB}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1611,7 +1611,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Fnrl_World" ID="{F28C13AB-2B28-4B54-AC57-40D80E919288}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1665,7 +1665,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Player" ID="{0E9E1E5B-C7D3-4CE2-BB5E-212342A3D2F2}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+									<ObjectRef Name="Apt_Player" ID="{0E9E1E5B-C7D3-4CE2-BB5E-212342A3D2F2}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1885,7 +1885,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="World" ID="{0A1F617D-429D-4C52-B091-70D175819868}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Fnrl_World" ID="{F28C13AB-2B28-4B54-AC57-40D80E919288}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -2278,7 +2278,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Gnrl_Player" ID="{3921049D-D54A-4108-856A-0E5E4A0614C6}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -2306,7 +2306,6 @@
 									</ValueList>
 								</Property>
 								<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
-								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
@@ -2324,7 +2323,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Player" ID="{0E9E1E5B-C7D3-4CE2-BB5E-212342A3D2F2}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+									<ObjectRef Name="Gnrl_Player" ID="{3921049D-D54A-4108-856A-0E5E4A0614C6}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2413,7 +2412,6 @@
 									</ValueList>
 								</Property>
 								<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
-								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
@@ -2426,7 +2424,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Player" ID="{0E9E1E5B-C7D3-4CE2-BB5E-212342A3D2F2}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+									<ObjectRef Name="Gnrl_Player" ID="{3921049D-D54A-4108-856A-0E5E4A0614C6}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>

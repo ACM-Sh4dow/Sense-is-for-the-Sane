@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9F2C9685-C3F4-4D21-9319-4FF075E9A3CD}",
     "Language": "SFX",
-    "Hash": "{D6B7E2F2-DB02-466B-4649-2294B6D4C741}",
+    "Hash": "{C9CA0C46-4E14-1BF7-F4EF-CE709FCC08F9}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Apartment",
     "ShortName": "Apartment",
     "Path": "Apartment.bnk",
@@ -214,6 +214,6 @@
     ]
    }
   ],
-  "FileHash": "{9A59F589-54E8-51FB-5B2D-721635850C38}"
+  "FileHash": "{50186BEF-10DC-0CA6-8E56-26B086AE71B7}"
  }
 }

@@ -17,7 +17,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Ambience" ID="{4624BFF2-BF7F-46AB-9DD8-E53FB1F29DA0}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Apt_Amb" ID="{4624BFF2-BF7F-46AB-9DD8-E53FB1F29DA0}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -346,7 +346,7 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 										</Reference>
 										<Reference Name="UserAuxSend0">
-											<ObjectRef Name="Reverb_Apartment" ID="{B28A58E4-2BBF-4849-B95C-3ACC849A967E}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+											<ObjectRef Name="Apt_Reverb" ID="{B28A58E4-2BBF-4849-B95C-3ACC849A967E}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -588,7 +588,7 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 								</Reference>
 								<Reference Name="UserAuxSend0">
-									<ObjectRef Name="Reverb_Apartment" ID="{B28A58E4-2BBF-4849-B95C-3ACC849A967E}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+									<ObjectRef Name="Apt_Reverb" ID="{B28A58E4-2BBF-4849-B95C-3ACC849A967E}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1024,7 +1024,7 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 										</Reference>
 										<Reference Name="UserAuxSend0">
-											<ObjectRef Name="Reverb_Apartment" ID="{B28A58E4-2BBF-4849-B95C-3ACC849A967E}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+											<ObjectRef Name="Apt_Reverb" ID="{B28A58E4-2BBF-4849-B95C-3ACC849A967E}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -1075,7 +1075,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="World" ID="{0A1F617D-429D-4C52-B091-70D175819868}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Apt_World" ID="{0A1F617D-429D-4C52-B091-70D175819868}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

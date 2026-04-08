@@ -224,13 +224,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{759CB370-BA72-4C2B-B91F-E90679902D6C}" ShortID="655601148">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Menuet_Piano" ID="{BAE713DF-8C12-4D5E-8A70-FFAD35334E29}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Fnrl_Mus_Winds" ID="{E52DB62D-C829-4CA3-ADF8-B3ECCB3CE7CB}">

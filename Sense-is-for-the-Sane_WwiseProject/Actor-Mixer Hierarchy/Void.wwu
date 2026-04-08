@@ -133,10 +133,10 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Ambience" ID="{4624BFF2-BF7F-46AB-9DD8-E53FB1F29DA0}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Void_Mus" ID="{385B02EF-29F7-4B8D-8C10-1FFBA8E38DCE}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Reverb_Void" ID="{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Void_Reverb" ID="{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -920,10 +920,10 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Ambience" ID="{4624BFF2-BF7F-46AB-9DD8-E53FB1F29DA0}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Void_Mus" ID="{385B02EF-29F7-4B8D-8C10-1FFBA8E38DCE}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Reverb_Void" ID="{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Void_Reverb" ID="{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

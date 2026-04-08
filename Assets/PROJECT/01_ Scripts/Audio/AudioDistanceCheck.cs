@@ -32,7 +32,7 @@ public class AudioDistanceCheck : MonoBehaviour
 
             if (angleFromTargetRotation > audibleAngleRange)
             {
-                indicatorVolume += (angleFromTargetRotation - audibleAngleRange) / (180 - audibleAngleRange);
+                indicatorVolume += (angleFromTargetRotation - audibleAngleRange) / (180 - audibleAngleRange);  // Reduces volume based on how far out of the audible angle range you are
             }
             
             AkUnitySoundEngine.SetRTPCValue("DistanceFromTarget", indicatorVolume, gameObject);

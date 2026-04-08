@@ -38,11 +38,11 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: ede88cb9b519ad42b043b7baa79cad7e
     GuidInternal: 
-    m_lastTime: -8584262907487960713
+    m_lastTime: -8584259377884129549
     List:
-    - name: Ambience
-      guid: f2bf24467fbfab469dd8e53fb1f29da0
-      id: 85412153
+    - name: Apartment
+      guid: b8e7de45a521e8489c506cac864f8555
+      id: 4154495109
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
@@ -53,10 +53,284 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Ambience
+      - ElementName: Apartment
+        ObjectType: 2
+        guid: b8e7de45a521e8489c506cac864f8555
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Apartment
+    - name: Apt_Amb
+      guid: f2bf24467fbfab469dd8e53fb1f29da0
+      id: 1576174051
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ede88cb9b519ad42b043b7baa79cad7e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Apartment
+        ObjectType: 2
+        guid: b8e7de45a521e8489c506cac864f8555
+      - ElementName: Apt_Amb
         ObjectType: 2
         guid: f2bf24467fbfab469dd8e53fb1f29da0
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Apartment\Apt_Amb
+    - name: Apt_Mus
+      guid: 77d1e6970ad28243ad5165da9e26df07
+      id: 1443924366
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ede88cb9b519ad42b043b7baa79cad7e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Apartment
+        ObjectType: 2
+        guid: b8e7de45a521e8489c506cac864f8555
+      - ElementName: Apt_Mus
+        ObjectType: 2
+        guid: 77d1e6970ad28243ad5165da9e26df07
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Apartment\Apt_Mus
+    - name: Apt_Player
+      guid: 5b1e9e0ed3c7e24cbb5e212342a3d2f2
+      id: 3905838582
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ede88cb9b519ad42b043b7baa79cad7e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Apartment
+        ObjectType: 2
+        guid: b8e7de45a521e8489c506cac864f8555
+      - ElementName: Apt_Player
+        ObjectType: 2
+        guid: 5b1e9e0ed3c7e24cbb5e212342a3d2f2
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Apartment\Apt_Player
+    - name: Apt_Reverb
+      guid: e4588ab2bf2b4948b95c3acc849a967e
+      id: 1676289129
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ede88cb9b519ad42b043b7baa79cad7e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Apartment
+        ObjectType: 2
+        guid: b8e7de45a521e8489c506cac864f8555
+      - ElementName: Apt_Reverb
+        ObjectType: 1
+        guid: e4588ab2bf2b4948b95c3acc849a967e
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Apartment\Apt_Reverb
+    - name: Apt_World
+      guid: 7d611f0a9d42524cb09170d175819868
+      id: 2287246371
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ede88cb9b519ad42b043b7baa79cad7e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Apartment
+        ObjectType: 2
+        guid: b8e7de45a521e8489c506cac864f8555
+      - ElementName: Apt_World
+        ObjectType: 2
+        guid: 7d611f0a9d42524cb09170d175819868
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Apartment\Apt_World
+    - name: Fnrl_Amb
+      guid: c47e4af7c7efbd4fbfd093ba88c97145
+      id: 1559784790
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ede88cb9b519ad42b043b7baa79cad7e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Funeral Home
+        ObjectType: 2
+        guid: ac11898024f87742985258568c970ced
+      - ElementName: Fnrl_Amb
+        ObjectType: 2
+        guid: c47e4af7c7efbd4fbfd093ba88c97145
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Funeral Home\Fnrl_Amb
+    - name: Fnrl_Mus
+      guid: 419afa6c8d8f1241bc08acf30712a51b
+      id: 1156430435
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ede88cb9b519ad42b043b7baa79cad7e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Funeral Home
+        ObjectType: 2
+        guid: ac11898024f87742985258568c970ced
+      - ElementName: Fnrl_Mus
+        ObjectType: 2
+        guid: 419afa6c8d8f1241bc08acf30712a51b
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Funeral Home\Fnrl_Mus
+    - name: Fnrl_Player
+      guid: 01629f382588434d89f3f2cf99884313
+      id: 4213812209
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ede88cb9b519ad42b043b7baa79cad7e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Funeral Home
+        ObjectType: 2
+        guid: ac11898024f87742985258568c970ced
+      - ElementName: Fnrl_Player
+        ObjectType: 2
+        guid: 01629f382588434d89f3f2cf99884313
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Funeral Home\Fnrl_Player
+    - name: Fnrl_Reverb
+      guid: ea4a034c67779849b9eb53b83227d7cb
+      id: 1784058834
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ede88cb9b519ad42b043b7baa79cad7e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Funeral Home
+        ObjectType: 2
+        guid: ac11898024f87742985258568c970ced
+      - ElementName: Fnrl_Reverb
+        ObjectType: 1
+        guid: ea4a034c67779849b9eb53b83227d7cb
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Funeral Home\Fnrl_Reverb
+    - name: Fnrl_World
+      guid: ab138cf2282b544bac5740d80e919288
+      id: 439711954
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ede88cb9b519ad42b043b7baa79cad7e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Funeral Home
+        ObjectType: 2
+        guid: ac11898024f87742985258568c970ced
+      - ElementName: Fnrl_World
+        ObjectType: 2
+        guid: ab138cf2282b544bac5740d80e919288
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Funeral Home\Fnrl_World
+    - name: Funeral Home
+      guid: ac11898024f87742985258568c970ced
+      id: 750859935
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ede88cb9b519ad42b043b7baa79cad7e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Funeral Home
+        ObjectType: 2
+        guid: ac11898024f87742985258568c970ced
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Funeral Home
+    - name: General
+      guid: 730bb50f71df7c4482418fe469217543
+      id: 133642231
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ede88cb9b519ad42b043b7baa79cad7e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: General
+        ObjectType: 2
+        guid: 730bb50f71df7c4482418fe469217543
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\General
+    - name: Gnrl_Player
+      guid: 9d0421394ad50841856a0e5e4a0614c6
+      id: 2125642148
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ede88cb9b519ad42b043b7baa79cad7e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: General
+        ObjectType: 2
+        guid: 730bb50f71df7c4482418fe469217543
+      - ElementName: Gnrl_Player
+        ObjectType: 2
+        guid: 9d0421394ad50841856a0e5e4a0614c6
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\General\Gnrl_Player
+    - name: Gnrl_World
+      guid: 7a07825f8610d645a569b616ba0a2efc
+      id: 1035059981
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ede88cb9b519ad42b043b7baa79cad7e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: General
+        ObjectType: 2
+        guid: 730bb50f71df7c4482418fe469217543
+      - ElementName: Gnrl_World
+        ObjectType: 2
+        guid: 7a07825f8610d645a569b616ba0a2efc
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\General\Gnrl_World
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -71,9 +345,9 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
-    - name: Music
-      guid: 77d1e6970ad28243ad5165da9e26df07
-      id: 3991942870
+    - name: Void
+      guid: dc5b80a12c198a47b880f40f2af92361
+      id: 3370470011
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
@@ -84,13 +358,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Music
+      - ElementName: Void
         ObjectType: 2
-        guid: 77d1e6970ad28243ad5165da9e26df07
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
-    - name: Player
-      guid: 5b1e9e0ed3c7e24cbb5e212342a3d2f2
-      id: 1069431850
+        guid: dc5b80a12c198a47b880f40f2af92361
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Void
+    - name: Void_Amb
+      guid: 25d7c4ffee42b741b2a84b3b09301041
+      id: 3962830982
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
@@ -101,13 +375,16 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Player
+      - ElementName: Void
         ObjectType: 2
-        guid: 5b1e9e0ed3c7e24cbb5e212342a3d2f2
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Player
-    - name: Reverb
-      guid: 67a9b1dd07400244acdca0a3950b18df
-      id: 348963605
+        guid: dc5b80a12c198a47b880f40f2af92361
+      - ElementName: Void_Amb
+        ObjectType: 2
+        guid: 25d7c4ffee42b741b2a84b3b09301041
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Void\Void_Amb
+    - name: Void_Mus
+      guid: ef025b38f7298d4b8c101ffba8e38dce
+      id: 4096463699
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
@@ -118,13 +395,16 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Reverb
+      - ElementName: Void
         ObjectType: 2
-        guid: 67a9b1dd07400244acdca0a3950b18df
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb
-    - name: Reverb_Apartment
-      guid: e4588ab2bf2b4948b95c3acc849a967e
-      id: 624627402
+        guid: dc5b80a12c198a47b880f40f2af92361
+      - ElementName: Void_Mus
+        ObjectType: 2
+        guid: ef025b38f7298d4b8c101ffba8e38dce
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Void\Void_Mus
+    - name: Void_Player
+      guid: fa1c71fade141842812f61562211dd29
+      id: 6959393
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
@@ -135,36 +415,16 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Reverb
+      - ElementName: Void
         ObjectType: 2
-        guid: 67a9b1dd07400244acdca0a3950b18df
-      - ElementName: Reverb_Apartment
-        ObjectType: 1
-        guid: e4588ab2bf2b4948b95c3acc849a967e
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Reverb_Apartment
-    - name: Reverb_FuneralHome
-      guid: ea4a034c67779849b9eb53b83227d7cb
-      id: 579784244
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ede88cb9b519ad42b043b7baa79cad7e
-      - ElementName: Master Audio Bus
+        guid: dc5b80a12c198a47b880f40f2af92361
+      - ElementName: Void_Player
         ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Reverb
-        ObjectType: 2
-        guid: 67a9b1dd07400244acdca0a3950b18df
-      - ElementName: Reverb_FuneralHome
-        ObjectType: 1
-        guid: ea4a034c67779849b9eb53b83227d7cb
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Reverb_FuneralHome
-    - name: Reverb_Void
+        guid: fa1c71fade141842812f61562211dd29
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Void\Void_Player
+    - name: Void_Reverb
       guid: 0cae77aeb76c4d4391313a80aa5fd3a6
-      id: 2057947822
+      id: 3356433602
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
@@ -175,16 +435,16 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Reverb
+      - ElementName: Void
         ObjectType: 2
-        guid: 67a9b1dd07400244acdca0a3950b18df
-      - ElementName: Reverb_Void
+        guid: dc5b80a12c198a47b880f40f2af92361
+      - ElementName: Void_Reverb
         ObjectType: 1
         guid: 0cae77aeb76c4d4391313a80aa5fd3a6
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Reverb_Void
-    - name: World
-      guid: 7d611f0a9d42524cb09170d175819868
-      id: 2609808943
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Void\Void_Reverb
+    - name: Void_World
+      guid: 702ad0987dda034298168cf89fad39e0
+      id: 3863178242
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
@@ -195,10 +455,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: World
+      - ElementName: Void
         ObjectType: 2
-        guid: 7d611f0a9d42524cb09170d175819868
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World
+        guid: dc5b80a12c198a47b880f40f2af92361
+      - ElementName: Void_World
+        ObjectType: 2
+        guid: 702ad0987dda034298168cf89fad39e0
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Void\Void_World
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -224,7 +487,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584262951415691236
+    m_lastTime: -8584260061143465948
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -436,7 +699,7 @@ MonoBehaviour:
     ParentPath: Events\Funeral Home
     guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
     GuidInternal: 
-    m_lastTime: -8584260083476638789
+    m_lastTime: -8584259377884593962
     List:
     - name: Fnrl_Amb_Pause
       guid: b07a90bffc5a3443801fddc3dff36a05
@@ -873,7 +1136,7 @@ MonoBehaviour:
     ParentPath: States\States WU
     guid: 7d31013722dbbd43af5130094b358f20
     GuidInternal: 
-    m_lastTime: -8584262951415584329
+    m_lastTime: -8584259377884104283
     List:
     - name: CurrentScene
       guid: b2df96403f43694dbaffd67984f6fb84
@@ -1038,6 +1301,22 @@ MonoBehaviour:
         guid: f03929d78047064dac4c12717bbcdf2c
       Path: States\States WU\PuzzlesCompleted
       values:
+      - name: CasketComplete
+        guid: 8a84d6fe38332449ae93dcb962c36da4
+        id: 1683001833
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: States WU
+          ObjectType: 12
+          guid: 7d31013722dbbd43af5130094b358f20
+        - ElementName: PuzzlesCompleted
+          ObjectType: 9
+          guid: f03929d78047064dac4c12717bbcdf2c
+        - ElementName: CasketComplete
+          ObjectType: 8
+          guid: 8a84d6fe38332449ae93dcb962c36da4
       - name: None
         guid: f827d9ab773f424a86f423a891f082e5
         id: 748895195
@@ -1213,7 +1492,7 @@ MonoBehaviour:
     m_lastTime: -8584275934083339506
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000e0000000f000000130000001b0000001c0000001d00000020000000210000008d00000096000000
+  ExpandedWaapiItemIds: 05000000060000000e0000000f000000130000001b0000001c0000001d0000001e00000020000000230000008d00000096000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

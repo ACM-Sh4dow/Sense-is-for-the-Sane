@@ -20,7 +20,7 @@ State	ID	Name	State Group			Notes
 	4154495109	Apartment	CurrentScene			
 	4219119955	FuneralHome	CurrentScene			
 	748895195	None	FuneralHomeVersion			
-	1160234136	Normal	FuneralHomeVersion			
+	2628937827	Regular	FuneralHomeVersion			
 	2915544473	Alternate	FuneralHomeVersion			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size

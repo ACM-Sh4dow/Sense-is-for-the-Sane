@@ -36,6 +36,7 @@ State	ID	Name	State Group			Notes
 	748895195	None	PuzzlesCompleted			
 	766521211	Zero	PuzzlesCompleted			
 	1064933119	One	PuzzlesCompleted			
+	1683001833	CasketComplete	PuzzlesCompleted			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	9956793	Wooden_Creaking_Ambient_004	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\48\{484EFE33-1020-A02F-447B-7493CDC93136}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Creaking Rand\Wooden_Creaking_Ambient_004		466920

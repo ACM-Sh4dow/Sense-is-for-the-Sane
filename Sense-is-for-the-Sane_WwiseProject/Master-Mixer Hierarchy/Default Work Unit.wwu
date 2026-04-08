@@ -10,9 +10,13 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="Reverb" ID="{DDB1A967-4007-4402-ACDC-A0A3950B18DF}">
+						<Bus Name="Apartment" ID="{45DEE7B8-21A5-48E8-9C50-6CAC864F8555}">
 							<ChildrenList>
-								<AuxBus Name="Reverb_Apartment" ID="{B28A58E4-2BBF-4849-B95C-3ACC849A967E}">
+								<Bus Name="Apt_World" ID="{0A1F617D-429D-4C52-B091-70D175819868}"/>
+								<Bus Name="Apt_Player" ID="{0E9E1E5B-C7D3-4CE2-BB5E-212342A3D2F2}"/>
+								<Bus Name="Apt_Mus" ID="{97E6D177-D20A-4382-AD51-65DA9E26DF07}"/>
+								<Bus Name="Apt_Amb" ID="{4624BFF2-BF7F-46AB-9DD8-E53FB1F29DA0}"/>
+								<AuxBus Name="Apt_Reverb" ID="{B28A58E4-2BBF-4849-B95C-3ACC849A967E}">
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<ValueList>
@@ -36,7 +40,52 @@
 										</ObjectList>
 									</ObjectLists>
 								</AuxBus>
-								<AuxBus Name="Reverb_FuneralHome" ID="{4C034AEA-7767-4998-B9EB-53B83227D7CB}">
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="CurrentScene" ID="{4096DFB2-433F-4D69-BAFF-D67984F6FB84}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="None" ID="{A69EBB97-976D-4175-A28B-344441D6C540}"/>
+										<CustomState Name="" ID="{E63468C2-D543-41B8-A366-B37BEEC3EB7D}" ShortID="214434531">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Void" ID="{AE9041A4-3A52-434E-87E3-476B865CAD06}"/>
+										<CustomState Name="" ID="{8523F8B6-0785-46F6-AD9D-376ED53EF4F2}" ShortID="759556608">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
+										<CustomState Name="" ID="{1ABB7A24-BE34-42B3-A91F-F02DD251D14A}" ShortID="548216218">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Apartment" ID="{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"/>
+										<CustomState Name="" ID="{81D3508F-8EDB-4F97-945F-E28E6BE8762E}" ShortID="793485567"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+						<Bus Name="Funeral Home" ID="{808911AC-F824-4277-9852-58568C970CED}">
+							<ChildrenList>
+								<Bus Name="Fnrl_World" ID="{F28C13AB-2B28-4B54-AC57-40D80E919288}"/>
+								<Bus Name="Fnrl_Player" ID="{389F6201-8825-4D43-89F3-F2CF99884313}"/>
+								<Bus Name="Fnrl_Mus" ID="{6CFA9A41-8F8D-4112-BC08-ACF30712A51B}"/>
+								<Bus Name="Fnrl_Amb" ID="{F74A7EC4-EFC7-4FBD-BFD0-93BA88C97145}"/>
+								<AuxBus Name="Fnrl_Reverb" ID="{4C034AEA-7767-4998-B9EB-53B83227D7CB}">
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<ValueList>
@@ -60,7 +109,52 @@
 										</ObjectList>
 									</ObjectLists>
 								</AuxBus>
-								<AuxBus Name="Reverb_Void" ID="{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}">
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="CurrentScene" ID="{4096DFB2-433F-4D69-BAFF-D67984F6FB84}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="None" ID="{A69EBB97-976D-4175-A28B-344441D6C540}"/>
+										<CustomState Name="" ID="{8177B575-2CBE-433B-B8C6-57C0EC928F01}" ShortID="46253596">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Void" ID="{AE9041A4-3A52-434E-87E3-476B865CAD06}"/>
+										<CustomState Name="" ID="{F58006CA-E0DD-4757-853D-721A01D01D3F}" ShortID="959071442">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
+										<CustomState Name="" ID="{E1627DB6-6D65-430B-98D9-2CFEE31482B9}" ShortID="289154993"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Apartment" ID="{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"/>
+										<CustomState Name="" ID="{038BB05C-97FE-469F-A1C0-CF82C498967A}" ShortID="389315411">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+						<Bus Name="Void" ID="{A1805BDC-192C-478A-B880-F40F2AF92361}">
+							<ChildrenList>
+								<Bus Name="Void_World" ID="{98D02A70-DA7D-4203-9816-8CF89FAD39E0}"/>
+								<Bus Name="Void_Player" ID="{FA711CFA-14DE-4218-812F-61562211DD29}"/>
+								<Bus Name="Void_Mus" ID="{385B02EF-29F7-4B8D-8C10-1FFBA8E38DCE}"/>
+								<Bus Name="Void_Amb" ID="{FFC4D725-42EE-41B7-B2A8-4B3B09301041}"/>
+								<AuxBus Name="Void_Reverb" ID="{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}">
 									<ObjectLists>
 										<ObjectList Name="Effects">
 											<Reference>
@@ -78,11 +172,50 @@
 									</ObjectLists>
 								</AuxBus>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="CurrentScene" ID="{4096DFB2-433F-4D69-BAFF-D67984F6FB84}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="None" ID="{A69EBB97-976D-4175-A28B-344441D6C540}"/>
+										<CustomState Name="" ID="{3BCB4D63-B2A6-4E09-9567-28534F722645}" ShortID="805210524">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Void" ID="{AE9041A4-3A52-434E-87E3-476B865CAD06}"/>
+										<CustomState Name="" ID="{FD654213-F123-46BD-9110-5B47C111E4E6}" ShortID="508779757"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
+										<CustomState Name="" ID="{C98C5820-0EB5-46A0-83BE-8F350B17C0A5}" ShortID="983656781">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Apartment" ID="{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"/>
+										<CustomState Name="" ID="{C4D3C8C4-587F-4735-99D1-42655AF4166E}" ShortID="169189226">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Bus>
-						<Bus Name="Ambience" ID="{4624BFF2-BF7F-46AB-9DD8-E53FB1F29DA0}"/>
-						<Bus Name="Player" ID="{0E9E1E5B-C7D3-4CE2-BB5E-212342A3D2F2}"/>
-						<Bus Name="World" ID="{0A1F617D-429D-4C52-B091-70D175819868}"/>
-						<Bus Name="Music" ID="{97E6D177-D20A-4382-AD51-65DA9E26DF07}"/>
+						<Bus Name="General" ID="{0FB50B73-DF71-447C-8241-8FE469217543}">
+							<ChildrenList>
+								<Bus Name="Gnrl_Player" ID="{3921049D-D54A-4108-856A-0E5E4A0614C6}"/>
+								<Bus Name="Gnrl_World" ID="{5F82077A-1086-45D6-A569-B616BA0A2EFC}"/>
+							</ChildrenList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

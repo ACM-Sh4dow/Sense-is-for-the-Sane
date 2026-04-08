@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5e222b7abeec9c468a1546c13998620, type: 3}
   m_Name: 4C034AEA-7767-4998-B9EB-53B83227D7CB
   m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseAuxBusReference
-  objectName: Reverb_FuneralHome
-  id: 579784244
+  objectName: Fnrl_Reverb
+  id: 1784058834
   guid: 4C034AEA-7767-4998-B9EB-53B83227D7CB

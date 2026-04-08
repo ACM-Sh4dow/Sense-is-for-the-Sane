@@ -112,7 +112,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Music" ID="{97E6D177-D20A-4382-AD51-65DA9E26DF07}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Fnrl_Mus" ID="{6CFA9A41-8F8D-4112-BC08-ACF30712A51B}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 						<Reference Name="PlaylistRoot">
 							<Custom>
@@ -264,7 +264,6 @@
 								<CustomState Name="" ID="{889708E2-83BA-41ED-B605-6A7ACE1F804A}" ShortID="136082062">
 									<PropertyList>
 										<Property Name="GameAuxSendVolume" Type="Real64" Value="-2"/>
-										<Property Name="Volume" Type="Real64" Value="2"/>
 									</PropertyList>
 								</CustomState>
 							</CustomState>
@@ -273,7 +272,14 @@
 								<CustomState Name="" ID="{19031235-C34B-40DE-87EC-675DA27EA8D9}" ShortID="608212771">
 									<PropertyList>
 										<Property Name="GameAuxSendVolume" Type="Real64" Value="-2"/>
-										<Property Name="Volume" Type="Real64" Value="2"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="CasketComplete" ID="{FED6848A-3338-4924-AE93-DCB962C36DA4}"/>
+								<CustomState Name="" ID="{41B58A40-58DC-40B9-88C8-AC15E7494D6E}" ShortID="514367291">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
 									</PropertyList>
 								</CustomState>
 							</CustomState>
@@ -423,7 +429,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Music" ID="{97E6D177-D20A-4382-AD51-65DA9E26DF07}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Fnrl_Mus" ID="{6CFA9A41-8F8D-4112-BC08-ACF30712A51B}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 						<Reference Name="PlaylistRoot">
 							<Custom>
@@ -462,7 +468,7 @@
 							</Custom>
 						</Reference>
 						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Reverb_FuneralHome" ID="{4C034AEA-7767-4998-B9EB-53B83227D7CB}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Fnrl_Reverb" ID="{4C034AEA-7767-4998-B9EB-53B83227D7CB}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -575,8 +581,35 @@
 							<StateGroupInfo>
 								<StateGroupRef Name="FuneralHomeVersion" ID="{F0D40430-B72C-4672-A0D9-74C2EC3DDC10}"/>
 							</StateGroupInfo>
+							<StateGroupInfo>
+								<StateGroupRef Name="PuzzlesCompleted" ID="{D72939F0-4780-4D06-AC4C-12717BBCDF2C}"/>
+							</StateGroupInfo>
 						</StateGroupList>
 						<CustomStateList>
+							<CustomState>
+								<StateRef Name="One" ID="{2D3ECCF9-C1F2-43CC-85D8-1D6F732B4F46}"/>
+								<CustomState Name="" ID="{B45BCB39-5D3F-4DE7-943D-84B4A05BB7AC}" ShortID="860310891"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Two" ID="{2143B4A2-A7BC-4709-B720-E3A3B48D78AB}"/>
+								<CustomState Name="" ID="{92683F84-23A4-4219-AEF7-D3E9835544B6}" ShortID="973007570"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="CasketComplete" ID="{FED6848A-3338-4924-AE93-DCB962C36DA4}"/>
+								<CustomState Name="" ID="{64400A91-71DB-4CB0-B0D6-9383B152FACE}" ShortID="704657373">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{ABD927F8-3F77-4A42-86F4-23A891F082E5}"/>
+								<CustomState Name="" ID="{9BB8071A-EFB0-4248-AD45-398EC115FF25}" ShortID="498664763"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Zero" ID="{98BB88D2-3482-4A79-A31A-195F0C2A3385}"/>
+								<CustomState Name="" ID="{ED63A6BF-D29F-4C25-B482-051D3FC4105F}" ShortID="589277565"/>
+							</CustomState>
 							<CustomState>
 								<StateRef Name="None" ID="{873F2610-2C00-4B76-B36A-67906D77920C}"/>
 								<CustomState Name="" ID="{303C3112-F637-4922-9229-145E8BA9FE66}" ShortID="805916991">
@@ -800,7 +833,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Music" ID="{97E6D177-D20A-4382-AD51-65DA9E26DF07}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Fnrl_Mus" ID="{6CFA9A41-8F8D-4112-BC08-ACF30712A51B}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 						<Reference Name="PlaylistRoot">
 							<Custom>
@@ -949,6 +982,14 @@
 								<CustomState Name="" ID="{D9260200-6CFF-4DE0-8265-A5B164EE14E5}" ShortID="485712969"/>
 							</CustomState>
 							<CustomState>
+								<StateRef Name="CasketComplete" ID="{FED6848A-3338-4924-AE93-DCB962C36DA4}"/>
+								<CustomState Name="" ID="{AAF94FAF-884B-4BC7-A5ED-61C7B028B0A4}" ShortID="597494350">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
 								<StateRef Name="None" ID="{ABD927F8-3F77-4A42-86F4-23A891F082E5}"/>
 								<CustomState Name="" ID="{67AF3170-4289-4993-97F4-FF3902249D0C}" ShortID="486298899">
 									<PropertyList>
@@ -1003,7 +1044,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Music" ID="{97E6D177-D20A-4382-AD51-65DA9E26DF07}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Fnrl_Mus" ID="{6CFA9A41-8F8D-4112-BC08-ACF30712A51B}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 						<Reference Name="PlaylistRoot">
 							<Custom>
@@ -1174,7 +1215,7 @@
 											</Custom>
 										</Reference>
 										<Reference Name="UserAuxSend0">
-											<ObjectRef Name="Reverb_Void" ID="{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+											<ObjectRef Name="Void_Reverb" ID="{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -1277,11 +1318,6 @@
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>5</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -1514,6 +1550,14 @@
 								<CustomState Name="" ID="{9CB98ED3-A878-468E-8AE3-13CCA5D8F7A5}" ShortID="347356241"/>
 							</CustomState>
 							<CustomState>
+								<StateRef Name="CasketComplete" ID="{FED6848A-3338-4924-AE93-DCB962C36DA4}"/>
+								<CustomState Name="" ID="{90A753C0-A542-4889-B9FD-30C9AC42FCBD}" ShortID="408749003">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
 								<StateRef Name="None" ID="{ABD927F8-3F77-4A42-86F4-23A891F082E5}"/>
 								<CustomState Name="" ID="{18B188D2-A1F3-432E-AA34-8DA49F5606E1}" ShortID="388963030">
 									<PropertyList>
@@ -1539,15 +1583,15 @@
 							</CustomState>
 							<CustomState>
 								<StateRef Name="Alternate" ID="{DCCA95AB-DF88-4C88-AC1B-F2C2B6E3BD12}"/>
-								<CustomState Name="" ID="{AFF00399-6924-409E-B53D-DC1D5C0B0C43}" ShortID="242318626">
+								<CustomState Name="" ID="{AFF00399-6924-409E-B53D-DC1D5C0B0C43}" ShortID="242318626"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Regular" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
+								<CustomState Name="" ID="{9137B991-983D-4295-A9B2-9049DF716D8C}" ShortID="331399030">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64" Value="-108"/>
 									</PropertyList>
 								</CustomState>
-							</CustomState>
-							<CustomState>
-								<StateRef Name="Regular" ID="{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"/>
-								<CustomState Name="" ID="{9137B991-983D-4295-A9B2-9049DF716D8C}" ShortID="331399030"/>
 							</CustomState>
 						</CustomStateList>
 					</StateInfo>

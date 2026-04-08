@@ -29,6 +29,7 @@ State	ID	Name	State Group			Notes
 	748895195	None	PuzzlesCompleted			
 	766521211	Zero	PuzzlesCompleted			
 	1064933119	One	PuzzlesCompleted			
+	1683001833	CasketComplete	PuzzlesCompleted			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	553709980	InAudibleZone			\Game Parameters WU\InAudibleZone	
