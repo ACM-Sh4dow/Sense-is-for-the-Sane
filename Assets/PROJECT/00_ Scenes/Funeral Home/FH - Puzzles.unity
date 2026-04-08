@@ -36613,6 +36613,8 @@ GameObject:
   - component: {fileID: 7686276793326672421}
   - component: {fileID: 6166923827448550692}
   - component: {fileID: 5276828581291822513}
+  - component: {fileID: 8670145319360877380}
+  - component: {fileID: 8670145319360877379}
   m_Layer: 0
   m_Name: Casket
   m_TagString: Untagged
@@ -36728,7 +36730,50 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1317691034}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -89.49, y: 15.263, z: -14.776}
+--- !u!95 &8670145319360877379
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8125446916673247489}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 255388006d7e52f4abb6237996fd88ae, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8670145319360877380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8125446916673247489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 852bd80a48b938042af0ecdf0cef33cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DistanceBasedAnimation
+  distanceCheckObject: {fileID: 0}
+  animationName: Casket Open
+  animationStartDistance: 7
+  animationEndDistance: 0
+  logAnimDelta: 0
+  audioEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &9107616382904378751
 GameObject:
   m_ObjectHideFlags: 0
