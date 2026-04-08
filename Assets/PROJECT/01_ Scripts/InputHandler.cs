@@ -52,8 +52,12 @@ public class InputHandler : MonoBehaviour
     {
         if (!input.started) return;
         var puzzle = FindNearestPuzzle();
-        if (puzzle == null) return;
-        Debug.Log(puzzle.name + "!!!!!!!!!!!!!!");
+        if (puzzle == null)
+        {
+            Debug.LogError("ReceiveAlign: NO nearby puzzle found !!!");
+            return;
+        }
+        Debug.Log($"ReceiveAlign: Nearest PUZZLE is: {puzzle.name} !!!");
         puzzle.AttemptPuzzle();
         
     }
@@ -61,7 +65,7 @@ public class InputHandler : MonoBehaviour
     private Puzzle FindNearestPuzzle()
     {
         Vector3 playerPos = PlayerBehaviour.Instance.playerPosition;
-        var found = FindTarget.List<Puzzle>(playerPos, playerPos, 2);
+        var found = FindTarget.List<Puzzle>(playerPos, playerPos, 5); //if not detecting puzzle, increase radius 
 
         if (found.Count <= 0) return null;
 

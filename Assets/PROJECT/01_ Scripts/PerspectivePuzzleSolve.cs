@@ -15,8 +15,8 @@ public class PerspectivePuzzleSolve : Puzzle
     [SerializeField] private GameObject puzzleResult;
 
     private bool puzzleSolveAttempted = false;
-
     public bool secondaryPuzzleComplete;
+    
     #endregion
     
 
@@ -70,17 +70,17 @@ public class PerspectivePuzzleSolve : Puzzle
     }
     private void SolvePuzzle()
     {
-        Debug.Log("Solving Puzzle 1");
         if (state == State.solved) return;
-        Debug.Log("Solving Puzzle 2");
-        if (secondaryPuzzleComplete == false) return;
-        Debug.Log("Solving Puzzle 2.5");
+        if (!secondaryPuzzleComplete) return;
 
         if (state == State.solvable)
         {
-            Debug.Log("Solving Puzzle 3");
             state = State.solved;
-            Debug.Log("Solving Puzzle 4");
+            Debug.Log("PerspectivePuzzleSolve: State set to SOLVED");
+        }
+        else
+        {
+            Debug.Log("PerspectivePuzzleSolve: State is NOT SOLVABLE");
         }
     }
 }
