@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAC7D741-2CC6-4571-91AE-B86C57B75FDF}",
     "Language": "SFX",
-    "Hash": "{BCEF8AB7-D665-77DF-3224-6487DED70FEA}",
+    "Hash": "{E756FBFD-68D9-5C02-A627-EF238C934E21}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -453,7 +453,7 @@
       "Name": "Fnrl_Mus_Organ",
       "ObjectPath": "\\Events\\Funeral Home\\Music\\Fnrl_Mus_Organ",
       "GUID": "{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}",
-      "MaxAttenuation": "50",
+      "MaxAttenuation": "20",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -747,6 +747,6 @@
     ]
    }
   ],
-  "FileHash": "{89734472-A979-9B8B-6ECC-D29B86A59838}"
+  "FileHash": "{88E7656E-9968-8369-2A9B-8221C67B4450}"
  }
 }

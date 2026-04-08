@@ -275,6 +275,9 @@
 				<Event Name="Fnrl_Wall_Shatter" ID="{1C722E0F-588B-4920-8B98-FDF8AA4464C1}">
 					<ChildrenList>
 						<Action Name="" ID="{6C531FBF-E584-4AAD-9F62-35DAAE60D7AD}" ShortID="1000919796">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Wall Shatter Seq" ID="{E5BA1B61-3DD4-4725-A0C2-B0EF6D909AA6}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>

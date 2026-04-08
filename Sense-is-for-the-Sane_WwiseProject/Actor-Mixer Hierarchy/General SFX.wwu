@@ -10,7 +10,12 @@
 						<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 						<Property Name="UserAuxSendHPF1" Type="int16">
 							<ValueList>
-								<Value>15</Value>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UserAuxSendVolume1" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -143,6 +148,16 @@
 									<ValueList>
 										<Value>-13</Value>
 									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A7D1B397-1E45-404B-B67E-2EE09DEC38DC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -1038,7 +1053,7 @@
 											<PropertyList>
 												<Property Name="Highpass" Type="int16" Value="7"/>
 												<Property Name="Pitch" Type="int32" Value="-800"/>
-												<Property Name="Volume" Type="Real64" Value="3"/>
+												<Property Name="Volume" Type="Real64" Value="4"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>
@@ -1111,7 +1126,7 @@
 									<PropertyList>
 										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
 										<Property Name="UserAuxSendVolume2" Type="Real64" Value="-108"/>
-										<Property Name="Volume" Type="Real64" Value="-4"/>
+										<Property Name="Volume" Type="Real64" Value="-2"/>
 									</PropertyList>
 								</CustomState>
 							</CustomState>
