@@ -6,30 +6,29 @@ using UnityEngine.SceneManagement;
 
 public class BaseSceneLoader : MonoBehaviour
 {
-    [SerializeField] private List<string> SceneNames = new ();
+    public List<string> SceneNames = new ();
     
     private void Start()
     {
-        LoadScenesAsync();
+        StartCoroutine(LoadScenesAsync());
     }
-
+    
     private IEnumerator LoadScenesAsync()
     {
         foreach (string sceneName in SceneNames)
         {
-            Debug.Log("1");
-            if (SceneManager.GetSceneByName(sceneName).isLoaded || SceneManager.GetSceneByName(sceneName) == null) break;
-            Debug.Log("2");
-            AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
-            Debug.Log("3");
+            if (SceneManager.GetSceneByName(sceneName).isLoaded) break;
+ 
+            AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
+            
             while (!asyncLoad.isDone)
             {
-                Debug.Log(asyncLoad.progress);
                 yield return null;
             }
             
             if (asyncLoad.isDone) Debug.Log($"{sceneName} is DONE LOADING.");
         }
-            yield return null;
+        Debug.Log("Scene loading COMPLETE.");
+        SceneNames.Add(SceneManager.GetActiveScene().name);
     }
 }
