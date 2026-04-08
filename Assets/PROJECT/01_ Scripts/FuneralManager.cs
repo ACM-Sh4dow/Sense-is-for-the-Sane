@@ -12,7 +12,7 @@ public class FuneralManager : PuzzleTracker
     private bool casketPuzzleCompleted;
     
     public PerspectivePuzzleSolve casketPerspectivePuzzle;
-    
+    public Transition alternateTransition;
     
     private void Start()
     {
@@ -45,7 +45,8 @@ public class FuneralManager : PuzzleTracker
         PaintingSolved();
         FlowerSolved();
         PedestalSolved(); 
-        //CasketSolved();
+        CasketSolved();
+        MusicLayers();
     }
 
     private void PaintingSolved()
@@ -94,6 +95,25 @@ public class FuneralManager : PuzzleTracker
         if (Puzzles[5].state == Puzzle.State.fullyResolved) 
         {
             casketPuzzleCompleted = true;
+            alternateTransition.Teleport();
+        }
+    }
+
+    private void MusicLayers()
+    {
+        if (pedestalPhase1Completed || pedestalPhase2Completed)
+        {
+            AkUnitySoundEngine.SetState("PuzzlesCompleted", "One");
+        }
+
+        if (pedestalPhase1Completed && pedestalPhase2Completed)
+        {
+            AkUnitySoundEngine.SetState("PuzzlesCompleted", "Two");
+        }
+
+        if (casketPuzzleCompleted)
+        {
+            AkUnitySoundEngine.SetState("PuzzlesCompleted", "CasketComplete");
         }
     }
 }

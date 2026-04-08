@@ -65,7 +65,7 @@ public class InputHandler : MonoBehaviour
     private Puzzle FindNearestPuzzle()
     {
         Vector3 playerPos = PlayerBehaviour.Instance.playerPosition;
-        var found = FindTarget.List<Puzzle>(playerPos, playerPos, 5); //if not detecting puzzle, increase radius 
+        var found = FindTarget.List<Puzzle>(playerPos, playerPos, 2);
 
         if (found.Count <= 0) return null;
 

@@ -22750,7 +22750,7 @@ GameObject:
   - component: {fileID: 1201595649}
   - component: {fileID: 1201595650}
   m_Layer: 0
-  m_Name: Pedestal 1
+  m_Name: Pedestal - Painting L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28746,7 +28746,7 @@ GameObject:
   - component: {fileID: 1598106112}
   - component: {fileID: 1598106113}
   m_Layer: 0
-  m_Name: Pedestal 2
+  m_Name: Pedestal - Flower R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28891,10 +28891,11 @@ MonoBehaviour:
   - {fileID: 117230785}
   - {fileID: 1201595650}
   - {fileID: 1598106113}
-  - {fileID: 0}
+  - {fileID: 521601256}
   flowerPuzzleCompleted: 0
   paintingPuzzleCompleted: 0
   casketPerspectivePuzzle: {fileID: 521601256}
+  alternateTransition: {fileID: 3775782348418494077}
 --- !u!1 &1661867412
 GameObject:
   m_ObjectHideFlags: 0
@@ -36276,6 +36277,7 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: a5a76c97ec321e74b801c4168be7b6cc, type: 2}
+  isAlternateTransitionPoint: 0
 --- !u!4 &4071676763232004018
 Transform:
   m_ObjectHideFlags: 0
@@ -36403,6 +36405,7 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: c777b320c76d86c4d92a112d5ddfcbb5, type: 2}
+  isAlternateTransitionPoint: 0
 --- !u!23 &6166923827448550692
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36428,7 +36431,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 7b391f3d00741614e93ee43eef5fd3cf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

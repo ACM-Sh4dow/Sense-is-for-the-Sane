@@ -9,7 +9,15 @@ public class Transition : MonoBehaviour, InteractionPoint
     public string audioStateName;
     public AK.Wwise.Event transitionAudioEvent;
 
+    [Tooltip("SET to True if this transition point is in the Alternate Funeral Home, SET False if in Regular.")]
+    [SerializeField] private bool isAlternateTransitionPoint; 
+
     public void Interact()
+    {
+        Teleport();
+    }
+
+    public void Teleport()
     {
         PlayerBehaviour.Instance.transform.position += transitionDirection;
         retrograde.SetActive(!retrograde.activeSelf);
