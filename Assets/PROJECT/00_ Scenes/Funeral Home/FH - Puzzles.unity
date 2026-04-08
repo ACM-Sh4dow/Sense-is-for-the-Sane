@@ -4103,6 +4103,10 @@ MonoBehaviour:
   - {fileID: 64170598}
   puzzleResult: {fileID: 804932219}
   secondaryPuzzleComplete: 0
+  solvedAudioEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b0480c19d08bcc343bb706cc228f8494, type: 2}
 --- !u!65 &117230786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8833,6 +8837,10 @@ MonoBehaviour:
   - {fileID: 1813431603}
   puzzleResult: {fileID: 1935323122}
   secondaryPuzzleComplete: 1
+  solvedAudioEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f375e6837f0bba846a4a0a5e89971c95, type: 2}
 --- !u!65 &465902636
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10729,6 +10737,10 @@ MonoBehaviour:
   puzzleComponents: []
   puzzleResult: {fileID: 8125446916673247489}
   secondaryPuzzleComplete: 0
+  solvedAudioEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!65 &521601257
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22814,6 +22826,10 @@ MonoBehaviour:
   wallShattered: {fileID: 279114688}
   puzzleResult: {fileID: 1183934056}
   soundObject: {fileID: 1610687532}
+  placingAudioEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9a563561cc0c56547b2abd14d4e56cf8, type: 2}
 --- !u!1 &1259745272
 GameObject:
   m_ObjectHideFlags: 0
@@ -28810,6 +28826,10 @@ MonoBehaviour:
   wallShattered: {fileID: 1199913256}
   puzzleResult: {fileID: 2056731045}
   soundObject: {fileID: 2003916257}
+  placingAudioEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b0480c19d08bcc343bb706cc228f8494, type: 2}
 --- !u!1 &1610687532
 GameObject:
   m_ObjectHideFlags: 0

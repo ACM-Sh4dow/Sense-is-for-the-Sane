@@ -16,6 +16,8 @@ public class PerspectivePuzzleSolve : Puzzle
 
     private bool puzzleSolveAttempted = false;
     public bool secondaryPuzzleComplete;
+
+    public AK.Wwise.Event solvedAudioEvent;
     
     #endregion
     
@@ -48,6 +50,7 @@ public class PerspectivePuzzleSolve : Puzzle
         if (state == State.solved)
         {
             puzzleResult.SetActive(true);
+            if (solvedAudioEvent != null) solvedAudioEvent.Post(puzzleResult);
 
             foreach (GameObject puzzleComponent in puzzleComponents)
             {

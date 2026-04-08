@@ -11,6 +11,8 @@ public class Pedestal : Puzzle, InteractionPoint
     [SerializeField] private GameObject puzzleResult;
     [SerializeField] private GameObject soundObject;
 
+    public AK.Wwise.Event placingAudioEvent;
+
     public void Interact()
     {
         AttemptPuzzle();
@@ -32,6 +34,8 @@ public class Pedestal : Puzzle, InteractionPoint
         RegisterCompletion();
             
         puzzleResult.SetActive(true);
+
+        if (placingAudioEvent != null) placingAudioEvent.Post(gameObject);
 
         ShatterWall();
     }

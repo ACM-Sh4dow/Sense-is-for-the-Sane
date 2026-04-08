@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
     "Language": "SFX",
-    "Hash": "{224EC124-FEB0-07E5-E487-3C848E201A17}",
+    "Hash": "{B315284C-D5B5-2CC7-E619-D54EFD2BED3F}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
     "ShortName": "Funeral_Home",
     "Path": "Funeral_Home.bnk",
@@ -40,12 +40,28 @@
       "CachePath": "7D/{7D2A9971-5F2F-33B6-BDC5-EAAEF137F72A}.wem"
      },
      {
+      "Id": "52400242",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Flower_Vase_02.wav",
+      "CachePath": "52/{52CDD6AD-7BF6-F47C-5440-5D40A0C24AB0}.wem"
+     },
+     {
       "Id": "58712416",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep_Creak_004.wav",
       "CachePath": "BF/{BF40A8D1-113F-62EF-D086-2E6C9D7A94F5}.wem"
+     },
+     {
+      "Id": "59700195",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Flower_Vase_03.wav",
+      "CachePath": "4F/{4F307F07-AF11-CE38-D09C-47C3FA051899}.wem"
      },
      {
       "Id": "179374628",
@@ -56,12 +72,28 @@
       "CachePath": "EB/{EB586C5B-64AD-8CF1-ACDE-6D1EB1BE05A8}.wem"
      },
      {
+      "Id": "188404886",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Picture_Frame.wav",
+      "CachePath": "D1/{D1F0D9B9-B7BC-AA3E-1B49-58CAB3197C32}.wem"
+     },
+     {
       "Id": "200443766",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Basic_Footstep_001.wav",
       "CachePath": "7F/{7FC6AC00-100F-8B2E-0046-CE318175A29B}.wem"
+     },
+     {
+      "Id": "230791500",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Flower_Vase_01.wav",
+      "CachePath": "0F/{0FC013A9-6583-7275-6EED-BC5452CEDFAF}.wem"
      },
      {
       "Id": "277586871",
@@ -150,6 +182,14 @@
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_005.wav",
       "CachePath": "3F/{3F496687-B5A0-A353-31DF-5CAFE4D5DE1C}.wem"
+     },
+     {
+      "Id": "631962267",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Funeral_Mirror_Exhale.wav",
+      "CachePath": "88/{88B11443-1BDE-6A06-1CAC-A3F34C2A810E}.wem"
      },
      {
       "Id": "652604346",
@@ -279,6 +319,27 @@
       ]
      },
      {
+      "Id": "3533695665",
+      "Name": "Fnrl_Flower_Vase",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Flower_Vase",
+      "GUID": "{FBEBE904-9941-4ABB-A9BE-4542906A8DB8}",
+      "MaxAttenuation": "5",
+      "DurationType": "OneShot",
+      "DurationMin": "0.72778976",
+      "DurationMax": "1.0955184",
+      "MediaRefs": [
+       {
+        "Id": "52400242"
+       },
+       {
+        "Id": "59700195"
+       },
+       {
+        "Id": "230791500"
+       }
+      ]
+     },
+     {
       "Id": "1736817776",
       "Name": "Fnrl_Mirror_Breathing",
       "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Mirror_Breathing",
@@ -288,6 +349,29 @@
       "MediaRefs": [
        {
         "Id": "179374628"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1784058834",
+        "Name": "Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home\\Fnrl_Reverb",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       }
+      ]
+     },
+     {
+      "Id": "305829503",
+      "Name": "Fnrl_Mirror_Complete",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Mirror_Complete",
+      "GUID": "{E3D57595-C140-4B81-A43D-81C395225298}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "5.9899974",
+      "DurationMax": "5.9899974",
+      "MediaRefs": [
+       {
+        "Id": "631962267"
        }
       ],
       "AuxBusRefs": [
@@ -427,6 +511,20 @@
       ]
      },
      {
+      "Id": "1022944170",
+      "Name": "Fnrl_Picture_Frame",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Picture_Frame",
+      "GUID": "{A068709C-45C1-4576-B337-02C1219D363E}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1302445",
+      "DurationMax": "1.1974523",
+      "MediaRefs": [
+       {
+        "Id": "188404886"
+       }
+      ]
+     },
+     {
       "Id": "2938809645",
       "Name": "Fnrl_Transition_Exhale",
       "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Transition_Exhale",
@@ -473,8 +571,8 @@
       "GUID": "{1C722E0F-588B-4920-8B98-FDF8AA4464C1}",
       "MaxAttenuation": "100",
       "DurationType": "OneShot",
-      "DurationMin": "4.324399",
-      "DurationMax": "4.6739454",
+      "DurationMin": "5.385821",
+      "DurationMax": "5.821163",
       "MediaRefs": [
        {
         "Id": "551171733"
@@ -515,6 +613,6 @@
     ]
    }
   ],
-  "FileHash": "{2F9D34FC-459C-2322-D873-E92166CDC4DC}"
+  "FileHash": "{99688780-6CC3-BE4D-BC04-DA6FF9D3F788}"
  }
 }

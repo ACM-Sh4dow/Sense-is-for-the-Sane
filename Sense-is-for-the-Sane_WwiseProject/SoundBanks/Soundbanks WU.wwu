@@ -42,10 +42,13 @@
 						<ObjectRef Name="Fnrl_Mus_Organ" ID="{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Transition_Inhale" ID="{36E22E4E-5EA4-41E7-B576-76B3D3090F0E}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Amb_Pause" ID="{BF907AB0-5AFC-4334-801F-DDC3DFF36A05}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fnrl_Picture_Frame" ID="{A068709C-45C1-4576-B337-02C1219D363E}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Mus_Strings" ID="{2A588BC6-F874-4660-A5A5-061650ED2C5C}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Mus_Piano" ID="{9F02AAE3-A025-471B-A281-B77A69F45B8A}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Wall_Shatter" ID="{1C722E0F-588B-4920-8B98-FDF8AA4464C1}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Amb_Thunderstorm" ID="{748EF433-A22E-494E-927C-79CFE002E9FF}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fnrl_Flower_Vase" ID="{FBEBE904-9941-4ABB-A9BE-4542906A8DB8}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fnrl_Mirror_Complete" ID="{E3D57595-C140-4B81-A43D-81C395225298}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Mus_Winds" ID="{E52DB62D-C829-4CA3-ADF8-B3ECCB3CE7CB}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Door_Creaking" ID="{0CBA965B-EA68-4CF1-A7E1-87707066D038}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Transition_Exhale" ID="{3F85E934-BD61-4E41-BC35-937B2BC821BB}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>

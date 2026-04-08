@@ -283,6 +283,52 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Fnrl_Flower_Vase" ID="{FBEBE904-9941-4ABB-A9BE-4542906A8DB8}">
+					<ChildrenList>
+						<Action Name="" ID="{E4BC9E46-B0BF-4181-8A41-7751789152E1}" ShortID="1015305748">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flowers Seq" ID="{2E39A745-B928-4550-888F-103A52D5EFCD}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fnrl_Picture_Frame" ID="{A068709C-45C1-4576-B337-02C1219D363E}">
+					<ChildrenList>
+						<Action Name="" ID="{0B6EECA2-A9BB-42FA-997F-2FD5AED41EF4}" ShortID="804187763">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Picture_Frame" ID="{E365E117-D214-43EA-B016-31523676118E}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fnrl_Mirror_Complete" ID="{E3D57595-C140-4B81-A43D-81C395225298}">
+					<ChildrenList>
+						<Action Name="" ID="{CA599531-1148-4B9A-B68F-BA2A0C2ECBB0}" ShortID="1042399089">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Funeral_Mirror_Breathing" ID="{173E51BA-2D88-4C0F-8AE1-AA9A9E5E731B}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C11A9F0A-5812-4AA7-A129-51BC3DDE517B}" ShortID="159202847">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Funeral_Mirror_Exhale" ID="{8370362C-B231-4FAB-B308-8001C4AE22E3}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

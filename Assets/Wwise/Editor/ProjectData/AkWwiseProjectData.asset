@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: ede88cb9b519ad42b043b7baa79cad7e
     GuidInternal: 
-    m_lastTime: -8584259377884129549
+    m_lastTime: -8584259366251478306
     List:
     - name: Apartment
       guid: b8e7de45a521e8489c506cac864f8555
@@ -487,7 +487,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584260061143465948
+    m_lastTime: -8584259300616221327
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -699,7 +699,7 @@ MonoBehaviour:
     ParentPath: Events\Funeral Home
     guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
     GuidInternal: 
-    m_lastTime: -8584259377884593962
+    m_lastTime: -8584259297835835518
     List:
     - name: Fnrl_Amb_Pause
       guid: b07a90bffc5a3443801fddc3dff36a05
@@ -752,6 +752,23 @@ MonoBehaviour:
       maxAttenuation: 20
       maxDuration: 0
       minDuration: 0
+    - name: Fnrl_Flower_Vase
+      guid: 04e9ebfb4199bb4aa9be4542906a8db8
+      id: 3533695665
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Funeral Home
+        ObjectType: 12
+        guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
+      - ElementName: Fnrl_Flower_Vase
+        ObjectType: 3
+        guid: 04e9ebfb4199bb4aa9be4542906a8db8
+      Path: Events\Funeral Home\Fnrl_Flower_Vase
+      maxAttenuation: 5
+      maxDuration: 1.0955184
+      minDuration: 0.72778976
     - name: Fnrl_Mirror_Breathing
       guid: ecf4c0e6aaafc84e8c9aee291fc65b35
       id: 1736817776
@@ -769,6 +786,23 @@ MonoBehaviour:
       maxAttenuation: 2
       maxDuration: 0
       minDuration: 0
+    - name: Fnrl_Mirror_Complete
+      guid: 9575d5e340c1814ba43d81c395225298
+      id: 305829503
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Funeral Home
+        ObjectType: 12
+        guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
+      - ElementName: Fnrl_Mirror_Complete
+        ObjectType: 3
+        guid: 9575d5e340c1814ba43d81c395225298
+      Path: Events\Funeral Home\Fnrl_Mirror_Complete
+      maxAttenuation: 100
+      maxDuration: 5.9899974
+      minDuration: 5.9899974
     - name: Fnrl_Mirror_Footstep
       guid: 489196df7a2a7a4fbf5ae92b0ec7818e
       id: 3801545580
@@ -866,6 +900,23 @@ MonoBehaviour:
       maxAttenuation: 50
       maxDuration: 0
       minDuration: 0
+    - name: Fnrl_Picture_Frame
+      guid: 9c7068a0c1457645b33702c1219d363e
+      id: 1022944170
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Funeral Home
+        ObjectType: 12
+        guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
+      - ElementName: Fnrl_Picture_Frame
+        ObjectType: 3
+        guid: 9c7068a0c1457645b33702c1219d363e
+      Path: Events\Funeral Home\Fnrl_Picture_Frame
+      maxAttenuation: 0
+      maxDuration: 1.1974523
+      minDuration: 1.1302445
     - name: Fnrl_Transition_Exhale
       guid: 34e9853f61bd414ebc35937b2bc821bb
       id: 2938809645
@@ -915,8 +966,8 @@ MonoBehaviour:
         guid: 0f2e721c8b5820498b98fdf8aa4464c1
       Path: Events\Funeral Home\Fnrl_Wall_Shatter
       maxAttenuation: 100
-      maxDuration: 4.6739454
-      minDuration: 4.324399
+      maxDuration: 5.821163
+      minDuration: 5.385821
     - name: Music
       guid: 6a2f87db7ef35c4297086f78e9ad04a9
       id: 3991942870
@@ -1136,7 +1187,7 @@ MonoBehaviour:
     ParentPath: States\States WU
     guid: 7d31013722dbbd43af5130094b358f20
     GuidInternal: 
-    m_lastTime: -8584259377884104283
+    m_lastTime: -8584259366251468284
     List:
     - name: CurrentScene
       guid: b2df96403f43694dbaffd67984f6fb84
@@ -1492,7 +1543,7 @@ MonoBehaviour:
     m_lastTime: -8584275934083339506
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000e0000000f000000130000001b0000001c0000001d0000001e00000020000000230000008d00000096000000
+  ExpandedWaapiItemIds: 05000000060000000e0000000f000000130000001b0000001c0000001e00000020000000230000008d00000096000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

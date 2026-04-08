@@ -22,12 +22,15 @@ namespace AK
         static const AkUniqueID FNRL_AMB_PAUSE = 2963388045U;
         static const AkUniqueID FNRL_AMB_THUNDERSTORM = 1612838152U;
         static const AkUniqueID FNRL_DOOR_CREAKING = 3003594117U;
+        static const AkUniqueID FNRL_FLOWER_VASE = 3533695665U;
         static const AkUniqueID FNRL_MIRROR_BREATHING = 1736817776U;
+        static const AkUniqueID FNRL_MIRROR_COMPLETE = 305829503U;
         static const AkUniqueID FNRL_MIRROR_FOOTSTEP = 3801545580U;
         static const AkUniqueID FNRL_MUS_ORGAN = 1578407477U;
         static const AkUniqueID FNRL_MUS_PIANO = 2549568769U;
         static const AkUniqueID FNRL_MUS_STRINGS = 3506702008U;
         static const AkUniqueID FNRL_MUS_WINDS = 3153082963U;
+        static const AkUniqueID FNRL_PICTURE_FRAME = 1022944170U;
         static const AkUniqueID FNRL_TRANSITION_EXHALE = 2938809645U;
         static const AkUniqueID FNRL_TRANSITION_INHALE = 2161155719U;
         static const AkUniqueID FNRL_WALL_SHATTER = 650669748U;
