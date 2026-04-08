@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -34,8 +35,20 @@ public class SceneTransition : MonoBehaviour
         if (asyncLoad.isDone) Debug.Log($"{newBaseSceneName} is DONE LOADING.");
     }
 
-    private void UnloadPreviousScenes()
+    private IEnumerator UnloadPreviousScenes()
     {
-        
+        yield return null;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (state == State.loading)
+        {
+            StartCoroutine(LoadNewBaseScene());
+        }
+        else if (state == State.unloading)
+        {
+            StartCoroutine(UnloadPreviousScenes());
+        }
     }
 }

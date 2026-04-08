@@ -387,7 +387,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   state: 0
-  newBaseSceneName: 
+  newBaseSceneName: FH - Base
 --- !u!1001 &1887524059
 PrefabInstance:
   m_ObjectHideFlags: 0
