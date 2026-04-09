@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAC7D741-2CC6-4571-91AE-B86C57B75FDF}",
     "Language": "SFX",
-    "Hash": "{BCEF8AB7-D665-77DF-3224-6487DED70FEA}",
+    "Hash": "{A9AE6344-FF0D-CB62-9853-A5AF579CA115}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -371,6 +371,14 @@
        {
         "Id": "573529530"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1676289129",
+        "Name": "Apt_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Apartment\\Apt_Reverb",
+        "GUID": "{B28A58E4-2BBF-4849-B95C-3ACC849A967E}"
+       }
       ]
      },
      {
@@ -453,7 +461,7 @@
       "Name": "Fnrl_Mus_Organ",
       "ObjectPath": "\\Events\\Funeral Home\\Music\\Fnrl_Mus_Organ",
       "GUID": "{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}",
-      "MaxAttenuation": "50",
+      "MaxAttenuation": "20",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -747,6 +755,6 @@
     ]
    }
   ],
-  "FileHash": "{89734472-A979-9B8B-6ECC-D29B86A59838}"
+  "FileHash": "{BA6AE73F-6293-0850-F5A4-4BE89D281230}"
  }
 }

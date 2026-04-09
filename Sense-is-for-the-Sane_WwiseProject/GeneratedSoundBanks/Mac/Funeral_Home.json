@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
     "Language": "SFX",
-    "Hash": "{B315284C-D5B5-2CC7-E619-D54EFD2BED3F}",
+    "Hash": "{4525E27A-E08D-5A79-EB92-BD9E909E2356}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
     "ShortName": "Funeral_Home",
     "Path": "Funeral_Home.bnk",
@@ -189,7 +189,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Funeral_Mirror_Exhale.wav",
-      "CachePath": "88/{88B11443-1BDE-6A06-1CAC-A3F34C2A810E}.wem"
+      "CachePath": "D9/{D933BD2E-DFE0-DF58-AB99-DC8556BCEFA7}.wem"
      },
      {
       "Id": "652604346",
@@ -323,7 +323,7 @@
       "Name": "Fnrl_Flower_Vase",
       "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Flower_Vase",
       "GUID": "{FBEBE904-9941-4ABB-A9BE-4542906A8DB8}",
-      "MaxAttenuation": "5",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.72778976",
       "DurationMax": "1.0955184",
@@ -337,6 +337,14 @@
        {
         "Id": "230791500"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1784058834",
+        "Name": "Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home\\Fnrl_Reverb",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       }
       ]
      },
      {
@@ -344,7 +352,7 @@
       "Name": "Fnrl_Mirror_Breathing",
       "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Mirror_Breathing",
       "GUID": "{E6C0F4EC-AFAA-4EC8-8C9A-EE291FC65B35}",
-      "MaxAttenuation": "2",
+      "MaxAttenuation": "20",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -365,10 +373,10 @@
       "Name": "Fnrl_Mirror_Complete",
       "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Mirror_Complete",
       "GUID": "{E3D57595-C140-4B81-A43D-81C395225298}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "5.9899974",
-      "DurationMax": "5.9899974",
+      "DurationMin": "5.9554973",
+      "DurationMax": "5.9554973",
       "MediaRefs": [
        {
         "Id": "631962267"
@@ -388,7 +396,7 @@
       "Name": "Fnrl_Mirror_Footstep",
       "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Mirror_Footstep",
       "GUID": "{DF969148-2A7A-4F7A-BF5A-E92B0EC7818E}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "1.1539447",
       "DurationMax": "1.3479413",
@@ -441,7 +449,7 @@
       "Name": "Fnrl_Mus_Organ",
       "ObjectPath": "\\Events\\Funeral Home\\Music\\Fnrl_Mus_Organ",
       "GUID": "{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}",
-      "MaxAttenuation": "50",
+      "MaxAttenuation": "20",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -457,7 +465,7 @@
       "Name": "Fnrl_Mus_Piano",
       "ObjectPath": "\\Events\\Funeral Home\\Music\\Fnrl_Mus_Piano",
       "GUID": "{9F02AAE3-A025-471B-A281-B77A69F45B8A}",
-      "MaxAttenuation": "2",
+      "MaxAttenuation": "20",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -478,7 +486,7 @@
       "Name": "Fnrl_Mus_Strings",
       "ObjectPath": "\\Events\\Funeral Home\\Music\\Fnrl_Mus_Strings",
       "GUID": "{2A588BC6-F874-4660-A5A5-061650ED2C5C}",
-      "MaxAttenuation": "30",
+      "MaxAttenuation": "20",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -502,7 +510,7 @@
       "Name": "Fnrl_Mus_Winds",
       "ObjectPath": "\\Events\\Funeral Home\\Music\\Fnrl_Mus_Winds",
       "GUID": "{E52DB62D-C829-4CA3-ADF8-B3ECCB3CE7CB}",
-      "MaxAttenuation": "50",
+      "MaxAttenuation": "20",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -515,6 +523,7 @@
       "Name": "Fnrl_Picture_Frame",
       "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Picture_Frame",
       "GUID": "{A068709C-45C1-4576-B337-02C1219D363E}",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "1.1302445",
       "DurationMax": "1.1974523",
@@ -569,10 +578,10 @@
       "Name": "Fnrl_Wall_Shatter",
       "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Wall_Shatter",
       "GUID": "{1C722E0F-588B-4920-8B98-FDF8AA4464C1}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "5.385821",
-      "DurationMax": "5.821163",
+      "DurationMin": "5.885821",
+      "DurationMax": "6.321163",
       "MediaRefs": [
        {
         "Id": "551171733"
@@ -613,6 +622,6 @@
     ]
    }
   ],
-  "FileHash": "{11C915FE-1167-800D-B698-6E19452456E9}"
+  "FileHash": "{77707E74-4FE5-8808-3390-42DDF770A78C}"
  }
 }

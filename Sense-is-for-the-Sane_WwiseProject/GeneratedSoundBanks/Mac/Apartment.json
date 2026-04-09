@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9F2C9685-C3F4-4D21-9319-4FF075E9A3CD}",
     "Language": "SFX",
-    "Hash": "{C9CA0C46-4E14-1BF7-F4EF-CE709FCC08F9}",
+    "Hash": "{709359DD-A98B-8A4E-46EC-CFAA0A989D58}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Apartment",
     "ShortName": "Apartment",
     "Path": "Apartment.bnk",
@@ -155,6 +155,14 @@
        {
         "Id": "573529530"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1676289129",
+        "Name": "Apt_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Apartment\\Apt_Reverb",
+        "GUID": "{B28A58E4-2BBF-4849-B95C-3ACC849A967E}"
+       }
       ]
      },
      {
@@ -214,6 +222,6 @@
     ]
    }
   ],
-  "FileHash": "{54EBC029-2DE9-6A94-3B5A-AA7C88F1764C}"
+  "FileHash": "{253C4FD7-9501-0461-29E4-D26F1427D54B}"
  }
 }
