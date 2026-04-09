@@ -52,7 +52,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Menuet_Organ" ID="{8BF2FB84-DD8E-4C30-8035-3B8A1A3F0151}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
+									<ObjectRef Name="Menuet_Organ_Fnrl" ID="{8BF2FB84-DD8E-4C30-8035-3B8A1A3F0151}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -66,7 +66,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Menuet_Organ" ID="{8BF2FB84-DD8E-4C30-8035-3B8A1A3F0151}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
+									<ObjectRef Name="Menuet_Organ_Fnrl" ID="{8BF2FB84-DD8E-4C30-8035-3B8A1A3F0151}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -202,7 +202,7 @@
 								<Action Name="" ID="{8A86F99C-4DE7-45CB-AC59-83445ABEEF3B}" ShortID="195441026">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Menuet_Organ" ID="{8BF2FB84-DD8E-4C30-8035-3B8A1A3F0151}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
+											<ObjectRef Name="Menuet_Organ_Fnrl" ID="{8BF2FB84-DD8E-4C30-8035-3B8A1A3F0151}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -210,6 +210,13 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Menuet_Winds" ID="{5AE1552E-B35F-4905-B103-F3A154822586}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{508837B8-7F65-469F-9DC8-D274283FA527}" ShortID="104570567">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Menuet_Organ_Apt" ID="{8B48A7B5-62E5-4CEA-84D1-CAF963217763}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -993,6 +993,47 @@
 						<ActiveSource Name="Void_Ambience_Piano" ID="{076C269B-A57C-447A-8F97-D48CC00E64C1}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Gramophone_Void (On Listener)" ID="{71EACB74-8EE7-42E0-B47A-7F0A0A7B9AE3}" ShortID="198908037">
+					<PropertyList>
+						<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Void_Mus" ID="{385B02EF-29F7-4B8D-8C10-1FFBA8E38DCE}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Void_Reverb" ID="{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="The World Behind Your Eyes (Gramophone) FINAL" ID="{D7D322E6-0177-400A-B6DE-522F9064F95A}">
+							<Language>SFX</Language>
+							<AudioFile>The World Behind Your Eyes (Gramophone) FINAL.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1038962611"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{C45BC2D1-59F1-4695-B132-C3C2BA2A4704}">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+						</Position>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="The World Behind Your Eyes (Gramophone) FINAL" ID="{D7D322E6-0177-400A-B6DE-522F9064F95A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

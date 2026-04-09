@@ -17,7 +17,6 @@ namespace AK
         static const AkUniqueID APT_CREAKING = 329135517U;
         static const AkUniqueID APT_FIREPLACE = 2202553018U;
         static const AkUniqueID APT_FRIDGE = 2280025682U;
-        static const AkUniqueID APT_GRAMOPHONE = 2839848505U;
         static const AkUniqueID APT_SINK = 751812660U;
         static const AkUniqueID FNRL_AMB_PAUSE = 2963388045U;
         static const AkUniqueID FNRL_AMB_THUNDERSTORM = 1612838152U;
@@ -36,6 +35,7 @@ namespace AK
         static const AkUniqueID FNRL_WALL_SHATTER = 650669748U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
         static const AkUniqueID FOOTSTEP_SCRATCH = 1003760220U;
+        static const AkUniqueID GRAMOPHONE = 3151110061U;
     } // namespace EVENTS
 
     namespace STATES
@@ -101,6 +101,7 @@ namespace AK
     {
         static const AkUniqueID DISTANCEANIMATIONRATE = 1288081852U;
         static const AkUniqueID DISTANCEFROMTARGET = 1768319275U;
+        static const AkUniqueID GRAMOPHONEBLEND = 953461546U;
         static const AkUniqueID INAUDIBLEZONE = 553709980U;
         static const AkUniqueID VOIDAMBPITCH = 3895577369U;
     } // namespace GAME_PARAMETERS
