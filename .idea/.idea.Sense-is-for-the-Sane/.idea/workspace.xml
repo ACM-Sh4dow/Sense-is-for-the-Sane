@@ -5,27 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96fc74af-9d80-4a0a-871b-381a31421ada" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Animations/Flower Controller.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Animations/Flower Controller.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Animations/Flower.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Animations/Flower.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/SceneLoader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sense-is-for-the-Sane/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sense-is-for-the-Sane/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Base.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Base.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Puzzles.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Puzzles.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/Audio/AudioDistanceCheck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/Audio/AudioDistanceCheck.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/DistanceBasedAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/DistanceBasedAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Apartment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Apartment/AP - Audio.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Apartment/AP - Audio.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Apartment/AP - Base.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Apartment/AP - Base.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Apartment/AP - Env.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Apartment/AP - Env.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Audio.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Audio.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Base.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Base.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Env - Alternate.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Env - Alternate.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Env - Regular.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Env - Regular.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Puzzles.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Puzzles.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/Funeral Test.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/Funeral Test/GameObject Profile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/Funeral Test/GameObject Profile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/Funeral Test/Global Volume Profile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/Funeral Test/Global Volume Profile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/Import.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/Import.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Materials.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Materials.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/BaseSceneLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/BaseSceneLoader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/SceneLoader.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/FuneralManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/FuneralManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/InputHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/InputHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/ManualAnimationProgression.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/ManualAnimationProgression.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/PerspectivePuzzleSolve.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/PerspectivePuzzleSolve.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/Player Behaviours/PlayerBehaviours.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/Player Behaviours/PlayerBehaviours.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/Puzzle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/Puzzle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/PuzzleTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/PuzzleTracker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/SceneTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/SceneTransition.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Materials/PlayerView.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Materials/PlayerView.renderTexture" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Mirror Texture.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Mirror Texture.renderTexture" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/0CBA965B-EA68-4CF1-A7E1-87707066D038.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/0CBA965B-EA68-4CF1-A7E1-87707066D038.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/2A588BC6-F874-4660-A5A5-061650ED2C5C.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/2A588BC6-F874-4660-A5A5-061650ED2C5C.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/36E22E4E-5EA4-41E7-B576-76B3D3090F0E.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/36E22E4E-5EA4-41E7-B576-76B3D3090F0E.asset" afterDir="false" />
@@ -35,12 +50,16 @@
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/748EF433-A22E-494E-927C-79CFE002E9FF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/748EF433-A22E-494E-927C-79CFE002E9FF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/9F02AAE3-A025-471B-A281-B77A69F45B8A.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/9F02AAE3-A025-471B-A281-B77A69F45B8A.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/A068709C-45C1-4576-B337-02C1219D363E.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/A068709C-45C1-4576-B337-02C1219D363E.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/DD55A7FB-4693-4A66-A895-996329466B19.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/DD55A7FB-4693-4A66-A895-996329466B19.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/E3D57595-C140-4B81-A43D-81C395225298.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/E3D57595-C140-4B81-A43D-81C395225298.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/E52DB62D-C829-4CA3-ADF8-B3ECCB3CE7CB.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/E52DB62D-C829-4CA3-ADF8-B3ECCB3CE7CB.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/E6C0F4EC-AFAA-4EC8-8C9A-EE291FC65B35.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/E6C0F4EC-AFAA-4EC8-8C9A-EE291FC65B35.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/F10211CC-A6EE-4420-BDFD-304BA4A2A9E5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/F10211CC-A6EE-4420-BDFD-304BA4A2A9E5.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/F91BE929-F651-44A2-A96F-6A1A868C61E4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/F91BE929-F651-44A2-A96F-6A1A868C61E4.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/FBEBE904-9941-4ABB-A9BE-4542906A8DB8.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/FBEBE904-9941-4ABB-A9BE-4542906A8DB8.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,6 +153,7 @@
       <workItem from="1770287383140" duration="2580000" />
       <workItem from="1770875086247" duration="4431000" />
       <workItem from="1775310138581" duration="6485000" />
+      <workItem from="1775735730061" duration="14657000" />
     </task>
     <servers />
   </component>

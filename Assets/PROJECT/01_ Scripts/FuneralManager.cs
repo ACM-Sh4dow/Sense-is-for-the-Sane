@@ -17,7 +17,6 @@ public class FuneralManager : PuzzleTracker
     private void Start()
     {
         Overseer.Instance.AddManager(this);
-        
     }
 
     public void OnPuzzleComplete()

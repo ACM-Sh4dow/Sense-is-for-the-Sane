@@ -6,49 +6,29 @@ using UnityEngine.SceneManagement;
 
 public class SceneTransition : MonoBehaviour
 {
-    #region Variables
+    private enum TransitionType
+    {
+        start,
+        end
+    }
+    [SerializeField] private TransitionType transition;
+    [SerializeField] private SceneLoader.CurrentLevel currentLevel;
     
-    [Tooltip("Is this SceneTransition loading new scenes or unloading previous ones?")]
-    public enum State
-    {
-        loading,
-        unloading
-    }
-
-    public State state;
-
-    [SerializeField] private string newBaseSceneName;
-    
-    #endregion
-
-    private IEnumerator LoadNewBaseScene()
-    {
-        if (SceneManager.GetSceneByName(newBaseSceneName).isLoaded) yield break;
- 
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(newBaseSceneName, LoadSceneMode.Additive);
-            
-        while (!asyncLoad.isDone)
-        {
-            yield return null;
-        }
-            
-        if (asyncLoad.isDone) Debug.Log($"{newBaseSceneName} is DONE LOADING.");
-    }
-
-    private IEnumerator UnloadPreviousScenes()
-    {
-        yield return null;
-    }
-
     private void OnTriggerEnter(Collider other)
     {
-        if (state == State.loading)
+        TriggerTransition();
+    }
+
+    public void TriggerTransition()
+    {
+        switch (transition)
         {
-            StartCoroutine(LoadNewBaseScene());
-        }
-        else if (state == State.unloading)
-        {
-            StartCoroutine(UnloadPreviousScenes());
+            case TransitionType.start:
+                Overseer.Instance.GetManager<SceneLoader>().StartTransition(currentLevel);
+                break;
+            case TransitionType.end:
+                Overseer.Instance.GetManager<SceneLoader>().EndTransition(currentLevel);
+                break;
         }
     }
 }

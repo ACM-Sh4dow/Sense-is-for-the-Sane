@@ -697,6 +697,10 @@ PrefabInstance:
       value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5601817066070352672, guid: dac9fedaf35bf4245b12f3c8069b1247, type: 3}
+      propertyPath: m_NeverAutoSwitchControlSchemes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601817066070352672, guid: dac9fedaf35bf4245b12f3c8069b1247, type: 3}
       propertyPath: m_ActionEvents.Array.data[13].m_ActionId
       value: b4a1d0db-59dc-4c9d-98a2-dc04824af435
       objectReference: {fileID: 0}
@@ -1142,11 +1146,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8abc335499657140ab79ef872c73a8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  SceneNames:
-  - FH - Puzzles
-  - FH - Env - Alternate
-  - FH - Env - Regular
+  loadScenes: 0
+  voidScenes:
+  - Void
+  apartmentScenes:
+  - AP - Base
+  - AP - Audio
+  - AP - Env
+  funeralHomeScenes:
   - FH - Audio
+  - FH - Env - Import
+  - FH -Puzzles
 --- !u!1 &1597612801
 GameObject:
   m_ObjectHideFlags: 0
