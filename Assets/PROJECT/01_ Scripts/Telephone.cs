@@ -3,25 +3,22 @@ using UnityEngine;
 
 public class Telephone : MonoBehaviour, InteractionPoint
 {
-    [SerializeField] private float secondsToWaitForStoryLines;
+    private bool hasBeenTriggered;
     private void StartRinging()
     {
         
     }
     public void Interact()
     {
-        //endringing
+        if (hasBeenTriggered) return;
+        hasBeenTriggered = true;
+        
+        //end ringing
         //start text / sound
-        StartCoroutine(WaitForStoryLines());
-
-    }
-
-    private IEnumerator WaitForStoryLines()
-    {
-        yield return new WaitForSeconds(secondsToWaitForStoryLines);
+        
         Transition();
     }
-
+    
     private void Transition()
     {
         transform.GetComponent<SceneTransition>().TriggerTransition();

@@ -44,11 +44,11 @@ public class SceneLoader : MonoBehaviour
     private void Start()
     {
         Overseer.Instance.AddManager(this);
-        if (loadScenes == LoadScenes.FromStart) StartCoroutine(LoadScenesAsync(voidScenes));
+        if (loadScenes == LoadScenes.FromStart) StartCoroutine(LoadScenesAsync(voidScenes, 0));
     }
 
     #region Transition
-    public void StartTransition(CurrentLevel level)
+    public void StartTransition(CurrentLevel level, float secondsToWait = 0)
     {
         currentLevel = level;
         UpdateScenesToRemove();
@@ -56,17 +56,17 @@ public class SceneLoader : MonoBehaviour
         switch (currentLevel)
         {
             case CurrentLevel.Void:
-                StartCoroutine(LoadScenesAsync(apartmentScenes));
+                StartCoroutine(LoadScenesAsync(apartmentScenes, secondsToWait));
                 break;
             case CurrentLevel.Apartment:
-                StartCoroutine(LoadScenesAsync(funeralHomeScenes));
+                StartCoroutine(LoadScenesAsync(funeralHomeScenes, secondsToWait));
                 break;
             case CurrentLevel.FuneralHome:
                 break;
         }
     }
 
-    public void EndTransition(CurrentLevel level)
+    public void EndTransition(CurrentLevel level, float secondsToWait = 0)
     {
         currentLevel = level;
         switch (currentLevel)
@@ -74,10 +74,10 @@ public class SceneLoader : MonoBehaviour
             case CurrentLevel.Void:
                 break;
             case CurrentLevel.Apartment:
-                StartCoroutine(UnloadPreviousScenes());
+                StartCoroutine(UnloadPreviousScenes(secondsToWait));
                 break;
             case CurrentLevel.FuneralHome:
-                StartCoroutine(UnloadPreviousScenes());
+                StartCoroutine(UnloadPreviousScenes(secondsToWait));
                 break;
         }
     }
@@ -96,11 +96,13 @@ public class SceneLoader : MonoBehaviour
     #endregion
     
     #region Loading
-    private IEnumerator LoadScenesAsync(List <string> sceneNames)
+    private IEnumerator LoadScenesAsync(List <string> sceneNames, float secondsToWait = 0)
     {
+        yield return new WaitForSeconds(secondsToWait);
+        
         foreach (string sceneName in sceneNames)
         {
-            if (SceneManager.GetSceneByName(sceneName).isLoaded) break;
+            if (SceneManager.GetSceneByName(sceneName).isLoaded) continue;
  
             AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
             
@@ -113,12 +115,13 @@ public class SceneLoader : MonoBehaviour
         }
         Debug.Log("Scene loading COMPLETE.");
     }
-    private IEnumerator UnloadPreviousScenes()
+    private IEnumerator UnloadPreviousScenes(float secondsToWait = 0)
     {
+        yield return new WaitForSeconds(secondsToWait);
+        
         foreach (Scene scene in scenesToRemove)
         {
             if (!scene.isLoaded) break;
-            scenesToRemove.Remove(scene);
             var sceneName = scene.name;
  
             AsyncOperation asyncLoad = SceneManager.UnloadSceneAsync(scene);
@@ -129,6 +132,7 @@ public class SceneLoader : MonoBehaviour
             }
             if (asyncLoad.isDone) Debug.Log($"{sceneName} has been UNLOADED.");
         }
+        scenesToRemove.Clear();
         Debug.Log("Scene removal COMPLETE.");
     }
     #endregion
@@ -169,7 +173,7 @@ public class SceneLoader : MonoBehaviour
         foreach (string sceneName in sceneNames)
         {
             Debug.Log("Scene LOADED: " + sceneName);
-            if(SceneManager.GetSceneByName(sceneName).isLoaded) break;
+            if(SceneManager.GetSceneByName(sceneName).isLoaded) continue;
             EditorSceneManager.OpenScene("Assets/PROJECT/00_ Scenes/" + sceneName + ".unity", OpenSceneMode.Additive);
         }
     }

@@ -5,41 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96fc74af-9d80-4a0a-871b-381a31421ada" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/SceneLoader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sense-is-for-the-Sane/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sense-is-for-the-Sane/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Apartment.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Apartment/AP - Audio.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Apartment/AP - Audio.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Apartment/AP - Base.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Apartment/AP - Base.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Apartment/AP - Env.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Apartment/AP - Env.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Audio.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Audio.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Base.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Base.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Env - Alternate.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Env - Alternate.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Env - Regular.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Env - Regular.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Puzzles.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/FH - Puzzles.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/Funeral Test.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/Funeral Test/GameObject Profile.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/Funeral Test/GameObject Profile.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/Funeral Test/Global Volume Profile.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/Funeral Test/Global Volume Profile.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/Import.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Funeral Home/Import.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Materials.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Materials.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/BaseSceneLoader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/BaseSceneLoader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/SceneLoader.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/FuneralManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/FuneralManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/AP - Env.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/AP - Env.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/FH - Env - Import.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/FH - Env - Import.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Player - Base.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Player - Base.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/SceneLoader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/SceneTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/SceneTransition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Materials/PlayerView.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Materials/PlayerView.renderTexture" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Mirror Texture.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Mirror Texture.renderTexture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/Telephone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/Telephone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/0CBA965B-EA68-4CF1-A7E1-87707066D038.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/0CBA965B-EA68-4CF1-A7E1-87707066D038.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/2A588BC6-F874-4660-A5A5-061650ED2C5C.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/2A588BC6-F874-4660-A5A5-061650ED2C5C.asset" afterDir="false" />
@@ -59,8 +33,20 @@
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/F10211CC-A6EE-4420-BDFD-304BA4A2A9E5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/F10211CC-A6EE-4420-BDFD-304BA4A2A9E5.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/F91BE929-F651-44A2-A96F-6A1A868C61E4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/F91BE929-F651-44A2-A96F-6A1A868C61E4.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/FBEBE904-9941-4ABB-A9BE-4542906A8DB8.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/FBEBE904-9941-4ABB-A9BE-4542906A8DB8.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WwiseSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WwiseSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/Apartment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/Apartment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/Funeral_Home.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/Funeral_Home.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/General.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/General.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/Init.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/Init.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/Apartment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/Apartment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/Funeral_Home.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/Funeral_Home.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/General.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/General.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/Init.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/Init.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/Test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +57,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/CloseOffApartment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Shaders/Lit.shader" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../You-Shoot-You/Assets/Scripts/ProtagonistController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -154,6 +139,7 @@
       <workItem from="1770875086247" duration="4431000" />
       <workItem from="1775310138581" duration="6485000" />
       <workItem from="1775735730061" duration="14657000" />
+      <workItem from="1775770450101" duration="5806000" />
     </task>
     <servers />
   </component>
