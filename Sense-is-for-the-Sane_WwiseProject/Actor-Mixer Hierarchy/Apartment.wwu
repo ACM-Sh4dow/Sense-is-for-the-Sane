@@ -29,6 +29,11 @@
 										<Value>-380</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -101,10 +106,11 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>1.56459</XPos>
-																	<YPos>-13.94331</YPos>
+																	<XPos>2.40923</XPos>
+																	<YPos>-5.942</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
@@ -127,10 +133,11 @@
 																	<XPos>0</XPos>
 																	<YPos>-16.69865</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>2.07715</XPos>
-																	<YPos>-5.47024</YPos>
+																	<XPos>2.04021</XPos>
+																	<YPos>-1.9977</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
@@ -143,7 +150,7 @@
 													</CurveUsageInfo>
 												</VolumeWetGameUsage>
 												<VolumeWetUserUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 														<Curve Name="VolumeWetUser" ID="{436C5BFB-C2AE-4E6E-B1E0-11974DC69B75}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
@@ -153,6 +160,12 @@
 																	<XPos>0</XPos>
 																	<YPos>-7.83382</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>2.46196</XPos>
+																	<YPos>-2.37471</YPos>
+																	<Flags>0</Flags>
 																</Point>
 																<Point>
 																	<XPos>10</XPos>
@@ -177,11 +190,7 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
-																</Point>
-																<Point>
-																	<XPos>1.58848</XPos>
-																	<YPos>27</YPos>
-																	<Flags>0</Flags>
+																	<SegmentShape>Log1</SegmentShape>
 																</Point>
 																<Point>
 																	<XPos>10</XPos>
@@ -404,7 +413,9 @@
 										<Value>20</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -446,7 +457,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>1</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -978,7 +989,7 @@
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>65</Value>
+										<Value>70</Value>
 									</ValueList>
 								</Property>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
@@ -988,7 +999,7 @@
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-22</Value>
+										<Value>-18</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

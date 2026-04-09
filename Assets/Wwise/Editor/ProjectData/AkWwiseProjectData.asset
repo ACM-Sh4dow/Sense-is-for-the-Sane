@@ -817,7 +817,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 489196df7a2a7a4fbf5ae92b0ec7818e
       Path: Events\Funeral Home\Fnrl_Mirror_Footstep
-      maxAttenuation: 100
+      maxAttenuation: 20
       maxDuration: 1.3479413
       minDuration: 1.1539447
     - name: Fnrl_Mus_Organ
@@ -837,7 +837,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0bd17b976c9adb419fe4362ac1b5a8d3
       Path: Events\Funeral Home\Music\Fnrl_Mus_Organ
-      maxAttenuation: 50
+      maxAttenuation: 20
       maxDuration: 0
       minDuration: 0
     - name: Fnrl_Mus_Piano
@@ -857,7 +857,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: e3aa029f25a01b47a281b77a69f45b8a
       Path: Events\Funeral Home\Music\Fnrl_Mus_Piano
-      maxAttenuation: 2
+      maxAttenuation: 20
       maxDuration: 0
       minDuration: 0
     - name: Fnrl_Mus_Strings
@@ -877,7 +877,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: c68b582a74f86046a5a5061650ed2c5c
       Path: Events\Funeral Home\Music\Fnrl_Mus_Strings
-      maxAttenuation: 30
+      maxAttenuation: 20
       maxDuration: 0
       minDuration: 0
     - name: Fnrl_Mus_Winds
@@ -897,7 +897,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 2db62de529c8a34cadf8b3eccb3ce7cb
       Path: Events\Funeral Home\Music\Fnrl_Mus_Winds
-      maxAttenuation: 50
+      maxAttenuation: 20
       maxDuration: 0
       minDuration: 0
     - name: Fnrl_Picture_Frame

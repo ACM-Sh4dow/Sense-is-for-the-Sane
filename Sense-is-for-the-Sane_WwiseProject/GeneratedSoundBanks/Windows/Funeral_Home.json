@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
     "Language": "SFX",
-    "Hash": "{C0609FBA-8959-ACAB-9D5D-556560CDC7FD}",
+    "Hash": "{4525E27A-E08D-5A79-EB92-BD9E909E2356}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
     "ShortName": "Funeral_Home",
     "Path": "Funeral_Home.bnk",
@@ -396,7 +396,7 @@
       "Name": "Fnrl_Mirror_Footstep",
       "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Mirror_Footstep",
       "GUID": "{DF969148-2A7A-4F7A-BF5A-E92B0EC7818E}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "1.1539447",
       "DurationMax": "1.3479413",
@@ -622,6 +622,6 @@
     ]
    }
   ],
-  "FileHash": "{85D69752-0DBA-84C2-4AE1-60EA54F521FF}"
+  "FileHash": "{E7AFC040-2C6F-6C03-09B3-BD351A54FA53}"
  }
 }
