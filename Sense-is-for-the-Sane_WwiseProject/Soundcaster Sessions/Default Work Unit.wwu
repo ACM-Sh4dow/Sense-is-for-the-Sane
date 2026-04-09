@@ -9,6 +9,10 @@
 							<ObjectRef Name="TestFnrlMusic" ID="{58650438-C1AA-4E65-9412-3C22B64073A1}" WorkUnitID="{BAC012F6-E6DD-4F2B-8309-3679909AE332}"/>
 							<Position X="0" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Gramophone" ID="{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}"/>
+							<Position X="1" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>

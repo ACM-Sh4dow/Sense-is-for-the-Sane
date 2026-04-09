@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{6DE8D920-8B31-4BF1-ECE5-6011A9DEE260}",
+    "Hash": "{213D9A38-48B9-0614-8AC8-22894934D548}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -225,6 +225,12 @@
       "GUID": "{4BEBB738-CD5B-4CE1-AFCB-393067F45FA2}"
      },
      {
+      "Id": "953461546",
+      "Name": "GramophoneBlend",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\GramophoneBlend",
+      "GUID": "{7C208A0D-9A3F-419E-8437-AA383555FB0A}"
+     },
+     {
       "Id": "1288081852",
       "Name": "DistanceAnimationRate",
       "ObjectPath": "\\Game Parameters\\Game Parameters WU\\DistanceAnimationRate",
@@ -371,6 +377,6 @@
     ]
    }
   ],
-  "FileHash": "{0AE445A4-D9FB-C73D-D603-CC61AE4EF542}"
+  "FileHash": "{6AACADA6-AB58-9F58-AB96-11070000F5D2}"
  }
 }

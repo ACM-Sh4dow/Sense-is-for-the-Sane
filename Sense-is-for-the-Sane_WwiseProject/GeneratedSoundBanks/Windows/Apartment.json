@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9F2C9685-C3F4-4D21-9319-4FF075E9A3CD}",
     "Language": "SFX",
-    "Hash": "{709359DD-A98B-8A4E-46EC-CFAA0A989D58}",
+    "Hash": "{80A0B67A-3EF7-C8C6-A2D1-928E961F2EE9}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Apartment",
     "ShortName": "Apartment",
     "Path": "Apartment.bnk",
@@ -192,21 +192,6 @@
       ]
      },
      {
-      "Id": "2839848505",
-      "Name": "Apt_Gramophone",
-      "ObjectPath": "\\Events\\Apartment\\Apt_Gramophone",
-      "GUID": "{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}",
-      "MaxAttenuation": "10",
-      "DurationType": "OneShot",
-      "DurationMin": "117",
-      "DurationMax": "117",
-      "MediaRefs": [
-       {
-        "Id": "1038962611"
-       }
-      ]
-     },
-     {
       "Id": "751812660",
       "Name": "Apt_Sink",
       "ObjectPath": "\\Events\\Apartment\\Apt_Sink",
@@ -218,10 +203,32 @@
         "Id": "352828321"
        }
       ]
+     },
+     {
+      "Id": "3151110061",
+      "Name": "Gramophone",
+      "ObjectPath": "\\Events\\General Events\\Gramophone",
+      "GUID": "{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}",
+      "DurationType": "OneShot",
+      "DurationMin": "117",
+      "DurationMax": "117",
+      "MediaRefs": [
+       {
+        "Id": "1038962611"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "3356433602",
+        "Name": "Void_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_Reverb",
+        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{583BF1B9-79F3-6CE5-9E39-998C16EB7A3B}"
+  "FileHash": "{EEE4E545-16F9-F62B-1FA6-AC3EB541A6A4}"
  }
 }

@@ -3,7 +3,7 @@
 	<InteractiveMusic>
 		<WorkUnit Name="Music WU" ID="{75308C12-293D-4507-9A45-E39BBC97D763}" PersistMode="Standalone">
 			<ChildrenList>
-				<MusicPlaylistContainer Name="Menuet_Organ" ID="{8BF2FB84-DD8E-4C30-8035-3B8A1A3F0151}" ShortID="620517606">
+				<MusicPlaylistContainer Name="Menuet_Organ_Fnrl" ID="{8BF2FB84-DD8E-4C30-8035-3B8A1A3F0151}" ShortID="620517606">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
@@ -1226,6 +1226,174 @@
 								</CustomState>
 							</CustomState>
 						</CustomStateList>
+					</StateInfo>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="Menuet_Organ_Apt" ID="{8B48A7B5-62E5-4CEA-84D1-CAF963217763}" ShortID="371704449">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Tempo" Type="Real64" Value="92"/>
+						<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Funeral Home Attenuation" ID="{612E52EC-7A7F-42EC-8ED2-79F6A8AD6889}" WorkUnitID="{EE5E383A-A28E-4288-B8AA-74712DC2AE17}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Apt_Mus" ID="{97E6D177-D20A-4382-AD51-65DA9E26DF07}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+						</Reference>
+						<Reference Name="PlaylistRoot">
+							<Custom>
+								<MusicPlaylistItem Name="" ID="{EB67359B-32A8-483F-905D-74392545F90B}" ShortID="920091661">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{90BDDC54-9887-4EE1-8FF1-C1864C0EF722}" ShortID="836478957">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Segment">
+													<ObjectRef Name="Menuet_Organ Seg" ID="{20874B8D-706E-42AB-993E-22881DD43A47}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
+												</Reference>
+											</ReferenceList>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Custom>
+						</Reference>
+						<Reference Name="TransitionRoot">
+							<Custom>
+								<MusicTransition Name="Root" ID="{764E3007-2DD6-462D-9331-FBEEFF850C91}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{CA933E0F-17FB-471B-9082-14058CFE6E5F}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</Custom>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Apt_Reverb" ID="{B28A58E4-2BBF-4849-B95C-3ACC849A967E}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Menuet_Organ Seg" ID="{20874B8D-706E-42AB-993E-22881DD43A47}" ShortID="124194760">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="112564.988662132"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Menuet_Organ" ID="{C406FF19-0E62-4757-A9B5-BD63C2BFAA2E}" ShortID="1049560628">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{E701FF01-4678-4799-8436-389C7782F65A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Menuet_Organ" ID="{2761EA2F-1286-4686-8F2E-B40E53182017}">
+											<Language>SFX</Language>
+											<AudioFile>Full Track\Menuet_Organ.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="740299431"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{1DC25F7A-6A75-4FAB-A464-AAA88867E0A0}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Menuet_Organ" ID="{DD0B5AEA-D8A7-4180-8E3F-00DA6AFDAE9C}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="112564.988662132"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Menuet_Organ" ID="{2761EA2F-1286-4686-8F2E-B40E53182017}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{560EAD7D-BF4A-4F36-92CB-867549954EC9}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{2572F87C-1FE5-4A8B-A2D3-3695ADA74C62}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="109565.217391304"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{71A4246F-EC35-4118-B24B-2726DA7AAC24}"/>
+					</PositioningInfo>
+					<StateInfo>
+						<StatePropertyList>
+							<Property Name="GameAuxSendVolume"/>
+							<Property Name="Highpass"/>
+							<Property Name="Lowpass"/>
+							<Property Name="MakeUpGain"/>
+							<Property Name="Volume"/>
+						</StatePropertyList>
 					</StateInfo>
 				</MusicPlaylistContainer>
 			</ChildrenList>

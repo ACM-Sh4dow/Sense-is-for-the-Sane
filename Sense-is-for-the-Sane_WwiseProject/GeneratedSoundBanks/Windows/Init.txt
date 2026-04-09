@@ -15,6 +15,7 @@ State	ID	Name	State Group			Notes
 	748895195	None	PuzzlesCompleted			
 	766521211	Zero	PuzzlesCompleted			
 	1064933119	One	PuzzlesCompleted			
+	1683001833	CasketComplete	PuzzlesCompleted			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	6959393	Void_Player			\Default Work Unit\Master Audio Bus\Void\Void_Player	

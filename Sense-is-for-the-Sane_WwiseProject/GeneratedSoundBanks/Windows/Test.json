@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAC7D741-2CC6-4571-91AE-B86C57B75FDF}",
     "Language": "SFX",
-    "Hash": "{A9AE6344-FF0D-CB62-9853-A5AF579CA115}",
+    "Hash": "{17AB8C20-564B-1DB8-AEC9-699D88E431F3}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -408,21 +408,6 @@
       ]
      },
      {
-      "Id": "2839848505",
-      "Name": "Apt_Gramophone",
-      "ObjectPath": "\\Events\\Apartment\\Apt_Gramophone",
-      "GUID": "{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}",
-      "MaxAttenuation": "10",
-      "DurationType": "OneShot",
-      "DurationMin": "117",
-      "DurationMax": "117",
-      "MediaRefs": [
-       {
-        "Id": "1038962611"
-       }
-      ]
-     },
-     {
       "Id": "751812660",
       "Name": "Apt_Sink",
       "ObjectPath": "\\Events\\Apartment\\Apt_Sink",
@@ -469,6 +454,14 @@
        },
        {
         "Id": "740299431"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1676289129",
+        "Name": "Apt_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Apartment\\Apt_Reverb",
+        "GUID": "{B28A58E4-2BBF-4849-B95C-3ACC849A967E}"
        }
       ]
      },
@@ -723,6 +716,28 @@
         ]
        }
       ]
+     },
+     {
+      "Id": "3151110061",
+      "Name": "Gramophone",
+      "ObjectPath": "\\Events\\General Events\\Gramophone",
+      "GUID": "{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}",
+      "DurationType": "OneShot",
+      "DurationMin": "117",
+      "DurationMax": "117",
+      "MediaRefs": [
+       {
+        "Id": "1038962611"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "3356433602",
+        "Name": "Void_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_Reverb",
+        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -755,6 +770,6 @@
     ]
    }
   ],
-  "FileHash": "{BA6AE73F-6293-0850-F5A4-4BE89D281230}"
+  "FileHash": "{CD6B66C9-5A5F-DB49-4527-89E16DE7B2A6}"
  }
 }

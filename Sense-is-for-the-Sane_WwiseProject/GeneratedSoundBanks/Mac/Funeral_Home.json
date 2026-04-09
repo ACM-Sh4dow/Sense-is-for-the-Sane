@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
     "Language": "SFX",
-    "Hash": "{4525E27A-E08D-5A79-EB92-BD9E909E2356}",
+    "Hash": "{9542380D-1D6C-DC68-0B60-E5FADBB24976}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
     "ShortName": "Funeral_Home",
     "Path": "Funeral_Home.bnk",
@@ -458,6 +458,14 @@
        {
         "Id": "740299431"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1676289129",
+        "Name": "Apt_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Apartment\\Apt_Reverb",
+        "GUID": "{B28A58E4-2BBF-4849-B95C-3ACC849A967E}"
+       }
       ]
      },
      {
@@ -622,6 +630,6 @@
     ]
    }
   ],
-  "FileHash": "{77707E74-4FE5-8808-3390-42DDF770A78C}"
+  "FileHash": "{E13273EF-5781-E60B-F47C-5DAB69268DAE}"
  }
 }
