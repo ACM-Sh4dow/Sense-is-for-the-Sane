@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
     "Language": "SFX",
-    "Hash": "{7014CA25-BD96-EDE5-3AD9-1C0C0B94D1F0}",
+    "Hash": "{FDEB659A-BB71-EB24-6ADA-2E4F70C2AB1C}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
     "ShortName": "Funeral_Home",
     "Path": "Funeral_Home.bnk",
@@ -40,14 +40,6 @@
       "CachePath": "52/{52CDD6AD-7BF6-F47C-5440-5D40A0C24AB0}.wem"
      },
      {
-      "Id": "58712416",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Footstep_Creak_004.wav",
-      "CachePath": "BF/{BF40A8D1-113F-62EF-D086-2E6C9D7A94F5}.wem"
-     },
-     {
       "Id": "59700195",
       "Language": "SFX",
       "Streaming": "false",
@@ -70,14 +62,6 @@
       "Location": "Memory",
       "ShortName": "Picture_Frame.wav",
       "CachePath": "D1/{D1F0D9B9-B7BC-AA3E-1B49-58CAB3197C32}.wem"
-     },
-     {
-      "Id": "200443766",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Basic_Footstep_001.wav",
-      "CachePath": "7F/{7FC6AC00-100F-8B2E-0046-CE318175A29B}.wem"
      },
      {
       "Id": "230791500",
@@ -128,36 +112,12 @@
       "CachePath": "91/{91E9036F-AA36-95D0-8E60-8C46763B1D1D}.wem"
      },
      {
-      "Id": "500564140",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Basic_Footstep_003.wav",
-      "CachePath": "FB/{FBD0D180-8141-854D-6792-A6C0449F42E4}.wem"
-     },
-     {
-      "Id": "541820834",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Footstep_Creak_003.wav",
-      "CachePath": "FA/{FAB73F71-8DBD-3108-50EB-AE5AA2F23BFE}.wem"
-     },
-     {
       "Id": "551171733",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Wall_Shatter_02.wav",
       "CachePath": "71/{71567CA8-3282-460C-304B-C360A37373DA}.wem"
-     },
-     {
-      "Id": "575360998",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Footstep_Creak_001.wav",
-      "CachePath": "98/{988D5BF2-D510-26D1-5FAA-9028BAC728AF}.wem"
      },
      {
       "Id": "631962267",
@@ -184,14 +144,6 @@
       "CachePath": "CE/{CE705DAC-1D0E-4E54-A9DA-447830616320}.wem"
      },
      {
-      "Id": "774388882",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Basic_Footstep_002.wav",
-      "CachePath": "30/{30F61EC1-16D3-9007-5B1C-0E97244A8C3C}.wem"
-     },
-     {
       "Id": "834748161",
       "Language": "SFX",
       "Streaming": "false",
@@ -206,14 +158,6 @@
       "Location": "Memory",
       "ShortName": "Funeral_Ambience_Thunderstorm.wav",
       "CachePath": "15/{156798CD-B2CE-6C02-F98A-F24F52919FA7}.wem"
-     },
-     {
-      "Id": "897507631",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Footstep_Creak_002.wav",
-      "CachePath": "53/{5374BBDA-C560-3C69-CB09-9531B8D5B004}.wem"
      },
      {
       "Id": "1061829314",
@@ -330,59 +274,6 @@
       ]
      },
      {
-      "Id": "3801545580",
-      "Name": "Fnrl_Mirror_Footstep",
-      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Mirror_Footstep",
-      "GUID": "{DF969148-2A7A-4F7A-BF5A-E92B0EC7818E}",
-      "MaxAttenuation": "20",
-      "DurationType": "OneShot",
-      "DurationMin": "1.1539447",
-      "DurationMax": "1.3479413",
-      "MediaRefs": [
-       {
-        "Id": "58712416"
-       },
-       {
-        "Id": "200443766"
-       },
-       {
-        "Id": "500564140"
-       },
-       {
-        "Id": "541820834"
-       },
-       {
-        "Id": "575360998"
-       },
-       {
-        "Id": "774388882"
-       },
-       {
-        "Id": "897507631"
-       }
-      ],
-      "AuxBusRefs": [
-       {
-        "Id": "1676289129",
-        "Name": "Apt_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Apartment\\Apt_Reverb",
-        "GUID": "{B28A58E4-2BBF-4849-B95C-3ACC849A967E}"
-       },
-       {
-        "Id": "1784058834",
-        "Name": "Fnrl_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home\\Fnrl_Reverb",
-        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
-       },
-       {
-        "Id": "3356433602",
-        "Name": "Void_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_Reverb",
-        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
-       }
-      ]
-     },
-     {
       "Id": "2549568769",
       "Name": "Fnrl_Mus_Piano",
       "ObjectPath": "\\Events\\Funeral Home\\Music\\Fnrl_Mus_Piano",
@@ -452,6 +343,14 @@
       "MediaRefs": [
        {
         "Id": "188404886"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1784058834",
+        "Name": "Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home\\Fnrl_Reverb",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
        }
       ]
      },
@@ -538,6 +437,6 @@
     ]
    }
   ],
-  "FileHash": "{9EE5F3B3-BD86-2844-3D1B-86DC70735EC5}"
+  "FileHash": "{D1CE1BF0-4551-FB69-09D2-CA4FD368965C}"
  }
 }

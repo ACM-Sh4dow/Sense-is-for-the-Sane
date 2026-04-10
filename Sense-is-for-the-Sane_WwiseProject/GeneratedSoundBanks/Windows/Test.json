@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAC7D741-2CC6-4571-91AE-B86C57B75FDF}",
     "Language": "SFX",
-    "Hash": "{E08ED543-9DC9-A28A-1BDC-95EA1C289A2B}",
+    "Hash": "{3264D00A-71D1-9300-2FE0-BC115570DA8C}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -771,6 +771,6 @@
     ]
    }
   ],
-  "FileHash": "{46179370-1326-5E81-B46D-93E6001FFB19}"
+  "FileHash": "{2EE896A8-658C-CCB0-1AD4-C6DCBD78138B}"
  }
 }

@@ -9,6 +9,7 @@ public class AudibleZone : MonoBehaviour
     private void Start()
     {
         player = PlayerBehaviour.Instance.gameObject;
+        if (GetComponent<Collider>() == null) AkUnitySoundEngine.SetRTPCValue("InAudibleZone", 1, gameObject);
     }
 
     private void OnTriggerEnter(Collider other)

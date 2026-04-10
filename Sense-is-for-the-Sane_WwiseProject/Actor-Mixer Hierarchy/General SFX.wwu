@@ -1061,7 +1061,11 @@
 									</CustomState>
 									<CustomState>
 										<StateRef Name="Void" ID="{AE9041A4-3A52-434E-87E3-476B865CAD06}"/>
-										<CustomState Name="" ID="{41E82B1C-449A-440D-8EAF-A2774EB05C7F}" ShortID="1072028290"/>
+										<CustomState Name="" ID="{41E82B1C-449A-440D-8EAF-A2774EB05C7F}" ShortID="1072028290">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
@@ -1571,7 +1575,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Fnrl_World" ID="{F28C13AB-2B28-4B54-AC57-40D80E919288}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+							<ObjectRef Name="Gnrl_World" ID="{5F82077A-1086-45D6-A569-B616BA0A2EFC}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

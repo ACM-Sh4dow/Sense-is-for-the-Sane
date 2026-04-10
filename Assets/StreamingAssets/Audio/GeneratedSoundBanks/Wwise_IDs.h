@@ -24,7 +24,6 @@ namespace AK
         static const AkUniqueID FNRL_FLOWER_VASE = 3533695665U;
         static const AkUniqueID FNRL_MIRROR_BREATHING = 1736817776U;
         static const AkUniqueID FNRL_MIRROR_COMPLETE = 305829503U;
-        static const AkUniqueID FNRL_MIRROR_FOOTSTEP = 3801545580U;
         static const AkUniqueID FNRL_MUS_ORGAN = 1578407477U;
         static const AkUniqueID FNRL_MUS_PIANO = 2549568769U;
         static const AkUniqueID FNRL_MUS_STRINGS = 3506702008U;

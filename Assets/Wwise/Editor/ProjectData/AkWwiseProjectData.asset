@@ -487,7 +487,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584257582943740685
+    m_lastTime: -8584257543492304564
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -682,7 +682,7 @@ MonoBehaviour:
     ParentPath: Events\Funeral Home
     guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
     GuidInternal: 
-    m_lastTime: -8584257582943962245
+    m_lastTime: -8584257553845668659
     List:
     - name: Fnrl_Amb_Pause
       guid: b07a90bffc5a3443801fddc3dff36a05
@@ -769,23 +769,6 @@ MonoBehaviour:
       maxAttenuation: 20
       maxDuration: 5.9554973
       minDuration: 5.9554973
-    - name: Fnrl_Mirror_Footstep
-      guid: 489196df7a2a7a4fbf5ae92b0ec7818e
-      id: 3801545580
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Funeral Home
-        ObjectType: 12
-        guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
-      - ElementName: Fnrl_Mirror_Footstep
-        ObjectType: 3
-        guid: 489196df7a2a7a4fbf5ae92b0ec7818e
-      Path: Events\Funeral Home\Fnrl_Mirror_Footstep
-      maxAttenuation: 20
-      maxDuration: 1.3479413
-      minDuration: 1.1539447
     - name: Fnrl_Mus_Piano
       guid: e3aa029f25a01b47a281b77a69f45b8a
       id: 2549568769
@@ -942,7 +925,7 @@ MonoBehaviour:
     ParentPath: Events\General Events
     guid: 1ff59692a3e328449b9b4c99fad941f7
     GuidInternal: 
-    m_lastTime: -8584257582943554262
+    m_lastTime: -8584257572389694303
     List:
     - name: Door_Creaking
       guid: 5b96ba0c68eaf14ca7e187707066d038
@@ -1026,7 +1009,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 919ecae3d4e0c7409e1e26f0a2bf6c0c
       Path: Events\General Events\Gramophone
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 117
       minDuration: 117
   - PhysicalPath: Events\Tests.wwu
@@ -1040,7 +1023,7 @@ MonoBehaviour:
     ParentPath: Events\Tests
     guid: f612c0badde62b4f83093679909ae332
     GuidInternal: 
-    m_lastTime: -8584257689209651426
+    m_lastTime: -8584257551792528750
     List:
     - name: GramophoneTransition
       guid: a6a54ba4578a8d4eac452bf911a175b7
@@ -1258,8 +1241,8 @@ MonoBehaviour:
         guid: 398349ff9c5cac49afc725e87440d728
       Path: Events\Void\Void_Mus_Piano
       maxAttenuation: 100
-      maxDuration: 12.104009
-      minDuration: 12.104009
+      maxDuration: 11.391715
+      minDuration: 11.391715
     - name: Void_Mus_Reset
       guid: 7af70954a30f1940b20654846ede228a
       id: 633475415
@@ -1761,7 +1744,7 @@ MonoBehaviour:
     m_lastTime: -8584275934083339506
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000e000000130000001e0000002000000022000000230000002400000025000000280000002a000000360000003700000038000000390000003a000000400000008d00000096000000
+  ExpandedWaapiItemIds: 05000000060000000e000000130000001e0000002000000022000000230000002400000025000000280000002a00000034000000360000003700000038000000390000003a000000400000008d00000096000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
