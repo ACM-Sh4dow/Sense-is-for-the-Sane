@@ -4100,6 +4100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b6b548dae1a134a8179ec28f1b01f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PerspectivePuzzleSolve
+  scene: 2
   state: 0
   puzzleName: Flower
   distanceTolerance: 1
@@ -8940,6 +8941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b6b548dae1a134a8179ec28f1b01f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PerspectivePuzzleSolve
+  scene: 2
   state: 0
   puzzleName: Painting
   distanceTolerance: 1
@@ -10842,6 +10844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b6b548dae1a134a8179ec28f1b01f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PerspectivePuzzleSolve
+  scene: 2
   state: 0
   puzzleName: Casket
   distanceTolerance: 1
@@ -11633,6 +11636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebd99f2016c812c4185607abaddadc75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ManualAnimationProgression
+  scene: 2
   state: 0
   puzzleName: 
   progress: 0
@@ -23439,6 +23443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63e5d600df4bde046b7ec7c7b135c8eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  scene: 2
   state: 0
   puzzleName: Painting Pedestal
   isPaintingPedestal: 1
@@ -29648,6 +29653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63e5d600df4bde046b7ec7c7b135c8eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pedestal
+  scene: 2
   state: 0
   puzzleName: Flower Pedestal
   isPaintingPedestal: 0
