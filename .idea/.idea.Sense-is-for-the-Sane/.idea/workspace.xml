@@ -5,36 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96fc74af-9d80-4a0a-871b-381a31421ada" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/VoidDoor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sense-is-for-the-Sane/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sense-is-for-the-Sane/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Player - Base.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Player - Base.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Void - Audio.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Void - Audio.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Void.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Void.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/WhiteDoor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/WhiteDoor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/VoidDoor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/VD - Env.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/VD - Env.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/VoidManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/VoidManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/0CBA965B-EA68-4CF1-A7E1-87707066D038.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/0CBA965B-EA68-4CF1-A7E1-87707066D038.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/B4E40B53-E85E-4BCC-A4A5-9751138CC9F6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/B4E40B53-E85E-4BCC-A4A5-9751138CC9F6.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/Apartment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/Apartment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/Funeral_Home.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/Funeral_Home.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/General.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/General.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/Test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/Void.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/Void.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/Void.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Mac/Void.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/Apartment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/Apartment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/Funeral_Home.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/Funeral_Home.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/General.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/General.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/Test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/Void.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/Void.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/Void.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sense-is-for-the-Sane_WwiseProject/GeneratedSoundBanks/Windows/Void.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +104,7 @@
       <workItem from="1775310138581" duration="6485000" />
       <workItem from="1775735730061" duration="14657000" />
       <workItem from="1775770450101" duration="5806000" />
-      <workItem from="1775838851286" duration="5747000" />
+      <workItem from="1775838851286" duration="8410000" />
     </task>
     <servers />
   </component>

@@ -8,6 +8,7 @@ public class VoidManager : MonoBehaviour
     
     [SerializeField] private List<GameObject> walls = new();
     [SerializeField] private List<GameObject> blackRoomPieces = new();
+    [SerializeField] private List<GameObject> whiteRoomPieces = new();
 
     public enum Rooms
     {
@@ -23,6 +24,7 @@ public class VoidManager : MonoBehaviour
         Overseer.Instance.AddManager(this);
         light = GameObject.Find("Directional Light").GetComponent<Light>();
         DeactivateShadows();
+        AkUnitySoundEngine.SetSwitch("FootstepsSwitch", "Void", PlayerBehaviour.Instance.gameObject);
     }
 
     public void TransitionToRoom()
@@ -44,6 +46,11 @@ public class VoidManager : MonoBehaviour
         foreach (GameObject piece in blackRoomPieces)
         {
             piece.SetActive(false);
+        }
+
+        foreach (GameObject piece in whiteRoomPieces)
+        {
+            piece.SetActive(true);
         }
     }
     

@@ -591,7 +591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9060508231529228654, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 118.2
+      value: 110.93
       objectReference: {fileID: 0}
     - target: {fileID: 9060508231529228654, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1037,7 +1037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8abc335499657140ab79ef872c73a8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  loadScenes: 4
+  loadScenes: 0
   voidScenes:
   - VD - Env
   - VD - Audio
