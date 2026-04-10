@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9F2C9685-C3F4-4D21-9319-4FF075E9A3CD}",
     "Language": "SFX",
-    "Hash": "{80A0B67A-3EF7-C8C6-A2D1-928E961F2EE9}",
+    "Hash": "{4AF16B10-2B44-F6B2-3249-D09B01812796}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Apartment",
     "ShortName": "Apartment",
     "Path": "Apartment.bnk",
@@ -102,14 +102,6 @@
       "Location": "Memory",
       "ShortName": "Fireplace.wav",
       "CachePath": "55/{557DEBEF-29C7-F4BD-9FA7-4A30C4E54628}.wem"
-     },
-     {
-      "Id": "1038962611",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "The World Behind Your Eyes (Gramophone) FINAL.wav",
-      "CachePath": "61/{611D3641-E652-0184-9E2F-04578FB73E5A}.wem"
      }
     ],
     "Events": [
@@ -203,32 +195,10 @@
         "Id": "352828321"
        }
       ]
-     },
-     {
-      "Id": "3151110061",
-      "Name": "Gramophone",
-      "ObjectPath": "\\Events\\General Events\\Gramophone",
-      "GUID": "{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}",
-      "DurationType": "OneShot",
-      "DurationMin": "117",
-      "DurationMax": "117",
-      "MediaRefs": [
-       {
-        "Id": "1038962611"
-       }
-      ],
-      "AuxBusRefs": [
-       {
-        "Id": "3356433602",
-        "Name": "Void_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_Reverb",
-        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
-       }
-      ]
      }
     ]
    }
   ],
-  "FileHash": "{61100869-54AD-F449-889A-698CBF4A78A5}"
+  "FileHash": "{891BA1A7-913D-906E-F85F-04EB237E0202}"
  }
 }

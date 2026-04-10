@@ -158,32 +158,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Fnrl_Mirror_Footstep" ID="{DF969148-2A7A-4F7A-BF5A-E92B0EC7818E}">
-					<ChildrenList>
-						<Action Name="" ID="{C9D8CEB0-EAA5-49BC-B9FB-23BF18628D26}" ShortID="521661901">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="0.075"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Mirror Footsteps" ID="{97639639-4F9A-4634-8959-98AC7C998F4E}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{A822F422-B66B-4ADE-BD61-63494BEE7CB7}" ShortID="61741761">
-							<PropertyList>
-								<Property Name="FadeInCurve" Type="int16" Value="1"/>
-								<Property Name="FadeTime" Type="Real64" Value="2"/>
-								<Property Name="Probability" Type="Real64" Value="20"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Floor Creaks" ID="{BA0423AB-F1AA-4938-82B6-2C7FBD3BC298}" WorkUnitID="{5617E81F-15D7-467B-96EE-EEF11E47BC75}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Fnrl_Mirror_Breathing" ID="{E6C0F4EC-AFAA-4EC8-8C9A-EE291FC65B35}">
 					<ChildrenList>
 						<Action Name="" ID="{F3E14821-1872-4237-9CBC-5F971D466263}" ShortID="738477697">
@@ -232,17 +206,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Fnrl_Door_Creaking" ID="{0CBA965B-EA68-4CF1-A7E1-87707066D038}">
-					<ChildrenList>
-						<Action Name="" ID="{A158EF93-C517-4A79-8379-F30B116FF19C}" ShortID="546022825">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Door Creaking Rand" ID="{46A96842-F962-40B4-97A1-5F303DEEE9B8}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Fnrl_Transition_Inhale" ID="{36E22E4E-5EA4-41E7-B576-76B3D3090F0E}">
 					<ChildrenList>
 						<Action Name="" ID="{7989E864-9D73-4CE4-B800-6746A593011C}" ShortID="435582266">

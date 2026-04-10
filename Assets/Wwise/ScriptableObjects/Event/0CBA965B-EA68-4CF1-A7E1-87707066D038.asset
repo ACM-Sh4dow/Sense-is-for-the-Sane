@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaebe67caac16194b9462d2071cac2eb, type: 3}
   m_Name: 0CBA965B-EA68-4CF1-A7E1-87707066D038
   m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseEventReference
-  objectName: Fnrl_Door_Creaking
-  id: 3003594117
+  objectName: Door_Creaking
+  id: 2843028372
   guid: 0CBA965B-EA68-4CF1-A7E1-87707066D038
   IsInUserDefinedSoundBank: 1

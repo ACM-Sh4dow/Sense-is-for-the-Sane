@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{39E76D16-3659-462C-8AE1-BE0B06954A63}",
     "Language": "SFX",
-    "Hash": "{E6045636-0AB2-EE49-12DB-F9114D9884D4}",
+    "Hash": "{0FF4B286-02FE-CF5E-1F49-D32B13BB4C77}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\General",
     "ShortName": "General",
     "Path": "General.bnk",
     "Media": [
+     {
+      "Id": "9956793",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_004.wav",
+      "CachePath": "48/{484EFE33-1020-A02F-447B-7493CDC93136}.wem"
+     },
      {
       "Id": "27089001",
       "Language": "SFX",
@@ -80,6 +88,22 @@
       "CachePath": "0F/{0F594E1E-CD39-7A32-8840-4C7FA066566E}.wem"
      },
      {
+      "Id": "285034747",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_007.wav",
+      "CachePath": "3E/{3EECB60C-8136-FCE4-3646-E33561A9295C}.wem"
+     },
+     {
+      "Id": "449394520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Menuet_Winds.wav",
+      "CachePath": "50/{5097C3B7-8F5E-859D-7C84-7228C3BBBD03}.wem"
+     },
+     {
       "Id": "501430916",
       "Language": "SFX",
       "Streaming": "false",
@@ -118,6 +142,30 @@
       "Location": "Memory",
       "ShortName": "Footstep_Scratch_002.wav",
       "CachePath": "01/{010B3AF5-0FD0-21FE-D65C-230DC32D3868}.wem"
+     },
+     {
+      "Id": "622806989",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_005.wav",
+      "CachePath": "3F/{3F496687-B5A0-A353-31DF-5CAFE4D5DE1C}.wem"
+     },
+     {
+      "Id": "740299431",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Full Track\\Menuet_Organ.wav",
+      "CachePath": "1D/{1DF77038-3C31-6E17-7CEE-16793759CA79}.wem"
+     },
+     {
+      "Id": "866457660",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_008.wav",
+      "CachePath": "D0/{D0BDD28E-C844-F20C-4C66-79C20D3EAE6E}.wem"
      },
      {
       "Id": "897507631",
@@ -176,6 +224,14 @@
       "CachePath": "B5/{B56EF8C9-3B82-1968-F5A3-CD4273609D58}.wem"
      },
      {
+      "Id": "1038962611",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "The World Behind Your Eyes (Gramophone) FINAL.wav",
+      "CachePath": "61/{611D3641-E652-0184-9E2F-04578FB73E5A}.wem"
+     },
+     {
       "Id": "1043232266",
       "Language": "SFX",
       "Streaming": "false",
@@ -185,6 +241,52 @@
      }
     ],
     "Events": [
+     {
+      "Id": "2843028372",
+      "Name": "Door_Creaking",
+      "ObjectPath": "\\Events\\General Events\\Door_Creaking",
+      "GUID": "{0CBA965B-EA68-4CF1-A7E1-87707066D038}",
+      "MaxAttenuation": "20",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "9956793"
+       },
+       {
+        "Id": "285034747"
+       },
+       {
+        "Id": "622806989"
+       },
+       {
+        "Id": "866457660"
+       }
+      ]
+     },
+     {
+      "Id": "1578407477",
+      "Name": "Fnrl_Mus_Organ",
+      "ObjectPath": "\\Events\\General Events\\Fnrl_Mus_Organ",
+      "GUID": "{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}",
+      "MaxAttenuation": "20",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "449394520"
+       },
+       {
+        "Id": "740299431"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1676289129",
+        "Name": "Apt_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Apartment\\Apt_Reverb",
+        "GUID": "{B28A58E4-2BBF-4849-B95C-3ACC849A967E}"
+       }
+      ]
+     },
      {
       "Id": "1866025847",
       "Name": "Footstep",
@@ -416,6 +518,43 @@
         ]
        }
       ]
+     },
+     {
+      "Id": "3151110061",
+      "Name": "Gramophone",
+      "ObjectPath": "\\Events\\General Events\\Gramophone",
+      "GUID": "{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "117",
+      "DurationMax": "117",
+      "MediaRefs": [
+       {
+        "Id": "1038962611"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "3356433602",
+        "Name": "Void_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_Reverb",
+        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "553709980",
+      "Name": "InAudibleZone",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\InAudibleZone",
+      "GUID": "{4BEBB738-CD5B-4CE1-AFCB-393067F45FA2}"
+     },
+     {
+      "Id": "1288081852",
+      "Name": "DistanceAnimationRate",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\DistanceAnimationRate",
+      "GUID": "{88001F93-59F8-4874-A886-D90134697D52}"
      }
     ],
     "SwitchGroups": [
@@ -448,6 +587,6 @@
     ]
    }
   ],
-  "FileHash": "{B6C9E983-2AD2-C223-AF07-416EAFBD5B17}"
+  "FileHash": "{BEACB896-4715-5445-A864-10ECDC9C1BDF}"
  }
 }

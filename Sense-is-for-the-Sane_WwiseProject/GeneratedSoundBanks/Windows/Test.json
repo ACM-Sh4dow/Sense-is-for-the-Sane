@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAC7D741-2CC6-4571-91AE-B86C57B75FDF}",
     "Language": "SFX",
-    "Hash": "{5016D6A9-B268-90BA-C6BF-F0EE3D15BAE1}",
+    "Hash": "{E08ED543-9DC9-A28A-1BDC-95EA1C289A2B}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -722,6 +722,7 @@
       "Name": "Gramophone",
       "ObjectPath": "\\Events\\General Events\\Gramophone",
       "GUID": "{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "117",
       "DurationMax": "117",
@@ -770,6 +771,6 @@
     ]
    }
   ],
-  "FileHash": "{E7DC0947-2490-CEF3-F7AC-C79B25D661ED}"
+  "FileHash": "{46179370-1326-5E81-B46D-93E6001FFB19}"
  }
 }

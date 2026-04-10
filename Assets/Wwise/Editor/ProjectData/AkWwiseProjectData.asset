@@ -487,7 +487,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584257602227972444
+    m_lastTime: -8584257582943740685
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -682,7 +682,7 @@ MonoBehaviour:
     ParentPath: Events\Funeral Home
     guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
     GuidInternal: 
-    m_lastTime: -8584257689210165436
+    m_lastTime: -8584257582943962245
     List:
     - name: Fnrl_Amb_Pause
       guid: b07a90bffc5a3443801fddc3dff36a05
@@ -716,23 +716,6 @@ MonoBehaviour:
         guid: 33f48e742ea24e49927c79cfe002e9ff
       Path: Events\Funeral Home\Fnrl_Amb_Thunderstorm
       maxAttenuation: 100
-      maxDuration: 0
-      minDuration: 0
-    - name: Fnrl_Door_Creaking
-      guid: 5b96ba0c68eaf14ca7e187707066d038
-      id: 3003594117
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Funeral Home
-        ObjectType: 12
-        guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
-      - ElementName: Fnrl_Door_Creaking
-        ObjectType: 3
-        guid: 5b96ba0c68eaf14ca7e187707066d038
-      Path: Events\Funeral Home\Fnrl_Door_Creaking
-      maxAttenuation: 20
       maxDuration: 0
       minDuration: 0
     - name: Fnrl_Flower_Vase
@@ -959,8 +942,25 @@ MonoBehaviour:
     ParentPath: Events\General Events
     guid: 1ff59692a3e328449b9b4c99fad941f7
     GuidInternal: 
-    m_lastTime: -8584257689209828441
+    m_lastTime: -8584257582943554262
     List:
+    - name: Door_Creaking
+      guid: 5b96ba0c68eaf14ca7e187707066d038
+      id: 2843028372
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: General Events
+        ObjectType: 12
+        guid: 1ff59692a3e328449b9b4c99fad941f7
+      - ElementName: Door_Creaking
+        ObjectType: 3
+        guid: 5b96ba0c68eaf14ca7e187707066d038
+      Path: Events\General Events\Door_Creaking
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
     - name: Fnrl_Mus_Organ
       guid: 0bd17b976c9adb419fe4362ac1b5a8d3
       id: 1578407477
@@ -1761,7 +1761,7 @@ MonoBehaviour:
     m_lastTime: -8584275934083339506
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000e000000130000001e0000002000000022000000230000002400000025000000280000002a00000037000000390000003a000000400000008d00000096000000
+  ExpandedWaapiItemIds: 05000000060000000e000000130000001e0000002000000022000000230000002400000025000000280000002a000000360000003700000038000000390000003a000000400000008d00000096000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

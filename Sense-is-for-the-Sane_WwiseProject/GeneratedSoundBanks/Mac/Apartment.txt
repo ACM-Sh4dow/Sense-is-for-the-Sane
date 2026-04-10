@@ -4,7 +4,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1056431533	Apt_Clock			\Apartment\Apt_Clock	
 	2202553018	Apt_Fireplace			\Apartment\Apt_Fireplace	
 	2280025682	Apt_Fridge			\Apartment\Apt_Fridge	
-	3151110061	Gramophone			\General Events\Gramophone	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	9956793	Wooden_Creaking_Ambient_004	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\48\{484EFE33-1020-A02F-447B-7493CDC93136}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Creaking Rand\Wooden_Creaking_Ambient_004		466920
@@ -18,5 +17,4 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	530166292	Wooden_Creaking_Ambient_003	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\17\{17E3C15A-542A-B676-7E07-7302385F2DF9}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Creaking Rand\Wooden_Creaking_Ambient_003		506200
 	573529530	Wooden_Creaking_Ambient_001	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\75\{75C149F1-74CE-E40E-3937-7D5D78EDCC7F}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Creaking Rand\Wooden_Creaking_Ambient_001		590688
 	872160095	Fireplace	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\55\{557DEBEF-29C7-F4BD-9FA7-4A30C4E54628}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Apartment\Ambience\Fireplace		5309360
-	1038962611	Gramophone_Void (On Listener)	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\61\{611D3641-E652-0184-9E2F-04578FB73E5A}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Void\Gramophone_Void (On Listener)		20638896
 

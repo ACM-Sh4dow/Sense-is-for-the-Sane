@@ -70,7 +70,7 @@
 						<Action Name="" ID="{599DBBA6-BCF9-419D-8EDB-1509AE84CBC0}" ShortID="781107243">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Gramophone_Void (On Listener)" ID="{71EACB74-8EE7-42E0-B47A-7F0A0A7B9AE3}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+									<ObjectRef Name="Gramophone_Void (Stereo)" ID="{71EACB74-8EE7-42E0-B47A-7F0A0A7B9AE3}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -96,6 +96,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Menuet_Organ_Apt" ID="{8B48A7B5-62E5-4CEA-84D1-CAF963217763}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Door_Creaking" ID="{0CBA965B-EA68-4CF1-A7E1-87707066D038}">
+					<ChildrenList>
+						<Action Name="" ID="{A158EF93-C517-4A79-8379-F30B116FF19C}" ShortID="546022825">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door Creaking Rand" ID="{46A96842-F962-40B4-97A1-5F303DEEE9B8}" WorkUnitID="{5617E81F-15D7-467B-96EE-EEF11E47BC75}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

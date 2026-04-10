@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{68D5CE59-62C2-45C9-8AA7-B31C8321D127}",
     "Language": "SFX",
-    "Hash": "{88C291E1-DBA1-5173-B49C-F76567DE9C51}",
+    "Hash": "{8E1BB67D-92C8-45FA-3A32-E140992D9AD3}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Void",
     "ShortName": "Void",
     "Path": "Void.bnk",
@@ -62,6 +62,14 @@
       "Location": "Memory",
       "ShortName": "Void_Ambience_Voice-010.wav",
       "CachePath": "B0/{B040CD76-82D7-4A8C-CCC4-2E632ADB0C30}.wem"
+     },
+     {
+      "Id": "448239047",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Puzzle_Complete_01.wav",
+      "CachePath": "E4/{E4F51A45-FB1D-AB6E-B541-FEF84775BA9D}.wem"
      },
      {
       "Id": "457874019",
@@ -204,8 +212,8 @@
       "GUID": "{FF498339-5C9C-49AC-AFC7-25E87440D728}",
       "MaxAttenuation": "100",
       "DurationType": "OneShot",
-      "DurationMin": "12.104009",
-      "DurationMax": "12.104009",
+      "DurationMin": "11.391715",
+      "DurationMax": "11.391715",
       "MediaRefs": [
        {
         "Id": "556043878"
@@ -257,6 +265,9 @@
         "Id": "387993001"
        },
        {
+        "Id": "448239047"
+       },
+       {
         "Id": "457874019"
        },
        {
@@ -293,6 +304,6 @@
     ]
    }
   ],
-  "FileHash": "{1ACA991E-EE79-8B74-B46B-F88F827D62EC}"
+  "FileHash": "{70D5E85D-5523-A747-4D98-75952093C844}"
  }
 }

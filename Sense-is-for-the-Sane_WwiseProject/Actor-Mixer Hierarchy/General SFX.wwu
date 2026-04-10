@@ -1502,6 +1502,442 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
+				<RandomSequenceContainer Name="Door Creaking Rand" ID="{46A96842-F962-40B4-97A1-5F303DEEE9B8}" ShortID="649009628">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+						</Property>
+						<Property Name="InitialDelay" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A3C19D50-AA9D-4B29-936F-3765CBF64CD7}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>150</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{FF6B3A49-9128-4353-9D6A-E720E3F3295E}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="300"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{0C5D8845-2D22-4CCB-807B-BFEF7CCF5695}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{6B40BA4F-4539-4296-A2C1-E95A93B9CA0D}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="1"/>
+											<Property Name="Min" Type="Real64" Value="-1"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Funeral Home Attenuation" ID="{612E52EC-7A7F-42EC-8ED2-79F6A8AD6889}" WorkUnitID="{EE5E383A-A28E-4288-B8AA-74712DC2AE17}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Fnrl_World" ID="{F28C13AB-2B28-4B54-AC57-40D80E919288}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Wooden_Creaking_Ambient_001" ID="{BE7D9D13-084D-4E59-AC26-188D3DA3A1C2}" ShortID="104525788">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Apartment Attenuation" ID="{B7FB1ACB-D54F-4E05-9377-79A6205CC257}" WorkUnitID="{EE5E383A-A28E-4288-B8AA-74712DC2AE17}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wooden_Creaking_Ambient_001" ID="{69B7991F-61C2-4D7B-B5BD-8D4C151535B2}">
+									<Language>SFX</Language>
+									<AudioFile>Creaking\Wooden_Creaking_Ambient_001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="573529530"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wooden_Creaking_Ambient_001" ID="{69B7991F-61C2-4D7B-B5BD-8D4C151535B2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wooden_Creaking_Ambient_002" ID="{7E8E92D2-B6EC-4787-9B55-D3F25236D0E9}" ShortID="678360199">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Apartment Attenuation" ID="{B7FB1ACB-D54F-4E05-9377-79A6205CC257}" WorkUnitID="{EE5E383A-A28E-4288-B8AA-74712DC2AE17}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wooden_Creaking_Ambient_002" ID="{A1A6F1FC-6993-49F6-87E8-7477F788A035}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.294426884241923"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Creaking\Wooden_Creaking_Ambient_002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="449296932"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wooden_Creaking_Ambient_002" ID="{A1A6F1FC-6993-49F6-87E8-7477F788A035}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wooden_Creaking_Ambient_003" ID="{4F704390-DBDB-46FC-AB47-955753A3C1D1}" ShortID="619031493">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Apartment Attenuation" ID="{B7FB1ACB-D54F-4E05-9377-79A6205CC257}" WorkUnitID="{EE5E383A-A28E-4288-B8AA-74712DC2AE17}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wooden_Creaking_Ambient_003" ID="{2DAE304E-2919-4F1E-AB7A-947E927447CF}">
+									<Language>SFX</Language>
+									<AudioFile>Creaking\Wooden_Creaking_Ambient_003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="530166292"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wooden_Creaking_Ambient_003" ID="{2DAE304E-2919-4F1E-AB7A-947E927447CF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wooden_Creaking_Ambient_004" ID="{944385F6-B61F-4916-A713-D34D61743E27}" ShortID="784952577">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Apartment Attenuation" ID="{B7FB1ACB-D54F-4E05-9377-79A6205CC257}" WorkUnitID="{EE5E383A-A28E-4288-B8AA-74712DC2AE17}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wooden_Creaking_Ambient_004" ID="{54CD6253-AE79-49EB-86A3-F4D62795C3ED}">
+									<Language>SFX</Language>
+									<AudioFile>Creaking\Wooden_Creaking_Ambient_004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="9956793"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wooden_Creaking_Ambient_004" ID="{54CD6253-AE79-49EB-86A3-F4D62795C3ED}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wooden_Creaking_Ambient_005" ID="{0D7C14F1-18D6-40D9-B491-0F0802EE5B88}" ShortID="877801893">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Apartment Attenuation" ID="{B7FB1ACB-D54F-4E05-9377-79A6205CC257}" WorkUnitID="{EE5E383A-A28E-4288-B8AA-74712DC2AE17}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wooden_Creaking_Ambient_005" ID="{A246570B-0D2B-4601-A564-E4A904A9B2A0}">
+									<Language>SFX</Language>
+									<AudioFile>Creaking\Wooden_Creaking_Ambient_005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="622806989"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wooden_Creaking_Ambient_005" ID="{A246570B-0D2B-4601-A564-E4A904A9B2A0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wooden_Creaking_Ambient_006" ID="{3C36E461-D19A-4FB6-9E60-0F2F0ACC5399}" ShortID="103281223">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Apartment Attenuation" ID="{B7FB1ACB-D54F-4E05-9377-79A6205CC257}" WorkUnitID="{EE5E383A-A28E-4288-B8AA-74712DC2AE17}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wooden_Creaking_Ambient_006" ID="{F1C1D827-E0AC-4921-8951-33AE036DAAE8}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.400201427008577"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Creaking\Wooden_Creaking_Ambient_006.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="62290821"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wooden_Creaking_Ambient_006" ID="{F1C1D827-E0AC-4921-8951-33AE036DAAE8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wooden_Creaking_Ambient_007" ID="{3B03AD39-8D2E-4678-B8AB-4A710E00EBD8}" ShortID="663475721">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Apartment Attenuation" ID="{B7FB1ACB-D54F-4E05-9377-79A6205CC257}" WorkUnitID="{EE5E383A-A28E-4288-B8AA-74712DC2AE17}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wooden_Creaking_Ambient_007" ID="{7DCB896C-80EE-4ECD-9029-674A706FC20C}">
+									<Language>SFX</Language>
+									<AudioFile>Creaking\Wooden_Creaking_Ambient_007.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="285034747"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wooden_Creaking_Ambient_007" ID="{7DCB896C-80EE-4ECD-9029-674A706FC20C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wooden_Creaking_Ambient_008" ID="{D1CBD8A1-CC2C-4F83-B92D-6EAC52E626A4}" ShortID="688801433">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Apartment Attenuation" ID="{B7FB1ACB-D54F-4E05-9377-79A6205CC257}" WorkUnitID="{EE5E383A-A28E-4288-B8AA-74712DC2AE17}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wooden_Creaking_Ambient_008" ID="{20D7F163-74A8-4F10-9913-7741FAFDB536}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.44357999302875"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.500035628505137"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.180658033524437"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.45978140595614"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Creaking\Wooden_Creaking_Ambient_008.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="866457660"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wooden_Creaking_Ambient_008" ID="{20D7F163-74A8-4F10-9913-7741FAFDB536}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{71E93DED-70AC-4EAB-8DC6-764A5C92AF96}">
+							<PropertyList>
+								<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+							</PropertyList>
+						</Position>
+					</PositioningInfo>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{CDC5B9E6-2852-4ED8-88A6-B52D8C968429}" ShortID="291722243">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="DistanceAnimationRate" ID="{88001F93-59F8-4874-A886-D90134697D52}" WorkUnitID="{99A3A7C4-D18B-4E78-A5FC-8D535B50CEEE}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{07A94DE6-3C87-4F82-B698-5A801C6A6430}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-1</XPos>
+																<YPos>1.5</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>1.5</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{3D7FCA98-DF5F-4BEA-A1AB-FD1CA562EAFB}" ShortID="534230542">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="InAudibleZone" ID="{4BEBB738-CD5B-4CE1-AFCB-393067F45FA2}" WorkUnitID="{99A3A7C4-D18B-4E78-A5FC-8D535B50CEEE}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{B8037BF1-4789-455A-85BD-6195148D247C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.5</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
