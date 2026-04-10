@@ -35,6 +35,8 @@ namespace AK
         static const AkUniqueID FOOTSTEP = 1866025847U;
         static const AkUniqueID FOOTSTEP_SCRATCH = 1003760220U;
         static const AkUniqueID GRAMOPHONE = 3151110061U;
+        static const AkUniqueID MANUAL_ANIMATE_CLOCK_START = 2156182537U;
+        static const AkUniqueID MANUAL_ANIMATE_CLOCK_STOP = 3248176547U;
         static const AkUniqueID VOID_MUS_HIGH_2ND = 1322957119U;
         static const AkUniqueID VOID_MUS_HIGH_4TH = 886444887U;
         static const AkUniqueID VOID_MUS_HIGH_5TH = 1188294806U;
@@ -107,6 +109,7 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID CLOCKTICKRATE = 3357858816U;
         static const AkUniqueID DISTANCEANIMATIONRATE = 1288081852U;
         static const AkUniqueID DISTANCEFROMTARGET = 1768319275U;
         static const AkUniqueID GRAMOPHONEBLEND = 953461546U;

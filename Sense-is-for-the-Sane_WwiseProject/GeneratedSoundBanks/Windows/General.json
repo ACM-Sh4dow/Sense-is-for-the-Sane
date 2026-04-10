@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{39E76D16-3659-462C-8AE1-BE0B06954A63}",
     "Language": "SFX",
-    "Hash": "{5C2066A7-5B11-2B83-A0EA-3C1F761A5BFF}",
+    "Hash": "{C8733439-2B68-1115-FAE5-F04D714328B1}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\General",
     "ShortName": "General",
     "Path": "General.bnk",
@@ -94,6 +94,14 @@
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_007.wav",
       "CachePath": "3E/{3EECB60C-8136-FCE4-3646-E33561A9295C}.wem"
+     },
+     {
+      "Id": "302930732",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Clock Tick.wav",
+      "CachePath": "8B/{8BA552AD-505E-355B-E962-1095047E7D66}.wem"
      },
      {
       "Id": "449394520",
@@ -541,6 +549,43 @@
         "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
        }
       ]
+     },
+     {
+      "Id": "2156182537",
+      "Name": "Manual_Animate_Clock_Start",
+      "ObjectPath": "\\Events\\General Events\\Manual_Animate_Clock_Start",
+      "GUID": "{24EF0CE2-7F9F-4AD5-A7F1-778501E3CE65}",
+      "MaxAttenuation": "20",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "302930732"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1784058834",
+        "Name": "Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home\\Fnrl_Reverb",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       },
+       {
+        "Id": "3356433602",
+        "Name": "Void_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_Reverb",
+        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
+       }
+      ]
+     },
+     {
+      "Id": "3248176547",
+      "Name": "Manual_Animate_Clock_Stop",
+      "ObjectPath": "\\Events\\General Events\\Manual_Animate_Clock_Stop",
+      "GUID": "{F935F2F2-B593-404F-BCC0-2654C7765D3D}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "GameParameters": [
@@ -555,6 +600,12 @@
       "Name": "DistanceAnimationRate",
       "ObjectPath": "\\Game Parameters\\Game Parameters WU\\DistanceAnimationRate",
       "GUID": "{88001F93-59F8-4874-A886-D90134697D52}"
+     },
+     {
+      "Id": "3357858816",
+      "Name": "ClockTickRate",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\ClockTickRate",
+      "GUID": "{4B800971-A9A2-4A67-9426-86D6F78BF5A4}"
      }
     ],
     "SwitchGroups": [
@@ -587,6 +638,6 @@
     ]
    }
   ],
-  "FileHash": "{3AB70B56-1640-7C63-673C-5E2E9E91813D}"
+  "FileHash": "{E3BB8BC5-4CD1-0619-0BF4-C11D6311D864}"
  }
 }

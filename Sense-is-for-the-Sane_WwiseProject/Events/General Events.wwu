@@ -112,6 +112,56 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Manual_Animate_Clock_Start" ID="{24EF0CE2-7F9F-4AD5-A7F1-778501E3CE65}">
+					<ChildrenList>
+						<Action Name="" ID="{3D8777BD-1074-4811-B411-EE5D6BA24C55}" ShortID="875165444">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="0.125"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ClockTickRate" ID="{4B800971-A9A2-4A67-9426-86D6F78BF5A4}" WorkUnitID="{99A3A7C4-D18B-4E78-A5FC-8D535B50CEEE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{75BCA3C1-3182-495B-A97D-23BA1429BCC1}" ShortID="327082196">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Manual Animation Clock Seq" ID="{171F061F-AF01-46A9-9853-77F91255E573}" WorkUnitID="{5617E81F-15D7-467B-96EE-EEF11E47BC75}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3439A052-3DE9-46AA-A2C6-959756777D8B}" ShortID="1031567755">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ClockTickRate" ID="{4B800971-A9A2-4A67-9426-86D6F78BF5A4}" WorkUnitID="{99A3A7C4-D18B-4E78-A5FC-8D535B50CEEE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Manual_Animate_Clock_Stop" ID="{F935F2F2-B593-404F-BCC0-2654C7765D3D}">
+					<ChildrenList>
+						<Action Name="" ID="{4CEBFE98-58BF-4913-BF68-80DBA9E4550D}" ShortID="728870546">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="34"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Manual Animation Clock Seq" ID="{171F061F-AF01-46A9-9853-77F91255E573}" WorkUnitID="{5617E81F-15D7-467B-96EE-EEF11E47BC75}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

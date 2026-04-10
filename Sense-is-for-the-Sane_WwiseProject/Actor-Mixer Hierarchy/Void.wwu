@@ -516,7 +516,7 @@
 								</Property>
 								<Property Name="Weight" Type="Real64">
 									<ValueList>
-										<Value>10</Value>
+										<Value>20</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -736,6 +736,11 @@
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>4</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>30</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

@@ -1244,6 +1244,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Door_Close_01" ID="{B5BEAC51-15B0-46D5-A50E-CDC5F8F60110}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.158673598971706"/>
+												<Property Name="FadeInShape" Type="int16" Value="7"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.878807625074065"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Door_Close_01.wav</AudioFile>
 											<MediaIDList>
@@ -1266,6 +1272,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Door_Close_02" ID="{F14F3C68-1BB7-4951-8E6C-4DFDFC1588C6}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.174549410852154"/>
+												<Property Name="FadeInShape" Type="int16" Value="7"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.90076115723704"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Door_Close_02.wav</AudioFile>
 											<MediaIDList>
@@ -1288,6 +1300,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Door_Close_03" ID="{E5DFE60D-0210-4BFB-98EC-520A0B0D1C01}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.186580658554287"/>
+												<Property Name="FadeInShape" Type="int16" Value="8"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.870075111829684"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Door_Close_03.wav</AudioFile>
 											<MediaIDList>
@@ -1853,6 +1871,35 @@
 							</PropertyList>
 						</Position>
 					</PositioningInfo>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="CurrentScene" ID="{4096DFB2-433F-4D69-BAFF-D67984F6FB84}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="None" ID="{A69EBB97-976D-4175-A28B-344441D6C540}"/>
+								<CustomState Name="" ID="{8BA67917-556E-4C98-A32F-B65E78EC427A}" ShortID="624674769"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Void" ID="{AE9041A4-3A52-434E-87E3-476B865CAD06}"/>
+								<CustomState Name="" ID="{FF279FE0-A5BF-4CAD-A1E3-28D276538CD7}" ShortID="911960904">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="3"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
+								<CustomState Name="" ID="{57E85F19-5D41-4C2D-A97A-DCB0F075FEDC}" ShortID="865188354"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Apartment" ID="{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"/>
+								<CustomState Name="" ID="{2530F422-D5F3-49B7-BE9E-BB4A8BFF2682}" ShortID="347945543"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<ObjectLists>
 						<ObjectList Name="RTPC">
 							<Reference>
@@ -1929,6 +1976,262 @@
 															<Point>
 																<XPos>1</XPos>
 																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Manual Animation Clock Seq" ID="{171F061F-AF01-46A9-9853-77F91255E573}" ShortID="795698448">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Funeral Home Attenuation" ID="{612E52EC-7A7F-42EC-8ED2-79F6A8AD6889}" WorkUnitID="{EE5E383A-A28E-4288-B8AA-74712DC2AE17}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="General" ID="{0FB50B73-DF71-447C-8241-8FE469217543}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Fnrl_Reverb" ID="{4C034AEA-7767-4998-B9EB-53B83227D7CB}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+						</Reference>
+						<Reference Name="UserAuxSend1">
+							<ObjectRef Name="Void_Reverb" ID="{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Clock Tick" ID="{FFC2B892-B933-4ADF-9A11-7BEEE11DD237}" ShortID="588649266">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>79</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>880</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4C597C4B-850A-473A-B58B-4F458B90F8BE}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Apartment Attenuation" ID="{B7FB1ACB-D54F-4E05-9377-79A6205CC257}" WorkUnitID="{EE5E383A-A28E-4288-B8AA-74712DC2AE17}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Apt_Reverb" ID="{B28A58E4-2BBF-4849-B95C-3ACC849A967E}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clock Tick" ID="{C87773B4-51CC-4C64-9BD3-699167347295}">
+									<PropertyList>
+										<Property Name="LoopEnd" Type="Real64" Value="1"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Clock Tick.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="302930732"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{F1F02FC2-F360-426C-BFA5-3E61CAA08BF9}" ShortID="836073629">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="ClockTickRate" ID="{4B800971-A9A2-4A67-9426-86D6F78BF5A4}" WorkUnitID="{99A3A7C4-D18B-4E78-A5FC-8D535B50CEEE}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{A460DB28-548D-4488-ADC5-AEB6D23BFA6C}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>327</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{4CB05A1A-F651-48B3-990E-EF4B3562FAAC}" ShortID="428023491">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="ClockTickRate" ID="{4B800971-A9A2-4A67-9426-86D6F78BF5A4}" WorkUnitID="{99A3A7C4-D18B-4E78-A5FC-8D535B50CEEE}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{095F52A4-E9A6-493E-944C-8D5B232A6A13}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-9.6229</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="Clock Tick" ID="{C87773B4-51CC-4C64-9BD3-699167347295}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<StateInfo>
+						<StatePropertyList>
+							<Property Name="Highpass"/>
+							<Property Name="Lowpass"/>
+							<Property Name="MakeUpGain"/>
+							<Property Name="Pitch"/>
+							<Property Name="UserAuxSendVolume0"/>
+							<Property Name="UserAuxSendVolume1"/>
+							<Property Name="Volume"/>
+						</StatePropertyList>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="CurrentScene" ID="{4096DFB2-433F-4D69-BAFF-D67984F6FB84}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="None" ID="{A69EBB97-976D-4175-A28B-344441D6C540}"/>
+								<CustomState Name="" ID="{93849E69-FBDD-4002-92D9-FB3AB9C4C3C5}" ShortID="340205737">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
+										<Property Name="UserAuxSendVolume1" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Void" ID="{AE9041A4-3A52-434E-87E3-476B865CAD06}"/>
+								<CustomState Name="" ID="{922E227B-2493-4BBD-A828-D17506B81AB0}" ShortID="307093376">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
+								<CustomState Name="" ID="{F90C254F-9416-4C00-A23C-2A490F593E7B}" ShortID="200761075">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume1" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Apartment" ID="{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"/>
+								<CustomState Name="" ID="{6E44C940-9D72-4AD9-B534-13EEDA11A3F6}" ShortID="761682919">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
+										<Property Name="UserAuxSendVolume1" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists>
+						<ObjectList Name="Playlist">
+							<Reference>
+								<ObjectRef Name="Clock Tick" ID="{FFC2B892-B933-4ADF-9A11-7BEEE11DD237}" WorkUnitID="{5617E81F-15D7-467B-96EE-EEF11E47BC75}"/>
+							</Reference>
+						</ObjectList>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{B3E67424-8314-4F5D-8ECB-8DF230DDB378}" ShortID="1021997232">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="PlayMechanismSpecialTransitionsValue"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="ClockTickRate" ID="{4B800971-A9A2-4A67-9426-86D6F78BF5A4}" WorkUnitID="{99A3A7C4-D18B-4E78-A5FC-8D535B50CEEE}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{59C6C241-37E2-4DCC-90D7-8316D74AAE02}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>1</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
