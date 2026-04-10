@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{64D685A9-4F75-EF87-16B2-A636C81A1FB1}",
+    "Hash": "{5ABC96DC-2FE2-ABE4-6B35-24C9DD26C2A1}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -241,6 +241,12 @@
       "Name": "DistanceFromTarget",
       "ObjectPath": "\\Game Parameters\\Game Parameters WU\\DistanceFromTarget",
       "GUID": "{55BD23C9-D128-4C2A-B2F8-B1224C5F1FD8}"
+     },
+     {
+      "Id": "3357858816",
+      "Name": "ClockTickRate",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\ClockTickRate",
+      "GUID": "{4B800971-A9A2-4A67-9426-86D6F78BF5A4}"
      }
     ],
     "StateGroups": [
@@ -371,6 +377,6 @@
     ]
    }
   ],
-  "FileHash": "{DC7365E0-0CBE-7F19-EB8F-A14A0A166D7A}"
+  "FileHash": "{BC13C732-CF9A-264E-5D55-1E9322D4A15C}"
  }
 }

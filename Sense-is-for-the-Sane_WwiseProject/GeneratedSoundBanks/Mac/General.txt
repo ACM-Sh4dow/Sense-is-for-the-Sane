@@ -2,8 +2,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	1003760220	Footstep_Scratch			\General Events\Footstep_Scratch	
 	1578407477	Fnrl_Mus_Organ			\General Events\Fnrl_Mus_Organ	
 	1866025847	Footstep			\General Events\Footstep	
+	2156182537	Manual_Animate_Clock_Start			\General Events\Manual_Animate_Clock_Start	
 	2843028372	Door_Creaking			\General Events\Door_Creaking	
 	3151110061	Gramophone			\General Events\Gramophone	
+	3248176547	Manual_Animate_Clock_Stop			\General Events\Manual_Animate_Clock_Stop	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	3586861854	FootstepsSwitch			\Switches WU\FootstepsSwitch	
@@ -35,6 +37,7 @@ State	ID	Name	State Group			Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	553709980	InAudibleZone			\Game Parameters WU\InAudibleZone	
 	1288081852	DistanceAnimationRate			\Game Parameters WU\DistanceAnimationRate	
+	3357858816	ClockTickRate			\Game Parameters WU\ClockTickRate	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	9956793	Wooden_Creaking_Ambient_004	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\48\{484EFE33-1020-A02F-447B-7493CDC93136}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\General SFX\Door Creaking Rand\Wooden_Creaking_Ambient_004		466920
@@ -47,6 +50,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	182800792	Footstep_Void_03	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\1A\{1A124A26-3F3D-ED78-A712-042705634F98}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\General SFX\Footsteps\Footsteps Switch\Void\Footstep_Void_03		287612
 	274169833	Footstep_Void_05	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\0F\{0F594E1E-CD39-7A32-8840-4C7FA066566E}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\General SFX\Footsteps\Footsteps Switch\Void\Footstep_Void_05		287612
 	285034747	Wooden_Creaking_Ambient_007	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\3E\{3EECB60C-8136-FCE4-3646-E33561A9295C}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\General SFX\Door Creaking Rand\Wooden_Creaking_Ambient_007		242336
+	302930732	Clock Tick	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\8B\{8BA552AD-505E-355B-E962-1095047E7D66}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\General SFX\Manual Animation Clock Seq\Clock Tick		243828
 	449394520	Menuet_Winds	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\50\{5097C3B7-8F5E-859D-7C84-7228C3BBBD03}.wem		\Interactive Music Hierarchy\Music WU\Menuet_Winds\Menuet_Winds Seg\Menuet_Winds		19856560
 	501430916	Footstep_Wood_004	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\9D\{9D9D92F9-7509-41E4-147C-6735605D9BC8}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\General SFX\Footsteps\Footsteps Switch\Wood\Footstep_Wood_004		267756
 	541820834	Footstep_Creak_003	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\FA\{FAB73F71-8DBD-3108-50EB-AE5AA2F23BFE}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\General SFX\Footsteps\Floor Creaks\Footstep_Creak_003		81416

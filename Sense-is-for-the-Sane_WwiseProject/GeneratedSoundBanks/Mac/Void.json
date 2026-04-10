@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{68D5CE59-62C2-45C9-8AA7-B31C8321D127}",
     "Language": "SFX",
-    "Hash": "{8E1BB67D-92C8-45FA-3A32-E140992D9AD3}",
+    "Hash": "{FEC99305-B14B-31A4-79F2-FE8E5844644B}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Void",
     "ShortName": "Void",
     "Path": "Void.bnk",
@@ -69,7 +69,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Puzzle_Complete_01.wav",
-      "CachePath": "E4/{E4F51A45-FB1D-AB6E-B541-FEF84775BA9D}.wem"
+      "CachePath": "5D/{5DCCC50A-B097-9E98-0507-1C628E0CB967}.wem"
      },
      {
       "Id": "457874019",
@@ -304,6 +304,6 @@
     ]
    }
   ],
-  "FileHash": "{70D5E85D-5523-A747-4D98-75952093C844}"
+  "FileHash": "{7275F27E-E297-DCCF-D602-ECEEBED3ADF3}"
  }
 }
