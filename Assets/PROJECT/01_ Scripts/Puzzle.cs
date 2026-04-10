@@ -2,6 +2,14 @@ using UnityEngine;
 
 public abstract partial class  Puzzle: MonoBehaviour
 {
+    public enum Scene
+    {
+        Void,
+        Apartment,
+        FuneralHome
+    }
+    public Scene scene;
+    
     public enum State : byte
     {
         notSolvable,
@@ -16,7 +24,16 @@ public abstract partial class  Puzzle: MonoBehaviour
 
     public void RegisterCompletion()
     {
-        Overseer.Instance.GetManager<FuneralManager>().OnPuzzleComplete();
+        switch (scene)
+        {
+            case Scene.Void:
+                break;
+            case Scene.Apartment:
+                break;
+            case Scene.FuneralHome:
+                Overseer.Instance.GetManager<FuneralManager>().OnPuzzleComplete();
+                break;
+        }
     }
 
     public abstract void AttemptPuzzle();
