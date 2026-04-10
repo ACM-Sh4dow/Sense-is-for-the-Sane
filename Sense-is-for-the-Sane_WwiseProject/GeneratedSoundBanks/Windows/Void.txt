@@ -1,0 +1,28 @@
+Event	ID	Name			Wwise Object Path	Notes
+	633475415	Void_Mus_Reset			\Void\Pitch Change\Void_Mus_Reset	
+	886444887	Void_Mus_High_4th			\Void\Pitch Change\Void_Mus_High_4th	
+	1188294806	Void_Mus_High_5th			\Void\Pitch Change\Void_Mus_High_5th	
+	1322957119	Void_Mus_High_2nd			\Void\Pitch Change\Void_Mus_High_2nd	
+	1802344100	Void_Mus_Low_5th			\Void\Pitch Change\Void_Mus_Low_5th	
+	1903260093	Void_Mus_Low_4th			\Void\Pitch Change\Void_Mus_Low_4th	
+	2273250405	Void_Mus_Low_2nd			\Void\Pitch Change\Void_Mus_Low_2nd	
+	2592300455	Void_Mus_Voices			\Void\Void_Mus_Voices	
+	4253370801	Void_Mus_Piano			\Void\Void_Mus_Piano	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	43059960	Void_Ambience_Voice-013	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\B8\{B89B6FD9-2CAA-2810-1A29-899A73BC03D4}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Void\Void Ambience Rand\Void_Ambience_Voice-013		1588044
+	71435988	Void_Ambience_Voice-008	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\47\{47D9F74D-171C-F5BD-1E54-17DAFDC1816B}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Void\Void Ambience Rand\Void_Ambience_Voice-008		1588044
+	94487067	Void_Ambience_Voice-005	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\1C\{1C1703D1-6C63-F41A-F850-DFA2C5399618}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Void\Void Ambience Rand\Void_Ambience_Voice-005		1588044
+	108619800	Void_Ambience_Voice-004	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\3C\{3C1CE013-38D2-866E-BF61-360398EC4EE2}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Void\Void Ambience Rand\Void_Ambience_Voice-004		1588044
+	123760800	Void_Ambience_Voice-012	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\67\{67601474-7046-E62B-B3CB-E1C234A21D8C}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Void\Void Ambience Rand\Void_Ambience_Voice-012		1588044
+	387993001	Void_Ambience_Voice-010	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\B0\{B040CD76-82D7-4A8C-CCC4-2E632ADB0C30}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Void\Void Ambience Rand\Void_Ambience_Voice-010		1588044
+	457874019	Void_Ambience_Col_Legno	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\49\{49A94044-5C61-A88A-80DD-083662C3E6E0}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Void\Void Ambience Rand\Void_Ambience_Col_Legno		1015800
+	547126967	Void_Ambience_Voice-009	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\1D\{1D937EBB-F431-454E-AAF6-C4F7552A423C}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Void\Void Ambience Rand\Void_Ambience_Voice-009		1588044
+	556043878	Void_Ambience_Piano	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\54\{5474BF27-15DE-15B5-60CD-15F2EEA7DBA6}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Void\Void_Ambience_Piano		1595036
+	802506400	Void_Ambience_Voice-001	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\6A\{6ACC58BE-AF8D-5C76-56F7-1D4CDEB59FC6}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Void\Void Ambience Rand\Void_Ambience_Voice-001		1588044
+	918898536	Void_Ambience_Voice-003	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\CC\{CC6A9FB9-7CED-B145-0529-3A19C0047228}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Void\Void Ambience Rand\Void_Ambience_Voice-003		1588044
+	930505848	Void_Ambience_Voice-007	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\AC\{ACDF5E7C-D31F-A9EC-3D90-EF9630B40960}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Void\Void Ambience Rand\Void_Ambience_Voice-007		1588044
+	949722440	Void_Ambience_Voice-011	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\A0\{A083AE0A-F023-86BF-4469-CCCE426F5B39}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Void\Void Ambience Rand\Void_Ambience_Voice-011		1588044
+	982792018	Void_Ambience_Voice-002	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\67\{67961540-D64E-C96E-3419-FE5E8104A544}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Void\Void Ambience Rand\Void_Ambience_Voice-002		1588044
+	1056776843	Void_Ambience_Voice-006	C:\Work\GAM507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\C8\{C8100A68-7434-C907-014E-0871DDA14E6D}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Void\Void Ambience Rand\Void_Ambience_Voice-006		1588044
+

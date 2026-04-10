@@ -447,7 +447,7 @@
      {
       "Id": "1578407477",
       "Name": "Fnrl_Mus_Organ",
-      "ObjectPath": "\\Events\\Funeral Home\\Music\\Fnrl_Mus_Organ",
+      "ObjectPath": "\\Events\\General Events\\Fnrl_Mus_Organ",
       "GUID": "{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}",
       "MaxAttenuation": "20",
       "DurationType": "Infinite",
@@ -630,6 +630,6 @@
     ]
    }
   ],
-  "FileHash": "{E13273EF-5781-E60B-F47C-5DAB69268DAE}"
+  "FileHash": "{1F58FC54-AC80-2CC8-40A7-40C4E739954B}"
  }
 }

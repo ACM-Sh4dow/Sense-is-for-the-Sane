@@ -3,7 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	751812660	Apt_Sink			\Apartment\Apt_Sink	
 	1003760220	Footstep_Scratch			\General Events\Footstep_Scratch	
 	1056431533	Apt_Clock			\Apartment\Apt_Clock	
-	1578407477	Fnrl_Mus_Organ			\Funeral Home\Music\Fnrl_Mus_Organ	
+	1578407477	Fnrl_Mus_Organ			\General Events\Fnrl_Mus_Organ	
 	1612838152	Fnrl_Amb_Thunderstorm			\Funeral Home\Fnrl_Amb_Thunderstorm	
 	1866025847	Footstep			\General Events\Footstep	
 	2202553018	Apt_Fireplace			\Apartment\Apt_Fireplace	

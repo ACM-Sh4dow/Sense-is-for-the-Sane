@@ -6,12 +6,40 @@
 				<SoundcasterSession Name="Soundcaster Session" ID="{A78156A0-03E8-49FB-8DF9-FE6D3E587E73}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="TestFnrlMusic" ID="{58650438-C1AA-4E65-9412-3C22B64073A1}" WorkUnitID="{BAC012F6-E6DD-4F2B-8309-3679909AE332}"/>
+							<ObjectRef Name="Void_Mus_Piano" ID="{FF498339-5C9C-49AC-AFC7-25E87440D728}" WorkUnitID="{274F03AB-EC17-44FA-A98A-DDEFAD73AAD5}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Gramophone" ID="{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}"/>
+							<ObjectRef Name="Void_Mus_High_2nd" ID="{76E668A5-A908-4F8F-880F-E3DB55E7D8D1}" WorkUnitID="{274F03AB-EC17-44FA-A98A-DDEFAD73AAD5}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Void_Mus_Low_4th" ID="{F99FAB65-7297-4110-ADE1-9BE027ABEB3C}" WorkUnitID="{274F03AB-EC17-44FA-A98A-DDEFAD73AAD5}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Void_Mus_Voices" ID="{B4E40B53-E85E-4BCC-A4A5-9751138CC9F6}" WorkUnitID="{274F03AB-EC17-44FA-A98A-DDEFAD73AAD5}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Void_Mus_Low_2nd" ID="{619AB266-01E5-40C6-8F81-EAD4BCC3B85F}" WorkUnitID="{274F03AB-EC17-44FA-A98A-DDEFAD73AAD5}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Void_Mus_Low_5th" ID="{611AA293-49CC-4413-B4FD-89FA6C231176}" WorkUnitID="{274F03AB-EC17-44FA-A98A-DDEFAD73AAD5}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Void_Mus_High_4th" ID="{470C2B9E-95E6-4A3F-B673-8294BBE7FF3A}" WorkUnitID="{274F03AB-EC17-44FA-A98A-DDEFAD73AAD5}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Void_Mus_Reset" ID="{5409F77A-0FA3-4019-B206-54846EDE228A}" WorkUnitID="{274F03AB-EC17-44FA-A98A-DDEFAD73AAD5}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Void_Mus_High_5th" ID="{20B87830-F095-45B8-A1DF-9B7307CD7339}" WorkUnitID="{274F03AB-EC17-44FA-A98A-DDEFAD73AAD5}"/>
+							<Position X="3" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>

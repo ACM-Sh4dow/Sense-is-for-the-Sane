@@ -10,12 +10,289 @@
     "Type": "User",
     "GUID": "{68D5CE59-62C2-45C9-8AA7-B31C8321D127}",
     "Language": "SFX",
-    "Hash": "{A1994C68-BE4E-0E83-9BA1-80CD90ECAE38}",
+    "Hash": "{88C291E1-DBA1-5173-B49C-F76567DE9C51}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Void",
     "ShortName": "Void",
-    "Path": "Void.bnk"
+    "Path": "Void.bnk",
+    "Media": [
+     {
+      "Id": "43059960",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Void_Ambience_Voice-013.wav",
+      "CachePath": "B8/{B89B6FD9-2CAA-2810-1A29-899A73BC03D4}.wem"
+     },
+     {
+      "Id": "71435988",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Void_Ambience_Voice-008.wav",
+      "CachePath": "47/{47D9F74D-171C-F5BD-1E54-17DAFDC1816B}.wem"
+     },
+     {
+      "Id": "94487067",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Void_Ambience_Voice-005.wav",
+      "CachePath": "1C/{1C1703D1-6C63-F41A-F850-DFA2C5399618}.wem"
+     },
+     {
+      "Id": "108619800",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Void_Ambience_Voice-004.wav",
+      "CachePath": "3C/{3C1CE013-38D2-866E-BF61-360398EC4EE2}.wem"
+     },
+     {
+      "Id": "123760800",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Void_Ambience_Voice-012.wav",
+      "CachePath": "67/{67601474-7046-E62B-B3CB-E1C234A21D8C}.wem"
+     },
+     {
+      "Id": "387993001",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Void_Ambience_Voice-010.wav",
+      "CachePath": "B0/{B040CD76-82D7-4A8C-CCC4-2E632ADB0C30}.wem"
+     },
+     {
+      "Id": "457874019",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Void_Ambience_Col_Legno.wav",
+      "CachePath": "49/{49A94044-5C61-A88A-80DD-083662C3E6E0}.wem"
+     },
+     {
+      "Id": "547126967",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Void_Ambience_Voice-009.wav",
+      "CachePath": "1D/{1D937EBB-F431-454E-AAF6-C4F7552A423C}.wem"
+     },
+     {
+      "Id": "556043878",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Void_Ambience_Piano.wav",
+      "CachePath": "54/{5474BF27-15DE-15B5-60CD-15F2EEA7DBA6}.wem"
+     },
+     {
+      "Id": "802506400",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Void_Ambience_Voice-001.wav",
+      "CachePath": "6A/{6ACC58BE-AF8D-5C76-56F7-1D4CDEB59FC6}.wem"
+     },
+     {
+      "Id": "918898536",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Void_Ambience_Voice-003.wav",
+      "CachePath": "CC/{CC6A9FB9-7CED-B145-0529-3A19C0047228}.wem"
+     },
+     {
+      "Id": "930505848",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Void_Ambience_Voice-007.wav",
+      "CachePath": "AC/{ACDF5E7C-D31F-A9EC-3D90-EF9630B40960}.wem"
+     },
+     {
+      "Id": "949722440",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Void_Ambience_Voice-011.wav",
+      "CachePath": "A0/{A083AE0A-F023-86BF-4469-CCCE426F5B39}.wem"
+     },
+     {
+      "Id": "982792018",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Void_Ambience_Voice-002.wav",
+      "CachePath": "67/{67961540-D64E-C96E-3419-FE5E8104A544}.wem"
+     },
+     {
+      "Id": "1056776843",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Void_Ambience_Voice-006.wav",
+      "CachePath": "C8/{C8100A68-7434-C907-014E-0871DDA14E6D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1322957119",
+      "Name": "Void_Mus_High_2nd",
+      "ObjectPath": "\\Events\\Void\\Pitch Change\\Void_Mus_High_2nd",
+      "GUID": "{76E668A5-A908-4F8F-880F-E3DB55E7D8D1}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "886444887",
+      "Name": "Void_Mus_High_4th",
+      "ObjectPath": "\\Events\\Void\\Pitch Change\\Void_Mus_High_4th",
+      "GUID": "{470C2B9E-95E6-4A3F-B673-8294BBE7FF3A}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1188294806",
+      "Name": "Void_Mus_High_5th",
+      "ObjectPath": "\\Events\\Void\\Pitch Change\\Void_Mus_High_5th",
+      "GUID": "{20B87830-F095-45B8-A1DF-9B7307CD7339}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2273250405",
+      "Name": "Void_Mus_Low_2nd",
+      "ObjectPath": "\\Events\\Void\\Pitch Change\\Void_Mus_Low_2nd",
+      "GUID": "{619AB266-01E5-40C6-8F81-EAD4BCC3B85F}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1903260093",
+      "Name": "Void_Mus_Low_4th",
+      "ObjectPath": "\\Events\\Void\\Pitch Change\\Void_Mus_Low_4th",
+      "GUID": "{F99FAB65-7297-4110-ADE1-9BE027ABEB3C}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1802344100",
+      "Name": "Void_Mus_Low_5th",
+      "ObjectPath": "\\Events\\Void\\Pitch Change\\Void_Mus_Low_5th",
+      "GUID": "{611AA293-49CC-4413-B4FD-89FA6C231176}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "4253370801",
+      "Name": "Void_Mus_Piano",
+      "ObjectPath": "\\Events\\Void\\Void_Mus_Piano",
+      "GUID": "{FF498339-5C9C-49AC-AFC7-25E87440D728}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "12.104009",
+      "DurationMax": "12.104009",
+      "MediaRefs": [
+       {
+        "Id": "556043878"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "3356433602",
+        "Name": "Void_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_Reverb",
+        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
+       }
+      ]
+     },
+     {
+      "Id": "633475415",
+      "Name": "Void_Mus_Reset",
+      "ObjectPath": "\\Events\\Void\\Pitch Change\\Void_Mus_Reset",
+      "GUID": "{5409F77A-0FA3-4019-B206-54846EDE228A}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2592300455",
+      "Name": "Void_Mus_Voices",
+      "ObjectPath": "\\Events\\Void\\Void_Mus_Voices",
+      "GUID": "{B4E40B53-E85E-4BCC-A4A5-9751138CC9F6}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "43059960"
+       },
+       {
+        "Id": "71435988"
+       },
+       {
+        "Id": "94487067"
+       },
+       {
+        "Id": "108619800"
+       },
+       {
+        "Id": "123760800"
+       },
+       {
+        "Id": "387993001"
+       },
+       {
+        "Id": "457874019"
+       },
+       {
+        "Id": "547126967"
+       },
+       {
+        "Id": "802506400"
+       },
+       {
+        "Id": "918898536"
+       },
+       {
+        "Id": "930505848"
+       },
+       {
+        "Id": "949722440"
+       },
+       {
+        "Id": "982792018"
+       },
+       {
+        "Id": "1056776843"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "3356433602",
+        "Name": "Void_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_Reverb",
+        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
+       }
+      ]
+     }
+    ]
    }
   ],
-  "FileHash": "{5329F165-6242-4A76-BB70-42D14A7A1F11}"
+  "FileHash": "{1ACA991E-EE79-8B74-B46B-F88F827D62EC}"
  }
 }

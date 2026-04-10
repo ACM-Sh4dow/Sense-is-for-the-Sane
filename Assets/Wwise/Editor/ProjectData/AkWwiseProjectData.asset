@@ -487,7 +487,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584258348199529623
+    m_lastTime: -8584257602227972444
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -571,7 +571,7 @@ MonoBehaviour:
     ParentPath: Events\Apartment
     guid: 403f5a0f3ccb46478134079334a4da23
     GuidInternal: 
-    m_lastTime: -8584258348199656439
+    m_lastTime: -8584258300697817086
     List:
     - name: Apt_Clock
       guid: cc1102f1eea62044bdfd304ba4a2a9e5
@@ -682,7 +682,7 @@ MonoBehaviour:
     ParentPath: Events\Funeral Home
     guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
     GuidInternal: 
-    m_lastTime: -8584258321041004123
+    m_lastTime: -8584257689210165436
     List:
     - name: Fnrl_Amb_Pause
       guid: b07a90bffc5a3443801fddc3dff36a05
@@ -803,26 +803,6 @@ MonoBehaviour:
       maxAttenuation: 20
       maxDuration: 1.3479413
       minDuration: 1.1539447
-    - name: Fnrl_Mus_Organ
-      guid: 0bd17b976c9adb419fe4362ac1b5a8d3
-      id: 1578407477
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Funeral Home
-        ObjectType: 12
-        guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
-      - ElementName: Music
-        ObjectType: 4
-        guid: 6a2f87db7ef35c4297086f78e9ad04a9
-      - ElementName: Fnrl_Mus_Organ
-        ObjectType: 3
-        guid: 0bd17b976c9adb419fe4362ac1b5a8d3
-      Path: Events\Funeral Home\Music\Fnrl_Mus_Organ
-      maxAttenuation: 20
-      maxDuration: 0
-      minDuration: 0
     - name: Fnrl_Mus_Piano
       guid: e3aa029f25a01b47a281b77a69f45b8a
       id: 2549568769
@@ -979,8 +959,25 @@ MonoBehaviour:
     ParentPath: Events\General Events
     guid: 1ff59692a3e328449b9b4c99fad941f7
     GuidInternal: 
-    m_lastTime: -8584258348199636301
+    m_lastTime: -8584257689209828441
     List:
+    - name: Fnrl_Mus_Organ
+      guid: 0bd17b976c9adb419fe4362ac1b5a8d3
+      id: 1578407477
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: General Events
+        ObjectType: 12
+        guid: 1ff59692a3e328449b9b4c99fad941f7
+      - ElementName: Fnrl_Mus_Organ
+        ObjectType: 3
+        guid: 0bd17b976c9adb419fe4362ac1b5a8d3
+      Path: Events\General Events\Fnrl_Mus_Organ
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
     - name: Footstep
       guid: f5f61b65005eec4ebc2cb99851ab9555
       id: 1866025847
@@ -1043,7 +1040,7 @@ MonoBehaviour:
     ParentPath: Events\Tests
     guid: f612c0badde62b4f83093679909ae332
     GuidInternal: 
-    m_lastTime: -8584258348199615351
+    m_lastTime: -8584257689209651426
     List:
     - name: GramophoneTransition
       guid: a6a54ba4578a8d4eac452bf911a175b7
@@ -1096,6 +1093,210 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+  - PhysicalPath: Events\Void.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Void
+      ObjectType: 12
+      guid: ab034f2717ecfa44a98addefad73aad5
+    ParentPath: Events\Void
+    guid: ab034f2717ecfa44a98addefad73aad5
+    GuidInternal: 
+    m_lastTime: -8584257616590270064
+    List:
+    - name: Pitch Change
+      guid: 30d1181be23b144daf6e0a67944800b0
+      id: 1948302795
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Void
+        ObjectType: 12
+        guid: ab034f2717ecfa44a98addefad73aad5
+      - ElementName: Pitch Change
+        ObjectType: 4
+        guid: 30d1181be23b144daf6e0a67944800b0
+      Path: Events\Void\Pitch Change
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Void_Mus_High_2nd
+      guid: a568e67608a98f4f880fe3db55e7d8d1
+      id: 1322957119
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Void
+        ObjectType: 12
+        guid: ab034f2717ecfa44a98addefad73aad5
+      - ElementName: Pitch Change
+        ObjectType: 4
+        guid: 30d1181be23b144daf6e0a67944800b0
+      - ElementName: Void_Mus_High_2nd
+        ObjectType: 3
+        guid: a568e67608a98f4f880fe3db55e7d8d1
+      Path: Events\Void\Pitch Change\Void_Mus_High_2nd
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Void_Mus_High_4th
+      guid: 9e2b0c47e6953f4ab6738294bbe7ff3a
+      id: 886444887
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Void
+        ObjectType: 12
+        guid: ab034f2717ecfa44a98addefad73aad5
+      - ElementName: Pitch Change
+        ObjectType: 4
+        guid: 30d1181be23b144daf6e0a67944800b0
+      - ElementName: Void_Mus_High_4th
+        ObjectType: 3
+        guid: 9e2b0c47e6953f4ab6738294bbe7ff3a
+      Path: Events\Void\Pitch Change\Void_Mus_High_4th
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Void_Mus_High_5th
+      guid: 3078b82095f0b845a1df9b7307cd7339
+      id: 1188294806
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Void
+        ObjectType: 12
+        guid: ab034f2717ecfa44a98addefad73aad5
+      - ElementName: Pitch Change
+        ObjectType: 4
+        guid: 30d1181be23b144daf6e0a67944800b0
+      - ElementName: Void_Mus_High_5th
+        ObjectType: 3
+        guid: 3078b82095f0b845a1df9b7307cd7339
+      Path: Events\Void\Pitch Change\Void_Mus_High_5th
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Void_Mus_Low_2nd
+      guid: 66b29a61e501c6408f81ead4bcc3b85f
+      id: 2273250405
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Void
+        ObjectType: 12
+        guid: ab034f2717ecfa44a98addefad73aad5
+      - ElementName: Pitch Change
+        ObjectType: 4
+        guid: 30d1181be23b144daf6e0a67944800b0
+      - ElementName: Void_Mus_Low_2nd
+        ObjectType: 3
+        guid: 66b29a61e501c6408f81ead4bcc3b85f
+      Path: Events\Void\Pitch Change\Void_Mus_Low_2nd
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Void_Mus_Low_4th
+      guid: 65ab9ff997721041ade19be027abeb3c
+      id: 1903260093
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Void
+        ObjectType: 12
+        guid: ab034f2717ecfa44a98addefad73aad5
+      - ElementName: Pitch Change
+        ObjectType: 4
+        guid: 30d1181be23b144daf6e0a67944800b0
+      - ElementName: Void_Mus_Low_4th
+        ObjectType: 3
+        guid: 65ab9ff997721041ade19be027abeb3c
+      Path: Events\Void\Pitch Change\Void_Mus_Low_4th
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Void_Mus_Low_5th
+      guid: 93a21a61cc491344b4fd89fa6c231176
+      id: 1802344100
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Void
+        ObjectType: 12
+        guid: ab034f2717ecfa44a98addefad73aad5
+      - ElementName: Pitch Change
+        ObjectType: 4
+        guid: 30d1181be23b144daf6e0a67944800b0
+      - ElementName: Void_Mus_Low_5th
+        ObjectType: 3
+        guid: 93a21a61cc491344b4fd89fa6c231176
+      Path: Events\Void\Pitch Change\Void_Mus_Low_5th
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Void_Mus_Piano
+      guid: 398349ff9c5cac49afc725e87440d728
+      id: 4253370801
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Void
+        ObjectType: 12
+        guid: ab034f2717ecfa44a98addefad73aad5
+      - ElementName: Void_Mus_Piano
+        ObjectType: 3
+        guid: 398349ff9c5cac49afc725e87440d728
+      Path: Events\Void\Void_Mus_Piano
+      maxAttenuation: 100
+      maxDuration: 12.104009
+      minDuration: 12.104009
+    - name: Void_Mus_Reset
+      guid: 7af70954a30f1940b20654846ede228a
+      id: 633475415
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Void
+        ObjectType: 12
+        guid: ab034f2717ecfa44a98addefad73aad5
+      - ElementName: Pitch Change
+        ObjectType: 4
+        guid: 30d1181be23b144daf6e0a67944800b0
+      - ElementName: Void_Mus_Reset
+        ObjectType: 3
+        guid: 7af70954a30f1940b20654846ede228a
+      Path: Events\Void\Pitch Change\Void_Mus_Reset
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Void_Mus_Voices
+      guid: 530be4b45ee8cc4ba4a59751138cc9f6
+      id: 2592300455
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Void
+        ObjectType: 12
+        guid: ab034f2717ecfa44a98addefad73aad5
+      - ElementName: Void_Mus_Voices
+        ObjectType: 3
+        guid: 530be4b45ee8cc4ba4a59751138cc9f6
+      Path: Events\Void\Void_Mus_Voices
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -1121,7 +1322,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Game Parameters WU
     guid: c4a7a3998bd1784ea5fc8d535b50ceee
     GuidInternal: 
-    m_lastTime: -8584258348199605347
+    m_lastTime: -8584257602228241273
     List:
     - name: DistanceAnimationRate
       guid: 931f0088f8597448a886d90134697d52
@@ -1179,20 +1380,6 @@ MonoBehaviour:
         ObjectType: 13
         guid: 38b7eb4b5bcde14cafcb393067f45fa2
       Path: Game Parameters\Game Parameters WU\InAudibleZone
-    - name: VoidAmbPitch
-      guid: 57f43706ef59644aa8517e4a97659893
-      id: 3895577369
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Game Parameters WU
-        ObjectType: 12
-        guid: c4a7a3998bd1784ea5fc8d535b50ceee
-      - ElementName: VoidAmbPitch
-        ObjectType: 13
-        guid: 57f43706ef59644aa8517e4a97659893
-      Path: Game Parameters\Game Parameters WU\VoidAmbPitch
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -1218,7 +1405,7 @@ MonoBehaviour:
     ParentPath: States\States WU
     guid: 7d31013722dbbd43af5130094b358f20
     GuidInternal: 
-    m_lastTime: -8584259366251468284
+    m_lastTime: -8584257602227696740
     List:
     - name: CurrentScene
       guid: b2df96403f43694dbaffd67984f6fb84
@@ -1574,7 +1761,7 @@ MonoBehaviour:
     m_lastTime: -8584275934083339506
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000e000000130000001e00000020000000230000008d00000096000000
+  ExpandedWaapiItemIds: 05000000060000000e000000130000001e0000002000000022000000230000002400000025000000280000002a00000037000000390000003a000000400000008d00000096000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

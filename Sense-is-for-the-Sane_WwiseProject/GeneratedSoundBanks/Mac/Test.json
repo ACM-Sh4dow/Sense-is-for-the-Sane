@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAC7D741-2CC6-4571-91AE-B86C57B75FDF}",
     "Language": "SFX",
-    "Hash": "{17AB8C20-564B-1DB8-AEC9-699D88E431F3}",
+    "Hash": "{5016D6A9-B268-90BA-C6BF-F0EE3D15BAE1}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -444,7 +444,7 @@
      {
       "Id": "1578407477",
       "Name": "Fnrl_Mus_Organ",
-      "ObjectPath": "\\Events\\Funeral Home\\Music\\Fnrl_Mus_Organ",
+      "ObjectPath": "\\Events\\General Events\\Fnrl_Mus_Organ",
       "GUID": "{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}",
       "MaxAttenuation": "20",
       "DurationType": "Infinite",
@@ -770,6 +770,6 @@
     ]
    }
   ],
-  "FileHash": "{16CF27E0-7B8D-635B-4B79-7B14A3EEA3B1}"
+  "FileHash": "{905C036B-05D6-7D49-CFAF-A775B4065519}"
  }
 }

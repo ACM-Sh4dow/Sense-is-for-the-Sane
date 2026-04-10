@@ -26,6 +26,11 @@
 						</Property>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="7"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -81,7 +86,25 @@
 											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 										</LowPassFilterUsage>
 										<HighPassFilterUsage>
-											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="HighPassFilter" ID="{7CD1B766-792F-48F0-85BC-A51CF0B1B64D}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>52</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
 										</HighPassFilterUsage>
 										<SpreadUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -486,6 +509,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Weight" Type="Real64">
 									<ValueList>
 										<Value>30</Value>
@@ -668,45 +696,6 @@
 									</ChildrenList>
 								</Position>
 							</PositioningInfo>
-							<ObjectLists>
-								<ObjectList Name="RTPC">
-									<Reference>
-										<Local>
-											<RTPC Name="" ID="{64413A5A-33CF-425F-98A2-EAC6920B89B9}" ShortID="954205636">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Pitch"/>
-												</PropertyList>
-												<ReferenceList>
-													<Reference Name="ControlInput">
-														<ObjectRef Name="VoidAmbPitch" ID="{0637F457-59EF-4A64-A851-7E4A97659893}" WorkUnitID="{99A3A7C4-D18B-4E78-A5FC-8D535B50CEEE}"/>
-													</Reference>
-													<Reference Name="Curve">
-														<Custom>
-															<Curve Name="" ID="{42BC1D6A-BF11-4FEC-B29A-EF23582BAF30}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="65537"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>-12</XPos>
-																		<YPos>1200</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>12</XPos>
-																		<YPos>-1200</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</RTPC>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="Void_Ambience_Col_Legno" ID="{EC71C083-AC52-4B7F-BF7F-8EFC8EB28664}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -781,45 +770,6 @@
 							</ChildrenList>
 						</Position>
 					</PositioningInfo>
-					<ObjectLists>
-						<ObjectList Name="RTPC">
-							<Reference>
-								<Local>
-									<RTPC Name="" ID="{9A44D4CE-AE6F-4F91-A45D-0AC4E85D51B8}" ShortID="87679194">
-										<PropertyList>
-											<Property Name="PropertyName" Type="string" Value="Pitch"/>
-										</PropertyList>
-										<ReferenceList>
-											<Reference Name="ControlInput">
-												<ObjectRef Name="VoidAmbPitch" ID="{0637F457-59EF-4A64-A851-7E4A97659893}" WorkUnitID="{99A3A7C4-D18B-4E78-A5FC-8D535B50CEEE}"/>
-											</Reference>
-											<Reference Name="Curve">
-												<Custom>
-													<Curve Name="" ID="{D4D095CA-E7AD-4EA1-B359-A9FA2AD59150}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="65537"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>-12</XPos>
-																<YPos>-1200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>12</XPos>
-																<YPos>1200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</Custom>
-											</Reference>
-										</ReferenceList>
-									</RTPC>
-								</Local>
-							</Reference>
-						</ObjectList>
-					</ObjectLists>
 				</RandomSequenceContainer>
 				<Sound Name="Void_Ambience_Piano" ID="{98E0639F-1132-4545-B344-6DB88EE4E93B}" ShortID="847509413">
 					<PropertyList>
@@ -828,7 +778,12 @@
 						<Property Name="OverridePositioning" Type="bool" Value="True"/>
 						<Property Name="Pitch" Type="int32">
 							<ValueList>
-								<Value>-710</Value>
+								<Value>-505</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

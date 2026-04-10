@@ -3,13 +3,6 @@
 	<GameParameters>
 		<WorkUnit Name="Game Parameters WU" ID="{99A3A7C4-D18B-4E78-A5FC-8D535B50CEEE}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="VoidAmbPitch" ID="{0637F457-59EF-4A64-A851-7E4A97659893}">
-					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="12"/>
-						<Property Name="Min" Type="Real64" Value="-12"/>
-					</PropertyList>
-				</GameParameter>
 				<GameParameter Name="DistanceFromTarget" ID="{55BD23C9-D128-4C2A-B2F8-B1224C5F1FD8}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="2"/>

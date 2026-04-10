@@ -36,6 +36,15 @@ namespace AK
         static const AkUniqueID FOOTSTEP = 1866025847U;
         static const AkUniqueID FOOTSTEP_SCRATCH = 1003760220U;
         static const AkUniqueID GRAMOPHONE = 3151110061U;
+        static const AkUniqueID VOID_MUS_HIGH_2ND = 1322957119U;
+        static const AkUniqueID VOID_MUS_HIGH_4TH = 886444887U;
+        static const AkUniqueID VOID_MUS_HIGH_5TH = 1188294806U;
+        static const AkUniqueID VOID_MUS_LOW_2ND = 2273250405U;
+        static const AkUniqueID VOID_MUS_LOW_4TH = 1903260093U;
+        static const AkUniqueID VOID_MUS_LOW_5TH = 1802344100U;
+        static const AkUniqueID VOID_MUS_PIANO = 4253370801U;
+        static const AkUniqueID VOID_MUS_RESET = 633475415U;
+        static const AkUniqueID VOID_MUS_VOICES = 2592300455U;
     } // namespace EVENTS
 
     namespace STATES
@@ -103,7 +112,6 @@ namespace AK
         static const AkUniqueID DISTANCEFROMTARGET = 1768319275U;
         static const AkUniqueID GRAMOPHONEBLEND = 953461546U;
         static const AkUniqueID INAUDIBLEZONE = 553709980U;
-        static const AkUniqueID VOIDAMBPITCH = 3895577369U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

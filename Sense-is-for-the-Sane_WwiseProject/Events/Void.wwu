@@ -1,0 +1,2234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{274F03AB-EC17-44FA-A98A-DDEFAD73AAD5}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Void" ID="{274F03AB-EC17-44FA-A98A-DDEFAD73AAD5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Void_Mus_Voices" ID="{B4E40B53-E85E-4BCC-A4A5-9751138CC9F6}">
+					<ChildrenList>
+						<Action Name="" ID="{CE85900B-9FB5-411C-A9BE-AF0AB9E7AC27}" ShortID="85666420">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Void Ambience Rand" ID="{621F0FA7-1AF2-484A-8A11-0D1EF5ECA266}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Void_Mus_Piano" ID="{FF498339-5C9C-49AC-AFC7-25E87440D728}">
+					<ChildrenList>
+						<Action Name="" ID="{F8BC15AB-AC28-4423-AC03-DAC07171D2A4}" ShortID="346039273">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Void_Ambience_Piano" ID="{98E0639F-1132-4545-B344-6DB88EE4E93B}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Pitch Change" ID="{1B18D130-3BE2-4D14-AF6E-0A67944800B0}" ShortID="968242726">
+					<ChildrenList>
+						<Event Name="Void_Mus_Low_5th" ID="{611AA293-49CC-4413-B4FD-89FA6C231176}">
+							<ChildrenList>
+								<Action Name="" ID="{710EE4AE-7082-4F74-BF3E-72C55C5A9569}" ShortID="438405805">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{EC569F5A-C0A9-4BA8-A662-477AB26B13F2}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-001" ID="{8B04449A-529E-4115-8F4C-97438EBA8450}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1C262456-CF0C-476D-92D4-7AB5A24B0A56}" ShortID="880422761">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2367D5EE-51E1-417D-A14E-1605F86F1229}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-002" ID="{E1307470-099E-400E-A62C-FC1B69106592}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0C0183F7-A392-43E3-96A4-3BD1507837EB}" ShortID="717108580">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C27980C3-C7E4-434B-A06D-510193392EC3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-003" ID="{3970D5C6-4315-47B1-9F66-F565CFC9C2D7}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C26BA9E3-8966-47AF-B3BF-F3D4C87BF5B3}" ShortID="516620924">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{777369E8-1BA1-4E63-92E0-F68087008995}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-004" ID="{9CF2C6D0-4A54-48F6-BC7B-9195664CF7B4}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5FADC2E2-1F3A-4FCC-8F37-ABC5C3981904}" ShortID="561842400">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8C2707F8-062B-44AC-AC0C-356911D37A6F}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-005" ID="{4BEDACE2-94B1-4ED3-8784-6900E390151B}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F9C12725-1ECE-4FC0-95FE-98D7221E456B}" ShortID="623142575">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2B30EA4F-FC63-4D1D-964A-23ACB1D5F761}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-006" ID="{71F759D7-2EDA-4908-BB68-C664C31AC486}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{107716A2-1DEE-47AA-8F72-5E06A23724A9}" ShortID="721930604">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4E3E0D5A-33F7-4DD6-9E94-264A59B36C48}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-007" ID="{F1EFD467-7A96-487C-9315-94225084BA40}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{12CF638B-6D60-42BC-B014-AECDBF0E584A}" ShortID="340098632">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C6147400-B28D-4657-B7B1-8B43416D3AE7}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-008" ID="{9C6A87FC-3FC0-47EC-9D7D-F46D36E128DF}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C933670C-F946-431B-A04D-B7B9EE593399}" ShortID="293123446">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A73606F7-8679-4614-842E-C711EB50BF7F}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-009" ID="{B93155B2-80DB-469B-96E5-AAB4B918B193}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{924561EF-3CEA-4596-A7CD-DFDD95B08506}" ShortID="1000993954">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7895951D-50AB-4B03-A210-DA658885522D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-010" ID="{824964A4-EDCF-4A6D-AB31-9DC297A99068}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DDE89308-69A0-4098-BB44-CDB8EEF70248}" ShortID="278768227">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8C0D857D-5C29-40B3-94CA-A700A20ACF25}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-011" ID="{13BC156C-2A9F-4BD1-85DA-E2E3A12AFB0F}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{61900CB6-E201-424F-946E-68592C0BF0DF}" ShortID="246606010">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8F98B8C9-54BD-424E-A23E-1728044AB856}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-012" ID="{462282BD-89EF-4AC3-825C-3285C9712541}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A157383F-643C-45F1-A9AB-6DE18C6AAF0E}" ShortID="318918396">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{892B2AED-0BF8-402C-8331-12DD69DD57C4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-013" ID="{F7209112-22B9-4A41-95ED-784E79313B97}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Void_Mus_High_5th" ID="{20B87830-F095-45B8-A1DF-9B7307CD7339}">
+							<ChildrenList>
+								<Action Name="" ID="{EEB0A2D6-DB03-4A58-AB6F-72918DAA55FB}" ShortID="187584471">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A9FFB412-80D8-4D9A-BB90-B3C9953CF149}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-001" ID="{8B04449A-529E-4115-8F4C-97438EBA8450}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F7517678-2560-4BAF-ABC9-845A54AC399F}" ShortID="961040159">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FF41E010-3764-45CE-AE61-C484AC897BA5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-002" ID="{E1307470-099E-400E-A62C-FC1B69106592}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{50E8E98D-6168-4035-9267-EC75384E70F7}" ShortID="712272520">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1282CD14-8A96-40AE-89FA-7A68A6DF2F70}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-003" ID="{3970D5C6-4315-47B1-9F66-F565CFC9C2D7}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EA996206-F744-4F83-A09C-8CB992EBC008}" ShortID="848598729">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FB6F53F0-2B70-47B7-8D54-02D35524B75B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-004" ID="{9CF2C6D0-4A54-48F6-BC7B-9195664CF7B4}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E24E65C0-95A7-42F5-9BCD-0D832B8EF37A}" ShortID="311238026">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{97D2E650-81B1-48AF-9C2B-F2C6F8B09CFD}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-005" ID="{4BEDACE2-94B1-4ED3-8784-6900E390151B}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BAA4C78D-01A1-461A-BDF7-CD4B2A7BEDCC}" ShortID="581711047">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5EFE9BF9-58A5-4D1E-B2E2-35FE47D97344}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-006" ID="{71F759D7-2EDA-4908-BB68-C664C31AC486}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{46B3407D-8ADC-4C4F-A8F1-10D161342FD1}" ShortID="794380001">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CCC4D3CC-172C-43C6-926E-E892E0DB6D31}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-007" ID="{F1EFD467-7A96-487C-9315-94225084BA40}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F17B0991-3CE4-4952-B33C-C0548E8CC9BD}" ShortID="890083049">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F16F5040-E24D-4582-AF71-8FC7FD962D3C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-008" ID="{9C6A87FC-3FC0-47EC-9D7D-F46D36E128DF}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CC5C8D7F-5E03-456A-82D2-76CE743C24A1}" ShortID="873785789">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{331EB111-25B2-4327-8CA4-305710AB4DC8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-009" ID="{B93155B2-80DB-469B-96E5-AAB4B918B193}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E95B4758-7D39-451E-90D0-6ED5B043BB5A}" ShortID="974258774">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6BD8EB94-0522-4D6D-91F9-FFDA8299F166}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-010" ID="{824964A4-EDCF-4A6D-AB31-9DC297A99068}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{95CB9DD3-C9B6-4B88-9D7A-013882D66993}" ShortID="638333230">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{661299DC-2CDF-4F64-B81B-CD44345E57B6}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-011" ID="{13BC156C-2A9F-4BD1-85DA-E2E3A12AFB0F}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DAA96BC2-7DAC-4839-B8FF-0D3E2BEEAC06}" ShortID="336532391">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DFA6357B-DE6C-4297-99C4-6EAD3D8D04A2}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-012" ID="{462282BD-89EF-4AC3-825C-3285C9712541}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F0E24BD5-468A-47A2-BFAE-1BFF6D4B2646}" ShortID="434081226">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5BF0A209-C0C7-4253-86D3-F0059F49943A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="700"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-013" ID="{F7209112-22B9-4A41-95ED-784E79313B97}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Void_Mus_Reset" ID="{5409F77A-0FA3-4019-B206-54846EDE228A}">
+							<ChildrenList>
+								<Action Name="" ID="{D7203F0C-9B5F-47EA-BAB5-AE27FE8DE000}" ShortID="136402143">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D3676152-32CF-4159-9767-3AD6A7774DDA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-001" ID="{8B04449A-529E-4115-8F4C-97438EBA8450}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{83117366-D04F-40AC-9FFA-E93A76FAF800}" ShortID="7804445">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D3AF6BF6-9E78-45A3-A877-418A60EEDB17}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-002" ID="{E1307470-099E-400E-A62C-FC1B69106592}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BB557A38-0FBF-4BE5-B8A1-EABD16917334}" ShortID="33926340">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{753E5D87-BBE2-48C3-BBFF-15428EAA16DB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-003" ID="{3970D5C6-4315-47B1-9F66-F565CFC9C2D7}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CAB2795B-63E2-48C2-9CD6-85A08EB99FC8}" ShortID="211598790">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2D61BB49-BC26-47F7-8CDD-97C2E76A2057}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-004" ID="{9CF2C6D0-4A54-48F6-BC7B-9195664CF7B4}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{75028682-D52A-4041-9816-304F13BF5761}" ShortID="194955487">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8B1D57B8-EE0B-437C-B6F3-296DEF4874B5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-005" ID="{4BEDACE2-94B1-4ED3-8784-6900E390151B}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F5552744-8A65-4A8B-B3FF-EB94585FCECB}" ShortID="751355869">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0E97C574-5472-4998-8A00-24F947AA0001}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-006" ID="{71F759D7-2EDA-4908-BB68-C664C31AC486}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{01C270AC-48BF-4CC6-A048-FACDC18AC7E5}" ShortID="597847990">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{EAC4AC47-9458-432E-9ABC-85A33E84CEC2}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-007" ID="{F1EFD467-7A96-487C-9315-94225084BA40}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8B149266-49CE-458D-85D0-34785DA4CF41}" ShortID="857370169">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{51FDF036-D320-456D-ADD5-D437301CF4CE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-008" ID="{9C6A87FC-3FC0-47EC-9D7D-F46D36E128DF}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E4E09E64-597B-419B-BE1B-750C2FB3062E}" ShortID="316365173">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{70080612-AB9F-49EC-91FE-D4B80E751184}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-009" ID="{B93155B2-80DB-469B-96E5-AAB4B918B193}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7164A304-463E-49BE-9687-771E9961ABD9}" ShortID="163288433">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{71CA8D7C-9017-47BF-8B6A-CB14CE3091F9}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-010" ID="{824964A4-EDCF-4A6D-AB31-9DC297A99068}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D218DD64-893E-45E7-9DE3-3F46D76599C7}" ShortID="1025407857">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{399D3CEB-DBD7-422A-AC89-1C60650B6038}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-011" ID="{13BC156C-2A9F-4BD1-85DA-E2E3A12AFB0F}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{99F0425F-5DB4-4018-8BEC-3F45EB972CDD}" ShortID="623551132">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C96996E5-41E9-4EB3-BF2D-13C84DDF6791}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-012" ID="{462282BD-89EF-4AC3-825C-3285C9712541}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B36A7359-2761-4B3C-B686-A751AE127D81}" ShortID="935212539">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D67B3B00-C9D1-4013-A928-AF5E28F45B53}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-013" ID="{F7209112-22B9-4A41-95ED-784E79313B97}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Void_Mus_Low_4th" ID="{F99FAB65-7297-4110-ADE1-9BE027ABEB3C}">
+							<ChildrenList>
+								<Action Name="" ID="{4F4F6A65-6971-4C54-8659-72C109657215}" ShortID="434693268">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C4EEA439-E486-4FB3-9A66-378CD79CB825}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-001" ID="{8B04449A-529E-4115-8F4C-97438EBA8450}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{17B8FBE0-C3F7-48B3-A9D7-5011E6AD0806}" ShortID="664160591">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1A5B5812-EAB4-42F4-9AEF-3D8445FE4A9A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-002" ID="{E1307470-099E-400E-A62C-FC1B69106592}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EB4440E4-52BE-4934-B101-ADB3829FA753}" ShortID="593433193">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6515CE4E-14DE-4989-BB5A-14A81E6D0F5C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-003" ID="{3970D5C6-4315-47B1-9F66-F565CFC9C2D7}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{81142414-63E0-418D-8DDF-BEDD08029AFC}" ShortID="16268912">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{001E6BF1-F7E0-4201-B16A-D2AD9D59FAB8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-004" ID="{9CF2C6D0-4A54-48F6-BC7B-9195664CF7B4}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2206040A-0B41-4E3E-A278-6FDFEC6406B6}" ShortID="1008440012">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{23ADB5A5-C634-4240-9ECE-496133FCD548}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-005" ID="{4BEDACE2-94B1-4ED3-8784-6900E390151B}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2A699715-57DB-4914-912E-BBFC51CA897F}" ShortID="586442633">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{ABF80691-4E98-4332-8608-0C48D9D10799}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-006" ID="{71F759D7-2EDA-4908-BB68-C664C31AC486}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{85D58A0E-1AA5-4E84-BEA8-B67FBD3E6CEA}" ShortID="1061996049">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{250A91AE-807E-48F0-90AF-6C1BF345AAEF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-007" ID="{F1EFD467-7A96-487C-9315-94225084BA40}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3DEE07CF-EBDE-4B9C-A040-B1DE926E3293}" ShortID="605902631">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{299C4101-AF32-4902-93C2-AA8C9F6CF531}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-008" ID="{9C6A87FC-3FC0-47EC-9D7D-F46D36E128DF}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BD3A5A2E-8D11-47BD-B94E-1CB99C7F8508}" ShortID="210548649">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{48782B0F-6319-4934-B0B0-8C6EB0AA6B35}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-009" ID="{B93155B2-80DB-469B-96E5-AAB4B918B193}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3D0F0B21-A9FF-416E-8226-7970F262A297}" ShortID="435883506">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{72F22210-D134-4693-B3D9-D8F38129486B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-010" ID="{824964A4-EDCF-4A6D-AB31-9DC297A99068}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7217CD3E-65BD-4849-A06B-0E5C668034EA}" ShortID="178847625">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{BEF81260-DC7A-49AB-9012-2B174A88C397}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-011" ID="{13BC156C-2A9F-4BD1-85DA-E2E3A12AFB0F}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2C1098BD-8F6D-4F90-A89F-7EF394041419}" ShortID="41414752">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C9A6276F-3797-4D2A-90CA-4B6D65488CD4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-012" ID="{462282BD-89EF-4AC3-825C-3285C9712541}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B5261444-AB29-403C-BB66-D0CE9F8AE961}" ShortID="575943363">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{414CF185-BFE3-4ACA-AD6C-64C884404F5F}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-013" ID="{F7209112-22B9-4A41-95ED-784E79313B97}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Void_Mus_High_4th" ID="{470C2B9E-95E6-4A3F-B673-8294BBE7FF3A}">
+							<ChildrenList>
+								<Action Name="" ID="{6E84A1A1-A00D-47E7-AE96-59E30C52F98C}" ShortID="352869359">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{EC076C7F-7525-4654-B9E8-C116FE492490}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-001" ID="{8B04449A-529E-4115-8F4C-97438EBA8450}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{19DD22FD-EDCA-4DF4-B446-5021F5D6E966}" ShortID="392976139">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{810B44FD-6ABA-4CA6-9053-0CBFAAD6A093}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-002" ID="{E1307470-099E-400E-A62C-FC1B69106592}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0A458A51-D20D-4D2A-BE7F-FB74B1A39927}" ShortID="521143107">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{83176713-1994-4441-98AA-C275C4E2F59A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-003" ID="{3970D5C6-4315-47B1-9F66-F565CFC9C2D7}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{797C1AD8-B40A-4656-AEE9-A6EBF0708A6F}" ShortID="950659563">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{AF0920DD-C776-45A0-9A10-6B2EE20C2638}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-004" ID="{9CF2C6D0-4A54-48F6-BC7B-9195664CF7B4}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7C136AC8-D2E6-4EC7-B19F-EBBD6C9070E3}" ShortID="542207075">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{AD39840D-1C28-4DFF-A9F4-DBD824CE79C1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-005" ID="{4BEDACE2-94B1-4ED3-8784-6900E390151B}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DE1AEFE4-E520-45BD-A514-F1F0E0FA2AD4}" ShortID="256477684">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{188D0358-7534-4938-80E2-31166646922C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-006" ID="{71F759D7-2EDA-4908-BB68-C664C31AC486}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C0DCDC44-0D8A-4CAD-B953-0306E42022FB}" ShortID="590010818">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3D75A9D3-468A-4B25-AAE3-42D72DFF2AF0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-007" ID="{F1EFD467-7A96-487C-9315-94225084BA40}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{725F051A-3ED1-441F-A260-6B4330BF9B2E}" ShortID="853314234">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FC8DCE19-DA7B-4C3E-9EC4-A8EF574E0B36}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-008" ID="{9C6A87FC-3FC0-47EC-9D7D-F46D36E128DF}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5986D194-D98A-4F64-A569-6E2007452351}" ShortID="786138408">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E97D4C72-5683-444A-92E5-3F921CA50864}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-009" ID="{B93155B2-80DB-469B-96E5-AAB4B918B193}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7A1DAAF7-A202-4B31-BC12-9208D7855911}" ShortID="704026955">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4E7A79FC-6F5D-41F4-B9CF-DE05DFDE857E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-010" ID="{824964A4-EDCF-4A6D-AB31-9DC297A99068}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6DBF976F-1BA0-479A-835D-4C41CC9E56BF}" ShortID="88167311">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1A6AFA31-BD06-4F3A-835B-BD567A0649D0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-011" ID="{13BC156C-2A9F-4BD1-85DA-E2E3A12AFB0F}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8199CBCF-68A8-47DF-BBCC-5DD4DCD508FA}" ShortID="104103589">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C8315B62-AEDC-442F-BC8E-718BBFD1934B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-012" ID="{462282BD-89EF-4AC3-825C-3285C9712541}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C32DF33A-7C04-41F7-B288-7251569B3539}" ShortID="272760804">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{81A50011-1BDB-4EF1-AE6C-E99F3681D93B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-013" ID="{F7209112-22B9-4A41-95ED-784E79313B97}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Void_Mus_High_2nd" ID="{76E668A5-A908-4F8F-880F-E3DB55E7D8D1}">
+							<ChildrenList>
+								<Action Name="" ID="{F3BAB210-EBF0-4C97-9DDD-BFF5D2E7F657}" ShortID="543120115">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8505D5F8-4D41-424C-B842-BD5418F20BFD}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-001" ID="{8B04449A-529E-4115-8F4C-97438EBA8450}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D9B059EA-45C3-4B8E-A228-BA8385C7FCCC}" ShortID="402863687">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7BA3C5C6-2484-4899-B142-244148FBD460}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-002" ID="{E1307470-099E-400E-A62C-FC1B69106592}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A2F3A0E5-94B0-458E-9A9E-0E2BD4A8B84E}" ShortID="733058828">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0CA3F314-D32E-4E17-A2AE-3C2C5D41CEFA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-003" ID="{3970D5C6-4315-47B1-9F66-F565CFC9C2D7}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{94DE9036-1F21-4835-955B-9CD133B5A71C}" ShortID="447399609">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A94CFC02-B538-4AF0-BCF1-4AA673B32193}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-004" ID="{9CF2C6D0-4A54-48F6-BC7B-9195664CF7B4}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{25BB68D3-089D-43DE-B289-9F8096810C1F}" ShortID="371235056">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{57EF2EC6-E10D-4EC9-9008-1F0C2355474E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-005" ID="{4BEDACE2-94B1-4ED3-8784-6900E390151B}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E07E748B-D626-4307-8341-E0C71B147566}" ShortID="626296604">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{48930473-A0E2-4ABF-962D-627E3B7B3810}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-006" ID="{71F759D7-2EDA-4908-BB68-C664C31AC486}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BD2FEBC0-E6E0-4431-B4C2-FCAA02751E0E}" ShortID="434798576">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{38858A94-1983-4B0F-95FA-D378F6238BA2}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-007" ID="{F1EFD467-7A96-487C-9315-94225084BA40}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D1DC922D-2D5B-484E-89A3-C4B45DBCF129}" ShortID="903630577">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{AB680A8F-B670-4095-8F64-E516FD06A339}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-008" ID="{9C6A87FC-3FC0-47EC-9D7D-F46D36E128DF}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5CFFFC4B-8FE3-4A03-B606-3204D6E4DF22}" ShortID="506465212">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{482B5331-DA53-4E4F-A98D-1013C8F9584D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-009" ID="{B93155B2-80DB-469B-96E5-AAB4B918B193}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D72FDA1D-7E4A-484F-9B41-82801FC41150}" ShortID="866570211">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B347F021-6E74-4A2E-9E59-0680BE4314B3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-010" ID="{824964A4-EDCF-4A6D-AB31-9DC297A99068}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E10A7351-5E29-4645-A584-EAECB695ABEE}" ShortID="158867116">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DC3B30E6-2D70-4824-B077-DCC98508B55D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-011" ID="{13BC156C-2A9F-4BD1-85DA-E2E3A12AFB0F}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{37CE9636-11F9-4A3C-917D-96A90C8308CF}" ShortID="840420452">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2F897811-64F7-4471-85B3-48EB4032885D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-012" ID="{462282BD-89EF-4AC3-825C-3285C9712541}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1A33CB23-12C6-4012-89E5-114A78C5B459}" ShortID="525902238">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1E371D9E-0EC0-4966-BA8C-AB3EC6DB513D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-013" ID="{F7209112-22B9-4A41-95ED-784E79313B97}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Void_Mus_Low_2nd" ID="{619AB266-01E5-40C6-8F81-EAD4BCC3B85F}">
+							<ChildrenList>
+								<Action Name="" ID="{F90EF9A7-DAE2-4CD0-89E3-A7B6B50DD0FB}" ShortID="466106841">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{490740B2-AB41-44D0-B82B-DB1F0F12B6EA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-001" ID="{8B04449A-529E-4115-8F4C-97438EBA8450}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D6A8543B-D4CF-48E9-9C1C-3ED80C5E338F}" ShortID="567729221">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9A8425C7-1BEE-4664-BA56-49B4419B3722}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-002" ID="{E1307470-099E-400E-A62C-FC1B69106592}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{29DDCB7E-7AE3-4FCC-AA03-0BD0F87164B7}" ShortID="462984426">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{84A85F1E-5780-423B-9A38-97EB0514A93A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-003" ID="{3970D5C6-4315-47B1-9F66-F565CFC9C2D7}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7FB81FBB-2F88-400F-8FDF-F2EC4ABB7D9C}" ShortID="547793435">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C952E10B-BBEE-4115-93F6-86E1904643F1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-004" ID="{9CF2C6D0-4A54-48F6-BC7B-9195664CF7B4}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{847D0A69-AE0B-4B69-9E0D-F4346A663ADB}" ShortID="574393416">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B3085F06-E4E0-447F-A0FB-5156985422A7}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-005" ID="{4BEDACE2-94B1-4ED3-8784-6900E390151B}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0C393980-C596-4A66-9999-36A1DBBA567B}" ShortID="619493643">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3F7C83B6-31CD-40B6-A4F1-89169510EFD4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-006" ID="{71F759D7-2EDA-4908-BB68-C664C31AC486}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EC2DD2B1-8C84-40E8-B218-6656C2368143}" ShortID="163476195">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{87A20495-3ECA-48A2-ABCA-A4AFD73EBCC4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-007" ID="{F1EFD467-7A96-487C-9315-94225084BA40}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{872A78FA-B972-4FDA-BC21-F5BA5C653018}" ShortID="564725983">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D63444BC-5B6F-45BE-8545-D33C49DE10B1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-008" ID="{9C6A87FC-3FC0-47EC-9D7D-F46D36E128DF}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C0C24E4B-1FA3-4861-98C6-717A6CBF7301}" ShortID="603387777">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7E396B08-11EB-46D9-B4BE-858FA8342FA8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-009" ID="{B93155B2-80DB-469B-96E5-AAB4B918B193}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A0190782-F278-405A-A90D-B913321507A6}" ShortID="157693042">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{92854656-F292-4789-B5AA-7A7AECBDA9D0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-010" ID="{824964A4-EDCF-4A6D-AB31-9DC297A99068}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F5C0D9AD-FC89-4292-AD9C-3BAA33236944}" ShortID="207565494">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{629C88B2-31F9-4862-9F3E-A688A5172C41}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-011" ID="{13BC156C-2A9F-4BD1-85DA-E2E3A12AFB0F}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7A2C463D-C4DB-4DBC-B7C0-E2C2A1130352}" ShortID="391567186">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5D51B68F-85A2-4344-82D2-F57E3011ABE9}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-012" ID="{462282BD-89EF-4AC3-825C-3285C9712541}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{73B10BEA-F258-4822-9AC5-C36486C78A86}" ShortID="517017674">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4068E4F6-F893-4DBF-AE7A-2D755956FC38}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32" Value="-200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void_Ambience_Voice-013" ID="{F7209112-22B9-4A41-95ED-784E79313B97}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
