@@ -11,6 +11,8 @@ public class VoidManager : MonoBehaviour
     [SerializeField] private List<GameObject> whiteRoomPiecesStartActive = new();
     [SerializeField] private List<GameObject> whiteRoomPiecesEndActive = new();
     [SerializeField] private List<GameObject> redRoomPieces = new();
+    [SerializeField] private List<GameObject> yellowRoomPieces = new();
+    [SerializeField] private Transform playerSpawnYellow;
 
     public enum Rooms
     {
@@ -42,6 +44,10 @@ public class VoidManager : MonoBehaviour
                 break;
             case Rooms.Red:
                 ActivateRoom(whiteRoomPiecesEndActive, redRoomPieces);
+                break;
+            case Rooms.Yellow:
+                ActivateRoom(redRoomPieces, yellowRoomPieces);
+                PlayerBehaviour.Instance.transform.position = playerSpawnYellow.position;
                 break;
         }
     }
