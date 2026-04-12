@@ -11,7 +11,7 @@ public class ManualAnimationProgression : Puzzle, InteractionPoint
     [SerializeField] [Range(0,1)] private float solutionProgressMax;
 
     public string animationName;
-    [Range(0,1)] public float progressionRate;
+    [Range(0,0.1f)] public float progressionRate;
 
     public bool canProgress = false;
 
@@ -53,7 +53,7 @@ public class ManualAnimationProgression : Puzzle, InteractionPoint
         if (state == State.fullyResolved) return;
 
         if (progress >= 1) progress = 0;
-        progress += progressionRate;
+        progress += progressionRate*Time.deltaTime;
         animator.Play(animationName, 0, progress);
         CheckSolution();
     }

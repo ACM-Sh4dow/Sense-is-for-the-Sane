@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="96fc74af-9d80-4a0a-871b-381a31421ada" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sense-is-for-the-Sane/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sense-is-for-the-Sane/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Player - Base.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Player - Base.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/VD - Env.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/VD - Env.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/DistanceBasedAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/DistanceBasedAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/ManualAnimationProgression.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/ManualAnimationProgression.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/VoidManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/VoidManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Materials/00_ IN USE/Void/COlor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/02_ Art/Materials/00_ IN USE/Void/COlor.mat.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +108,7 @@
       <workItem from="1775735730061" duration="14657000" />
       <workItem from="1775770450101" duration="5806000" />
       <workItem from="1775838851286" duration="8410000" />
+      <workItem from="1775998913512" duration="5959000" />
     </task>
     <servers />
   </component>

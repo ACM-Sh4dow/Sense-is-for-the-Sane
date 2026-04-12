@@ -7,6 +7,9 @@ public class DistanceBasedAnimation : MonoBehaviour
     private Animator animator;
     private GameObject player;
     private Vector3 playerPosition;
+    [Tooltip("Animation stops playing PERMANENTLY once player has reached End Distance.")]
+    [SerializeField] private bool endOnComplete;
+    private bool done;
 
     [SerializeField]
     private Transform distanceCheckObject;
@@ -52,11 +55,14 @@ public class DistanceBasedAnimation : MonoBehaviour
 
         float distanceFromPlayer =  Vector3.Distance(playerPosition, distanceCheckObject.position);
         float animationProgress;
-
+        
+        if (endOnComplete && done) return; 
+        
         if (distanceFromPlayer <= animationEndDistance)
         {
             animationProgress = 0f;
             animationDelta = 0f;
+            done = true;
         }
         else if (distanceFromPlayer >= animationStartDistance)
         {

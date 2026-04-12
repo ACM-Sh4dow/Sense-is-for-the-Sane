@@ -8,7 +8,9 @@ public class VoidManager : MonoBehaviour
     
     [SerializeField] private List<GameObject> walls = new();
     [SerializeField] private List<GameObject> blackRoomPieces = new();
-    [SerializeField] private List<GameObject> whiteRoomPieces = new();
+    [SerializeField] private List<GameObject> whiteRoomPiecesStartActive = new();
+    [SerializeField] private List<GameObject> whiteRoomPiecesEndActive = new();
+    [SerializeField] private List<GameObject> redRoomPieces = new();
 
     public enum Rooms
     {
@@ -32,27 +34,29 @@ public class VoidManager : MonoBehaviour
         switch (inRoom)
         {
             case Rooms.White:
-                WhiteRoom();
+                foreach (GameObject wall in walls)
+                {
+                    wall.GetComponent<MeshRenderer>().material = whiteMaterial;
+                }
+                ActivateRoom(blackRoomPieces, whiteRoomPiecesStartActive);
+                break;
+            case Rooms.Red:
+                ActivateRoom(whiteRoomPiecesEndActive, redRoomPieces);
                 break;
         }
     }
-    private void WhiteRoom()
+    private void ActivateRoom(List<GameObject> deactivatePieces, List<GameObject> activatePieces)
     {
-        foreach (GameObject wall in walls)
-        {
-            wall.GetComponent<MeshRenderer>().material = whiteMaterial;
-        }
-
-        foreach (GameObject piece in blackRoomPieces)
+        foreach (GameObject piece in deactivatePieces)
         {
             piece.SetActive(false);
         }
-
-        foreach (GameObject piece in whiteRoomPieces)
+        foreach (GameObject piece in activatePieces)
         {
             piece.SetActive(true);
         }
     }
+    
     
     private void DeactivateShadows()
     {
