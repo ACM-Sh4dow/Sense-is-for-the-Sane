@@ -13491,7 +13491,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1523885351629797413
 GameObject:
   m_ObjectHideFlags: 0
@@ -13507,7 +13507,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &1557172592553526429
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37210,7 +37210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8075957615771767151}
   m_Layer: 0
-  m_Name: Funeral Home Normal
+  m_Name: Funeral Home Alternate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
