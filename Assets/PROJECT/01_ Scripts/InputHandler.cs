@@ -59,7 +59,6 @@ public class InputHandler : MonoBehaviour
         }
         Debug.Log($"ReceiveAlign: Nearest PUZZLE is: {puzzle.name} !!!");
         puzzle.AttemptPuzzle();
-        
     }
 
     private Puzzle FindNearestPuzzle()
@@ -67,7 +66,7 @@ public class InputHandler : MonoBehaviour
         Vector3 playerPos = PlayerBehaviour.Instance.playerPosition;
         var found = FindTarget.List<Puzzle>(playerPos, playerPos, 2);
 
-        if (found.Count <= 0) return null;
+        if (found.Count <= 0) return null; 
 
         return FindTarget.Closest(found);
     }
@@ -78,5 +77,4 @@ public class InputHandler : MonoBehaviour
     //
     //     ManualAnimationProgression.SyncManualAnimationInput();
     // }
-    
 }

@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class PerspectivePuzzleSolve : Puzzle
 {
@@ -7,7 +8,11 @@ public class PerspectivePuzzleSolve : Puzzle
 
     [Header("Puzzle Settings")] 
     [SerializeField] private float distanceTolerance;
-    [SerializeField] private float angleTolerance;
+    [Tooltip("1 being facing door, 0 facing away, value should be around 0.95")]
+    [SerializeField] [Range(0.8f,1)] private float angleTolerance = 0.975f;
+    
+    [SerializeField] private float dist;
+    [SerializeField] private float angle;
     
     [Header("Puzzle Pieces")]
     [SerializeField] private GameObject puzzleSolution;
@@ -26,9 +31,13 @@ public class PerspectivePuzzleSolve : Puzzle
     {
         if (state == State.solved) return;
 
-        if (Vector3.Distance(PlayerBehaviour.Instance.playerPosition, puzzleSolution.transform.position) <=
+        dist = Vector3.Distance(PlayerBehaviour.Instance.playerPosition, puzzleSolution.transform.position);
+        angle = Quaternion.Dot(PlayerBehaviour.Instance.playerRotation.normalized,
+            puzzleSolution.transform.rotation.normalized);
+        
+        if ( dist <=
              distanceTolerance
-            && Quaternion.Dot(PlayerBehaviour.Instance.playerRotation.normalized, puzzleSolution.transform.rotation.normalized) <=
+            &&  angle >=
             angleTolerance)
         {
             state = State.solvable;
@@ -59,12 +68,22 @@ public class PerspectivePuzzleSolve : Puzzle
             
             state =  State.fullyResolved;
             RegisterCompletion();
+            PlayerBehaviour.Instance.activateCursor = false;
             return;
         }
         #endregion
         
         CheckPuzzleSolution();
 
+        if (state == State.solvable && secondaryPuzzleComplete)
+        {
+            PlayerBehaviour.Instance.activateCursor = true;
+        }
+        else
+        {
+            PlayerBehaviour.Instance.activateCursor = false;
+        }
+        
         if (puzzleSolveAttempted)
         {
             SolvePuzzle();

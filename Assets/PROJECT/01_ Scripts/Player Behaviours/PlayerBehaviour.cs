@@ -22,6 +22,10 @@ public class PlayerBehaviour : MonoBehaviour
     public Camera Camera;
     
     private bool behavioursBlocked = false;
+    
+    public bool activateCursor;
+    [SerializeField] private GameObject uiCursor;
+    
     #endregion
     
     #region Private Methods
@@ -150,5 +154,8 @@ public class PlayerBehaviour : MonoBehaviour
         playerRotation = transform.rotation;
 
         #endregion
+
+        uiCursor.SetActive(activateCursor);
     }
+    
 }
