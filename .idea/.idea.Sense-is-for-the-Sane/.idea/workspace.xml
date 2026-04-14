@@ -6,10 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="96fc74af-9d80-4a0a-871b-381a31421ada" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sense-is-for-the-Sane/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sense-is-for-the-Sane/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/AP - Env.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/AP - Env.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/FH - Env - Import.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/FH - Env - Import.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Player - Base.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/Player - Base.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/VD - Env.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/00_ Scenes/VD - Env.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/InputHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/InputHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/PerspectivePuzzleSolve.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/PerspectivePuzzleSolve.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/Player Behaviours/PlayerBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/Player Behaviours/PlayerBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/SceneLoader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/VoidManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/VoidManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +28,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/CloseOffApartment.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/WhiteDoor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/CursorOnInteract.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PROJECT/01_ Scripts/YellowBed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Shaders/Lit.shader" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -106,7 +114,9 @@
       <workItem from="1775770450101" duration="5806000" />
       <workItem from="1775838851286" duration="8410000" />
       <workItem from="1775998913512" duration="6723000" />
-      <workItem from="1776026266518" duration="432000" />
+      <workItem from="1776026266518" duration="1029000" />
+      <workItem from="1776092469263" duration="2264000" />
+      <workItem from="1776102278714" duration="18090000" />
     </task>
     <servers />
   </component>

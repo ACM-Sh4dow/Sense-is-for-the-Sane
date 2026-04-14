@@ -44,7 +44,7 @@ public class SceneLoader : MonoBehaviour
     private void Start()
     {
         Overseer.Instance.AddManager(this);
-        if (loadScenes == LoadScenes.FromStart) StartCoroutine(LoadScenesAsync(voidScenes, 0));
+        if (loadScenes == LoadScenes.FromStart) StartCoroutine(LoadScenesAsync(voidScenes));
     }
 
     #region Transition
@@ -72,6 +72,7 @@ public class SceneLoader : MonoBehaviour
         switch (currentLevel)
         {
             case CurrentLevel.Void:
+                StartCoroutine(UnloadPreviousScenes(secondsToWait));
                 break;
             case CurrentLevel.Apartment:
                 StartCoroutine(UnloadPreviousScenes(secondsToWait));
@@ -98,11 +99,17 @@ public class SceneLoader : MonoBehaviour
     #region Loading
     private IEnumerator LoadScenesAsync(List <string> sceneNames, float secondsToWait = 0)
     {
+        Debug.Log($"SceneLoader: Loading new scenes in {secondsToWait} seconds...");
         yield return new WaitForSeconds(secondsToWait);
         
         foreach (string sceneName in sceneNames)
         {
-            if (SceneManager.GetSceneByName(sceneName).isLoaded) continue;
+            if (SceneManager.GetSceneByName(sceneName).isLoaded)
+            {
+                Debug.Log($"SceneLoader: {sceneName} is ALREADY LOADED.");
+                openScenes.Add(SceneManager.GetSceneByName(sceneName));
+                continue;
+            }
  
             AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
             
@@ -111,12 +118,13 @@ public class SceneLoader : MonoBehaviour
                 yield return null;
             }
             openScenes.Add(SceneManager.GetSceneByName(sceneName));
-            if (asyncLoad.isDone) Debug.Log($"{sceneName} is DONE LOADING.");
+            if (asyncLoad.isDone) Debug.Log($"SceneLoader: {sceneName} is DONE LOADING.");
         }
-        Debug.Log("Scene loading COMPLETE.");
+        Debug.Log("SceneLoader: Scene loading COMPLETE.");
     }
     private IEnumerator UnloadPreviousScenes(float secondsToWait = 0)
     {
+        Debug.Log($"SceneLoader: Removing previous scenes in {secondsToWait} seconds...");
         yield return new WaitForSeconds(secondsToWait);
         
         foreach (Scene scene in scenesToRemove)
@@ -130,10 +138,10 @@ public class SceneLoader : MonoBehaviour
             {
                 yield return null;
             }
-            if (asyncLoad.isDone) Debug.Log($"{sceneName} has been UNLOADED.");
+            if (asyncLoad.isDone) Debug.Log($"SceneLoader: {sceneName} has been UNLOADED.");
         }
         scenesToRemove.Clear();
-        Debug.Log("Scene removal COMPLETE.");
+        Debug.Log("SceneLoader: Scene removal COMPLETE.");
     }
     #endregion
 
