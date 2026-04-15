@@ -20,8 +20,16 @@ public class SceneLoader : MonoBehaviour
         Apartment,
         FuneralHome
     }
-
     [SerializeField] private LoadScenes loadScenes;
+
+    public enum LoadState
+    {
+        Loading,
+        Unloading,
+        None
+    }
+    public LoadState loadState;
+
 
     [SerializeField] private List<string> voidScenes = new();
     [SerializeField] private List<string> apartmentScenes = new();
@@ -36,11 +44,10 @@ public class SceneLoader : MonoBehaviour
         Apartment,
         FuneralHome
     }
-
     private CurrentLevel currentLevel;
 
     #endregion
-
+    
     private void Start()
     {
         Overseer.Instance.AddManager(this);
@@ -99,6 +106,7 @@ public class SceneLoader : MonoBehaviour
     #region Loading
     private IEnumerator LoadScenesAsync(List <string> sceneNames, float secondsToWait = 0)
     {
+        loadState = LoadState.Loading;
         Debug.Log($"SceneLoader: Loading new scenes in {secondsToWait} seconds...");
         yield return new WaitForSeconds(secondsToWait);
         
@@ -121,9 +129,11 @@ public class SceneLoader : MonoBehaviour
             if (asyncLoad.isDone) Debug.Log($"SceneLoader: {sceneName} is DONE LOADING.");
         }
         Debug.Log("SceneLoader: Scene loading COMPLETE.");
+        loadState = LoadState.None;
     }
     private IEnumerator UnloadPreviousScenes(float secondsToWait = 0)
     {
+        loadState = LoadState.Unloading;
         Debug.Log($"SceneLoader: Removing previous scenes in {secondsToWait} seconds...");
         yield return new WaitForSeconds(secondsToWait);
         
@@ -142,6 +152,7 @@ public class SceneLoader : MonoBehaviour
         }
         scenesToRemove.Clear();
         Debug.Log("SceneLoader: Scene removal COMPLETE.");
+        loadState = LoadState.None;
     }
     #endregion
 
