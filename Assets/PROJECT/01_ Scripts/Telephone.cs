@@ -1,24 +1,34 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
 public class Telephone : MonoBehaviour, InteractionPoint
 {
-    private bool hasBeenTriggered;
+    private bool transitionHasBeenTriggered;
+    public bool clearToStartRinging;
     [SerializeField] private float secondsBeforeRinging = 10f;
     public IEnumerator StartRinging()
     {
-        Debug.Log("TELEPHONE WAITING "  +secondsBeforeRinging);
+        clearToStartRinging = false;
 
         yield return new WaitForSeconds(secondsBeforeRinging);
-        Debug.Log("TELEPHONE RINGING");
         AkUnitySoundEngine.PostEvent("Apt_Phone_Start", gameObject);
     }
+
+    private void Update()
+    {
+        if (!clearToStartRinging) return;
+
+        if (Overseer.Instance.GetManager<SceneLoader>().loadState != SceneLoader.LoadState.None) return;
+
+        StartCoroutine(StartRinging());
+    }
+
     public void Interact()
     {
-        if (hasBeenTriggered) return;
-        hasBeenTriggered = true;
+        if (transitionHasBeenTriggered) return;
+        transitionHasBeenTriggered = true;
         AkUnitySoundEngine.PostEvent("Apt_Phone_Stop", gameObject);
-        
         
         Transition();
     }

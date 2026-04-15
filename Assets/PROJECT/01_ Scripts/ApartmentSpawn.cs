@@ -9,7 +9,7 @@ public class ApartmentSpawn : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             transform.GetComponent<SceneTransition>().TriggerTransition();
-            StartCoroutine(telephone.StartRinging());
+            telephone.clearToStartRinging = true;
             gameObject.SetActive(false);
         }
     }
