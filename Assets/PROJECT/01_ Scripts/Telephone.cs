@@ -4,9 +4,11 @@ using UnityEngine;
 public class Telephone : MonoBehaviour, InteractionPoint
 {
     private bool hasBeenTriggered;
-    private void StartRinging()
+    [SerializeField] private float secondsBeforeRinging = 10f;
+    public IEnumerator StartRinging()
     {
-        
+        yield return new WaitForSeconds(secondsBeforeRinging);
+        //start sound
     }
     public void Interact()
     {
@@ -14,7 +16,6 @@ public class Telephone : MonoBehaviour, InteractionPoint
         hasBeenTriggered = true;
         
         //end ringing
-        //start text / sound
         
         Transition();
     }
