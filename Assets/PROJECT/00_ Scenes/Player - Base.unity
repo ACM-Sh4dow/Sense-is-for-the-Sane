@@ -702,7 +702,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1399931835399757011, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.845
+      value: 0.326
       objectReference: {fileID: 0}
     - target: {fileID: 3531186398899344815, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
       propertyPath: Lens.NearClipPlane
@@ -770,7 +770,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9060508231529228654, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.22
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 9060508231529228654, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -778,7 +778,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9060508231529228654, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.48
+      value: 117.5
       objectReference: {fileID: 0}
     - target: {fileID: 9060508231529228654, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1218,7 +1218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8abc335499657140ab79ef872c73a8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  loadScenes: 4
+  loadScenes: 0
   voidScenes:
   - VD - Env
   - VD - Audio

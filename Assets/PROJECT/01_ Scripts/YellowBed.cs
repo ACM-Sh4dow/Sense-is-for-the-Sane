@@ -9,6 +9,7 @@ public class YellowBed : MonoBehaviour, InteractionPoint
     {
         if (hasBeenTriggered) return;
         hasBeenTriggered = true;
+        AkUnitySoundEngine.SetState("CurrentScene", "Apartment");
         StartCoroutine(EndScene());
     }
 
