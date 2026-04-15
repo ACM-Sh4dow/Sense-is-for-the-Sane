@@ -10506,8 +10506,8 @@ MonoBehaviour:
   state: 0
   puzzleName: 
   progress: 0
-  solutionProgressMin: 0.1
-  solutionProgressMax: 0.9
+  solutionProgressMin: 0.4
+  solutionProgressMax: 0.6
   animationName: Flower
   progressionRate: 0.0914
   canProgress: 0
@@ -14179,7 +14179,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &805858780
 Transform:
   m_ObjectHideFlags: 0
@@ -21175,7 +21175,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1183934057
 RectTransform:
   m_ObjectHideFlags: 0
