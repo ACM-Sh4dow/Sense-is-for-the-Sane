@@ -702,7 +702,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1399931835399757011, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0.845
       objectReference: {fileID: 0}
     - target: {fileID: 3531186398899344815, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
       propertyPath: Lens.NearClipPlane
