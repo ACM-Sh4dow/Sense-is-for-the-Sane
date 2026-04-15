@@ -5122,9 +5122,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253686142}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00012095898, y: -0.9996059, z: 0.027731309, w: -0.004360101}
-  m_LocalPosition: {x: -0.121968746, y: 0.32565498, z: -0.23934269}
-  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
+  m_LocalRotation: {x: -0, y: 0.9998157, z: -0, w: -0.019196685}
+  m_LocalPosition: {x: 0.24672842, y: 0.19999981, z: -0.05215311}
+  m_LocalScale: {x: 0.5, y: 0.75, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 465902634}
@@ -6181,7 +6181,7 @@ Transform:
   m_GameObject: {fileID: 299483906}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 15.103, y: 1.29, z: 7.453}
+  m_LocalPosition: {x: 15.103, y: 1.29, z: 9.874}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8308,7 +8308,7 @@ MonoBehaviour:
   state: 0
   puzzleName: Painting
   distanceTolerance: 1
-  angleTolerance: 1
+  angleTolerance: 0.95
   dist: 0
   angle: 0
   puzzleSolution: {fileID: 253686142}
@@ -29781,7 +29781,7 @@ Transform:
   m_GameObject: {fileID: 1813431603}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.11, y: 0.72, z: -6.5599995}
+  m_LocalPosition: {x: 15.11, y: 0.72, z: -4.139}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
