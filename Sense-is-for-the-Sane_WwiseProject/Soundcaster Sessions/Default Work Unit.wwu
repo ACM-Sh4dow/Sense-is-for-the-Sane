@@ -6,11 +6,11 @@
 				<SoundcasterSession Name="Soundcaster Session" ID="{A78156A0-03E8-49FB-8DF9-FE6D3E587E73}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Gramophone" ID="{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}"/>
+							<ObjectRef Name="Apt_Phone_Start" ID="{51C30054-8635-4C28-9AA6-B6D48475E1EC}" WorkUnitID="{0F5A3F40-CB3C-4746-8134-079334A4DA23}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Void_Mus_Voices" ID="{B4E40B53-E85E-4BCC-A4A5-9751138CC9F6}" WorkUnitID="{274F03AB-EC17-44FA-A98A-DDEFAD73AAD5}"/>
+							<ObjectRef Name="Apt_Phone_Stop" ID="{9A434B8C-2FF7-49EA-A791-D6A312B5274D}" WorkUnitID="{0F5A3F40-CB3C-4746-8134-079334A4DA23}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 					</ModuleList>

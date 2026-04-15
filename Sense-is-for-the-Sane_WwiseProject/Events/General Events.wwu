@@ -182,6 +182,55 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Stop All" ID="{C7735624-5815-4EF8-9042-B3CE5BE8622C}" ShortID="535573323">
+					<ChildrenList>
+						<Event Name="Void_Stop_All" ID="{04E0E4E3-7502-4F22-B18E-CBE2BF33822A}">
+							<ChildrenList>
+								<Action Name="" ID="{E2584A81-39F7-4791-B397-EF64DCCD5470}" ShortID="803520588">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Void" ID="{A1805BDC-192C-478A-B880-F40F2AF92361}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Apt_Stop_All" ID="{661646BA-B5A9-44BE-AD28-A2BD8CAFDC56}">
+							<ChildrenList>
+								<Action Name="" ID="{7FFEFBB2-26C4-4790-862D-DC8D9C759C1A}" ShortID="608333732">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Apartment" ID="{45DEE7B8-21A5-48E8-9C50-6CAC864F8555}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Fnrl_Stop_All" ID="{73B6EED0-6329-48FD-808E-94A93741BDB3}">
+							<ChildrenList>
+								<Action Name="" ID="{E876FE1C-6EC4-47B2-89D5-E1AFAA9D61B2}" ShortID="87582249">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Funeral Home" ID="{808911AC-F824-4277-9852-58568C970CED}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

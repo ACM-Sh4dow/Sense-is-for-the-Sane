@@ -58,6 +58,32 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Apt_Phone_Start" ID="{51C30054-8635-4C28-9AA6-B6D48475E1EC}">
+					<ChildrenList>
+						<Action Name="" ID="{64539A90-4D8D-4EE5-A3F1-B04522EF87F1}" ShortID="736576851">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Phone Seq" ID="{7A36F142-EE76-4304-B1C2-D91BD0FD36DA}" WorkUnitID="{A692D158-CB31-48BD-AAB0-5A0CC3E6E356}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Apt_Phone_Stop" ID="{9A434B8C-2FF7-49EA-A791-D6A312B5274D}">
+					<ChildrenList>
+						<Action Name="" ID="{B5467C39-CDBD-4E7F-916C-45F00506085A}" ShortID="1055326040">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="34"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Phone Seq" ID="{7A36F142-EE76-4304-B1C2-D91BD0FD36DA}" WorkUnitID="{A692D158-CB31-48BD-AAB0-5A0CC3E6E356}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
