@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9F2C9685-C3F4-4D21-9319-4FF075E9A3CD}",
     "Language": "SFX",
-    "Hash": "{A8351291-1ADB-A321-D52C-F5548A353F5A}",
+    "Hash": "{3DE75514-F421-F194-13B2-289A81623DAF}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Apartment",
     "ShortName": "Apartment",
     "Path": "Apartment.bnk",
@@ -110,6 +110,14 @@
       "Location": "Memory",
       "ShortName": "Phone_Ring.wav",
       "CachePath": "2C/{2CD7B25C-CD6F-DF60-FF07-699E3155062F}.wem"
+     },
+     {
+      "Id": "984936314",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Phone_Pickup.wav",
+      "CachePath": "82/{823961B0-D24A-2322-AF17-8A58CF143C1F}.wem"
      }
     ],
     "Events": [
@@ -209,10 +217,15 @@
       "Name": "Apt_Phone_Stop",
       "ObjectPath": "\\Events\\Apartment\\Apt_Phone_Stop",
       "GUID": "{9A434B8C-2FF7-49EA-A791-D6A312B5274D}",
-      "MaxAttenuation": "0",
+      "MaxAttenuation": "5",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "4.0461903",
+      "DurationMax": "4.0461903",
+      "MediaRefs": [
+       {
+        "Id": "984936314"
+       }
+      ]
      },
      {
       "Id": "751812660",
@@ -230,6 +243,6 @@
     ]
    }
   ],
-  "FileHash": "{6CCD1934-3DFC-C44B-F5F9-9D5C5535730C}"
+  "FileHash": "{033290AC-E290-02FE-19F7-C5C8793E608E}"
  }
 }

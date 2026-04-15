@@ -1886,7 +1886,7 @@
 								<StateRef Name="Void" ID="{AE9041A4-3A52-434E-87E3-476B865CAD06}"/>
 								<CustomState Name="" ID="{FF279FE0-A5BF-4CAD-A1E3-28D276538CD7}" ShortID="911960904">
 									<PropertyList>
-										<Property Name="Volume" Type="Real64" Value="3"/>
+										<Property Name="Volume" Type="Real64" Value="6"/>
 									</PropertyList>
 								</CustomState>
 							</CustomState>

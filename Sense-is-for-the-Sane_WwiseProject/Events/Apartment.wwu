@@ -73,12 +73,20 @@
 					<ChildrenList>
 						<Action Name="" ID="{B5467C39-CDBD-4E7F-916C-45F00506085A}" ShortID="1055326040">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="34"/>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Phone Seq" ID="{7A36F142-EE76-4304-B1C2-D91BD0FD36DA}" WorkUnitID="{A692D158-CB31-48BD-AAB0-5A0CC3E6E356}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8CDEC408-8C5A-4741-BE11-6B42D1971093}" ShortID="275258022">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Phone_Pickup" ID="{B00228D4-01B6-4340-B0C3-3EACDC9AE1B4}" WorkUnitID="{A692D158-CB31-48BD-AAB0-5A0CC3E6E356}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

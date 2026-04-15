@@ -487,7 +487,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584253366456482979
+    m_lastTime: -8584253339971574076
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -571,7 +571,7 @@ MonoBehaviour:
     ParentPath: Events\Apartment
     guid: 403f5a0f3ccb46478134079334a4da23
     GuidInternal: 
-    m_lastTime: -8584253369180293458
+    m_lastTime: -8584253339971838731
     List:
     - name: Apt_Clock
       guid: cc1102f1eea62044bdfd304ba4a2a9e5
@@ -959,7 +959,7 @@ MonoBehaviour:
     ParentPath: Events\General Events
     guid: 1ff59692a3e328449b9b4c99fad941f7
     GuidInternal: 
-    m_lastTime: -8584253372274257867
+    m_lastTime: -8584253339971823437
     List:
     - name: Apt_Stop_All
       guid: ba461666a9b5be44ad28a2bd8cafdc56
@@ -1232,7 +1232,7 @@ MonoBehaviour:
     ParentPath: Events\Void
     guid: ab034f2717ecfa44a98addefad73aad5
     GuidInternal: 
-    m_lastTime: -8584253376296073717
+    m_lastTime: -8584253339971792916
     List:
     - name: Pitch Change
       guid: 30d1181be23b144daf6e0a67944800b0
