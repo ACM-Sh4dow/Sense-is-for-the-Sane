@@ -42,12 +42,15 @@ public class VoidManager : MonoBehaviour
                     wall.GetComponent<MeshRenderer>().material = whiteMaterial;
                 }
                 ActivateRoom(blackRoomPieces, whiteRoomPiecesStartActive);
+                AkUnitySoundEngine.PostEvent("Void_Mus_Low_4th", gameObject);
                 break;
             case Rooms.Red:
                 ActivateRoom(whiteRoomPiecesEndActive, redRoomPieces);
+                AkUnitySoundEngine.PostEvent("Void_Mus_Low_5th", gameObject);
                 break;
             case Rooms.Yellow:
                 ActivateRoom(redRoomPieces, yellowRoomPieces);
+                AkUnitySoundEngine.PostEvent("Void_Mus_Low_2nd", gameObject);
                 PlayerBehaviour.Instance.transform.position = yellowRoomSpawn.position;
                 transform.GetComponent<SceneTransition>().TriggerTransition();
                 break;

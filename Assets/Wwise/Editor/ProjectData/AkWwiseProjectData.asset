@@ -571,7 +571,7 @@ MonoBehaviour:
     ParentPath: Events\Apartment
     guid: 403f5a0f3ccb46478134079334a4da23
     GuidInternal: 
-    m_lastTime: -8584253339971838731
+    m_lastTime: -8584253333280847765
     List:
     - name: Apt_Clock
       guid: cc1102f1eea62044bdfd304ba4a2a9e5
@@ -672,9 +672,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 8c4b439af72fea49a791d6a312b5274d
       Path: Events\Apartment\Apt_Phone_Stop
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 5
+      maxDuration: 4.0461903
+      minDuration: 4.0461903
     - name: Apt_Sink
       guid: 7743645a799fe244bc1c122ff672ae25
       id: 751812660
