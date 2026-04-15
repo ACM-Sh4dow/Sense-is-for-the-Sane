@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{68D5CE59-62C2-45C9-8AA7-B31C8321D127}",
     "Language": "SFX",
-    "Hash": "{FEC99305-B14B-31A4-79F2-FE8E5844644B}",
+    "Hash": "{6E87FD58-609E-3B66-9411-DA3B8E39CF4D}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Void",
     "ShortName": "Void",
     "Path": "Void.bnk",
@@ -304,6 +304,6 @@
     ]
    }
   ],
-  "FileHash": "{7275F27E-E297-DCCF-D602-ECEEBED3ADF3}"
+  "FileHash": "{972839D7-134E-7FEC-3FCB-7ECEF0788C2D}"
  }
 }

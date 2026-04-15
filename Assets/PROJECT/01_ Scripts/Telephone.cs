@@ -7,15 +7,18 @@ public class Telephone : MonoBehaviour, InteractionPoint
     [SerializeField] private float secondsBeforeRinging = 10f;
     public IEnumerator StartRinging()
     {
+        Debug.Log("TELEPHONE WAITING "  +secondsBeforeRinging);
+
         yield return new WaitForSeconds(secondsBeforeRinging);
-        //start sound
+        Debug.Log("TELEPHONE RINGING");
+        AkUnitySoundEngine.PostEvent("Apt_Phone_Start", gameObject);
     }
     public void Interact()
     {
         if (hasBeenTriggered) return;
         hasBeenTriggered = true;
+        AkUnitySoundEngine.PostEvent("Apt_Phone_Stop", gameObject);
         
-        //end ringing
         
         Transition();
     }

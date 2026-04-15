@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{39E76D16-3659-462C-8AE1-BE0B06954A63}",
     "Language": "SFX",
-    "Hash": "{68628A46-1C76-69F7-86AD-402692598A5E}",
+    "Hash": "{2D7EB67E-D278-F894-A676-6830681D9FE4}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\General",
     "ShortName": "General",
     "Path": "General.bnk",
@@ -250,6 +250,16 @@
     ],
     "Events": [
      {
+      "Id": "403071693",
+      "Name": "Apt_Stop_All",
+      "ObjectPath": "\\Events\\General Events\\Stop All\\Apt_Stop_All",
+      "GUID": "{661646BA-B5A9-44BE-AD28-A2BD8CAFDC56}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "2843028372",
       "Name": "Door_Creaking",
       "ObjectPath": "\\Events\\General Events\\Door_Creaking",
@@ -294,6 +304,16 @@
         "GUID": "{B28A58E4-2BBF-4849-B95C-3ACC849A967E}"
        }
       ]
+     },
+     {
+      "Id": "4234584678",
+      "Name": "Fnrl_Stop_All",
+      "ObjectPath": "\\Events\\General Events\\Stop All\\Fnrl_Stop_All",
+      "GUID": "{73B6EED0-6329-48FD-808E-94A93741BDB3}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "1866025847",
@@ -586,6 +606,16 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "2785809462",
+      "Name": "Void_Stop_All",
+      "ObjectPath": "\\Events\\General Events\\Stop All\\Void_Stop_All",
+      "GUID": "{04E0E4E3-7502-4F22-B18E-CBE2BF33822A}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "GameParameters": [
@@ -638,6 +668,6 @@
     ]
    }
   ],
-  "FileHash": "{1C34BB71-4A4B-6D3D-E893-9816628BB083}"
+  "FileHash": "{8EFA2B43-D1DC-94C1-1A44-A17C2D173260}"
  }
 }

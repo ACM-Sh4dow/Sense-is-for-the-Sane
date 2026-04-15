@@ -487,7 +487,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584255008272061914
+    m_lastTime: -8584253366456482979
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -655,9 +655,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 5400c3513586284c9aa6b6d48475e1ec
       Path: Events\Apartment\Apt_Phone_Start
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 5
+      maxDuration: 0
+      minDuration: 0
     - name: Apt_Phone_Stop
       guid: 8c4b439af72fea49a791d6a312b5274d
       id: 197399990
@@ -673,8 +673,8 @@ MonoBehaviour:
         guid: 8c4b439af72fea49a791d6a312b5274d
       Path: Events\Apartment\Apt_Phone_Stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Apt_Sink
       guid: 7743645a799fe244bc1c122ff672ae25
       id: 751812660
@@ -979,8 +979,8 @@ MonoBehaviour:
         guid: ba461666a9b5be44ad28a2bd8cafdc56
       Path: Events\General Events\Stop All\Apt_Stop_All
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Door_Creaking
       guid: 5b96ba0c68eaf14ca7e187707066d038
       id: 2843028372
@@ -1033,8 +1033,8 @@ MonoBehaviour:
         guid: d0eeb6732963fd48808e94a93741bdb3
       Path: Events\General Events\Stop All\Fnrl_Stop_All
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Footstep
       guid: f5f61b65005eec4ebc2cb99851ab9555
       id: 1866025847
@@ -1155,8 +1155,8 @@ MonoBehaviour:
         guid: e3e4e0040275224fb18ecbe2bf33822a
       Path: Events\General Events\Stop All\Void_Stop_All
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Tests.wwu
     PathAndIcons:
     - ElementName: Events
@@ -1903,7 +1903,7 @@ MonoBehaviour:
     m_lastTime: -8584275934083339506
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000e000000130000001e0000002000000022000000230000002400000025000000280000002a00000034000000360000003700000038000000390000003a000000400000008d00000096000000
+  ExpandedWaapiItemIds: 05000000060000000e000000130000001e0000002000000022000000230000002400000025000000280000002a0000002b0000002d0000002e00000034000000360000003700000038000000390000003a000000400000008d00000096000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -17,7 +17,10 @@ namespace AK
         static const AkUniqueID APT_CREAKING = 329135517U;
         static const AkUniqueID APT_FIREPLACE = 2202553018U;
         static const AkUniqueID APT_FRIDGE = 2280025682U;
+        static const AkUniqueID APT_PHONE_START = 969392694U;
+        static const AkUniqueID APT_PHONE_STOP = 197399990U;
         static const AkUniqueID APT_SINK = 751812660U;
+        static const AkUniqueID APT_STOP_ALL = 403071693U;
         static const AkUniqueID DOOR_CREAKING = 2843028372U;
         static const AkUniqueID FNRL_AMB_PAUSE = 2963388045U;
         static const AkUniqueID FNRL_AMB_THUNDERSTORM = 1612838152U;
@@ -29,6 +32,7 @@ namespace AK
         static const AkUniqueID FNRL_MUS_STRINGS = 3506702008U;
         static const AkUniqueID FNRL_MUS_WINDS = 3153082963U;
         static const AkUniqueID FNRL_PICTURE_FRAME = 1022944170U;
+        static const AkUniqueID FNRL_STOP_ALL = 4234584678U;
         static const AkUniqueID FNRL_TRANSITION_EXHALE = 2938809645U;
         static const AkUniqueID FNRL_TRANSITION_INHALE = 2161155719U;
         static const AkUniqueID FNRL_WALL_SHATTER = 650669748U;
@@ -46,6 +50,7 @@ namespace AK
         static const AkUniqueID VOID_MUS_PIANO = 4253370801U;
         static const AkUniqueID VOID_MUS_RESET = 633475415U;
         static const AkUniqueID VOID_MUS_VOICES = 2592300455U;
+        static const AkUniqueID VOID_STOP_ALL = 2785809462U;
     } // namespace EVENTS
 
     namespace STATES
