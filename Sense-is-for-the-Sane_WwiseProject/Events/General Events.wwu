@@ -61,6 +61,10 @@
 				<Event Name="Gramophone" ID="{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}">
 					<ChildrenList>
 						<Action Name="" ID="{06B50C93-9DC9-410B-BF4C-C3FD6FA14468}" ShortID="900056855">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Gramophone" ID="{2889BD84-6DCE-48C9-92B8-3B768F2E21A5}" WorkUnitID="{A692D158-CB31-48BD-AAB0-5A0CC3E6E356}"/>
@@ -68,9 +72,24 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{599DBBA6-BCF9-419D-8EDB-1509AE84CBC0}" ShortID="781107243">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Gramophone_Void (Stereo)" ID="{71EACB74-8EE7-42E0-B47A-7F0A0A7B9AE3}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{08BC1B18-3F08-45C1-B951-2876874A5F81}" ShortID="670149055">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Void Ambience Rand" ID="{621F0FA7-1AF2-484A-8A11-0D1EF5ECA266}" WorkUnitID="{4D3BD0AA-1320-4518-9354-4E582BAA5DAD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

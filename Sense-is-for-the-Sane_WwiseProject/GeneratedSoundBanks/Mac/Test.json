@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAC7D741-2CC6-4571-91AE-B86C57B75FDF}",
     "Language": "SFX",
-    "Hash": "{3264D00A-71D1-9300-2FE0-BC115570DA8C}",
+    "Hash": "{1372923D-1246-B847-9ACA-93DD0F71C647}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -724,8 +724,8 @@
       "GUID": "{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}",
       "MaxAttenuation": "100",
       "DurationType": "OneShot",
-      "DurationMin": "117",
-      "DurationMax": "117",
+      "DurationMin": "118.5",
+      "DurationMax": "118.5",
       "MediaRefs": [
        {
         "Id": "1038962611"
@@ -771,6 +771,6 @@
     ]
    }
   ],
-  "FileHash": "{1AD0DC11-DAF2-488D-DAE3-6C40844371C8}"
+  "FileHash": "{CEFCAD0C-D0F7-B9AD-E18D-A4B4BAE5D7B4}"
  }
 }
