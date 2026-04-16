@@ -6,12 +6,15 @@ public class Telephone : MonoBehaviour, InteractionPoint
 {
     private bool transitionHasBeenTriggered;
     public bool clearToStartRinging;
+    private bool phoneHasRung;
+    [SerializeField] private Transform frontDoor;
     [SerializeField] private float secondsBeforeRinging = 10f;
     public IEnumerator StartRinging()
     {
         clearToStartRinging = false;
 
         yield return new WaitForSeconds(secondsBeforeRinging);
+        phoneHasRung = true;
         AkUnitySoundEngine.PostEvent("Apt_Phone_Start", gameObject);
     }
 
@@ -26,7 +29,7 @@ public class Telephone : MonoBehaviour, InteractionPoint
 
     public void Interact()
     {
-        if (transitionHasBeenTriggered) return;
+        if (transitionHasBeenTriggered || !phoneHasRung) return;
         transitionHasBeenTriggered = true;
         AkUnitySoundEngine.PostEvent("Apt_Phone_Stop", gameObject);
         
@@ -36,5 +39,15 @@ public class Telephone : MonoBehaviour, InteractionPoint
     private void Transition()
     {
         transform.GetComponent<SceneTransition>().TriggerTransition();
+        StartCoroutine(OpenDoor());
+    }
+
+    private IEnumerator OpenDoor()
+    {
+        while (Overseer.Instance.GetManager<SceneLoader>().loadState == SceneLoader.LoadState.Loading)
+        {
+            yield return null;
+        }
+        frontDoor.GetComponent<DistanceBasedAnimation>().enabled = true;
     }
 }

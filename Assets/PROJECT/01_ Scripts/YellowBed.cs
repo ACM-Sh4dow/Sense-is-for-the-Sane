@@ -5,10 +5,18 @@ using UnityEngine;
 public class YellowBed : MonoBehaviour, InteractionPoint
 {
     private bool hasBeenTriggered;
+    [SerializeField] private bool isCasket;
     public void Interact()
     {
         if (hasBeenTriggered) return;
         hasBeenTriggered = true;
+        
+        if (isCasket)
+        {
+            StartCoroutine(Overseer.Instance.GetManager<ScreenFade>().FadeToWhite());
+            return;
+        }
+        
         AkUnitySoundEngine.SetState("CurrentScene", "Apartment");
         StartCoroutine(EndScene());
     }
