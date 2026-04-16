@@ -4036,6 +4036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e87946bd4ef6ad844b6d01ec3f452d81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  isCasket: 0
 --- !u!1 &292486929
 GameObject:
   m_ObjectHideFlags: 0
@@ -8381,6 +8382,7 @@ MonoBehaviour:
   puzzleName: White Door
   distanceTolerance: 1
   angleTolerance: 0.975
+  isAVerticalAlignment: 0
   dist: 0
   angle: 0
   puzzleSolution: {fileID: 1135624590}
@@ -23580,7 +23582,8 @@ MonoBehaviour:
   state: 0
   puzzleName: 
   distanceTolerance: 1
-  angleTolerance: 0.8
+  angleTolerance: 0.9
+  isAVerticalAlignment: 0
   dist: 0
   angle: 0
   puzzleSolution: {fileID: 1171203065}

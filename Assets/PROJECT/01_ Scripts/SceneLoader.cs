@@ -37,6 +37,8 @@ public class SceneLoader : MonoBehaviour
     private List<string> allGameScenes = new();
     private List<Scene> openScenes = new();
     private List<Scene> scenesToRemove = new();
+    
+    [SerializeField] private List<Transform> playerSpawns = new();
 
     public enum CurrentLevel
     {
@@ -51,7 +53,23 @@ public class SceneLoader : MonoBehaviour
     private void Start()
     {
         Overseer.Instance.AddManager(this);
-        if (loadScenes == LoadScenes.FromStart) StartCoroutine(LoadScenesAsync(voidScenes));
+        
+        switch (loadScenes)
+        {
+            case LoadScenes.FromStart:
+                PlayerBehaviour.Instance.transform.position = playerSpawns[0].position;
+                StartCoroutine(LoadScenesAsync(voidScenes));
+                break;
+            case LoadScenes.Void:
+                PlayerBehaviour.Instance.transform.position = playerSpawns[0].position; 
+                break;
+            case LoadScenes.Apartment:
+                PlayerBehaviour.Instance.transform.position = playerSpawns[1].position;
+                break;
+            case LoadScenes.FuneralHome:
+                PlayerBehaviour.Instance.transform.position = playerSpawns[2].position; 
+                break;
+        }
     }
 
     #region Transition

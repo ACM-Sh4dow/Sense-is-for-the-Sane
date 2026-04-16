@@ -3796,7 +3796,8 @@ MonoBehaviour:
   state: 0
   puzzleName: Flower
   distanceTolerance: 1
-  angleTolerance: 1
+  angleTolerance: 0.95
+  verticalAlignment: 1
   dist: 0
   angle: 0
   puzzleSolution: {fileID: 1334916441}
@@ -8309,6 +8310,7 @@ MonoBehaviour:
   puzzleName: Painting
   distanceTolerance: 1
   angleTolerance: 0.95
+  verticalAlignment: 0
   dist: 0
   angle: 0
   puzzleSolution: {fileID: 253686142}
@@ -9530,7 +9532,8 @@ MonoBehaviour:
   state: 0
   puzzleName: Casket
   distanceTolerance: 1
-  angleTolerance: 1
+  angleTolerance: 0.95
+  verticalAlignment: 0
   dist: 0
   angle: 0
   puzzleSolution: {fileID: 391050064}
@@ -12367,7 +12370,6 @@ GameObject:
   - component: {fileID: 682554467}
   - component: {fileID: 682554470}
   - component: {fileID: 682554469}
-  - component: {fileID: 682554468}
   m_Layer: 6
   m_Name: Easel Part
   m_TagString: Untagged
@@ -12390,27 +12392,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1235172666}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
---- !u!65 &682554468
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 682554466}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &682554469
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18568,7 +18549,6 @@ GameObject:
   - component: {fileID: 1056566120}
   - component: {fileID: 1056566123}
   - component: {fileID: 1056566122}
-  - component: {fileID: 1056566121}
   m_Layer: 6
   m_Name: Easel Part
   m_TagString: Untagged
@@ -18591,27 +18571,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1235172666}
   m_LocalEulerAnglesHint: {x: -12.715, y: 180.323, z: 0}
---- !u!65 &1056566121
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1056566119}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1056566122
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19035,6 +18994,7 @@ GameObject:
   - component: {fileID: 1077520696}
   - component: {fileID: 1077520698}
   - component: {fileID: 1077520697}
+  - component: {fileID: 1077520699}
   m_Layer: 6
   m_Name: Vase Stand
   m_TagString: Untagged
@@ -19113,6 +19073,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1077520695}
   m_Mesh: {fileID: 3914849404216410421, guid: a0c3f03d31fdf924089c3dce686de208, type: 3}
+--- !u!65 &1077520699
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077520695}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.399894, y: 0.859109, z: 0.3998952}
+  m_Center: {x: 2.1999998, y: 0.4389225, z: -6.8}
 --- !u!1 &1098633247
 GameObject:
   m_ObjectHideFlags: 0
@@ -25759,7 +25740,6 @@ GameObject:
   - component: {fileID: 1526687457}
   - component: {fileID: 1526687460}
   - component: {fileID: 1526687459}
-  - component: {fileID: 1526687458}
   m_Layer: 6
   m_Name: Easel Part
   m_TagString: Untagged
@@ -25782,27 +25762,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1235172666}
   m_LocalEulerAnglesHint: {x: -12.715, y: 49.641, z: 0}
---- !u!65 &1526687458
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1526687456}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1526687459
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27828,6 +27787,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 7089428526306844813}
   - {fileID: 805858780}
   m_Father: {fileID: 4071676763232004018}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -28097,7 +28057,6 @@ GameObject:
   - component: {fileID: 1630209343}
   - component: {fileID: 1630209346}
   - component: {fileID: 1630209345}
-  - component: {fileID: 1630209344}
   m_Layer: 6
   m_Name: Easel Part
   m_TagString: Untagged
@@ -28120,27 +28079,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1235172666}
   m_LocalEulerAnglesHint: {x: -12.715, y: -47.332, z: 0}
---- !u!65 &1630209344
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1630209342}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1630209345
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28613,7 +28551,6 @@ GameObject:
   - component: {fileID: 1689953669}
   - component: {fileID: 1689953672}
   - component: {fileID: 1689953671}
-  - component: {fileID: 1689953670}
   m_Layer: 6
   m_Name: Easel Part
   m_TagString: Untagged
@@ -28636,27 +28573,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1235172666}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
---- !u!65 &1689953670
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1689953668}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1689953671
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29656,7 +29572,6 @@ GameObject:
   - component: {fileID: 1809344667}
   - component: {fileID: 1809344670}
   - component: {fileID: 1809344669}
-  - component: {fileID: 1809344668}
   m_Layer: 6
   m_Name: Easel Part
   m_TagString: Untagged
@@ -29679,27 +29594,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1235172666}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
---- !u!65 &1809344668
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1809344666}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1809344669
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34247,7 +34141,6 @@ GameObject:
   - component: {fileID: 2084766781}
   - component: {fileID: 2084766784}
   - component: {fileID: 2084766783}
-  - component: {fileID: 2084766782}
   m_Layer: 6
   m_Name: Easel Part
   m_TagString: Untagged
@@ -34270,27 +34163,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1235172666}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
---- !u!65 &2084766782
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2084766780}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2084766783
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37708,7 +37580,6 @@ Transform:
   - {fileID: 1269298888}
   - {fileID: 1346793706}
   - {fileID: 1317691034}
-  - {fileID: 7089428526306844813}
   - {fileID: 1201595648}
   - {fileID: 1598106111}
   - {fileID: 2010461615}
@@ -38773,11 +38644,11 @@ Transform:
   m_GameObject: {fileID: 2840949682030946489}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.133, y: 0, z: 0.8729992}
+  m_LocalPosition: {x: 2.2059999, y: -0.536, z: 6.7979994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4071676763232004018}
+  m_Father: {fileID: 1598106111}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7110599333458448437
 MeshFilter:

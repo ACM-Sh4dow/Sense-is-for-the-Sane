@@ -8,8 +8,10 @@ public class PerspectivePuzzleSolve : Puzzle
 
     [Header("Puzzle Settings")] 
     [SerializeField] private float distanceTolerance;
-    [Tooltip("1 being facing door, 0 facing away, value should be around 0.95")]
+    [Tooltip("1 being facing object, 0 facing away, value should be around 0.95. (DOESNT WORK VERTICALLY!)")]
     [SerializeField] [Range(0.8f,1)] private float angleTolerance = 0.975f;
+    [Tooltip("Is the puzzle aligned vertically (above or below player)? If so, disables angle check, because angle doesn't work vertically.")]
+    [SerializeField] private bool verticalAlignment;
     
     [SerializeField] private float dist;
     [SerializeField] private float angle;
@@ -35,11 +37,13 @@ public class PerspectivePuzzleSolve : Puzzle
         angle = Quaternion.Dot(PlayerBehaviour.Instance.playerRotation.normalized,
             puzzleSolution.transform.rotation.normalized);
         
-        if ( dist <=
-             distanceTolerance
-            &&  angle >=
-            angleTolerance)
+        if ( dist <= distanceTolerance)
         {
+            if (!verticalAlignment && angle <= angleTolerance)
+            {
+                state = State.notSolvable;
+                return;
+            }
             state = State.solvable;
         }
         else
