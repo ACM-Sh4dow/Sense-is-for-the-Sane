@@ -7624,7 +7624,7 @@ Transform:
   m_GameObject: {fileID: 1718348984}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 6.118}
+  m_LocalPosition: {x: 0, y: 0, z: 6.118}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13506,8 +13506,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3942080781852409828}
   - {fileID: 1718348985}
+  - {fileID: 3942080781852409828}
   m_Father: {fileID: 6045842528359244921}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!95 &7687540549929380458
@@ -13545,7 +13545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DistanceBasedAnimation
   endOnComplete: 0
-  distanceCheckObject: {fileID: 0}
+  distanceCheckObject: {fileID: 1718348985}
   animationName: 
   animationStartDistance: 5
   animationEndDistance: 1.5

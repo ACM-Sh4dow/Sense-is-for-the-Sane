@@ -1316,17 +1316,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8abc335499657140ab79ef872c73a8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
-  loadScenes: 0
+  loadScenes: 4
   loadState: 2
   voidScenes:
-  - VD - Env
   - VD - Audio
+  - VD - Env
   apartmentScenes:
-  - AP - Env
   - AP - Audio
+  - AP - Env
   funeralHomeScenes:
-  - FH - Env - Import
   - FH - Audio
+  - FH - Env - Import
   - FH - Puzzles
   playerSpawns:
   - {fileID: 2057018849}

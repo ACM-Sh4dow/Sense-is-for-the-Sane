@@ -15,6 +15,7 @@ public class Telephone : MonoBehaviour, InteractionPoint
 
         yield return new WaitForSeconds(secondsBeforeRinging);
         phoneHasRung = true;
+        Debug.Log("Telephone: Phone is ringing!");
         AkUnitySoundEngine.PostEvent("Apt_Phone_Start", gameObject);
     }
 

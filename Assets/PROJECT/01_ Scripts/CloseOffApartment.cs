@@ -12,7 +12,7 @@ public class CloseOffApartment : MonoBehaviour
 
             transform.GetComponent<SceneTransition>().TriggerTransition();
             funeralHomeDoor.SetActive(true);
-            //set music state
+            AkUnitySoundEngine.SetState("CurrentScene", "FuneralHome");
         }
     }
 }
