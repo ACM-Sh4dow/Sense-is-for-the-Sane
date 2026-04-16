@@ -1,8 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
 	305829503	Fnrl_Mirror_Complete			\Funeral Home\Fnrl_Mirror_Complete	
 	650669748	Fnrl_Wall_Shatter			\Funeral Home\Fnrl_Wall_Shatter	
+	1249783482	Fnrl_Casket_Creaking			\Funeral Home\Fnrl_Casket_Creaking	
 	1612838152	Fnrl_Amb_Thunderstorm			\Funeral Home\Fnrl_Amb_Thunderstorm	
 	1736817776	Fnrl_Mirror_Breathing			\Funeral Home\Fnrl_Mirror_Breathing	
+	2124265127	Fnrl_Front_Door_Close			\Funeral Home\Fnrl_Front_Door_Close	
 	2161155719	Fnrl_Transition_Inhale			\Funeral Home\Fnrl_Transition_Inhale	
 	2549568769	Fnrl_Mus_Piano			\Funeral Home\Music\Fnrl_Mus_Piano	
 	2914489546	Fnrl_Painting_Place			\Funeral Home\Fnrl_Painting_Place	
@@ -13,10 +15,15 @@ Event	ID	Name			Wwise Object Path	Notes
 	3533695665	Fnrl_Flower_Vase			\Funeral Home\Fnrl_Flower_Vase	
 
 State Group	ID	Name			Wwise Object Path	Notes
+	2121736680	CurrentScene			\States WU\CurrentScene	
 	3585118241	FuneralHomeVersion			\States WU\FuneralHomeVersion	
 	3649513479	PuzzlesCompleted			\States WU\PuzzlesCompleted	
 
 State	ID	Name	State Group			Notes
+	748895195	None	CurrentScene			
+	3370470011	Void	CurrentScene			
+	4154495109	Apartment	CurrentScene			
+	4219119955	FuneralHome	CurrentScene			
 	748895195	None	FuneralHomeVersion			
 	2628937827	Regular	FuneralHomeVersion			
 	2915544473	Alternate	FuneralHomeVersion			
@@ -28,6 +35,7 @@ State	ID	Name	State Group			Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	553709980	InAudibleZone			\Game Parameters WU\InAudibleZone	
+	1288081852	DistanceAnimationRate			\Game Parameters WU\DistanceAnimationRate	
 	1768319275	DistanceFromTarget			\Game Parameters WU\DistanceFromTarget	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
@@ -35,6 +43,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	16631637	Breath_Exhale_003	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\7D\{7D2A9971-5F2F-33B6-BDC5-EAAEF137F72A}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Funeral Home\Transition\Exhale\Breath_Exhale_003		198160
 	52400242	Flower_Vase_02	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\52\{52CDD6AD-7BF6-F47C-5440-5D40A0C24AB0}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Funeral Home\Objects\Flowers Seq\Flower_Vase_02		187844
 	59700195	Flower_Vase_03	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\4F\{4F307F07-AF11-CE38-D09C-47C3FA051899}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Funeral Home\Objects\Flowers Seq\Flower_Vase_03		167920
+	70164577	Casket_Creaking	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\4C\{4C855808-35C5-274A-FA9E-363C8C61777C}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Funeral Home\Casket Creaking Seq\Casket_Creaking		1393192
 	179374628	Funeral_Mirror_Breathing	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\EB\{EB586C5B-64AD-8CF1-ACDE-6D1EB1BE05A8}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Funeral Home\Mirror Puzzle\Funeral_Mirror_Breathing		10554504
 	230791500	Flower_Vase_01	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\0F\{0FC013A9-6583-7275-6EED-BC5452CEDFAF}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Funeral Home\Objects\Flowers Seq\Flower_Vase_01		132240
 	277586871	Breath_Exhale_002	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\76\{76B3B84B-0C3D-1B44-5FE8-8E4E9985A00A}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Funeral Home\Transition\Exhale\Breath_Exhale_002		398616
@@ -49,5 +58,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	741278934	Breath_Inhale_003	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\CE\{CE705DAC-1D0E-4E54-A9DA-447830616320}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Funeral Home\Transition\Inhale\Breath_Inhale_003		108312
 	834748161	Wall_Shatter_01	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\88\{887E5393-C033-0039-C449-EDF929C5E9F7}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Funeral Home\Wall Shatter Seq\Wall_Shatter_01		762920
 	840959845	Funeral_Ambience_Thunderstorm	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\15\{156798CD-B2CE-6C02-F98A-F24F52919FA7}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\Funeral Home\Ambience\Funeral_Ambience_Thunderstorm		22695772
+	1003612582	Door_Close_02	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\58\{58F32590-1E05-9231-51D3-ED2FF73BBCF4}.wem		\Actor-Mixer Hierarchy\Actor-Mixer WU\General SFX\Doors\Door_Close_02		231140
 	1061829314	Menuet_Solo Strings	C:\Work\ACM\507\Sense is for the Sane - PROJECT\Sense-is-for-the-Sane\Sense-is-for-the-Sane_WwiseProject\.cache\2B\{2B1A6A52-D42B-577B-7176-B0AF9293E174}.wem		\Interactive Music Hierarchy\Music WU\Menuet_Strings\Menuet_Strings Seg\Menuet_Solo Strings		19856560
 

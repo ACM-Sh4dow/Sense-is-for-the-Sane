@@ -92,6 +92,42 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Apt_Front_Door_Open" ID="{4AAAB2FC-5131-4C24-B17F-C213301BA96E}">
+					<ChildrenList>
+						<Action Name="" ID="{27A9D3DD-029F-4A26-9C16-092A7ADD933E}" ShortID="125424095">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Open" ID="{A1F01D3C-E61A-4BE9-AC49-C9F237039C98}" WorkUnitID="{5617E81F-15D7-467B-96EE-EEF11E47BC75}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5B38135A-75CC-4926-B949-12810B6A7940}" ShortID="646593792">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Casket_Creaking" ID="{78EE0F37-1E06-4F4D-B191-138ABF881225}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1AE489B6-BC0B-44B2-B181-7318350C7318}" ShortID="672366794">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Casket_Creaking" ID="{78EE0F37-1E06-4F4D-B191-138ABF881225}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

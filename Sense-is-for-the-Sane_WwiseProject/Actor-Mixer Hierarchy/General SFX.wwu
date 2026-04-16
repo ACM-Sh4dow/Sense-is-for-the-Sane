@@ -1233,7 +1233,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="Door Close Rand" ID="{AE870C7D-2881-478C-A293-CC3EF61DB9BF}" ShortID="601593495">
+						<RandomSequenceContainer Name="Door Spawn Rand" ID="{AE870C7D-2881-478C-A293-CC3EF61DB9BF}" ShortID="601593495">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="Pitch" Type="int32">
@@ -1365,6 +1365,11 @@
 							<PropertyList>
 								<Property Name="3DPosition" Type="int16" Value="1"/>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -1470,29 +1475,14 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Door_01" ID="{A1F01D3C-E61A-4BE9-AC49-C9F237039C98}" ShortID="542404794">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Door_01" ID="{C5D344F2-C653-4C57-BC43-ECFBD2DAE360}">
-											<Language>SFX</Language>
-											<AudioFile>Doors\Door_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="581813657"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Door_01" ID="{C5D344F2-C653-4C57-BC43-ECFBD2DAE360}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="Door_02" ID="{B76B9DA0-B832-4BFB-B737-77FAE7BEBDF6}" ShortID="367651599">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
@@ -1503,6 +1493,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Door_02" ID="{CBD58666-3553-4828-A590-1DCAD0FCB145}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.755866216402858"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Doors\Door_02.wav</AudioFile>
 											<MediaIDList>
@@ -1515,6 +1510,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Door_03" ID="{F45F068B-7D76-4117-9426-E7185ED5C1CE}" ShortID="1033894559">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
@@ -1564,6 +1566,86 @@
 								</Position>
 							</PositioningInfo>
 						</RandomSequenceContainer>
+						<Sound Name="Door_Open" ID="{A1F01D3C-E61A-4BE9-AC49-C9F237039C98}" ShortID="542404794">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Funeral Home Attenuation" ID="{612E52EC-7A7F-42EC-8ED2-79F6A8AD6889}" WorkUnitID="{EE5E383A-A28E-4288-B8AA-74712DC2AE17}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Gnrl_World" ID="{5F82077A-1086-45D6-A569-B616BA0A2EFC}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Void_Reverb" ID="{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Door_01" ID="{C5D344F2-C653-4C57-BC43-ECFBD2DAE360}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Doors\Door_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="581813657"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Door_01" ID="{C5D344F2-C653-4C57-BC43-ECFBD2DAE360}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Door_Close_02" ID="{CE660335-4C12-4330-8918-C4D8ECC0F9FA}" ShortID="769779393">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>110</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Door_Close_02" ID="{C9569F95-6B5B-4FB5-8C7C-D80BA3884F8B}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.503566504892436"/>
+										<Property Name="FadeInShape" Type="int16" Value="7"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.416328953449087"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Door_Close_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1003612582"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Door_Close_02" ID="{C9569F95-6B5B-4FB5-8C7C-D80BA3884F8B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<StateInfo>
 						<StatePropertyList>

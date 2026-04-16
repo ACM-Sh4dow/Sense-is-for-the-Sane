@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID APT_CREAKING = 329135517U;
         static const AkUniqueID APT_FIREPLACE = 2202553018U;
         static const AkUniqueID APT_FRIDGE = 2280025682U;
+        static const AkUniqueID APT_FRONT_DOOR_OPEN = 1421437688U;
         static const AkUniqueID APT_PHONE_START = 969392694U;
         static const AkUniqueID APT_PHONE_STOP = 197399990U;
         static const AkUniqueID APT_SINK = 751812660U;
@@ -24,7 +25,9 @@ namespace AK
         static const AkUniqueID DOOR_CREAKING = 2843028372U;
         static const AkUniqueID FNRL_AMB_PAUSE = 2963388045U;
         static const AkUniqueID FNRL_AMB_THUNDERSTORM = 1612838152U;
+        static const AkUniqueID FNRL_CASKET_CREAKING = 1249783482U;
         static const AkUniqueID FNRL_FLOWER_VASE = 3533695665U;
+        static const AkUniqueID FNRL_FRONT_DOOR_CLOSE = 2124265127U;
         static const AkUniqueID FNRL_MIRROR_BREATHING = 1736817776U;
         static const AkUniqueID FNRL_MIRROR_COMPLETE = 305829503U;
         static const AkUniqueID FNRL_MUS_ORGAN = 1578407477U;
