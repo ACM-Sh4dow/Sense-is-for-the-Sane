@@ -28,7 +28,7 @@ public class SceneLoader : MonoBehaviour
         Unloading,
         None
     }
-    public LoadState loadState;
+    public LoadState loadState = LoadState.None;
 
 
     [SerializeField] private List<string> voidScenes = new();

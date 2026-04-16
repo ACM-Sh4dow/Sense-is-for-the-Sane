@@ -381,7 +381,6 @@ GameObject:
   - component: {fileID: 79006399}
   - component: {fileID: 79006402}
   - component: {fileID: 79006401}
-  - component: {fileID: 79006400}
   m_Layer: 0
   m_Name: Bookshelf (10)
   m_TagString: Untagged
@@ -404,27 +403,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 990674273}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &79006400
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 79006398}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &79006401
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -492,7 +470,6 @@ GameObject:
   - component: {fileID: 80221397}
   - component: {fileID: 80221400}
   - component: {fileID: 80221399}
-  - component: {fileID: 80221398}
   m_Layer: 0
   m_Name: Bookshelf (15)
   m_TagString: Untagged
@@ -515,27 +492,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 990674273}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
---- !u!65 &80221398
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 80221396}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &80221399
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1791,7 +1747,6 @@ GameObject:
   - component: {fileID: 301406265}
   - component: {fileID: 301406268}
   - component: {fileID: 301406267}
-  - component: {fileID: 301406266}
   m_Layer: 0
   m_Name: Bookshelf (4)
   m_TagString: Untagged
@@ -1814,27 +1769,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 990674273}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &301406266
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301406264}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &301406267
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1902,7 +1836,6 @@ GameObject:
   - component: {fileID: 308191682}
   - component: {fileID: 308191685}
   - component: {fileID: 308191684}
-  - component: {fileID: 308191683}
   m_Layer: 0
   m_Name: Bookshelf (8)
   m_TagString: Untagged
@@ -1925,27 +1858,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 990674273}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
---- !u!65 &308191683
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 308191681}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &308191684
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2102,7 +2014,6 @@ GameObject:
   - component: {fileID: 372662599}
   - component: {fileID: 372662602}
   - component: {fileID: 372662601}
-  - component: {fileID: 372662600}
   m_Layer: 0
   m_Name: Bookshelf (6)
   m_TagString: Untagged
@@ -2125,27 +2036,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 990674273}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &372662600
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 372662598}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &372662601
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2324,7 +2214,6 @@ GameObject:
   - component: {fileID: 391926801}
   - component: {fileID: 391926804}
   - component: {fileID: 391926803}
-  - component: {fileID: 391926802}
   m_Layer: 0
   m_Name: Bookshelf (5)
   m_TagString: Untagged
@@ -2347,27 +2236,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 990674273}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &391926802
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 391926800}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &391926803
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3213,7 +3081,6 @@ GameObject:
   - component: {fileID: 733110399}
   - component: {fileID: 733110402}
   - component: {fileID: 733110401}
-  - component: {fileID: 733110400}
   m_Layer: 0
   m_Name: Bookshelf (7)
   m_TagString: Untagged
@@ -3236,27 +3103,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 990674273}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &733110400
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 733110398}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &733110401
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3324,7 +3170,6 @@ GameObject:
   - component: {fileID: 747779428}
   - component: {fileID: 747779431}
   - component: {fileID: 747779430}
-  - component: {fileID: 747779429}
   m_Layer: 0
   m_Name: Bookshelf (11)
   m_TagString: Untagged
@@ -3347,27 +3192,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 990674273}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
---- !u!65 &747779429
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 747779427}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &747779430
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4277,9 +4101,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 472335760}
   - {fileID: 1317362805}
   - {fileID: 301406265}
-  - {fileID: 472335760}
   - {fileID: 391926801}
   - {fileID: 372662599}
   - {fileID: 733110399}
@@ -5960,7 +5784,6 @@ GameObject:
   - component: {fileID: 1317362805}
   - component: {fileID: 1317362808}
   - component: {fileID: 1317362807}
-  - component: {fileID: 1317362806}
   m_Layer: 0
   m_Name: Bookshelf (1)
   m_TagString: Untagged
@@ -5983,27 +5806,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 990674273}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &1317362806
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317362804}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1317362807
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6790,7 +6592,6 @@ GameObject:
   - component: {fileID: 1410047148}
   - component: {fileID: 1410047151}
   - component: {fileID: 1410047150}
-  - component: {fileID: 1410047149}
   m_Layer: 0
   m_Name: Bookshelf (9)
   m_TagString: Untagged
@@ -6813,27 +6614,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 990674273}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
---- !u!65 &1410047149
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1410047147}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1410047150
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7292,7 +7072,6 @@ GameObject:
   - component: {fileID: 1571584980}
   - component: {fileID: 1571584983}
   - component: {fileID: 1571584982}
-  - component: {fileID: 1571584981}
   m_Layer: 0
   m_Name: Bookshelf (14)
   m_TagString: Untagged
@@ -7315,27 +7094,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 990674273}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
---- !u!65 &1571584981
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1571584979}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1571584982
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7477,7 +7235,6 @@ GameObject:
   - component: {fileID: 1616823409}
   - component: {fileID: 1616823412}
   - component: {fileID: 1616823411}
-  - component: {fileID: 1616823410}
   m_Layer: 0
   m_Name: Bookshelf (13)
   m_TagString: Untagged
@@ -7500,27 +7257,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 990674273}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
---- !u!65 &1616823410
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1616823408}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1616823411
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8170,7 +7906,6 @@ GameObject:
   - component: {fileID: 1756946965}
   - component: {fileID: 1756946968}
   - component: {fileID: 1756946967}
-  - component: {fileID: 1756946966}
   m_Layer: 0
   m_Name: Bookshelf (12)
   m_TagString: Untagged
@@ -8193,27 +7928,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 990674273}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
---- !u!65 &1756946966
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1756946964}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1756946967
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8759,7 +8473,6 @@ GameObject:
   - component: {fileID: 1916117786}
   - component: {fileID: 1916117789}
   - component: {fileID: 1916117788}
-  - component: {fileID: 1916117787}
   m_Layer: 0
   m_Name: Bookshelf (3)
   m_TagString: Untagged
@@ -8782,27 +8495,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 990674273}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &1916117787
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1916117785}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1916117788
 MeshRenderer:
   m_ObjectHideFlags: 0
