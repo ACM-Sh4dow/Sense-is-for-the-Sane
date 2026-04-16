@@ -283,7 +283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkRoomPortal
   triggerList: f7e1664c
   useOtherObject: 0
-  initialState: 0
+  initialState: 1
   closePortalTriggerList: 
   rooms:
   - {fileID: 216408728}
@@ -1139,7 +1139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkRoomPortal
   triggerList: f7e1664c
   useOtherObject: 0
-  initialState: 0
+  initialState: 1
   closePortalTriggerList: 
   rooms:
   - {fileID: 2100511125}
@@ -1212,7 +1212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkRoomPortal
   triggerList: f7e1664c
   useOtherObject: 0
-  initialState: 0
+  initialState: 1
   closePortalTriggerList: 
   rooms:
   - {fileID: 2100511125}

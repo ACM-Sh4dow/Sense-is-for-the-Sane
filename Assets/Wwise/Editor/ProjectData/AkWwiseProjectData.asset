@@ -487,7 +487,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584252602187487466
+    m_lastTime: -8584252581430106731
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -959,7 +959,7 @@ MonoBehaviour:
     ParentPath: Events\General Events
     guid: 1ff59692a3e328449b9b4c99fad941f7
     GuidInternal: 
-    m_lastTime: -8584252621648575853
+    m_lastTime: -8584252582902830146
     List:
     - name: Apt_Stop_All
       guid: ba461666a9b5be44ad28a2bd8cafdc56
@@ -1168,59 +1168,8 @@ MonoBehaviour:
     ParentPath: Events\Tests
     guid: f612c0badde62b4f83093679909ae332
     GuidInternal: 
-    m_lastTime: -8584252621648570825
-    List:
-    - name: GramophoneTransition
-      guid: a6a54ba4578a8d4eac452bf911a175b7
-      id: 1475034760
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Tests
-        ObjectType: 12
-        guid: f612c0badde62b4f83093679909ae332
-      - ElementName: GramophoneTransition
-        ObjectType: 3
-        guid: a6a54ba4578a8d4eac452bf911a175b7
-      Path: Events\Tests\GramophoneTransition
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: TestFnrlMusic
-      guid: 38046558aac1654e94123c22b64073a1
-      id: 2590074396
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Tests
-        ObjectType: 12
-        guid: f612c0badde62b4f83093679909ae332
-      - ElementName: TestFnrlMusic
-        ObjectType: 3
-        guid: 38046558aac1654e94123c22b64073a1
-      Path: Events\Tests\TestFnrlMusic
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: TestFootstepMirror
-      guid: 9b768b25df2d814d9bdf86acdc764f7f
-      id: 1056145946
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Tests
-        ObjectType: 12
-        guid: f612c0badde62b4f83093679909ae332
-      - ElementName: TestFootstepMirror
-        ObjectType: 3
-        guid: 9b768b25df2d814d9bdf86acdc764f7f
-      Path: Events\Tests\TestFootstepMirror
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+    m_lastTime: -8584252581430219904
+    List: []
   - PhysicalPath: Events\Void.wwu
     PathAndIcons:
     - ElementName: Events
@@ -1232,7 +1181,7 @@ MonoBehaviour:
     ParentPath: Events\Void
     guid: ab034f2717ecfa44a98addefad73aad5
     GuidInternal: 
-    m_lastTime: -8584252602223861185
+    m_lastTime: -8584252581430204892
     List:
     - name: Pitch Change
       guid: 30d1181be23b144daf6e0a67944800b0

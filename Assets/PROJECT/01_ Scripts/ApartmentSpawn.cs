@@ -9,6 +9,7 @@ public class ApartmentSpawn : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             transform.GetComponent<SceneTransition>().TriggerTransition();
+            AkUnitySoundEngine.SetSwitch("FootstepsSwitch", "Wood", PlayerBehaviour.Instance.gameObject);
             telephone.clearToStartRinging = true;
             gameObject.SetActive(false);
         }

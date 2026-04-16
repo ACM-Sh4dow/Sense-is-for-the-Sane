@@ -79,10 +79,10 @@ public class SceneLoader : MonoBehaviour
         switch (currentLevel)
         {
             case CurrentLevel.Void:
-                StartCoroutine(UnloadPreviousScenes(secondsToWait));
+                StartCoroutine(UnloadPreviousScenes(secondsToWait, "Void_Stop_All"));
                 break;
             case CurrentLevel.Apartment:
-                StartCoroutine(UnloadPreviousScenes(secondsToWait));
+                StartCoroutine(UnloadPreviousScenes(secondsToWait, "Apt_Stop_All"));
                 break;
             case CurrentLevel.FuneralHome:
                 StartCoroutine(UnloadPreviousScenes(secondsToWait));
@@ -131,12 +131,15 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("SceneLoader: Scene loading COMPLETE.");
         loadState = LoadState.None;
     }
-    private IEnumerator UnloadPreviousScenes(float secondsToWait = 0)
+    private IEnumerator UnloadPreviousScenes(float secondsToWait = 0, string sceneAudioStopEvent = "")
     {
         loadState = LoadState.Unloading;
         Debug.Log($"SceneLoader: Removing previous scenes in {secondsToWait} seconds...");
         yield return new WaitForSeconds(secondsToWait);
-        
+
+        Debug.Log("Audio: Stopping scene audio - " + sceneAudioStopEvent);
+        if(sceneAudioStopEvent != "") AkUnitySoundEngine.PostEvent(sceneAudioStopEvent, gameObject);
+
         foreach (Scene scene in scenesToRemove)
         {
             if (!scene.isLoaded) break;
