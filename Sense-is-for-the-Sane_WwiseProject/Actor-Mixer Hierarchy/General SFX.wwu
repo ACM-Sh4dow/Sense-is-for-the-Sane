@@ -15,12 +15,12 @@
 						</Property>
 						<Property Name="UserAuxSendVolume0" Type="Real64">
 							<ValueList>
-								<Value>3</Value>
+								<Value>2</Value>
 							</ValueList>
 						</Property>
 						<Property Name="UserAuxSendVolume1" Type="Real64">
 							<ValueList>
-								<Value>-2</Value>
+								<Value>-4</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -456,7 +456,7 @@
 												<StateRef Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
 												<CustomState Name="" ID="{FF81AB25-4CF8-4B7B-B1D6-26A67A2EE050}" ShortID="515218931">
 													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-5"/>
+														<Property Name="Volume" Type="Real64" Value="1"/>
 													</PropertyList>
 												</CustomState>
 											</CustomState>
@@ -464,7 +464,7 @@
 												<StateRef Name="Apartment" ID="{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"/>
 												<CustomState Name="" ID="{3A1701F1-BD69-4F1E-80A0-484D911AF982}" ShortID="493852000">
 													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-5"/>
+														<Property Name="Volume" Type="Real64" Value="-2"/>
 													</PropertyList>
 												</CustomState>
 											</CustomState>
@@ -479,7 +479,7 @@
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.83"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-8</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -610,16 +610,50 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="CurrentScene" ID="{4096DFB2-433F-4D69-BAFF-D67984F6FB84}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="None" ID="{A69EBB97-976D-4175-A28B-344441D6C540}"/>
+												<CustomState Name="" ID="{98AA0939-4FE6-4F48-A50D-FC23CE618073}" ShortID="1030727705"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Void" ID="{AE9041A4-3A52-434E-87E3-476B865CAD06}"/>
+												<CustomState Name="" ID="{F4ADB534-7AF2-4D95-8B9E-C55DD473E3E6}" ShortID="458993363"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
+												<CustomState Name="" ID="{24C45482-B45A-46C4-A984-6CDF8BC2DC09}" ShortID="671247882">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-6"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Apartment" ID="{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"/>
+												<CustomState Name="" ID="{EA4B628F-6852-4CAC-9242-3B295AB319E8}" ShortID="852674526"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Carpet" ID="{19E91A9C-62A9-480A-8F6E-E3567B785659}" ShortID="944838721">
 									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.83"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>-6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1627,9 +1661,6 @@
 							</ValueList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-5</Value>
-							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
 									<Modifier Name="" ID="{6B40BA4F-4539-4296-A2C1-E95A93B9CA0D}">
@@ -1959,7 +1990,7 @@
 								<StateRef Name="Void" ID="{AE9041A4-3A52-434E-87E3-476B865CAD06}"/>
 								<CustomState Name="" ID="{FF279FE0-A5BF-4CAD-A1E3-28D276538CD7}" ShortID="911960904">
 									<PropertyList>
-										<Property Name="Volume" Type="Real64" Value="6"/>
+										<Property Name="Volume" Type="Real64" Value="1"/>
 									</PropertyList>
 								</CustomState>
 							</CustomState>
@@ -1968,6 +1999,7 @@
 								<CustomState Name="" ID="{57E85F19-5D41-4C2D-A97A-DCB0F075FEDC}" ShortID="865188354">
 									<PropertyList>
 										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
+										<Property Name="Volume" Type="Real64" Value="-6"/>
 									</PropertyList>
 								</CustomState>
 							</CustomState>

@@ -168,7 +168,7 @@
        {
         "Id": "1676289129",
         "Name": "Apt_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Apartment\\Apt_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Apt_Reverb",
         "GUID": "{B28A58E4-2BBF-4849-B95C-3ACC849A967E}"
        }
       ]
@@ -243,6 +243,6 @@
     ]
    }
   ],
-  "FileHash": "{261379E5-C7DA-DF67-BDD2-EED2EBD4902A}"
+  "FileHash": "{EC2CE000-4E24-25FF-9D50-AF13DA3575E7}"
  }
 }

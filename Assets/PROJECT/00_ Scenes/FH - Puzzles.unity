@@ -9070,13 +9070,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 480027926}
+  - component: {fileID: 480027927}
   m_Layer: 0
   m_Name: Flower Vase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &480027926
 Transform:
   m_ObjectHideFlags: 0
@@ -9094,6 +9095,30 @@ Transform:
   - {fileID: 2034985869}
   m_Father: {fileID: 1269298888}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &480027927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480027925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3adcb5a3f66df8745acfeb0209f0cfdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 1
+  m_positionOffsetData:
+    KeepMe: 1
+    positionOffset: {x: -15.094068, y: 0.98227406, z: 9.287495}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &487577122
 GameObject:
   m_ObjectHideFlags: 0
@@ -38765,7 +38790,7 @@ MonoBehaviour:
   audioEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 721e842c3d5e66d4cbc45752b80113c5, type: 2}
 --- !u!114 &7425760034368367051
 MonoBehaviour:
   m_ObjectHideFlags: 0

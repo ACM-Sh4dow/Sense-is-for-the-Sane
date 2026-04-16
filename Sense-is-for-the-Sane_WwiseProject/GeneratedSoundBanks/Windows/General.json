@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{39E76D16-3659-462C-8AE1-BE0B06954A63}",
     "Language": "SFX",
-    "Hash": "{A951B38B-C4AB-8642-12AB-0DB6DCF3BE1B}",
+    "Hash": "{381797EC-A94D-AF53-4055-111FCDAA7F42}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\General",
     "ShortName": "General",
     "Path": "General.bnk",
@@ -284,7 +284,7 @@
        {
         "Id": "3356433602",
         "Name": "Void_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Void_Reverb",
         "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
        }
       ]
@@ -308,7 +308,7 @@
        {
         "Id": "1676289129",
         "Name": "Apt_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Apartment\\Apt_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Apt_Reverb",
         "GUID": "{B28A58E4-2BBF-4849-B95C-3ACC849A967E}"
        }
       ]
@@ -350,19 +350,19 @@
        {
         "Id": "1676289129",
         "Name": "Apt_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Apartment\\Apt_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Apt_Reverb",
         "GUID": "{B28A58E4-2BBF-4849-B95C-3ACC849A967E}"
        },
        {
         "Id": "1784058834",
         "Name": "Fnrl_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home\\Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
         "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
        },
        {
         "Id": "3356433602",
         "Name": "Void_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Void_Reverb",
         "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
        }
       ],
@@ -466,19 +466,19 @@
        {
         "Id": "1676289129",
         "Name": "Apt_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Apartment\\Apt_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Apt_Reverb",
         "GUID": "{B28A58E4-2BBF-4849-B95C-3ACC849A967E}"
        },
        {
         "Id": "1784058834",
         "Name": "Fnrl_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home\\Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
         "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
        },
        {
         "Id": "3356433602",
         "Name": "Void_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Void_Reverb",
         "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
        }
       ],
@@ -562,8 +562,8 @@
       "GUID": "{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}",
       "MaxAttenuation": "100",
       "DurationType": "OneShot",
-      "DurationMin": "118.5",
-      "DurationMax": "118.5",
+      "DurationMin": "118",
+      "DurationMax": "118",
       "MediaRefs": [
        {
         "Id": "1038962611"
@@ -573,7 +573,7 @@
        {
         "Id": "3356433602",
         "Name": "Void_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Void_Reverb",
         "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
        }
       ]
@@ -594,13 +594,13 @@
        {
         "Id": "1784058834",
         "Name": "Fnrl_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home\\Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
         "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
        },
        {
         "Id": "3356433602",
         "Name": "Void_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Void_Reverb",
         "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
        }
       ]
@@ -676,6 +676,6 @@
     ]
    }
   ],
-  "FileHash": "{16267635-43FB-9F96-5F09-34D11B51924D}"
+  "FileHash": "{5C4B7C26-7AD1-E645-5968-AABBF34FD0A9}"
  }
 }

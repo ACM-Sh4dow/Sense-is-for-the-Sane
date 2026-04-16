@@ -242,12 +242,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Fnrl_Picture_Frame" ID="{A068709C-45C1-4576-B337-02C1219D363E}">
+				<Event Name="Fnrl_Painting_Place" ID="{A068709C-45C1-4576-B337-02C1219D363E}">
 					<ChildrenList>
 						<Action Name="" ID="{0B6EECA2-A9BB-42FA-997F-2FD5AED41EF4}" ShortID="804187763">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Picture_Frame" ID="{E365E117-D214-43EA-B016-31523676118E}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+									<ObjectRef Name="Painting_Place" ID="{E365E117-D214-43EA-B016-31523676118E}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -272,6 +272,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Funeral_Mirror_Exhale" ID="{8370362C-B231-4FAB-B308-8001C4AE22E3}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fnrl_Painting_Pickup" ID="{C328E2F2-2F3D-4AE0-8281-5B977F5FD1CB}">
+					<ChildrenList>
+						<Action Name="" ID="{663ECFCA-EE85-44D2-A0FD-44E950ECB29B}" ShortID="806741999">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Painting_Pickup" ID="{666778C9-1FAC-432D-9038-9D46DA1226A2}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

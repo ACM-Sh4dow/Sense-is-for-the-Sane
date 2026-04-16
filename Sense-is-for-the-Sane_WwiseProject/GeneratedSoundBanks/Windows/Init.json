@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{ACD66AC5-A436-01E9-4E24-6AD7A372B4D5}",
+    "Hash": "{7D7952DB-63C0-3E83-634E-92EA7EAD6A49}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -72,6 +72,12 @@
       "Name": "General",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\General",
       "GUID": "{0FB50B73-DF71-447C-8241-8FE469217543}"
+     },
+     {
+      "Id": "348963605",
+      "Name": "Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+      "GUID": "{933B206B-44B9-4DDA-BDB8-9ACA1E3BD603}"
      },
      {
       "Id": "439711954",
@@ -180,7 +186,7 @@
      {
       "Id": "1676289129",
       "Name": "Apt_Reverb",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Apartment\\Apt_Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Apt_Reverb",
       "GUID": "{B28A58E4-2BBF-4849-B95C-3ACC849A967E}",
       "PluginRefs": {
        "ShareSets": [
@@ -193,7 +199,7 @@
      {
       "Id": "1784058834",
       "Name": "Fnrl_Reverb",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home\\Fnrl_Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
       "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}",
       "PluginRefs": {
        "ShareSets": [
@@ -206,7 +212,7 @@
      {
       "Id": "3356433602",
       "Name": "Void_Reverb",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Void_Reverb",
       "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}",
       "PluginRefs": {
        "ShareSets": [
@@ -377,6 +383,6 @@
     ]
    }
   ],
-  "FileHash": "{E8A6A61A-048E-611D-72DB-F1CF18136D4D}"
+  "FileHash": "{7A92350E-34C6-83AB-27F1-2B3CB528A77B}"
  }
 }

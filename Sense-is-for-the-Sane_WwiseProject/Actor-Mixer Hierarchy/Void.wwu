@@ -1265,6 +1265,43 @@
 							</ChildrenList>
 						</Position>
 					</PositioningInfo>
+					<StateInfo>
+						<StatePropertyList>
+							<Property Name="Highpass"/>
+							<Property Name="Lowpass"/>
+							<Property Name="MakeUpGain"/>
+							<Property Name="Pitch"/>
+							<Property Name="UserAuxSendVolume0"/>
+							<Property Name="Volume"/>
+						</StatePropertyList>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="CurrentScene" ID="{4096DFB2-433F-4D69-BAFF-D67984F6FB84}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="None" ID="{A69EBB97-976D-4175-A28B-344441D6C540}"/>
+								<CustomState Name="" ID="{4BB79B5F-36EC-417C-A0B8-A069E69B5F1E}" ShortID="731797100"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Void" ID="{AE9041A4-3A52-434E-87E3-476B865CAD06}"/>
+								<CustomState Name="" ID="{F917CF7E-0462-438A-8EC0-318838D172AD}" ShortID="92516043"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
+								<CustomState Name="" ID="{8990C505-D3A4-4922-912F-6A4B75377697}" ShortID="906798665"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Apartment" ID="{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"/>
+								<CustomState Name="" ID="{6893580C-9DE1-41CC-8518-2F60E378917A}" ShortID="542743435">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="The World Behind Your Eyes (Gramophone) FINAL" ID="{D7D322E6-0177-400A-B6DE-522F9064F95A}" Platform="Linked"/>
 					</ActiveSourceList>

@@ -62,7 +62,7 @@
 					<ChildrenList>
 						<Action Name="" ID="{06B50C93-9DC9-410B-BF4C-C3FD6FA14468}" ShortID="900056855">
 							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="1.5"/>
+								<Property Name="Delay" Type="Real64" Value="1"/>
 								<Property Name="FadeTime" Type="Real64" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
@@ -73,7 +73,7 @@
 						</Action>
 						<Action Name="" ID="{599DBBA6-BCF9-419D-8EDB-1509AE84CBC0}" ShortID="781107243">
 							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="1.5"/>
+								<Property Name="Delay" Type="Real64" Value="1"/>
 								<Property Name="FadeTime" Type="Real64" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
@@ -85,7 +85,7 @@
 						<Action Name="" ID="{08BC1B18-3F08-45C1-B951-2876874A5F81}" ShortID="670149055">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="2.5"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>

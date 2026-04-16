@@ -31,7 +31,7 @@ namespace AK
         static const AkUniqueID FNRL_MUS_PIANO = 2549568769U;
         static const AkUniqueID FNRL_MUS_STRINGS = 3506702008U;
         static const AkUniqueID FNRL_MUS_WINDS = 3153082963U;
-        static const AkUniqueID FNRL_PICTURE_FRAME = 1022944170U;
+        static const AkUniqueID FNRL_PAINTING_PLACE = 2914489546U;
         static const AkUniqueID FNRL_STOP_ALL = 4234584678U;
         static const AkUniqueID FNRL_TRANSITION_EXHALE = 2938809645U;
         static const AkUniqueID FNRL_TRANSITION_INHALE = 2161155719U;
@@ -148,6 +148,7 @@ namespace AK
         static const AkUniqueID GNRL_PLAYER = 2125642148U;
         static const AkUniqueID GNRL_WORLD = 1035059981U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID REVERB = 348963605U;
         static const AkUniqueID VOID = 3370470011U;
         static const AkUniqueID VOID_AMB = 3962830982U;
         static const AkUniqueID VOID_MUS = 4096463699U;

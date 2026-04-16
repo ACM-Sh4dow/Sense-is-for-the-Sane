@@ -53,7 +53,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Fnrl_Transition_Inhale" ID="{36E22E4E-5EA4-41E7-B576-76B3D3090F0E}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Amb_Pause" ID="{BF907AB0-5AFC-4334-801F-DDC3DFF36A05}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Fnrl_Picture_Frame" ID="{A068709C-45C1-4576-B337-02C1219D363E}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fnrl_Painting_Place" ID="{A068709C-45C1-4576-B337-02C1219D363E}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Mus_Strings" ID="{2A588BC6-F874-4660-A5A5-061650ED2C5C}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Mus_Piano" ID="{9F02AAE3-A025-471B-A281-B77A69F45B8A}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Wall_Shatter" ID="{1C722E0F-588B-4920-8B98-FDF8AA4464C1}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>

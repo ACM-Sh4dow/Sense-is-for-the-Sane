@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: ede88cb9b519ad42b043b7baa79cad7e
     GuidInternal: 
-    m_lastTime: -8584252621648405520
+    m_lastTime: -8584252275292431955
     List:
     - name: Apartment
       guid: b8e7de45a521e8489c506cac864f8555
@@ -130,13 +130,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Apartment
+      - ElementName: Reverb
         ObjectType: 2
-        guid: b8e7de45a521e8489c506cac864f8555
+        guid: 6b203b93b944da4dbdb89aca1e3bd603
       - ElementName: Apt_Reverb
         ObjectType: 1
         guid: e4588ab2bf2b4948b95c3acc849a967e
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Apartment\Apt_Reverb
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Apt_Reverb
     - name: Apt_World
       guid: 7d611f0a9d42524cb09170d175819868
       id: 2287246371
@@ -230,13 +230,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Funeral Home
+      - ElementName: Reverb
         ObjectType: 2
-        guid: ac11898024f87742985258568c970ced
+        guid: 6b203b93b944da4dbdb89aca1e3bd603
       - ElementName: Fnrl_Reverb
         ObjectType: 1
         guid: ea4a034c67779849b9eb53b83227d7cb
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Funeral Home\Fnrl_Reverb
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Fnrl_Reverb
     - name: Fnrl_World
       guid: ab138cf2282b544bac5740d80e919288
       id: 439711954
@@ -345,6 +345,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Reverb
+      guid: 6b203b93b944da4dbdb89aca1e3bd603
+      id: 348963605
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ede88cb9b519ad42b043b7baa79cad7e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverb
+        ObjectType: 2
+        guid: 6b203b93b944da4dbdb89aca1e3bd603
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb
     - name: Void
       guid: dc5b80a12c198a47b880f40f2af92361
       id: 3370470011
@@ -435,13 +452,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Void
+      - ElementName: Reverb
         ObjectType: 2
-        guid: dc5b80a12c198a47b880f40f2af92361
+        guid: 6b203b93b944da4dbdb89aca1e3bd603
       - ElementName: Void_Reverb
         ObjectType: 1
         guid: 0cae77aeb76c4d4391313a80aa5fd3a6
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Void\Void_Reverb
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Void_Reverb
     - name: Void_World
       guid: 702ad0987dda034298168cf89fad39e0
       id: 3863178242
@@ -487,7 +504,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584252581430106731
+    m_lastTime: -8584252275289855481
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -716,7 +733,7 @@ MonoBehaviour:
     ParentPath: Events\Funeral Home
     guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
     GuidInternal: 
-    m_lastTime: -8584252621648585983
+    m_lastTime: -8584252275292582962
     List:
     - name: Fnrl_Amb_Pause
       guid: b07a90bffc5a3443801fddc3dff36a05
@@ -863,9 +880,9 @@ MonoBehaviour:
       maxAttenuation: 20
       maxDuration: 0
       minDuration: 0
-    - name: Fnrl_Picture_Frame
-      guid: 9c7068a0c1457645b33702c1219d363e
-      id: 1022944170
+    - name: Fnrl_Painting_Pickup
+      guid: f2e228c33d2fe04a82815b977f5fd1cb
+      id: 2964718821
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -873,13 +890,30 @@ MonoBehaviour:
       - ElementName: Funeral Home
         ObjectType: 12
         guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
-      - ElementName: Fnrl_Picture_Frame
+      - ElementName: Fnrl_Painting_Pickup
+        ObjectType: 3
+        guid: f2e228c33d2fe04a82815b977f5fd1cb
+      Path: Events\Funeral Home\Fnrl_Painting_Pickup
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Fnrl_Painting_Place
+      guid: 9c7068a0c1457645b33702c1219d363e
+      id: 2914489546
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Funeral Home
+        ObjectType: 12
+        guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
+      - ElementName: Fnrl_Painting_Place
         ObjectType: 3
         guid: 9c7068a0c1457645b33702c1219d363e
-      Path: Events\Funeral Home\Fnrl_Picture_Frame
+      Path: Events\Funeral Home\Fnrl_Painting_Place
       maxAttenuation: 20
-      maxDuration: 1.1974523
-      minDuration: 1.1302445
+      maxDuration: 0.5564557
+      minDuration: 0.5252242
     - name: Fnrl_Transition_Exhale
       guid: 34e9853f61bd414ebc35937b2bc821bb
       id: 2938809645
@@ -959,7 +993,7 @@ MonoBehaviour:
     ParentPath: Events\General Events
     guid: 1ff59692a3e328449b9b4c99fad941f7
     GuidInternal: 
-    m_lastTime: -8584252582902830146
+    m_lastTime: -8584252275292572903
     List:
     - name: Apt_Stop_All
       guid: ba461666a9b5be44ad28a2bd8cafdc56
@@ -1084,8 +1118,8 @@ MonoBehaviour:
         guid: 919ecae3d4e0c7409e1e26f0a2bf6c0c
       Path: Events\General Events\Gramophone
       maxAttenuation: 100
-      maxDuration: 118.5
-      minDuration: 118.5
+      maxDuration: 118
+      minDuration: 118
     - name: Manual_Animate_Clock_Start
       guid: e20cef249f7fd54aa7f1778501e3ce65
       id: 2156182537
@@ -1869,7 +1903,7 @@ MonoBehaviour:
     m_lastTime: -8584275934083339506
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000e000000130000001e0000002000000022000000230000002400000025000000280000002a0000002b0000002d0000002e00000034000000360000003700000038000000390000003a0000003b0000003c000000400000008d00000096000000
+  ExpandedWaapiItemIds: 05000000060000000e000000130000001a0000001e0000002000000022000000230000002400000025000000280000002a0000002b0000002d0000002e00000034000000360000003700000038000000390000003a0000003b0000003c000000400000008d00000096000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

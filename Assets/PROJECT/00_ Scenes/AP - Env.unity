@@ -10667,6 +10667,8 @@ GameObject:
   - component: {fileID: 2567408537918674583}
   - component: {fileID: 7687540549929380459}
   - component: {fileID: 7687540549929380458}
+  - component: {fileID: 7687540549929380460}
+  - component: {fileID: 7687540549929380461}
   m_Layer: 0
   m_Name: Front Door
   m_TagString: Untagged
@@ -13551,7 +13553,43 @@ MonoBehaviour:
   audioEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 721e842c3d5e66d4cbc45752b80113c5, type: 2}
+--- !u!114 &7687540549929380460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977938282507425028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b5a586ff3b1e374bb8527cc48ad1135, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudibleZone
+--- !u!114 &7687540549929380461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977938282507425028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3adcb5a3f66df8745acfeb0209f0cfdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 1
+  m_positionOffsetData:
+    KeepMe: 1
+    positionOffset: {x: 0, y: 0, z: 5.83}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &7758866026179619409
 GameObject:
   m_ObjectHideFlags: 0

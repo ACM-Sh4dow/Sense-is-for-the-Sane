@@ -16,30 +16,6 @@
 								<Bus Name="Apt_Player" ID="{0E9E1E5B-C7D3-4CE2-BB5E-212342A3D2F2}"/>
 								<Bus Name="Apt_Mus" ID="{97E6D177-D20A-4382-AD51-65DA9E26DF07}"/>
 								<Bus Name="Apt_Amb" ID="{4624BFF2-BF7F-46AB-9DD8-E53FB1F29DA0}"/>
-								<AuxBus Name="Apt_Reverb" ID="{B28A58E4-2BBF-4849-B95C-3ACC849A967E}">
-									<PropertyList>
-										<Property Name="BusVolume" Type="Real64">
-											<ValueList>
-												<Value>4</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ObjectLists>
-										<ObjectList Name="Effects">
-											<Reference>
-												<Local>
-													<EffectSlot Name="" ID="{F1E627DC-8936-41F3-98A2-B98506DFCB59}" ShortID="187597747">
-														<ReferenceList>
-															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-																<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-															</Reference>
-														</ReferenceList>
-													</EffectSlot>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</AuxBus>
 							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
@@ -85,30 +61,6 @@
 								<Bus Name="Fnrl_Player" ID="{389F6201-8825-4D43-89F3-F2CF99884313}"/>
 								<Bus Name="Fnrl_Mus" ID="{6CFA9A41-8F8D-4112-BC08-ACF30712A51B}"/>
 								<Bus Name="Fnrl_Amb" ID="{F74A7EC4-EFC7-4FBD-BFD0-93BA88C97145}"/>
-								<AuxBus Name="Fnrl_Reverb" ID="{4C034AEA-7767-4998-B9EB-53B83227D7CB}">
-									<PropertyList>
-										<Property Name="BusVolume" Type="Real64">
-											<ValueList>
-												<Value>4</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ObjectLists>
-										<ObjectList Name="Effects">
-											<Reference>
-												<Local>
-													<EffectSlot Name="" ID="{8F638FD7-2A42-4299-924D-5420B9F2A4DF}" ShortID="231739828">
-														<ReferenceList>
-															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-																<ObjectRef Name="Church_Small_Wood" ID="{940CCB47-F031-4C6A-B0E6-726CAC418C02}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-															</Reference>
-														</ReferenceList>
-													</EffectSlot>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</AuxBus>
 							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
@@ -154,23 +106,6 @@
 								<Bus Name="Void_Player" ID="{FA711CFA-14DE-4218-812F-61562211DD29}"/>
 								<Bus Name="Void_Mus" ID="{385B02EF-29F7-4B8D-8C10-1FFBA8E38DCE}"/>
 								<Bus Name="Void_Amb" ID="{FFC4D725-42EE-41B7-B2A8-4B3B09301041}"/>
-								<AuxBus Name="Void_Reverb" ID="{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}">
-									<ObjectLists>
-										<ObjectList Name="Effects">
-											<Reference>
-												<Local>
-													<EffectSlot Name="" ID="{5306835A-2448-4797-800E-5B8A8DA1B140}" ShortID="992452693">
-														<ReferenceList>
-															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-																<ObjectRef Name="Hall_Large" ID="{6D154498-FF6D-4823-96FC-56841B70E079}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-															</Reference>
-														</ReferenceList>
-													</EffectSlot>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</AuxBus>
 							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
@@ -214,6 +149,124 @@
 							<ChildrenList>
 								<Bus Name="Gnrl_Player" ID="{3921049D-D54A-4108-856A-0E5E4A0614C6}"/>
 								<Bus Name="Gnrl_World" ID="{5F82077A-1086-45D6-A569-B616BA0A2EFC}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Reverb" ID="{933B206B-44B9-4DDA-BDB8-9ACA1E3BD603}">
+							<ChildrenList>
+								<AuxBus Name="Void_Reverb" ID="{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{5306835A-2448-4797-800E-5B8A8DA1B140}" ShortID="992452693">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Hall_Large" ID="{6D154498-FF6D-4823-96FC-56841B70E079}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Fnrl_Reverb" ID="{4C034AEA-7767-4998-B9EB-53B83227D7CB}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{8F638FD7-2A42-4299-924D-5420B9F2A4DF}" ShortID="231739828">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Church_Small_Wood" ID="{940CCB47-F031-4C6A-B0E6-726CAC418C02}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Apt_Reverb" ID="{B28A58E4-2BBF-4849-B95C-3ACC849A967E}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="CurrentScene" ID="{4096DFB2-433F-4D69-BAFF-D67984F6FB84}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="None" ID="{A69EBB97-976D-4175-A28B-344441D6C540}"/>
+												<CustomState Name="" ID="{8A3CE2E6-6695-4196-BCA0-8CF87749434C}" ShortID="29309909"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Void" ID="{AE9041A4-3A52-434E-87E3-476B865CAD06}"/>
+												<CustomState Name="" ID="{E77B7B34-2B32-4EAE-BA82-3D21F152A6A6}" ShortID="640400307"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
+												<CustomState Name="" ID="{9217BCD9-F275-4931-9F7E-0729BEE89651}" ShortID="632042940">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Apartment" ID="{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"/>
+												<CustomState Name="" ID="{3A76C33E-D687-4E6B-BB69-92483283256A}" ShortID="173045982"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{F1E627DC-8936-41F3-98A2-B98506DFCB59}" ShortID="187597747">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+														<StateInfo>
+															<CustomStateList>
+																<CustomState>
+																	<StateRef Name="None" ID="{A69EBB97-976D-4175-A28B-344441D6C540}"/>
+																	<CustomState Name="" ID="{18D24664-F8C5-4434-9919-90EFE2EDC974}" ShortID="198684302"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="Void" ID="{AE9041A4-3A52-434E-87E3-476B865CAD06}"/>
+																	<CustomState Name="" ID="{78E48F12-02D7-46E1-A974-7BF6DD962CED}" ShortID="40139276"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
+																	<CustomState Name="" ID="{2B480953-61BD-4364-AB3F-BC6D81E52E3D}" ShortID="15166179"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="Apartment" ID="{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"/>
+																	<CustomState Name="" ID="{546517E3-20A2-43B6-9F8D-6F94145A85BF}" ShortID="823624288"/>
+																</CustomState>
+															</CustomStateList>
+														</StateInfo>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
 							</ChildrenList>
 						</Bus>
 					</ChildrenList>

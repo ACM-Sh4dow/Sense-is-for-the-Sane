@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
     "Language": "SFX",
-    "Hash": "{FDEB659A-BB71-EB24-6ADA-2E4F70C2AB1C}",
+    "Hash": "{65314E59-4591-AA62-B145-285AA8582A5E}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
     "ShortName": "Funeral_Home",
     "Path": "Funeral_Home.bnk",
@@ -56,14 +56,6 @@
       "CachePath": "EB/{EB586C5B-64AD-8CF1-ACDE-6D1EB1BE05A8}.wem"
      },
      {
-      "Id": "188404886",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Picture_Frame.wav",
-      "CachePath": "D1/{D1F0D9B9-B7BC-AA3E-1B49-58CAB3197C32}.wem"
-     },
-     {
       "Id": "230791500",
       "Language": "SFX",
       "Streaming": "false",
@@ -86,6 +78,14 @@
       "Location": "Memory",
       "ShortName": "Breath_Exhale_001.wav",
       "CachePath": "3B/{3BA8AC10-DDA1-50E1-26A3-511F817C5DB4}.wem"
+     },
+     {
+      "Id": "374672725",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Painting_Place.wav",
+      "CachePath": "2C/{2C912F11-0E25-D310-76F9-BBD136295361}.wem"
      },
      {
       "Id": "417704821",
@@ -195,7 +195,7 @@
        {
         "Id": "1784058834",
         "Name": "Fnrl_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home\\Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
         "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
        }
       ]
@@ -224,7 +224,7 @@
        {
         "Id": "1784058834",
         "Name": "Fnrl_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home\\Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
         "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
        }
       ]
@@ -245,7 +245,7 @@
        {
         "Id": "1784058834",
         "Name": "Fnrl_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home\\Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
         "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
        }
       ]
@@ -268,7 +268,7 @@
        {
         "Id": "1784058834",
         "Name": "Fnrl_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home\\Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
         "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
        }
       ]
@@ -289,7 +289,7 @@
        {
         "Id": "1784058834",
         "Name": "Fnrl_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home\\Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
         "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
        }
       ]
@@ -313,7 +313,7 @@
        {
         "Id": "3356433602",
         "Name": "Void_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Void_Reverb",
         "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
        }
       ]
@@ -332,24 +332,24 @@
       ]
      },
      {
-      "Id": "1022944170",
-      "Name": "Fnrl_Picture_Frame",
-      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Picture_Frame",
+      "Id": "2914489546",
+      "Name": "Fnrl_Painting_Place",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Painting_Place",
       "GUID": "{A068709C-45C1-4576-B337-02C1219D363E}",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "1.1302445",
-      "DurationMax": "1.1974523",
+      "DurationMin": "0.5252242",
+      "DurationMax": "0.5564557",
       "MediaRefs": [
        {
-        "Id": "188404886"
+        "Id": "374672725"
        }
       ],
       "AuxBusRefs": [
        {
         "Id": "1784058834",
         "Name": "Fnrl_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home\\Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
         "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
        }
       ]
@@ -415,7 +415,7 @@
        {
         "Id": "1784058834",
         "Name": "Fnrl_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home\\Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
         "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
        }
       ]
@@ -437,6 +437,6 @@
     ]
    }
   ],
-  "FileHash": "{D1CE1BF0-4551-FB69-09D2-CA4FD368965C}"
+  "FileHash": "{A19A8580-0494-F6FE-257F-DE6D04943410}"
  }
 }
