@@ -1180,14 +1180,22 @@
 				</ActorMixer>
 				<ActorMixer Name="Doors" ID="{58E4C83A-606D-4DEB-9927-D778182C195C}" ShortID="385100237">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Funeral Home Attenuation" ID="{612E52EC-7A7F-42EC-8ED2-79F6A8AD6889}" WorkUnitID="{EE5E383A-A28E-4288-B8AA-74712DC2AE17}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Gnrl_World" ID="{5F82077A-1086-45D6-A569-B616BA0A2EFC}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Void_Reverb" ID="{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1523,6 +1531,51 @@
 							</PositioningInfo>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StatePropertyList>
+							<Property Name="Highpass"/>
+							<Property Name="Lowpass"/>
+							<Property Name="MakeUpGain"/>
+							<Property Name="Pitch"/>
+							<Property Name="UserAuxSendVolume0"/>
+							<Property Name="Volume"/>
+						</StatePropertyList>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="CurrentScene" ID="{4096DFB2-433F-4D69-BAFF-D67984F6FB84}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="None" ID="{A69EBB97-976D-4175-A28B-344441D6C540}"/>
+								<CustomState Name="" ID="{C04A5614-53DD-4617-8082-442F35FC14AA}" ShortID="805565610">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Void" ID="{AE9041A4-3A52-434E-87E3-476B865CAD06}"/>
+								<CustomState Name="" ID="{003BBEC0-D8C5-4E43-B5D4-C7988D6AF3AF}" ShortID="901409306"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
+								<CustomState Name="" ID="{FECDFED5-F71B-4CBC-A58B-3F6A50E14BD4}" ShortID="743397341">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Apartment" ID="{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"/>
+								<CustomState Name="" ID="{79D44BDB-66FF-403B-BB5B-F5E1A12C654D}" ShortID="191086834">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</ActorMixer>
 				<RandomSequenceContainer Name="Door Creaking Rand" ID="{46A96842-F962-40B4-97A1-5F303DEEE9B8}" ShortID="649009628">
 					<PropertyList>
@@ -1568,6 +1621,11 @@
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-5</Value>
@@ -1594,6 +1652,9 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Gnrl_World" ID="{5F82077A-1086-45D6-A569-B616BA0A2EFC}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Void_Reverb" ID="{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1872,6 +1933,14 @@
 						</Position>
 					</PositioningInfo>
 					<StateInfo>
+						<StatePropertyList>
+							<Property Name="Highpass"/>
+							<Property Name="Lowpass"/>
+							<Property Name="MakeUpGain"/>
+							<Property Name="Pitch"/>
+							<Property Name="UserAuxSendVolume0"/>
+							<Property Name="Volume"/>
+						</StatePropertyList>
 						<StateGroupList>
 							<StateGroupInfo>
 								<StateGroupRef Name="CurrentScene" ID="{4096DFB2-433F-4D69-BAFF-D67984F6FB84}"/>
@@ -1880,7 +1949,11 @@
 						<CustomStateList>
 							<CustomState>
 								<StateRef Name="None" ID="{A69EBB97-976D-4175-A28B-344441D6C540}"/>
-								<CustomState Name="" ID="{8BA67917-556E-4C98-A32F-B65E78EC427A}" ShortID="624674769"/>
+								<CustomState Name="" ID="{8BA67917-556E-4C98-A32F-B65E78EC427A}" ShortID="624674769">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="Void" ID="{AE9041A4-3A52-434E-87E3-476B865CAD06}"/>
@@ -1892,11 +1965,19 @@
 							</CustomState>
 							<CustomState>
 								<StateRef Name="FuneralHome" ID="{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"/>
-								<CustomState Name="" ID="{57E85F19-5D41-4C2D-A97A-DCB0F075FEDC}" ShortID="865188354"/>
+								<CustomState Name="" ID="{57E85F19-5D41-4C2D-A97A-DCB0F075FEDC}" ShortID="865188354">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="Apartment" ID="{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"/>
-								<CustomState Name="" ID="{2530F422-D5F3-49B7-BE9E-BB4A8BFF2682}" ShortID="347945543"/>
+								<CustomState Name="" ID="{2530F422-D5F3-49B7-BE9E-BB4A8BFF2682}" ShortID="347945543">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 						</CustomStateList>
 					</StateInfo>

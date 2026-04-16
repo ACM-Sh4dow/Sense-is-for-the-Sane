@@ -41,6 +41,7 @@ namespace AK
         static const AkUniqueID GRAMOPHONE = 3151110061U;
         static const AkUniqueID MANUAL_ANIMATE_CLOCK_START = 2156182537U;
         static const AkUniqueID MANUAL_ANIMATE_CLOCK_STOP = 3248176547U;
+        static const AkUniqueID VOID_DOOR_SPAWN = 1778555802U;
         static const AkUniqueID VOID_MUS_HIGH_2ND = 1322957119U;
         static const AkUniqueID VOID_MUS_HIGH_4TH = 886444887U;
         static const AkUniqueID VOID_MUS_HIGH_5TH = 1188294806U;

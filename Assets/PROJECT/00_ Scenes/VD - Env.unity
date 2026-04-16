@@ -8391,7 +8391,7 @@ MonoBehaviour:
   solvedAudioEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 5c70f3f022ff52f4cbc3640dd73606ff, type: 2}
 --- !u!65 &570368331
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9717,6 +9717,7 @@ GameObject:
   - component: {fileID: 715525937}
   - component: {fileID: 715525936}
   - component: {fileID: 715525938}
+  - component: {fileID: 715525939}
   m_Layer: 0
   m_Name: Door Result White
   m_TagString: Untagged
@@ -9797,6 +9798,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b5a586ff3b1e374bb8527cc48ad1135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudibleZone
+--- !u!114 &715525939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715525934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3adcb5a3f66df8745acfeb0209f0cfdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!43 &732925380
 Mesh:
   m_ObjectHideFlags: 0
@@ -14853,6 +14878,7 @@ GameObject:
   - component: {fileID: 1140752119}
   - component: {fileID: 1140752118}
   - component: {fileID: 1140752117}
+  - component: {fileID: 1140752120}
   m_Layer: 0
   m_Name: Door Result Yellow
   m_TagString: Untagged
@@ -14934,6 +14960,30 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1140752120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140752115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3adcb5a3f66df8745acfeb0209f0cfdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &1150091282
 GameObject:
   m_ObjectHideFlags: 0
@@ -16871,6 +16921,7 @@ GameObject:
   - component: {fileID: 1377789854}
   - component: {fileID: 1377789853}
   - component: {fileID: 1377789852}
+  - component: {fileID: 1377789855}
   m_Layer: 0
   m_Name: Door Result Red
   m_TagString: Untagged
@@ -16951,6 +17002,30 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1377789855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377789850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3adcb5a3f66df8745acfeb0209f0cfdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &1387971274
 GameObject:
   m_ObjectHideFlags: 0
@@ -23517,7 +23592,7 @@ MonoBehaviour:
   solvedAudioEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 5c70f3f022ff52f4cbc3640dd73606ff, type: 2}
 --- !u!65 &1883674735
 BoxCollider:
   m_ObjectHideFlags: 0

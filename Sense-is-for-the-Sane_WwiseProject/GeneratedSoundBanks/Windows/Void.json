@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{68D5CE59-62C2-45C9-8AA7-B31C8321D127}",
     "Language": "SFX",
-    "Hash": "{6E87FD58-609E-3B66-9411-DA3B8E39CF4D}",
+    "Hash": "{BAC2BB0A-348D-36AD-6222-4B40A943206A}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Void",
     "ShortName": "Void",
     "Path": "Void.bnk",
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "Void_Ambience_Voice-013.wav",
       "CachePath": "B8/{B89B6FD9-2CAA-2810-1A29-899A73BC03D4}.wem"
+     },
+     {
+      "Id": "65692852",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Door_Close_03.wav",
+      "CachePath": "06/{062E33A1-0757-77AF-4EAF-9A70FA047AF0}.wem"
      },
      {
       "Id": "71435988",
@@ -54,6 +62,14 @@
       "Location": "Memory",
       "ShortName": "Void_Ambience_Voice-012.wav",
       "CachePath": "67/{67601474-7046-E62B-B3CB-E1C234A21D8C}.wem"
+     },
+     {
+      "Id": "230097127",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Door_Close_02.wav",
+      "CachePath": "66/{66A6AD78-2D63-B245-35B5-4A7E56FEE59F}.wem"
      },
      {
       "Id": "387993001",
@@ -120,6 +136,14 @@
       "CachePath": "AC/{ACDF5E7C-D31F-A9EC-3D90-EF9630B40960}.wem"
      },
      {
+      "Id": "947991374",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Door_Close_01.wav",
+      "CachePath": "B2/{B25739A3-AF52-EC2B-B906-CA1E555FCCE9}.wem"
+     },
+     {
       "Id": "949722440",
       "Language": "SFX",
       "Streaming": "false",
@@ -145,6 +169,35 @@
      }
     ],
     "Events": [
+     {
+      "Id": "1778555802",
+      "Name": "Void_Door_Spawn",
+      "ObjectPath": "\\Events\\Void\\Void_Door_Spawn",
+      "GUID": "{CDC9B12A-6897-452C-A4B2-03FC7F244D94}",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6181775",
+      "DurationMax": "0.8744158",
+      "MediaRefs": [
+       {
+        "Id": "65692852"
+       },
+       {
+        "Id": "230097127"
+       },
+       {
+        "Id": "947991374"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "3356433602",
+        "Name": "Void_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_Reverb",
+        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
+       }
+      ]
+     },
      {
       "Id": "1322957119",
       "Name": "Void_Mus_High_2nd",
@@ -304,6 +357,6 @@
     ]
    }
   ],
-  "FileHash": "{4A418E8F-32F4-5DAF-5E4A-B22AEB633023}"
+  "FileHash": "{BF20BBE8-3E4C-FCF1-3E5C-858D49A7AF5A}"
  }
 }

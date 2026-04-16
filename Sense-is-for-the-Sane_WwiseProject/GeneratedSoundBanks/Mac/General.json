@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{39E76D16-3659-462C-8AE1-BE0B06954A63}",
     "Language": "SFX",
-    "Hash": "{58C135ED-4EFB-EDAD-98CA-ABF90CFF2C24}",
+    "Hash": "{A951B38B-C4AB-8642-12AB-0DB6DCF3BE1B}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\General",
     "ShortName": "General",
     "Path": "General.bnk",
@@ -278,6 +278,14 @@
        },
        {
         "Id": "866457660"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "3356433602",
+        "Name": "Void_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_Reverb",
+        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
        }
       ]
      },
@@ -668,6 +676,6 @@
     ]
    }
   ],
-  "FileHash": "{46A647F6-4DB3-7AA1-67AD-39415191C548}"
+  "FileHash": "{F1575224-2A6D-09BE-EE5B-2DDC07AC1FE0}"
  }
 }

@@ -2319,6 +2319,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Void_Door_Spawn" ID="{CDC9B12A-6897-452C-A4B2-03FC7F244D94}">
+					<ChildrenList>
+						<Action Name="" ID="{6339D859-5A23-4ABF-AFBF-9BF09160D585}" ShortID="314629978">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door Close Rand" ID="{AE870C7D-2881-478C-A293-CC3EF61DB9BF}" WorkUnitID="{5617E81F-15D7-467B-96EE-EEF11E47BC75}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

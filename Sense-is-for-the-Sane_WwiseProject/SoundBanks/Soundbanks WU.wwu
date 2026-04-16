@@ -26,6 +26,7 @@
 						<ObjectRef Name="Void_Mus_Low_2nd" ID="{619AB266-01E5-40C6-8F81-EAD4BCC3B85F}" WorkUnitID="{274F03AB-EC17-44FA-A98A-DDEFAD73AAD5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Void_Mus_Low_4th" ID="{F99FAB65-7297-4110-ADE1-9BE027ABEB3C}" WorkUnitID="{274F03AB-EC17-44FA-A98A-DDEFAD73AAD5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Void_Mus_Low_5th" ID="{611AA293-49CC-4413-B4FD-89FA6C231176}" WorkUnitID="{274F03AB-EC17-44FA-A98A-DDEFAD73AAD5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Void_Door_Spawn" ID="{CDC9B12A-6897-452C-A4B2-03FC7F244D94}" WorkUnitID="{274F03AB-EC17-44FA-A98A-DDEFAD73AAD5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Void_Mus_High_5th" ID="{20B87830-F095-45B8-A1DF-9B7307CD7339}" WorkUnitID="{274F03AB-EC17-44FA-A98A-DDEFAD73AAD5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Void_Mus_Piano" ID="{FF498339-5C9C-49AC-AFC7-25E87440D728}" WorkUnitID="{274F03AB-EC17-44FA-A98A-DDEFAD73AAD5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Void_Mus_High_4th" ID="{470C2B9E-95E6-4A3F-B673-8294BBE7FF3A}" WorkUnitID="{274F03AB-EC17-44FA-A98A-DDEFAD73AAD5}" Origin="Manual" Filter="7"/>
