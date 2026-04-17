@@ -28103,6 +28103,8 @@ MonoBehaviour:
   - {fileID: 521601256}
   flowerPuzzleCompleted: 0
   paintingPuzzleCompleted: 0
+  paintingItemCollected: 0
+  flowerItemCollected: 0
   casketPerspectivePuzzle: {fileID: 521601256}
   alternateTransition: {fileID: 3775782348418494077}
 --- !u!1 &1630209342
@@ -30942,13 +30944,14 @@ GameObject:
   - component: {fileID: 1935323126}
   - component: {fileID: 1935323125}
   - component: {fileID: 1935323124}
+  - component: {fileID: 1935323127}
   m_Layer: 5
   m_Name: Painting Canvas FULL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1935323123
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31032,6 +31035,27 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!65 &1935323127
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935323122}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.1, y: 2.1, z: 0.05}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!43 &1939289717
 Mesh:
   m_ObjectHideFlags: 0

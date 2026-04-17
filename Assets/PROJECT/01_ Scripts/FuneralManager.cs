@@ -7,6 +7,8 @@ public class FuneralManager : PuzzleTracker
 {
     public bool flowerPuzzleCompleted;
     public bool paintingPuzzleCompleted;
+    public bool paintingItemCollected;
+    public bool flowerItemCollected;
     private bool pedestalPhase1Completed;
     private bool pedestalPhase2Completed;
     private bool casketPuzzleCompleted;
@@ -50,10 +52,10 @@ public class FuneralManager : PuzzleTracker
 
     private void PaintingSolved()
     {
-        if (Puzzles[0].state == Puzzle.State.fullyResolved) 
+        if (Puzzles[0].state == Puzzle.State.fullyResolved && paintingItemCollected) 
         {
             paintingPuzzleCompleted = true;
-            Debug.Log("painting done");
+            Debug.Log("FuneralManager: Painting done.");
         }
     }
 
@@ -61,7 +63,7 @@ public class FuneralManager : PuzzleTracker
     {
         if (Puzzles[1].state == Puzzle.State.solved) // animation (secondary puzzle complete set in manual animation) (1/2)
         {
-            Debug.Log("flower part 1 done");
+            Debug.Log("FuneralManager: Flower Part 1 done.");
         }
 
         if (Puzzles[2].state == Puzzle.State.fullyResolved) //resolve animation
@@ -69,10 +71,10 @@ public class FuneralManager : PuzzleTracker
             Puzzles[1].state = Puzzle.State.fullyResolved;
         }
         
-        if (Puzzles[1].state == Puzzle.State.fullyResolved && Puzzles[2].state == Puzzle.State.fullyResolved) //perspective (2/2)
+        if (Puzzles[1].state == Puzzle.State.fullyResolved && Puzzles[2].state == Puzzle.State.fullyResolved && flowerItemCollected) //perspective (2/2)
         {
             flowerPuzzleCompleted = true;
-            Debug.Log("flower part 2 done");
+            Debug.Log("FuneralManager: Flower Part 2 done.");
         }
     }
 
