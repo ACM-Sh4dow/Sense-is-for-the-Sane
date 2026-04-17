@@ -3,7 +3,7 @@
   "Project": {
    "Name": "Sense-is-for-the-Sane_WwiseProject",
    "GUID": "{603D1856-7147-487A-B80F-A8A08F933DAF}",
-   "Generator": "2024.1.8.8898"
+   "Generator": "2024.1.7.8863"
   },
   "CacheRoot": "../../../../Sense-is-for-the-Sane_WwiseProject/.cache",
   "Platforms": [
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{9211ABF5-9AA8-EC4D-5967-C7452F55D042}"
+  "FileHash": "{E76FF8F9-9B0F-E32F-F34B-656960E75272}"
  }
 }

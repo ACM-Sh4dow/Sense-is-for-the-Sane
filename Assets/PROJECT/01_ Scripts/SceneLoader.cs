@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -180,6 +179,7 @@ public class SceneLoader : MonoBehaviour
     }
     #endregion
 
+    /*
     #region Editor
     private void OnValidate()
     {
@@ -203,15 +203,15 @@ public class SceneLoader : MonoBehaviour
 
     private void LoadScenesInEditor(List<string> sceneNames)
     {
-        /* THIS SHOULD WORK BUT IT CRASHES UNITY FOR SOME REASON
-             int totalOpenScenes = SceneManager.sceneCount;
-            for (int currentScene = 2; currentScene <= totalOpenScenes; currentScene++)
-            {
-                string sceneName = SceneManager.GetSceneAt(currentScene - 1).name;
-                Debug.Log(sceneName);
-                EditorSceneManager.CloseScene(SceneManager.GetSceneAt(currentScene - 1), false);
-                Debug.Log($"REMOVED scene: {sceneName}");
-            }*/
+         //THIS SHOULD WORK BUT IT CRASHES UNITY FOR SOME REASON
+         //    int totalOpenScenes = SceneManager.sceneCount;
+         //   for (int currentScene = 2; currentScene <= totalOpenScenes; currentScene++)
+         //   {
+         //       string sceneName = SceneManager.GetSceneAt(currentScene - 1).name;
+         //       Debug.Log(sceneName);
+         //       EditorSceneManager.CloseScene(SceneManager.GetSceneAt(currentScene - 1), false);
+         //       Debug.Log($"REMOVED scene: {sceneName}");
+         //   }
         
         foreach (string sceneName in sceneNames)
         {
@@ -221,4 +221,5 @@ public class SceneLoader : MonoBehaviour
         }
     }
     #endregion
+    */
 }
