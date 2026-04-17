@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: ede88cb9b519ad42b043b7baa79cad7e
     GuidInternal: 
-    m_lastTime: -8584252265926186444
+    m_lastTime: -8584251599643192011
     List:
     - name: Apartment
       guid: b8e7de45a521e8489c506cac864f8555
@@ -504,7 +504,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584251621869470714
+    m_lastTime: -8584251599643128347
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -588,7 +588,7 @@ MonoBehaviour:
     ParentPath: Events\Apartment
     guid: 403f5a0f3ccb46478134079334a4da23
     GuidInternal: 
-    m_lastTime: -8584252220813533974
+    m_lastTime: -8584251599643421976
     List:
     - name: Apt_Clock
       guid: cc1102f1eea62044bdfd304ba4a2a9e5
@@ -604,9 +604,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: cc1102f1eea62044bdfd304ba4a2a9e5
       Path: Events\Apartment\Apt_Clock
-      maxAttenuation: 5
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Apt_Creaking
       guid: 278965721a42dd4db605ee4d528a914c
       id: 329135517
@@ -621,9 +621,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 278965721a42dd4db605ee4d528a914c
       Path: Events\Apartment\Apt_Creaking
-      maxAttenuation: 100
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Apt_Fireplace
       guid: fba755dd9346664aa895996329466b19
       id: 2202553018
@@ -638,9 +638,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: fba755dd9346664aa895996329466b19
       Path: Events\Apartment\Apt_Fireplace
-      maxAttenuation: 5
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Apt_Fridge
       guid: 29e91bf951f6a244a96f6a1a868c61e4
       id: 2280025682
@@ -655,9 +655,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 29e91bf951f6a244a96f6a1a868c61e4
       Path: Events\Apartment\Apt_Fridge
-      maxAttenuation: 5
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Apt_Front_Door_Open
       guid: fcb2aa4a3151244cb17fc213301ba96e
       id: 1421437688
@@ -672,9 +672,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: fcb2aa4a3151244cb17fc213301ba96e
       Path: Events\Apartment\Apt_Front_Door_Open
-      maxAttenuation: 20
-      maxDuration: 9.230266
-      minDuration: 9.230266
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Apt_Phone_Start
       guid: 5400c3513586284c9aa6b6d48475e1ec
       id: 969392694
@@ -689,9 +689,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 5400c3513586284c9aa6b6d48475e1ec
       Path: Events\Apartment\Apt_Phone_Start
-      maxAttenuation: 5
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Apt_Phone_Stop
       guid: 8c4b439af72fea49a791d6a312b5274d
       id: 197399990
@@ -706,9 +706,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 8c4b439af72fea49a791d6a312b5274d
       Path: Events\Apartment\Apt_Phone_Stop
-      maxAttenuation: 5
-      maxDuration: 4.0461903
-      minDuration: 4.0461903
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Apt_Sink
       guid: 7743645a799fe244bc1c122ff672ae25
       id: 751812660
@@ -723,9 +723,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 7743645a799fe244bc1c122ff672ae25
       Path: Events\Apartment\Apt_Sink
-      maxAttenuation: 5
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -750,7 +750,7 @@ MonoBehaviour:
     ParentPath: Events\Funeral Home
     guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
     GuidInternal: 
-    m_lastTime: -8584251681476357952
+    m_lastTime: -8584251599643421976
     List:
     - name: Fnrl_Amb_Pause
       guid: b07a90bffc5a3443801fddc3dff36a05
@@ -767,8 +767,8 @@ MonoBehaviour:
         guid: b07a90bffc5a3443801fddc3dff36a05
       Path: Events\Funeral Home\Fnrl_Amb_Pause
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Fnrl_Amb_Thunderstorm
       guid: 33f48e742ea24e49927c79cfe002e9ff
       id: 1612838152
@@ -783,9 +783,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 33f48e742ea24e49927c79cfe002e9ff
       Path: Events\Funeral Home\Fnrl_Amb_Thunderstorm
-      maxAttenuation: 100
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Fnrl_Casket_Creaking
       guid: 9ae9e437de010c4d9e14b5535eeb953c
       id: 1249783482
@@ -800,9 +800,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 9ae9e437de010c4d9e14b5535eeb953c
       Path: Events\Funeral Home\Fnrl_Casket_Creaking
-      maxAttenuation: 5
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Fnrl_Flower_Vase
       guid: 04e9ebfb4199bb4aa9be4542906a8db8
       id: 3533695665
@@ -817,9 +817,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 04e9ebfb4199bb4aa9be4542906a8db8
       Path: Events\Funeral Home\Fnrl_Flower_Vase
-      maxAttenuation: 20
-      maxDuration: 1.0955184
-      minDuration: 0.72778976
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Fnrl_Front_Door_Close
       guid: bce919f5b7640047b0fdd5fd75960f2f
       id: 2124265127
@@ -834,9 +834,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: bce919f5b7640047b0fdd5fd75960f2f
       Path: Events\Funeral Home\Fnrl_Front_Door_Close
-      maxAttenuation: 20
-      maxDuration: 9.230266
-      minDuration: 9.230266
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Fnrl_Mirror_Breathing
       guid: ecf4c0e6aaafc84e8c9aee291fc65b35
       id: 1736817776
@@ -851,9 +851,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: ecf4c0e6aaafc84e8c9aee291fc65b35
       Path: Events\Funeral Home\Fnrl_Mirror_Breathing
-      maxAttenuation: 20
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Fnrl_Mirror_Complete
       guid: 9575d5e340c1814ba43d81c395225298
       id: 305829503
@@ -868,9 +868,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 9575d5e340c1814ba43d81c395225298
       Path: Events\Funeral Home\Fnrl_Mirror_Complete
-      maxAttenuation: 20
-      maxDuration: 5.9554973
-      minDuration: 5.9554973
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Fnrl_Mus_Piano
       guid: e3aa029f25a01b47a281b77a69f45b8a
       id: 2549568769
@@ -888,9 +888,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: e3aa029f25a01b47a281b77a69f45b8a
       Path: Events\Funeral Home\Music\Fnrl_Mus_Piano
-      maxAttenuation: 20
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Fnrl_Mus_Strings
       guid: c68b582a74f86046a5a5061650ed2c5c
       id: 3506702008
@@ -908,9 +908,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: c68b582a74f86046a5a5061650ed2c5c
       Path: Events\Funeral Home\Music\Fnrl_Mus_Strings
-      maxAttenuation: 20
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Fnrl_Mus_Winds
       guid: 2db62de529c8a34cadf8b3eccb3ce7cb
       id: 3153082963
@@ -928,9 +928,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 2db62de529c8a34cadf8b3eccb3ce7cb
       Path: Events\Funeral Home\Music\Fnrl_Mus_Winds
-      maxAttenuation: 20
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Fnrl_Painting_Pick_Up
       guid: f2e228c33d2fe04a82815b977f5fd1cb
       id: 306777062
@@ -945,9 +945,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: f2e228c33d2fe04a82815b977f5fd1cb
       Path: Events\Funeral Home\Fnrl_Painting_Pick_Up
-      maxAttenuation: 20
-      maxDuration: 0.8726191
-      minDuration: 0.8726191
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Fnrl_Painting_Place
       guid: 9c7068a0c1457645b33702c1219d363e
       id: 2914489546
@@ -962,9 +962,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 9c7068a0c1457645b33702c1219d363e
       Path: Events\Funeral Home\Fnrl_Painting_Place
-      maxAttenuation: 20
-      maxDuration: 0.5564557
-      minDuration: 0.5252242
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Fnrl_Transition_Exhale
       guid: 34e9853f61bd414ebc35937b2bc821bb
       id: 2938809645
@@ -980,8 +980,8 @@ MonoBehaviour:
         guid: 34e9853f61bd414ebc35937b2bc821bb
       Path: Events\Funeral Home\Fnrl_Transition_Exhale
       maxAttenuation: 0
-      maxDuration: 2.6253827
-      minDuration: 1.5908475
+      maxDuration: -1
+      minDuration: -1
     - name: Fnrl_Transition_Inhale
       guid: 4e2ee236a45ee741b57676b3d3090f0e
       id: 2161155719
@@ -997,8 +997,8 @@ MonoBehaviour:
         guid: 4e2ee236a45ee741b57676b3d3090f0e
       Path: Events\Funeral Home\Fnrl_Transition_Inhale
       maxAttenuation: 0
-      maxDuration: 0.6314552
-      minDuration: 0.48194632
+      maxDuration: -1
+      minDuration: -1
     - name: Fnrl_Wall_Shatter
       guid: 0f2e721c8b5820498b98fdf8aa4464c1
       id: 650669748
@@ -1013,9 +1013,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0f2e721c8b5820498b98fdf8aa4464c1
       Path: Events\Funeral Home\Fnrl_Wall_Shatter
-      maxAttenuation: 20
-      maxDuration: 6.321163
-      minDuration: 5.885821
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Music
       guid: 6a2f87db7ef35c4297086f78e9ad04a9
       id: 3991942870
@@ -1044,7 +1044,7 @@ MonoBehaviour:
     ParentPath: Events\General Events
     guid: 1ff59692a3e328449b9b4c99fad941f7
     GuidInternal: 
-    m_lastTime: -8584251625453775927
+    m_lastTime: -8584251599643411988
     List:
     - name: Apt_Stop_All
       guid: ba461666a9b5be44ad28a2bd8cafdc56
@@ -1064,8 +1064,8 @@ MonoBehaviour:
         guid: ba461666a9b5be44ad28a2bd8cafdc56
       Path: Events\General Events\Stop All\Apt_Stop_All
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Door_Creaking
       guid: 5b96ba0c68eaf14ca7e187707066d038
       id: 2843028372
@@ -1080,9 +1080,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 5b96ba0c68eaf14ca7e187707066d038
       Path: Events\General Events\Door_Creaking
-      maxAttenuation: 20
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Fnrl_Mus_Organ
       guid: 0bd17b976c9adb419fe4362ac1b5a8d3
       id: 1578407477
@@ -1097,9 +1097,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0bd17b976c9adb419fe4362ac1b5a8d3
       Path: Events\General Events\Fnrl_Mus_Organ
-      maxAttenuation: 20
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Fnrl_Stop_All
       guid: d0eeb6732963fd48808e94a93741bdb3
       id: 4234584678
@@ -1118,8 +1118,8 @@ MonoBehaviour:
         guid: d0eeb6732963fd48808e94a93741bdb3
       Path: Events\General Events\Stop All\Fnrl_Stop_All
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Footstep
       guid: f5f61b65005eec4ebc2cb99851ab9555
       id: 1866025847
@@ -1134,9 +1134,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: f5f61b65005eec4ebc2cb99851ab9555
       Path: Events\General Events\Footstep
-      maxAttenuation: 100
-      maxDuration: 1.6299093
-      minDuration: 1.2380754
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Footstep_Scratch
       guid: 26768d7e0683ec4e907257bfa5dbcc6c
       id: 1003760220
@@ -1151,9 +1151,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 26768d7e0683ec4e907257bfa5dbcc6c
       Path: Events\General Events\Footstep_Scratch
-      maxAttenuation: 100
-      maxDuration: 2.0249887
-      minDuration: 1.3667574
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Gramophone
       guid: 919ecae3d4e0c7409e1e26f0a2bf6c0c
       id: 3151110061
@@ -1168,9 +1168,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 919ecae3d4e0c7409e1e26f0a2bf6c0c
       Path: Events\General Events\Gramophone
-      maxAttenuation: 100
-      maxDuration: 118
-      minDuration: 118
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Manual_Animate_Clock_Start
       guid: e20cef249f7fd54aa7f1778501e3ce65
       id: 2156182537
@@ -1185,9 +1185,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: e20cef249f7fd54aa7f1778501e3ce65
       Path: Events\General Events\Manual_Animate_Clock_Start
-      maxAttenuation: 20
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Manual_Animate_Clock_Stop
       guid: f2f235f993b54f40bcc02654c7765d3d
       id: 3248176547
@@ -1203,8 +1203,8 @@ MonoBehaviour:
         guid: f2f235f993b54f40bcc02654c7765d3d
       Path: Events\General Events\Manual_Animate_Clock_Stop
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Menu_Music
       guid: 11267a74ddf53448bf2b18ed5f7ec096
       id: 4055567060
@@ -1220,8 +1220,8 @@ MonoBehaviour:
         guid: 11267a74ddf53448bf2b18ed5f7ec096
       Path: Events\General Events\Menu_Music
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop All
       guid: 245673c71558f84e9042b3ce5be8622c
       id: 1977287596
@@ -1257,8 +1257,8 @@ MonoBehaviour:
         guid: e3e4e0040275224fb18ecbe2bf33822a
       Path: Events\General Events\Stop All\Void_Stop_All
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Tests.wwu
     PathAndIcons:
     - ElementName: Events
@@ -1270,7 +1270,7 @@ MonoBehaviour:
     ParentPath: Events\Tests
     guid: f612c0badde62b4f83093679909ae332
     GuidInternal: 
-    m_lastTime: -8584252552814105535
+    m_lastTime: -8584251599643411988
     List: []
   - PhysicalPath: Events\Void.wwu
     PathAndIcons:
@@ -1283,7 +1283,7 @@ MonoBehaviour:
     ParentPath: Events\Void
     guid: ab034f2717ecfa44a98addefad73aad5
     GuidInternal: 
-    m_lastTime: -8584252220813343949
+    m_lastTime: -8584251599643402005
     List:
     - name: Pitch Change
       guid: 30d1181be23b144daf6e0a67944800b0
@@ -1316,9 +1316,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 2ab1c9cd97682c45a4b203fc7f244d94
       Path: Events\Void\Void_Door_Spawn
-      maxAttenuation: 20
-      maxDuration: 0.8744158
-      minDuration: 0.6181775
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Void_Mus_High_2nd
       guid: a568e67608a98f4f880fe3db55e7d8d1
       id: 1322957119
@@ -1337,8 +1337,8 @@ MonoBehaviour:
         guid: a568e67608a98f4f880fe3db55e7d8d1
       Path: Events\Void\Pitch Change\Void_Mus_High_2nd
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Void_Mus_High_4th
       guid: 9e2b0c47e6953f4ab6738294bbe7ff3a
       id: 886444887
@@ -1357,8 +1357,8 @@ MonoBehaviour:
         guid: 9e2b0c47e6953f4ab6738294bbe7ff3a
       Path: Events\Void\Pitch Change\Void_Mus_High_4th
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Void_Mus_High_5th
       guid: 3078b82095f0b845a1df9b7307cd7339
       id: 1188294806
@@ -1377,8 +1377,8 @@ MonoBehaviour:
         guid: 3078b82095f0b845a1df9b7307cd7339
       Path: Events\Void\Pitch Change\Void_Mus_High_5th
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Void_Mus_Low_2nd
       guid: 66b29a61e501c6408f81ead4bcc3b85f
       id: 2273250405
@@ -1397,8 +1397,8 @@ MonoBehaviour:
         guid: 66b29a61e501c6408f81ead4bcc3b85f
       Path: Events\Void\Pitch Change\Void_Mus_Low_2nd
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Void_Mus_Low_4th
       guid: 65ab9ff997721041ade19be027abeb3c
       id: 1903260093
@@ -1417,8 +1417,8 @@ MonoBehaviour:
         guid: 65ab9ff997721041ade19be027abeb3c
       Path: Events\Void\Pitch Change\Void_Mus_Low_4th
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Void_Mus_Low_5th
       guid: 93a21a61cc491344b4fd89fa6c231176
       id: 1802344100
@@ -1437,8 +1437,8 @@ MonoBehaviour:
         guid: 93a21a61cc491344b4fd89fa6c231176
       Path: Events\Void\Pitch Change\Void_Mus_Low_5th
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Void_Mus_Piano
       guid: 398349ff9c5cac49afc725e87440d728
       id: 4253370801
@@ -1453,9 +1453,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 398349ff9c5cac49afc725e87440d728
       Path: Events\Void\Void_Mus_Piano
-      maxAttenuation: 100
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Void_Mus_Reset
       guid: 7af70954a30f1940b20654846ede228a
       id: 633475415
@@ -1474,8 +1474,8 @@ MonoBehaviour:
         guid: 7af70954a30f1940b20654846ede228a
       Path: Events\Void\Pitch Change\Void_Mus_Reset
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Void_Mus_Voices
       guid: 530be4b45ee8cc4ba4a59751138cc9f6
       id: 2592300455
@@ -1490,9 +1490,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 530be4b45ee8cc4ba4a59751138cc9f6
       Path: Events\Void\Void_Mus_Voices
-      maxAttenuation: 100
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
