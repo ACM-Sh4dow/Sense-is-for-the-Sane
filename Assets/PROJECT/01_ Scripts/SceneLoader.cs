@@ -61,13 +61,16 @@ public class SceneLoader : MonoBehaviour
                 StartCoroutine(LoadScenesAsync(voidScenes));
                 break;
             case LoadScenes.Void:
-                PlayerBehaviour.Instance.transform.position = playerSpawns[0].position; 
+                PlayerBehaviour.Instance.transform.position = playerSpawns[0].position;
+                AkUnitySoundEngine.SetState("CurrentScene", "Void");
                 break;
             case LoadScenes.Apartment:
                 PlayerBehaviour.Instance.transform.position = playerSpawns[1].position;
+                AkUnitySoundEngine.SetState("CurrentScene", "Apartment");
                 break;
             case LoadScenes.FuneralHome:
-                PlayerBehaviour.Instance.transform.position = playerSpawns[2].position; 
+                PlayerBehaviour.Instance.transform.position = playerSpawns[2].position;
+                AkUnitySoundEngine.SetState("CurrentScene", "FuneralHome");
                 break;
         }
     }
