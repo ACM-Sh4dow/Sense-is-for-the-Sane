@@ -21,7 +21,6 @@ public class CursorOnInteract : MonoBehaviour
             {
                 if (hitInfo.collider.TryGetComponent<InteractionPoint>(out InteractionPoint interaction))
                 {
-                    Debug.Log("found interaction point in range : " + found);
                     PlayerBehaviour.Instance.activateCursor = true;
                 }
                 else
