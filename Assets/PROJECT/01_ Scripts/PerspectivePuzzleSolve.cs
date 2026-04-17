@@ -83,10 +83,6 @@ public class PerspectivePuzzleSolve : Puzzle
         {
             PlayerBehaviour.Instance.activateCursor = true;
         }
-        else
-        {
-            PlayerBehaviour.Instance.activateCursor = false;
-        }
         
         if (puzzleSolveAttempted)
         {

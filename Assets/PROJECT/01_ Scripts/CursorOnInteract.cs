@@ -19,9 +19,9 @@ public class CursorOnInteract : MonoBehaviour
 
             if (Physics.Raycast(centerRay, out RaycastHit hitInfo , interactionRange))
             {
-            Debug.Log("found interaction point: " + found);
                 if (hitInfo.collider.TryGetComponent<InteractionPoint>(out InteractionPoint interaction))
                 {
+                    Debug.Log("found interaction point in range : " + found);
                     PlayerBehaviour.Instance.activateCursor = true;
                 }
                 else
