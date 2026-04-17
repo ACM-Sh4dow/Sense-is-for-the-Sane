@@ -13,6 +13,7 @@ public class CloseOffApartment : MonoBehaviour
             funeralHomeDoor.SetActive(true);
             AkUnitySoundEngine.SetState("CurrentScene", "FuneralHome");
             AkUnitySoundEngine.PostEvent("Fnrl_Front_Door_Close", funeralHomeDoor);
+            gameObject.SetActive(false);
         }
     }
 }

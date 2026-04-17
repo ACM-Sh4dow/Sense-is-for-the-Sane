@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
     "Language": "SFX",
-    "Hash": "{4E60FF8B-B3FE-C443-F8C3-C7DAD0B26A93}",
+    "Hash": "{53D7CFE2-74D0-4E47-7897-C4CF0B19965A}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
     "ShortName": "Funeral_Home",
     "Path": "Funeral_Home.bnk",
@@ -152,6 +152,14 @@
       "CachePath": "CE/{CE705DAC-1D0E-4E54-A9DA-447830616320}.wem"
      },
      {
+      "Id": "775675851",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Painting_Pickup.wav",
+      "CachePath": "66/{6610BA5C-1A02-159B-C541-99E33C4AFBE3}.wem"
+     },
+     {
       "Id": "834748161",
       "Language": "SFX",
       "Streaming": "false",
@@ -221,7 +229,7 @@
       "Name": "Fnrl_Casket_Creaking",
       "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Casket_Creaking",
       "GUID": "{37E4E99A-01DE-4D0C-9E14-B5535EEB953C}",
-      "MaxAttenuation": "20",
+      "MaxAttenuation": "5",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -330,6 +338,9 @@
       "DurationMax": "5.9554973",
       "MediaRefs": [
        {
+        "Id": "374672725"
+       },
+       {
         "Id": "631962267"
        }
       ],
@@ -397,6 +408,29 @@
       "MediaRefs": [
        {
         "Id": "449394520"
+       }
+      ]
+     },
+     {
+      "Id": "306777062",
+      "Name": "Fnrl_Painting_Pick_Up",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Painting_Pick_Up",
+      "GUID": "{C328E2F2-2F3D-4AE0-8281-5B977F5FD1CB}",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8726191",
+      "DurationMax": "0.8726191",
+      "MediaRefs": [
+       {
+        "Id": "775675851"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1784058834",
+        "Name": "Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
        }
       ]
      },
@@ -512,6 +546,6 @@
     ]
    }
   ],
-  "FileHash": "{63FFB48E-2E6E-66EE-01DF-12D7B727663B}"
+  "FileHash": "{D4D3669F-9EB8-B989-A943-11A16B92E30D}"
  }
 }

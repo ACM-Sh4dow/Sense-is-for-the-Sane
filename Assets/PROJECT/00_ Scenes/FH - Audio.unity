@@ -5425,7 +5425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   angleFromTargetRotation: 0
-  audibleDistanceRange: 1
+  audibleDistanceRange: 2
   audibleAngleRange: 60
   audioEvent:
     idInternal: 0

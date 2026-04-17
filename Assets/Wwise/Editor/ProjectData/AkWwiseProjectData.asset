@@ -504,7 +504,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584252220807424830
+    m_lastTime: -8584251721175389126
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -750,7 +750,7 @@ MonoBehaviour:
     ParentPath: Events\Funeral Home
     guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
     GuidInternal: 
-    m_lastTime: -8584252220813443946
+    m_lastTime: -8584251720965204427
     List:
     - name: Fnrl_Amb_Pause
       guid: b07a90bffc5a3443801fddc3dff36a05
@@ -800,7 +800,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 9ae9e437de010c4d9e14b5535eeb953c
       Path: Events\Funeral Home\Fnrl_Casket_Creaking
-      maxAttenuation: 20
+      maxAttenuation: 5
       maxDuration: 0
       minDuration: 0
     - name: Fnrl_Flower_Vase
@@ -931,9 +931,9 @@ MonoBehaviour:
       maxAttenuation: 20
       maxDuration: 0
       minDuration: 0
-    - name: Fnrl_Painting_Pickup
+    - name: Fnrl_Painting_Pick_Up
       guid: f2e228c33d2fe04a82815b977f5fd1cb
-      id: 2964718821
+      id: 306777062
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -941,13 +941,13 @@ MonoBehaviour:
       - ElementName: Funeral Home
         ObjectType: 12
         guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
-      - ElementName: Fnrl_Painting_Pickup
+      - ElementName: Fnrl_Painting_Pick_Up
         ObjectType: 3
         guid: f2e228c33d2fe04a82815b977f5fd1cb
-      Path: Events\Funeral Home\Fnrl_Painting_Pickup
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      Path: Events\Funeral Home\Fnrl_Painting_Pick_Up
+      maxAttenuation: 20
+      maxDuration: 0.8726191
+      minDuration: 0.8726191
     - name: Fnrl_Painting_Place
       guid: 9c7068a0c1457645b33702c1219d363e
       id: 2914489546

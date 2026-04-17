@@ -34,6 +34,7 @@ namespace AK
         static const AkUniqueID FNRL_MUS_PIANO = 2549568769U;
         static const AkUniqueID FNRL_MUS_STRINGS = 3506702008U;
         static const AkUniqueID FNRL_MUS_WINDS = 3153082963U;
+        static const AkUniqueID FNRL_PAINTING_PICK_UP = 306777062U;
         static const AkUniqueID FNRL_PAINTING_PLACE = 2914489546U;
         static const AkUniqueID FNRL_STOP_ALL = 4234584678U;
         static const AkUniqueID FNRL_TRANSITION_EXHALE = 2938809645U;

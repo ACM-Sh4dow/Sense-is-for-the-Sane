@@ -255,6 +255,13 @@
 				</Event>
 				<Event Name="Fnrl_Mirror_Complete" ID="{E3D57595-C140-4B81-A43D-81C395225298}">
 					<ChildrenList>
+						<Action Name="" ID="{07D3E2AD-1EBC-45E0-8428-4D7A8402CDC7}" ShortID="675287905">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Painting_Place" ID="{E365E117-D214-43EA-B016-31523676118E}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{CA599531-1148-4B9A-B68F-BA2A0C2ECBB0}" ShortID="1042399089">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
@@ -277,7 +284,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Fnrl_Painting_Pickup" ID="{C328E2F2-2F3D-4AE0-8281-5B977F5FD1CB}">
+				<Event Name="Fnrl_Painting_Pick_Up" ID="{C328E2F2-2F3D-4AE0-8281-5B977F5FD1CB}">
 					<ChildrenList>
 						<Action Name="" ID="{663ECFCA-EE85-44D2-A0FD-44E950ECB29B}" ShortID="806741999">
 							<ReferenceList>

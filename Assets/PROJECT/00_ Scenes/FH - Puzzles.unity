@@ -9117,7 +9117,7 @@ MonoBehaviour:
   usePositionOffsetData: 1
   m_positionOffsetData:
     KeepMe: 1
-    positionOffset: {x: -15.094068, y: 0.98227406, z: 9.287495}
+    positionOffset: {x: 0.11639309, y: 0.026940882, z: -0.041233063}
   scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
@@ -9156,6 +9156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fe73dd3ee474c45ab1795e21a4fbe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PickUpPuzzle
+  secondsToDisplay: 4.5
   item: 1
 --- !u!1 &487577122
 GameObject:
@@ -31107,6 +31108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56fe73dd3ee474c45ab1795e21a4fbe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PickUpPuzzle
+  secondsToDisplay: 4.5
   item: 0
 --- !u!43 &1939289717
 Mesh:

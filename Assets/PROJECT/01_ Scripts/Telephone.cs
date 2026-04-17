@@ -57,6 +57,6 @@ public class Telephone : MonoBehaviour, InteractionPoint
     {
         frontDoorOpened = true;
         frontDoor.GetComponent<Animator>().enabled = true;
-        AkUnitySoundEngine.PostEvent("Fnrl_Front_Door_Open", frontDoor.gameObject);
+        AkUnitySoundEngine.PostEvent("Apt_Front_Door_Open", frontDoor.gameObject);
     }
 }
