@@ -211,7 +211,7 @@ Material:
     - _BlendMode: 0
     - _BlendModePreserveSpecular: 1
     - _BlendOp: 0
-    - _BumpScale: 1
+    - _BumpScale: 5
     - _ClearCoat: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -290,7 +290,7 @@ Material:
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
     - _Shininess: 0
-    - _Smoothness: 1
+    - _Smoothness: 0.6
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
     - _SmoothnessSource: 0
