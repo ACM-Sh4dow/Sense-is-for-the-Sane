@@ -8,6 +8,10 @@ public class MenuManager : MonoBehaviour
 
     [SerializeField] GameObject resumeButton;
     [SerializeField] GameObject quitButton;
+    [SerializeField] GameObject creditsPage;
+    [SerializeField] GameObject menuButtons;
+    [SerializeField] GameObject menuObjects;
+    [SerializeField] GameObject creditsObjects;
 
     //future note make sure that SceneManagement isn't static and that it has MonoBehaviour
     public static void StartLevel(string sceneName)
@@ -20,6 +24,8 @@ public class MenuManager : MonoBehaviour
     {
         StartCoroutine(DeleteThenStart());
     }
+
+
     //part of StartGame
     private IEnumerator DeleteThenStart()
     {
@@ -43,6 +49,25 @@ public class MenuManager : MonoBehaviour
     public static void Quit()
     {
         Application.Quit();
+    }
+    public static void Play()
+    {
+        Debug.Log("Pressed play");
+        SceneManager.LoadScene(1);
+    }
+    public void Credits()
+    {
+        creditsPage.SetActive(true);
+        creditsObjects.SetActive(true);
+        menuButtons.SetActive(false);
+        menuObjects.SetActive(false);
+    }
+    public void Back()
+    {
+        creditsPage.SetActive(false);
+        creditsObjects.SetActive(false);
+        menuButtons.SetActive(true);
+        menuObjects.SetActive(true);
     }
 
     #region Pausing and resuming
