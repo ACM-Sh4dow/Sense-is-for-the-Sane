@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
     "Language": "SFX",
-    "Hash": "{061F5FA6-7CB9-B511-5427-B50D4A5FC095}",
+    "Hash": "{4E60FF8B-B3FE-C443-F8C3-C7DAD0B26A93}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
     "ShortName": "Funeral_Home",
     "Path": "Funeral_Home.bnk",
@@ -173,7 +173,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Door_Close_02.wav",
-      "CachePath": "58/{58F32590-1E05-9231-51D3-ED2FF73BBCF4}.wem"
+      "CachePath": "AC/{ACF69B0F-65EB-EBB3-D996-341EE35DDB90}.wem"
      },
      {
       "Id": "1061829314",
@@ -512,6 +512,6 @@
     ]
    }
   ],
-  "FileHash": "{4FE040D2-E3F7-0B65-D097-7B7305748285}"
+  "FileHash": "{63FFB48E-2E6E-66EE-01DF-12D7B727663B}"
  }
 }
