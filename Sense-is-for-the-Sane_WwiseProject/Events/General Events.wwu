@@ -231,6 +231,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Menu_Music" ID="{747A2611-F5DD-4834-BF2B-18ED5F7EC096}">
+					<ChildrenList>
+						<Action Name="" ID="{488EAD73-91B0-4CDC-9B2E-38E49F11140D}" ShortID="155145061">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main Menu" ID="{35A05C5B-CA3F-4F98-934C-4D055B22E71F}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{39E76D16-3659-462C-8AE1-BE0B06954A63}",
     "Language": "SFX",
-    "Hash": "{F8D5FE74-E394-A2EE-E87C-D8656D2028F7}",
+    "Hash": "{6070E4A5-BE30-8560-912A-DC5A5D20FA00}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\General",
     "ShortName": "General",
     "Path": "General.bnk",
@@ -158,6 +158,14 @@
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_005.wav",
       "CachePath": "3F/{3F496687-B5A0-A353-31DF-5CAFE4D5DE1C}.wem"
+     },
+     {
+      "Id": "733603365",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SiftS Main Menu.wav",
+      "CachePath": "36/{36703D4D-082F-E61A-751E-E659B9EF2F27}.wem"
      },
      {
       "Id": "740299431",
@@ -616,6 +624,18 @@
       "DurationMax": "0"
      },
      {
+      "Id": "4055567060",
+      "Name": "Menu_Music",
+      "ObjectPath": "\\Events\\General Events\\Menu_Music",
+      "GUID": "{747A2611-F5DD-4834-BF2B-18ED5F7EC096}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "733603365"
+       }
+      ]
+     },
+     {
       "Id": "2785809462",
       "Name": "Void_Stop_All",
       "ObjectPath": "\\Events\\General Events\\Stop All\\Void_Stop_All",
@@ -676,6 +696,6 @@
     ]
    }
   ],
-  "FileHash": "{2694C354-ECB5-3E66-FCED-4F53C81807CF}"
+  "FileHash": "{BDBA98C7-6AB9-A2E1-30B2-7CFA6840CB84}"
  }
 }

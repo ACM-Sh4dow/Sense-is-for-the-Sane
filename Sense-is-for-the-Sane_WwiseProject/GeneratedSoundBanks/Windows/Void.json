@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{68D5CE59-62C2-45C9-8AA7-B31C8321D127}",
     "Language": "SFX",
-    "Hash": "{BAC2BB0A-348D-36AD-6222-4B40A943206A}",
+    "Hash": "{B7064CFD-0C0A-8517-A70A-6C9B44CA1978}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Void",
     "ShortName": "Void",
     "Path": "Void.bnk",
@@ -102,14 +102,6 @@
       "Location": "Memory",
       "ShortName": "Void_Ambience_Voice-009.wav",
       "CachePath": "1D/{1D937EBB-F431-454E-AAF6-C4F7552A423C}.wem"
-     },
-     {
-      "Id": "556043878",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Void_Ambience_Piano.wav",
-      "CachePath": "54/{5474BF27-15DE-15B5-60CD-15F2EEA7DBA6}.wem"
      },
      {
       "Id": "802506400",
@@ -265,21 +257,8 @@
       "GUID": "{FF498339-5C9C-49AC-AFC7-25E87440D728}",
       "MaxAttenuation": "100",
       "DurationType": "OneShot",
-      "DurationMin": "11.391715",
-      "DurationMax": "11.391715",
-      "MediaRefs": [
-       {
-        "Id": "556043878"
-       }
-      ],
-      "AuxBusRefs": [
-       {
-        "Id": "3356433602",
-        "Name": "Void_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Void_Reverb",
-        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
-       }
-      ]
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "633475415",
@@ -357,6 +336,6 @@
     ]
    }
   ],
-  "FileHash": "{C53188FB-86DD-E8A0-BABF-431507F817FF}"
+  "FileHash": "{216E5E4B-1E6F-E7E4-C204-BBA9302749D1}"
  }
 }

@@ -77,6 +77,7 @@
 						<ObjectRef Name="Gramophone" ID="{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Mus_Organ" ID="{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Apt_Stop_All" ID="{661646BA-B5A9-44BE-AD28-A2BD8CAFDC56}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Menu_Music" ID="{747A2611-F5DD-4834-BF2B-18ED5F7EC096}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Stop_All" ID="{73B6EED0-6329-48FD-808E-94A93741BDB3}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Manual_Animate_Clock_Start" ID="{24EF0CE2-7F9F-4AD5-A7F1-778501E3CE65}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door_Creaking" ID="{0CBA965B-EA68-4CF1-A7E1-87707066D038}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>

@@ -504,7 +504,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584251721175389126
+    m_lastTime: -8584251621869470714
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -750,7 +750,7 @@ MonoBehaviour:
     ParentPath: Events\Funeral Home
     guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
     GuidInternal: 
-    m_lastTime: -8584251720965204427
+    m_lastTime: -8584251681476357952
     List:
     - name: Fnrl_Amb_Pause
       guid: b07a90bffc5a3443801fddc3dff36a05
@@ -1044,7 +1044,7 @@ MonoBehaviour:
     ParentPath: Events\General Events
     guid: 1ff59692a3e328449b9b4c99fad941f7
     GuidInternal: 
-    m_lastTime: -8584252265927365690
+    m_lastTime: -8584251625453775927
     List:
     - name: Apt_Stop_All
       guid: ba461666a9b5be44ad28a2bd8cafdc56
@@ -1202,6 +1202,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: f2f235f993b54f40bcc02654c7765d3d
       Path: Events\General Events\Manual_Animate_Clock_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Menu_Music
+      guid: 11267a74ddf53448bf2b18ed5f7ec096
+      id: 4055567060
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: General Events
+        ObjectType: 12
+        guid: 1ff59692a3e328449b9b4c99fad941f7
+      - ElementName: Menu_Music
+        ObjectType: 3
+        guid: 11267a74ddf53448bf2b18ed5f7ec096
+      Path: Events\General Events\Menu_Music
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1437,8 +1454,8 @@ MonoBehaviour:
         guid: 398349ff9c5cac49afc725e87440d728
       Path: Events\Void\Void_Mus_Piano
       maxAttenuation: 100
-      maxDuration: 11.391715
-      minDuration: 11.391715
+      maxDuration: 0
+      minDuration: 0
     - name: Void_Mus_Reset
       guid: 7af70954a30f1940b20654846ede228a
       id: 633475415
