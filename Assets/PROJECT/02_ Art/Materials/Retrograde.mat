@@ -46,16 +46,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _LineNumber: 10
-    - _LineSpeed: 1
-    - _LineVisibility: 0.05
-    - _NoiseAmount: 0.05
-    - _NoiseScale: 100
+    - _LineNumber: 0
+    - _LineSpeed: 7
+    - _LineVisibility: 0.02
+    - _NoiseAmount: 0.1
+    - _NoiseScale: 7500
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RetrogradeAmount: 1
+    - _RetrogradeAmount: 0.8
     m_Colors:
-    - _NoiseSpeed: {r: 0, g: 0.1, b: 0, a: 0}
+    - _NoiseSpeed: {r: 0, g: 20, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &2860014147054496769
