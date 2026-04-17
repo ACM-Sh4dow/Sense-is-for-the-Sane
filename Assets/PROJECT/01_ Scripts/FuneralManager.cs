@@ -57,6 +57,10 @@ public class FuneralManager : PuzzleTracker
             paintingPuzzleCompleted = true;
             Debug.Log("FuneralManager: Painting done.");
         }
+        if(Puzzles[0].state == Puzzle.State.fullyResolved && !paintingItemCollected)
+        {
+            Overseer.Instance.GetManager<UiManager>().ActivateTextPopup(2, 4.5f);
+        }
     }
 
     private void FlowerSolved()

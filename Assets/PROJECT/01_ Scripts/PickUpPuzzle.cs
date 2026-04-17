@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PickUpPuzzle : MonoBehaviour, InteractionPoint
 {
+    [SerializeField] private float secondsToDisplay = 4.5f;
     public enum Item
     {
         Painting,
@@ -21,6 +22,7 @@ public class PickUpPuzzle : MonoBehaviour, InteractionPoint
         }
         
         Overseer.Instance.GetManager<FuneralManager>().OnPuzzleComplete();
+        Overseer.Instance.GetManager<UiManager>().ActivateTextPopup(1, secondsToDisplay);
         gameObject.SetActive(false);
     }
 }
