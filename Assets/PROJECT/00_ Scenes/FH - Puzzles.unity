@@ -9071,13 +9071,15 @@ GameObject:
   m_Component:
   - component: {fileID: 480027926}
   - component: {fileID: 480027927}
+  - component: {fileID: 480027928}
+  - component: {fileID: 480027929}
   m_Layer: 0
   m_Name: Flower Vase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &480027926
 Transform:
   m_ObjectHideFlags: 0
@@ -9087,7 +9089,7 @@ Transform:
   m_GameObject: {fileID: 480027925}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -15.214, y: 0.969, z: 9.329}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9119,6 +9121,42 @@ MonoBehaviour:
   scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!136 &480027928
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480027925}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.18
+  m_Height: 0.59
+  m_Direction: 1
+  m_Center: {x: 0.11, y: 0.14, z: -0.04}
+--- !u!114 &480027929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480027925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56fe73dd3ee474c45ab1795e21a4fbe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PickUpPuzzle
+  item: 1
 --- !u!1 &487577122
 GameObject:
   m_ObjectHideFlags: 0
@@ -10222,15 +10260,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de1712620d1ab4846a5fc78efd6ecc1c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.101
+      value: 0.112999916
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de1712620d1ab4846a5fc78efd6ecc1c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.865
+      value: -0.10399997
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de1712620d1ab4846a5fc78efd6ecc1c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.2861
+      value: -0.042900085
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de1712620d1ab4846a5fc78efd6ecc1c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -30945,13 +30983,14 @@ GameObject:
   - component: {fileID: 1935323125}
   - component: {fileID: 1935323124}
   - component: {fileID: 1935323127}
+  - component: {fileID: 1935323128}
   m_Layer: 5
   m_Name: Painting Canvas FULL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1935323123
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31056,6 +31095,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.1, y: 2.1, z: 0.05}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1935323128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935323122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56fe73dd3ee474c45ab1795e21a4fbe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PickUpPuzzle
+  item: 0
 --- !u!43 &1939289717
 Mesh:
   m_ObjectHideFlags: 0
@@ -33393,11 +33445,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 60d6f70bfb9a7294d9221b930f5a2aad, type: 2}
     - target: {fileID: -8679921383154817045, guid: 8327ceacb7009b3459cd24dd1614ff17, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.04530995
+      value: 0.045309946
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8327ceacb7009b3459cd24dd1614ff17, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.04530995
+      value: 0.045309942
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8327ceacb7009b3459cd24dd1614ff17, type: 3}
       propertyPath: m_LocalScale.z
@@ -33405,15 +33457,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8327ceacb7009b3459cd24dd1614ff17, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.066
+      value: 0.14799976
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8327ceacb7009b3459cd24dd1614ff17, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.256
+      value: 0.28700006
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8327ceacb7009b3459cd24dd1614ff17, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.26
+      value: -0.069000244
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8327ceacb7009b3459cd24dd1614ff17, type: 3}
       propertyPath: m_LocalRotation.w

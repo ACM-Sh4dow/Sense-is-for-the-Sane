@@ -20,6 +20,7 @@ public class PickUpPuzzle : MonoBehaviour, InteractionPoint
                 break;
         }
         
+        Overseer.Instance.GetManager<FuneralManager>().OnPuzzleComplete();
         gameObject.SetActive(false);
     }
 }

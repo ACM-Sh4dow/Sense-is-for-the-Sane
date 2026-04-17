@@ -13,7 +13,7 @@ public class YellowBed : MonoBehaviour, InteractionPoint
         
         if (isCasket)
         {
-            StartCoroutine(Overseer.Instance.GetManager<ScreenFade>().FadeToWhite());
+            StartCoroutine(Overseer.Instance.GetManager<UiManager>().FadeToWhite());
             return;
         }
         
@@ -23,13 +23,13 @@ public class YellowBed : MonoBehaviour, InteractionPoint
 
     private IEnumerator EndScene()
     {
-        StartCoroutine(Overseer.Instance.GetManager<ScreenFade>().FadeToWhite());
+        StartCoroutine(Overseer.Instance.GetManager<UiManager>().FadeToWhite());
 
-        while (ScreenFade.screenState == ScreenFade.ScreenState.Fading)
+        while (UiManager.screenState == UiManager.ScreenState.Fading)
         {
             yield return null;
         }
         PlayerBehaviour.Instance.transform.position = Overseer.Instance.GetManager<VoidManager>().apartmentSpawn.position;
-        StartCoroutine(Overseer.Instance.GetManager<ScreenFade>().FadeToGame());
+        StartCoroutine(Overseer.Instance.GetManager<UiManager>().FadeToGame());
     }
 }

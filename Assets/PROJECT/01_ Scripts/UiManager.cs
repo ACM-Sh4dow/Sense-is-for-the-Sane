@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ScreenFade : MonoBehaviour
+public class UiManager : MonoBehaviour
 {
     public enum ScreenState
     {
@@ -17,7 +17,8 @@ public class ScreenFade : MonoBehaviour
     [SerializeField] private GameObject whiteScreen;
     [SerializeField] private float fadeSpeed;
     [SerializeField] private Color screenColor;
-    [SerializeField] private Color secondScreenColor;
+    public GameObject[] uiText;
+    private bool textDisplaying;
     
     void Start()
     {
@@ -55,5 +56,20 @@ public class ScreenFade : MonoBehaviour
         }
         whiteScreen.SetActive(false);
         screenState = ScreenState.Game;
+    }
+
+    public void ActivateTextPopup(int uiTextIndex, float secondsToDisplay = 3.5f)
+    {
+        if (textDisplaying) return;
+        StartCoroutine(DisplayText(uiTextIndex, secondsToDisplay));
+    }
+
+    private IEnumerator DisplayText(int uiTextIndex, float secondsToDisplay)
+    {
+        textDisplaying = true;
+        uiText[uiTextIndex].SetActive(true);
+        yield return new WaitForSeconds(secondsToDisplay);
+        uiText[uiTextIndex].SetActive(false);
+        textDisplaying = false;
     }
 }
