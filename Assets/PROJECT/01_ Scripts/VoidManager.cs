@@ -73,7 +73,7 @@ public class VoidManager : MonoBehaviour
     {
         light.shadows = LightShadows.None;
     }
-    private void ActivateShadows()
+    public void ActivateShadows()
     {
         light.shadows = LightShadows.Soft;
     }

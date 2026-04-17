@@ -74,7 +74,10 @@ public class FuneralManager : PuzzleTracker
         {
             Puzzles[1].state = Puzzle.State.fullyResolved;
         }
-        
+        if (Puzzles[1].state == Puzzle.State.fullyResolved && Puzzles[2].state == Puzzle.State.fullyResolved && !flowerItemCollected)
+        {
+            Overseer.Instance.GetManager<UiManager>().ActivateTextPopup(2, 4.5f);
+        }
         if (Puzzles[1].state == Puzzle.State.fullyResolved && Puzzles[2].state == Puzzle.State.fullyResolved && flowerItemCollected) //perspective (2/2)
         {
             flowerPuzzleCompleted = true;
