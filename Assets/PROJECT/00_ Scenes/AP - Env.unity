@@ -8738,7 +8738,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   clearToStartRinging: 0
   frontDoor: {fileID: 7687540549929380457}
-  secondsBeforeRinging: 5
+  secondsBeforeRinging: 18
   secondsToDisplayText: 10
 --- !u!65 &1952002354
 BoxCollider:
