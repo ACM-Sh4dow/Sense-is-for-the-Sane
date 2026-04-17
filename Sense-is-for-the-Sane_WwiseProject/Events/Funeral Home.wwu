@@ -288,6 +288,52 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Fnrl_Casket_Creaking" ID="{37E4E99A-01DE-4D0C-9E14-B5535EEB953C}">
+					<ChildrenList>
+						<Action Name="" ID="{4BC73165-8BE7-44B0-A93C-12449FE8F1E8}" ShortID="402484928">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Casket Creaking Seq" ID="{034752D7-6C74-488C-B886-AF4EC28C0FBA}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fnrl_Front_Door_Close" ID="{F519E9BC-64B7-4700-B0FD-D5FD75960F2F}">
+					<ChildrenList>
+						<Action Name="" ID="{4027C00D-E593-41D9-B7D2-3C0A55F95D01}" ShortID="555221665">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Close_02" ID="{CE660335-4C12-4330-8918-C4D8ECC0F9FA}" WorkUnitID="{5617E81F-15D7-467B-96EE-EEF11E47BC75}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E26A1269-89FB-4AF3-8021-BADC15EA1500}" ShortID="841882923">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Casket_Creaking" ID="{78EE0F37-1E06-4F4D-B191-138ABF881225}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FFFF9453-4649-40D4-A969-B3984980C75C}" ShortID="891386504">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Casket_Creaking" ID="{78EE0F37-1E06-4F4D-B191-138ABF881225}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

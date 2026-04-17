@@ -43,6 +43,7 @@
 						<ObjectRef Name="Apt_Sink" ID="{5A644377-9F79-44E2-BC1C-122FF672AE25}" WorkUnitID="{0F5A3F40-CB3C-4746-8134-079334A4DA23}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Apt_Phone_Stop" ID="{9A434B8C-2FF7-49EA-A791-D6A312B5274D}" WorkUnitID="{0F5A3F40-CB3C-4746-8134-079334A4DA23}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Apt_Fireplace" ID="{DD55A7FB-4693-4A66-A895-996329466B19}" WorkUnitID="{0F5A3F40-CB3C-4746-8134-079334A4DA23}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Apt_Front_Door_Open" ID="{4AAAB2FC-5131-4C24-B17F-C213301BA96E}" WorkUnitID="{0F5A3F40-CB3C-4746-8134-079334A4DA23}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Apt_Phone_Start" ID="{51C30054-8635-4C28-9AA6-B6D48475E1EC}" WorkUnitID="{0F5A3F40-CB3C-4746-8134-079334A4DA23}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Apt_Creaking" ID="{72658927-421A-4DDD-B605-EE4D528A914C}" WorkUnitID="{0F5A3F40-CB3C-4746-8134-079334A4DA23}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
@@ -55,12 +56,14 @@
 						<ObjectRef Name="Fnrl_Amb_Pause" ID="{BF907AB0-5AFC-4334-801F-DDC3DFF36A05}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Painting_Place" ID="{A068709C-45C1-4576-B337-02C1219D363E}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Mus_Strings" ID="{2A588BC6-F874-4660-A5A5-061650ED2C5C}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fnrl_Front_Door_Close" ID="{F519E9BC-64B7-4700-B0FD-D5FD75960F2F}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Mus_Piano" ID="{9F02AAE3-A025-471B-A281-B77A69F45B8A}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Wall_Shatter" ID="{1C722E0F-588B-4920-8B98-FDF8AA4464C1}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Amb_Thunderstorm" ID="{748EF433-A22E-494E-927C-79CFE002E9FF}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Flower_Vase" ID="{FBEBE904-9941-4ABB-A9BE-4542906A8DB8}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Mirror_Complete" ID="{E3D57595-C140-4B81-A43D-81C395225298}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Mus_Winds" ID="{E52DB62D-C829-4CA3-ADF8-B3ECCB3CE7CB}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fnrl_Casket_Creaking" ID="{37E4E99A-01DE-4D0C-9E14-B5535EEB953C}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Transition_Exhale" ID="{3F85E934-BD61-4E41-BC35-937B2BC821BB}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Mirror_Breathing" ID="{E6C0F4EC-AFAA-4EC8-8C9A-EE291FC65B35}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

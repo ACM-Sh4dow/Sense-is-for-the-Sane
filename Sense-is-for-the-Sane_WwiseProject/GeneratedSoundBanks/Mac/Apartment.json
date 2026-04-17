@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9F2C9685-C3F4-4D21-9319-4FF075E9A3CD}",
     "Language": "SFX",
-    "Hash": "{3DE75514-F421-F194-13B2-289A81623DAF}",
+    "Hash": "{36C01A96-C3D8-B662-8A59-54E01D0B947E}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Apartment",
     "ShortName": "Apartment",
     "Path": "Apartment.bnk",
@@ -30,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_006.wav",
       "CachePath": "81/{81A7A2C7-882C-2978-EB88-B27EC14E0B8B}.wem"
+     },
+     {
+      "Id": "70164577",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Casket_Creaking.wav",
+      "CachePath": "4C/{4C855808-35C5-274A-FA9E-363C8C61777C}.wem"
      },
      {
       "Id": "285034747",
@@ -94,6 +102,14 @@
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_001.wav",
       "CachePath": "75/{75C149F1-74CE-E40E-3937-7D5D78EDCC7F}.wem"
+     },
+     {
+      "Id": "581813657",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Doors\\Door_01.wav",
+      "CachePath": "4F/{4FE9BD53-817B-3B53-EE4C-D16736ABF67A}.wem"
      },
      {
       "Id": "872160095",
@@ -200,6 +216,38 @@
       ]
      },
      {
+      "Id": "1421437688",
+      "Name": "Apt_Front_Door_Open",
+      "ObjectPath": "\\Events\\Apartment\\Apt_Front_Door_Open",
+      "GUID": "{4AAAB2FC-5131-4C24-B17F-C213301BA96E}",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "9.230266",
+      "DurationMax": "9.230266",
+      "MediaRefs": [
+       {
+        "Id": "70164577"
+       },
+       {
+        "Id": "581813657"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1784058834",
+        "Name": "Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       },
+       {
+        "Id": "3356433602",
+        "Name": "Void_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Void_Reverb",
+        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
+       }
+      ]
+     },
+     {
       "Id": "969392694",
       "Name": "Apt_Phone_Start",
       "ObjectPath": "\\Events\\Apartment\\Apt_Phone_Start",
@@ -240,9 +288,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1288081852",
+      "Name": "DistanceAnimationRate",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\DistanceAnimationRate",
+      "GUID": "{88001F93-59F8-4874-A886-D90134697D52}"
+     }
     ]
    }
   ],
-  "FileHash": "{EC2CE000-4E24-25FF-9D50-AF13DA3575E7}"
+  "FileHash": "{72F082F3-6F33-494C-1896-5865A23DD5E8}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
     "Language": "SFX",
-    "Hash": "{65314E59-4591-AA62-B145-285AA8582A5E}",
+    "Hash": "{061F5FA6-7CB9-B511-5427-B50D4A5FC095}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
     "ShortName": "Funeral_Home",
     "Path": "Funeral_Home.bnk",
@@ -46,6 +46,14 @@
       "Location": "Memory",
       "ShortName": "Flower_Vase_03.wav",
       "CachePath": "4F/{4F307F07-AF11-CE38-D09C-47C3FA051899}.wem"
+     },
+     {
+      "Id": "70164577",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Casket_Creaking.wav",
+      "CachePath": "4C/{4C855808-35C5-274A-FA9E-363C8C61777C}.wem"
      },
      {
       "Id": "179374628",
@@ -160,6 +168,14 @@
       "CachePath": "15/{156798CD-B2CE-6C02-F98A-F24F52919FA7}.wem"
      },
      {
+      "Id": "1003612582",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Door_Close_02.wav",
+      "CachePath": "58/{58F32590-1E05-9231-51D3-ED2FF73BBCF4}.wem"
+     },
+     {
       "Id": "1061829314",
       "Language": "SFX",
       "Streaming": "false",
@@ -201,6 +217,27 @@
       ]
      },
      {
+      "Id": "1249783482",
+      "Name": "Fnrl_Casket_Creaking",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Casket_Creaking",
+      "GUID": "{37E4E99A-01DE-4D0C-9E14-B5535EEB953C}",
+      "MaxAttenuation": "20",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "70164577"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1784058834",
+        "Name": "Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       }
+      ]
+     },
+     {
       "Id": "3533695665",
       "Name": "Fnrl_Flower_Vase",
       "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Flower_Vase",
@@ -226,6 +263,38 @@
         "Name": "Fnrl_Reverb",
         "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
         "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       }
+      ]
+     },
+     {
+      "Id": "2124265127",
+      "Name": "Fnrl_Front_Door_Close",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Front_Door_Close",
+      "GUID": "{F519E9BC-64B7-4700-B0FD-D5FD75960F2F}",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "9.230266",
+      "DurationMax": "9.230266",
+      "MediaRefs": [
+       {
+        "Id": "70164577"
+       },
+       {
+        "Id": "1003612582"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1784058834",
+        "Name": "Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       },
+       {
+        "Id": "3356433602",
+        "Name": "Void_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Void_Reverb",
+        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
        }
       ]
      },
@@ -429,6 +498,12 @@
       "GUID": "{4BEBB738-CD5B-4CE1-AFCB-393067F45FA2}"
      },
      {
+      "Id": "1288081852",
+      "Name": "DistanceAnimationRate",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\DistanceAnimationRate",
+      "GUID": "{88001F93-59F8-4874-A886-D90134697D52}"
+     },
+     {
       "Id": "1768319275",
       "Name": "DistanceFromTarget",
       "ObjectPath": "\\Game Parameters\\Game Parameters WU\\DistanceFromTarget",
@@ -437,6 +512,6 @@
     ]
    }
   ],
-  "FileHash": "{A19A8580-0494-F6FE-257F-DE6D04943410}"
+  "FileHash": "{4FE040D2-E3F7-0B65-D097-7B7305748285}"
  }
 }

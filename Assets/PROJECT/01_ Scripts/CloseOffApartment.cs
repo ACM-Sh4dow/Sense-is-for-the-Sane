@@ -9,10 +9,10 @@ public class CloseOffApartment : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-
             transform.GetComponent<SceneTransition>().TriggerTransition();
             funeralHomeDoor.SetActive(true);
             AkUnitySoundEngine.SetState("CurrentScene", "FuneralHome");
+            AkUnitySoundEngine.PostEvent("Fnrl_Front_Door_Close", funeralHomeDoor);
         }
     }
 }

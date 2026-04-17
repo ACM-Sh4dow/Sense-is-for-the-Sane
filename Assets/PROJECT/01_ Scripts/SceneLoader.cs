@@ -100,10 +100,10 @@ public class SceneLoader : MonoBehaviour
                 StartCoroutine(UnloadPreviousScenes(secondsToWait, "Void_Stop_All"));
                 break;
             case CurrentLevel.Apartment:
-                StartCoroutine(UnloadPreviousScenes(secondsToWait, "Apt_Stop_All"));
+                StartCoroutine(UnloadPreviousScenes(secondsToWait));
                 break;
             case CurrentLevel.FuneralHome:
-                StartCoroutine(UnloadPreviousScenes(secondsToWait));
+                StartCoroutine(UnloadPreviousScenes(secondsToWait, "Apt_Stop_All"));
                 break;
         }
     }

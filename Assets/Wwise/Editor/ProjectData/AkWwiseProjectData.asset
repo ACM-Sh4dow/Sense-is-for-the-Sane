@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: ede88cb9b519ad42b043b7baa79cad7e
     GuidInternal: 
-    m_lastTime: -8584252275292431955
+    m_lastTime: -8584252271404411234
     List:
     - name: Apartment
       guid: b8e7de45a521e8489c506cac864f8555
@@ -504,7 +504,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584252275289855481
+    m_lastTime: -8584252231547654271
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -588,7 +588,7 @@ MonoBehaviour:
     ParentPath: Events\Apartment
     guid: 403f5a0f3ccb46478134079334a4da23
     GuidInternal: 
-    m_lastTime: -8584252621648587521
+    m_lastTime: -8584252231550053782
     List:
     - name: Apt_Clock
       guid: cc1102f1eea62044bdfd304ba4a2a9e5
@@ -658,6 +658,23 @@ MonoBehaviour:
       maxAttenuation: 5
       maxDuration: 0
       minDuration: 0
+    - name: Apt_Front_Door_Open
+      guid: fcb2aa4a3151244cb17fc213301ba96e
+      id: 1421437688
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Apartment
+        ObjectType: 12
+        guid: 403f5a0f3ccb46478134079334a4da23
+      - ElementName: Apt_Front_Door_Open
+        ObjectType: 3
+        guid: fcb2aa4a3151244cb17fc213301ba96e
+      Path: Events\Apartment\Apt_Front_Door_Open
+      maxAttenuation: 20
+      maxDuration: 9.230266
+      minDuration: 9.230266
     - name: Apt_Phone_Start
       guid: 5400c3513586284c9aa6b6d48475e1ec
       id: 969392694
@@ -733,7 +750,7 @@ MonoBehaviour:
     ParentPath: Events\Funeral Home
     guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
     GuidInternal: 
-    m_lastTime: -8584252275292582962
+    m_lastTime: -8584252231550043781
     List:
     - name: Fnrl_Amb_Pause
       guid: b07a90bffc5a3443801fddc3dff36a05
@@ -769,6 +786,23 @@ MonoBehaviour:
       maxAttenuation: 100
       maxDuration: 0
       minDuration: 0
+    - name: Fnrl_Casket_Creaking
+      guid: 9ae9e437de010c4d9e14b5535eeb953c
+      id: 1249783482
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Funeral Home
+        ObjectType: 12
+        guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
+      - ElementName: Fnrl_Casket_Creaking
+        ObjectType: 3
+        guid: 9ae9e437de010c4d9e14b5535eeb953c
+      Path: Events\Funeral Home\Fnrl_Casket_Creaking
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
     - name: Fnrl_Flower_Vase
       guid: 04e9ebfb4199bb4aa9be4542906a8db8
       id: 3533695665
@@ -786,6 +820,23 @@ MonoBehaviour:
       maxAttenuation: 20
       maxDuration: 1.0955184
       minDuration: 0.72778976
+    - name: Fnrl_Front_Door_Close
+      guid: bce919f5b7640047b0fdd5fd75960f2f
+      id: 2124265127
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Funeral Home
+        ObjectType: 12
+        guid: 50c2eff69fea5b4a87c7cfd4ba68dc5f
+      - ElementName: Fnrl_Front_Door_Close
+        ObjectType: 3
+        guid: bce919f5b7640047b0fdd5fd75960f2f
+      Path: Events\Funeral Home\Fnrl_Front_Door_Close
+      maxAttenuation: 20
+      maxDuration: 9.230266
+      minDuration: 9.230266
     - name: Fnrl_Mirror_Breathing
       guid: ecf4c0e6aaafc84e8c9aee291fc65b35
       id: 1736817776
@@ -993,7 +1044,7 @@ MonoBehaviour:
     ParentPath: Events\General Events
     guid: 1ff59692a3e328449b9b4c99fad941f7
     GuidInternal: 
-    m_lastTime: -8584252275292572903
+    m_lastTime: -8584252271404557626
     List:
     - name: Apt_Stop_All
       guid: ba461666a9b5be44ad28a2bd8cafdc56
@@ -1215,7 +1266,7 @@ MonoBehaviour:
     ParentPath: Events\Void
     guid: ab034f2717ecfa44a98addefad73aad5
     GuidInternal: 
-    m_lastTime: -8584252581430204892
+    m_lastTime: -8584252231550038775
     List:
     - name: Pitch Change
       guid: 30d1181be23b144daf6e0a67944800b0
