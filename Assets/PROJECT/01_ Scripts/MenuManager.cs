@@ -12,6 +12,9 @@ public class MenuManager : MonoBehaviour
     [SerializeField] GameObject menuButtons;
     [SerializeField] GameObject menuObjects;
     [SerializeField] GameObject creditsObjects;
+    [SerializeField] GameObject loadingScreen;
+
+    private bool isPlaying;
 
     //future note make sure that SceneManagement isn't static and that it has MonoBehaviour
     public static void StartLevel(string sceneName)
@@ -50,9 +53,19 @@ public class MenuManager : MonoBehaviour
     {
         Application.Quit();
     }
-    public static void Play()
+    public void Play()
     {
-        Debug.Log("Pressed play");
+        if (isPlaying) return;
+        isPlaying = true;
+        StartCoroutine(WaitToPlay());
+    }
+    private IEnumerator WaitToPlay()
+    {
+        loadingScreen.SetActive(true);
+        menuButtons.SetActive(false);
+        menuObjects.SetActive(false);
+        AkUnitySoundEngine.PostEvent("Menu_Stop_All",loadingScreen);
+        yield return new WaitForSeconds(5);
         SceneManager.LoadScene(1);
     }
     public void Credits()

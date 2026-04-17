@@ -36,6 +36,7 @@ public class ManualAnimationProgression : Puzzle, InteractionPoint
 
     public void Interact()
     {
+        Debug.Log("manual anim attempt puzzle");
         AttemptPuzzle();
     }
 

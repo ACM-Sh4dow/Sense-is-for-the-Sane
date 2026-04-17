@@ -1,19 +1,19 @@
 {
  "SoundBanksInfo": {
-  "Platform": "Mac",
-  "BasePlatform": "Mac",
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
   "SchemaVersion": "16",
   "SoundBankVersion": "154",
   "SoundBanks": [
    {
-    "Id": "133642231",
+    "Id": "3157003241",
     "Type": "User",
-    "GUID": "{39E76D16-3659-462C-8AE1-BE0B06954A63}",
+    "GUID": "{FAC7D741-2CC6-4571-91AE-B86C57B75FDF}",
     "Language": "SFX",
-    "Hash": "{C75F26E1-962F-85CF-DC73-F2A758E2CECE}",
-    "ObjectPath": "\\SoundBanks\\Soundbanks WU\\General",
-    "ShortName": "General",
-    "Path": "General.bnk",
+    "Hash": "{F8F9026E-A7AF-A36D-1777-9A05778E5F38}",
+    "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Test",
+    "ShortName": "Test",
+    "Path": "Test.bnk",
     "Media": [
      {
       "Id": "9956793",
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_004.wav",
       "CachePath": "48/{484EFE33-1020-A02F-447B-7493CDC93136}.wem"
+     },
+     {
+      "Id": "16631637",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Exhale_003.wav",
+      "CachePath": "7D/{7D2A9971-5F2F-33B6-BDC5-EAAEF137F72A}.wem"
      },
      {
       "Id": "27089001",
@@ -56,6 +64,14 @@
       "CachePath": "BF/{BF40A8D1-113F-62EF-D086-2E6C9D7A94F5}.wem"
      },
      {
+      "Id": "62290821",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_006.wav",
+      "CachePath": "81/{81A7A2C7-882C-2978-EB88-B27EC14E0B8B}.wem"
+     },
+     {
       "Id": "84603492",
       "Language": "SFX",
       "Streaming": "false",
@@ -88,6 +104,14 @@
       "CachePath": "0F/{0F594E1E-CD39-7A32-8840-4C7FA066566E}.wem"
      },
      {
+      "Id": "277586871",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Exhale_002.wav",
+      "CachePath": "76/{76B3B84B-0C3D-1B44-5FE8-8E4E9985A00A}.wem"
+     },
+     {
       "Id": "285034747",
       "Language": "SFX",
       "Streaming": "false",
@@ -102,6 +126,46 @@
       "Location": "Memory",
       "ShortName": "Clock Tick.wav",
       "CachePath": "8B/{8BA552AD-505E-355B-E962-1095047E7D66}.wem"
+     },
+     {
+      "Id": "336069509",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Exhale_001.wav",
+      "CachePath": "3B/{3BA8AC10-DDA1-50E1-26A3-511F817C5DB4}.wem"
+     },
+     {
+      "Id": "352828321",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Water_Drip.wav",
+      "CachePath": "5C/{5C2C9096-6BCE-80DF-62D1-772DEDDB6F1F}.wem"
+     },
+     {
+      "Id": "373803995",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_008.wav",
+      "CachePath": "05/{057AA93A-B9A6-1D85-FCA8-64671A69E155}.wem"
+     },
+     {
+      "Id": "395211181",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fridge_Buzz.wav",
+      "CachePath": "22/{228B9216-16BA-4ED6-865F-11B8D101A9CA}.wem"
+     },
+     {
+      "Id": "449296932",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_002.wav",
+      "CachePath": "5A/{5ABDEA1E-D732-3479-4427-E43D648A2439}.wem"
      },
      {
       "Id": "449394520",
@@ -120,12 +184,28 @@
       "CachePath": "9D/{9D9D92F9-7509-41E4-147C-6735605D9BC8}.wem"
      },
      {
+      "Id": "530166292",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_003.wav",
+      "CachePath": "17/{17E3C15A-542A-B676-7E07-7302385F2DF9}.wem"
+     },
+     {
       "Id": "541820834",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep_Creak_003.wav",
       "CachePath": "FA/{FAB73F71-8DBD-3108-50EB-AE5AA2F23BFE}.wem"
+     },
+     {
+      "Id": "573529530",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Creaking\\Wooden_Creaking_Ambient_001.wav",
+      "CachePath": "75/{75C149F1-74CE-E40E-3937-7D5D78EDCC7F}.wem"
      },
      {
       "Id": "575360998",
@@ -152,22 +232,6 @@
       "CachePath": "01/{010B3AF5-0FD0-21FE-D65C-230DC32D3868}.wem"
      },
      {
-      "Id": "622806989",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Creaking\\Wooden_Creaking_Ambient_005.wav",
-      "CachePath": "3F/{3F496687-B5A0-A353-31DF-5CAFE4D5DE1C}.wem"
-     },
-     {
-      "Id": "733603365",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SiftS Main Menu.wav",
-      "CachePath": "36/{36703D4D-082F-E61A-751E-E659B9EF2F27}.wem"
-     },
-     {
       "Id": "740299431",
       "Language": "SFX",
       "Streaming": "false",
@@ -176,12 +240,20 @@
       "CachePath": "1D/{1DF77038-3C31-6E17-7CEE-16793759CA79}.wem"
      },
      {
-      "Id": "866457660",
+      "Id": "840959845",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Creaking\\Wooden_Creaking_Ambient_008.wav",
-      "CachePath": "D0/{D0BDD28E-C844-F20C-4C66-79C20D3EAE6E}.wem"
+      "ShortName": "Funeral_Ambience_Thunderstorm.wav",
+      "CachePath": "15/{156798CD-B2CE-6C02-F98A-F24F52919FA7}.wem"
+     },
+     {
+      "Id": "872160095",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fireplace.wav",
+      "CachePath": "55/{557DEBEF-29C7-F4BD-9FA7-4A30C4E54628}.wem"
      },
      {
       "Id": "897507631",
@@ -258,42 +330,114 @@
     ],
     "Events": [
      {
-      "Id": "403071693",
-      "Name": "Apt_Stop_All",
-      "ObjectPath": "\\Events\\General Events\\Stop All\\Apt_Stop_All",
-      "GUID": "{661646BA-B5A9-44BE-AD28-A2BD8CAFDC56}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "Id": "1056431533",
+      "Name": "Apt_Clock",
+      "ObjectPath": "\\Events\\Apartment\\Apt_Clock",
+      "GUID": "{F10211CC-A6EE-4420-BDFD-304BA4A2A9E5}",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "302930732"
+       }
+      ]
      },
      {
-      "Id": "2843028372",
-      "Name": "Door_Creaking",
-      "ObjectPath": "\\Events\\General Events\\Door_Creaking",
-      "GUID": "{0CBA965B-EA68-4CF1-A7E1-87707066D038}",
-      "MaxAttenuation": "20",
+      "Id": "329135517",
+      "Name": "Apt_Creaking",
+      "ObjectPath": "\\Events\\Apartment\\Apt_Creaking",
+      "GUID": "{72658927-421A-4DDD-B605-EE4D528A914C}",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "9956793"
        },
        {
+        "Id": "62290821"
+       },
+       {
         "Id": "285034747"
        },
        {
-        "Id": "622806989"
+        "Id": "373803995"
        },
        {
-        "Id": "866457660"
+        "Id": "449296932"
+       },
+       {
+        "Id": "530166292"
+       },
+       {
+        "Id": "573529530"
        }
       ],
       "AuxBusRefs": [
        {
-        "Id": "3356433602",
-        "Name": "Void_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Void_Reverb",
-        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
+        "Id": "1676289129",
+        "Name": "Apt_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Apt_Reverb",
+        "GUID": "{B28A58E4-2BBF-4849-B95C-3ACC849A967E}"
+       }
+      ]
+     },
+     {
+      "Id": "2202553018",
+      "Name": "Apt_Fireplace",
+      "ObjectPath": "\\Events\\Apartment\\Apt_Fireplace",
+      "GUID": "{DD55A7FB-4693-4A66-A895-996329466B19}",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "872160095"
+       }
+      ]
+     },
+     {
+      "Id": "2280025682",
+      "Name": "Apt_Fridge",
+      "ObjectPath": "\\Events\\Apartment\\Apt_Fridge",
+      "GUID": "{F91BE929-F651-44A2-A96F-6A1A868C61E4}",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "395211181"
+       }
+      ]
+     },
+     {
+      "Id": "751812660",
+      "Name": "Apt_Sink",
+      "ObjectPath": "\\Events\\Apartment\\Apt_Sink",
+      "GUID": "{5A644377-9F79-44E2-BC1C-122FF672AE25}",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "352828321"
+       }
+      ]
+     },
+     {
+      "Id": "1612838152",
+      "Name": "Fnrl_Amb_Thunderstorm",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Amb_Thunderstorm",
+      "GUID": "{748EF433-A22E-494E-927C-79CFE002E9FF}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "840959845"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1784058834",
+        "Name": "Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
        }
       ]
      },
@@ -322,14 +466,24 @@
       ]
      },
      {
-      "Id": "4234584678",
-      "Name": "Fnrl_Stop_All",
-      "ObjectPath": "\\Events\\General Events\\Stop All\\Fnrl_Stop_All",
-      "GUID": "{73B6EED0-6329-48FD-808E-94A93741BDB3}",
-      "MaxAttenuation": "0",
+      "Id": "2938809645",
+      "Name": "Fnrl_Transition_Exhale",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Transition_Exhale",
+      "GUID": "{3F85E934-BD61-4E41-BC35-937B2BC821BB}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "1.5908475",
+      "DurationMax": "2.6253827",
+      "MediaRefs": [
+       {
+        "Id": "16631637"
+       },
+       {
+        "Id": "277586871"
+       },
+       {
+        "Id": "336069509"
+       }
+      ]
      },
      {
       "Id": "1866025847",
@@ -585,95 +739,6 @@
         "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
        }
       ]
-     },
-     {
-      "Id": "2156182537",
-      "Name": "Manual_Animate_Clock_Start",
-      "ObjectPath": "\\Events\\General Events\\Manual_Animate_Clock_Start",
-      "GUID": "{24EF0CE2-7F9F-4AD5-A7F1-778501E3CE65}",
-      "MaxAttenuation": "20",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "302930732"
-       }
-      ],
-      "AuxBusRefs": [
-       {
-        "Id": "1784058834",
-        "Name": "Fnrl_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
-        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
-       },
-       {
-        "Id": "3356433602",
-        "Name": "Void_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Void_Reverb",
-        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
-       }
-      ]
-     },
-     {
-      "Id": "3248176547",
-      "Name": "Manual_Animate_Clock_Stop",
-      "ObjectPath": "\\Events\\General Events\\Manual_Animate_Clock_Stop",
-      "GUID": "{F935F2F2-B593-404F-BCC0-2654C7765D3D}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "4055567060",
-      "Name": "Menu_Music",
-      "ObjectPath": "\\Events\\General Events\\Menu_Music",
-      "GUID": "{747A2611-F5DD-4834-BF2B-18ED5F7EC096}",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "733603365"
-       }
-      ]
-     },
-     {
-      "Id": "2564673847",
-      "Name": "Menu_Stop_All",
-      "ObjectPath": "\\Events\\General Events\\Stop All\\Menu_Stop_All",
-      "GUID": "{A682A94A-9B7D-4B9B-9B15-D8B688E963A2}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "2785809462",
-      "Name": "Void_Stop_All",
-      "ObjectPath": "\\Events\\General Events\\Stop All\\Void_Stop_All",
-      "GUID": "{04E0E4E3-7502-4F22-B18E-CBE2BF33822A}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     }
-    ],
-    "GameParameters": [
-     {
-      "Id": "553709980",
-      "Name": "InAudibleZone",
-      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\InAudibleZone",
-      "GUID": "{4BEBB738-CD5B-4CE1-AFCB-393067F45FA2}"
-     },
-     {
-      "Id": "1288081852",
-      "Name": "DistanceAnimationRate",
-      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\DistanceAnimationRate",
-      "GUID": "{88001F93-59F8-4874-A886-D90134697D52}"
-     },
-     {
-      "Id": "3357858816",
-      "Name": "ClockTickRate",
-      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\ClockTickRate",
-      "GUID": "{4B800971-A9A2-4A67-9426-86D6F78BF5A4}"
      }
     ],
     "SwitchGroups": [
@@ -706,6 +771,6 @@
     ]
    }
   ],
-  "FileHash": "{69892976-FAF4-859E-219C-8ADE6F5AA5B7}"
+  "FileHash": "{53B57544-4363-9E82-3156-87D12BD2D2DB}"
  }
 }

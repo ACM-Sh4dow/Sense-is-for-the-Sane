@@ -17,6 +17,7 @@ public class UiManager : MonoBehaviour
     [SerializeField] private GameObject whiteScreen;
     [SerializeField] private float fadeSpeed;
     [SerializeField] private Color screenColor;
+    public GameObject loadingScreen;
     public GameObject[] uiText;
     private bool textDisplaying;
     private int previousTextIndex;

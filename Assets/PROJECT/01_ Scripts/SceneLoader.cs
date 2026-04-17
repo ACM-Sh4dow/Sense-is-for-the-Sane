@@ -40,6 +40,8 @@ public class SceneLoader : MonoBehaviour
     
     [SerializeField] private List<Transform> playerSpawns = new();
 
+    private bool loadingScreenOff;
+
     public enum CurrentLevel
     {
         Void,
@@ -72,6 +74,15 @@ public class SceneLoader : MonoBehaviour
                 PlayerBehaviour.Instance.transform.position = playerSpawns[2].position;
                 AkUnitySoundEngine.SetState("CurrentScene", "FuneralHome");
                 break;
+        }
+    }
+    private void Update()
+    {
+        if (loadingScreenOff) return;
+        if(loadState == LoadState.None)
+        {
+            loadingScreenOff = true;
+            Overseer.Instance.GetManager<UiManager>().loadingScreen.SetActive(false);
         }
     }
 

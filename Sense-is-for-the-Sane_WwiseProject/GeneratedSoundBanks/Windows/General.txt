@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1578407477	Fnrl_Mus_Organ			\General Events\Fnrl_Mus_Organ	
 	1866025847	Footstep			\General Events\Footstep	
 	2156182537	Manual_Animate_Clock_Start			\General Events\Manual_Animate_Clock_Start	
+	2564673847	Menu_Stop_All			\General Events\Stop All\Menu_Stop_All	
 	2785809462	Void_Stop_All			\General Events\Stop All\Void_Stop_All	
 	2843028372	Door_Creaking			\General Events\Door_Creaking	
 	3151110061	Gramophone			\General Events\Gramophone	

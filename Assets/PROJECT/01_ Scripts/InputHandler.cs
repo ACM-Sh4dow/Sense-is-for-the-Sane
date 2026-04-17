@@ -41,16 +41,19 @@ public class InputHandler : MonoBehaviour
 
         if (Physics.Raycast(centerRay, out RaycastHit hitInfo , interactionRange))
         {
+            Debug.Log("raycast hit");
             if (hitInfo.collider.TryGetComponent<InteractionPoint>(out InteractionPoint interaction))
             {
+                Debug.Log("attempting interact");
                 interaction.Interact();
             }
         }
+
+        //ReceiveAlign();
     }
 
-    public void ReceiveAlign(InputAction.CallbackContext input)
+    private void ReceiveAlign()
     {
-        if (!input.started) return;
         var puzzle = FindNearestPuzzle();
         if (puzzle == null)
         {
