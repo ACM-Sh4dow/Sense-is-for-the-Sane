@@ -19,6 +19,8 @@ public class UiManager : MonoBehaviour
     [SerializeField] private Color screenColor;
     public GameObject[] uiText;
     private bool textDisplaying;
+    private int previousTextIndex;
+    private IEnumerator currentTextCoroutine;
     
     void Start()
     {
@@ -60,8 +62,21 @@ public class UiManager : MonoBehaviour
 
     public void ActivateTextPopup(int uiTextIndex, float secondsToDisplay = 3.5f)
     {
-        if (textDisplaying) return;
-        StartCoroutine(DisplayText(uiTextIndex, secondsToDisplay));
+        if (textDisplaying) 
+        {
+            if (previousTextIndex == uiTextIndex)
+            {
+                return;
+            }
+            else
+            {
+                StopCoroutine(currentTextCoroutine);
+                ClearText(previousTextIndex);
+            }
+        }
+        currentTextCoroutine = DisplayText(uiTextIndex, secondsToDisplay);
+        StartCoroutine(currentTextCoroutine);
+        previousTextIndex = uiTextIndex;
     }
 
     private IEnumerator DisplayText(int uiTextIndex, float secondsToDisplay)
@@ -71,5 +86,10 @@ public class UiManager : MonoBehaviour
         yield return new WaitForSeconds(secondsToDisplay);
         uiText[uiTextIndex].SetActive(false);
         textDisplaying = false;
+    }
+    private void ClearText(int uiTextIndex)
+    {
+        textDisplaying = false;
+        uiText[uiTextIndex].SetActive(false);
     }
 }

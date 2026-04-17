@@ -9,6 +9,9 @@ public class Telephone : MonoBehaviour, InteractionPoint
     private bool phoneHasRung;
     [SerializeField] private Transform frontDoor;
     [SerializeField] private float secondsBeforeRinging = 10f;
+    [SerializeField] private float secondsToDisplayText = 7f;
+    private bool frontDoorOpened;
+
     public IEnumerator StartRinging()
     {
         clearToStartRinging = false;
@@ -21,11 +24,18 @@ public class Telephone : MonoBehaviour, InteractionPoint
 
     private void Update()
     {
-        if (!clearToStartRinging) return;
-
         if (Overseer.Instance.GetManager<SceneLoader>().loadState != SceneLoader.LoadState.None) return;
 
-        StartCoroutine(StartRinging());
+        if (clearToStartRinging)
+        {
+            StartCoroutine(StartRinging());
+        }
+
+        if (transitionHasBeenTriggered && !frontDoorOpened)
+        {
+            OpenFrontDoor();
+        }
+        
     }
 
     public void Interact()
@@ -33,22 +43,20 @@ public class Telephone : MonoBehaviour, InteractionPoint
         if (transitionHasBeenTriggered || !phoneHasRung) return;
         transitionHasBeenTriggered = true;
         AkUnitySoundEngine.PostEvent("Apt_Phone_Stop", gameObject);
-        
+        Overseer.Instance.GetManager<UiManager>().ActivateTextPopup(0, secondsToDisplayText);
+
         Transition();
     }
     
     private void Transition()
     {
         transform.GetComponent<SceneTransition>().TriggerTransition();
-        StartCoroutine(OpenDoor());
     }
 
-    private IEnumerator OpenDoor()
+    private void OpenFrontDoor()
     {
-        while (Overseer.Instance.GetManager<SceneLoader>().loadState == SceneLoader.LoadState.Loading)
-        {
-            yield return null;
-        }
-        frontDoor.GetComponent<DistanceBasedAnimation>().enabled = true;
+        frontDoorOpened = true;
+        frontDoor.GetComponent<Animator>().enabled = true;
+        AkUnitySoundEngine.PostEvent("Fnrl_Front_Door_Open", frontDoor.gameObject);
     }
 }
