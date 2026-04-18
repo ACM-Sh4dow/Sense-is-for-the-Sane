@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FAC7D741-2CC6-4571-91AE-B86C57B75FDF}",
     "Language": "SFX",
-    "Hash": "{F8F9026E-A7AF-A36D-1777-9A05778E5F38}",
+    "Hash": "{D96DAB52-374D-F712-DE08-D61C94AFC5BB}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -330,9 +330,9 @@
     ],
     "Events": [
      {
-      "Id": "1056431533",
-      "Name": "Apt_Clock",
-      "ObjectPath": "\\Events\\Apartment\\Apt_Clock",
+      "Id": "3582440336",
+      "Name": "Amb_Clock",
+      "ObjectPath": "\\Events\\General Events\\Amb_Clock",
       "GUID": "{F10211CC-A6EE-4420-BDFD-304BA4A2A9E5}",
       "MaxAttenuation": "5",
       "DurationType": "Infinite",
@@ -771,6 +771,6 @@
     ]
    }
   ],
-  "FileHash": "{53B57544-4363-9E82-3156-87D12BD2D2DB}"
+  "FileHash": "{1404BC27-1FB9-F04F-A80E-BDB793FD5443}"
  }
 }

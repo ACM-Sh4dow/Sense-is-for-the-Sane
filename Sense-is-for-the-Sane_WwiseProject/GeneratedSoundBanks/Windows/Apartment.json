@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9F2C9685-C3F4-4D21-9319-4FF075E9A3CD}",
     "Language": "SFX",
-    "Hash": "{5D3FA0E0-8CBC-D501-DFEB-F7C5F7C8ABE1}",
+    "Hash": "{446E8ECF-A139-CA3D-4F9F-C8F86352A806}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Apartment",
     "ShortName": "Apartment",
     "Path": "Apartment.bnk",
@@ -46,14 +46,6 @@
       "Location": "Memory",
       "ShortName": "Creaking\\Wooden_Creaking_Ambient_007.wav",
       "CachePath": "3E/{3EECB60C-8136-FCE4-3646-E33561A9295C}.wem"
-     },
-     {
-      "Id": "302930732",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Clock Tick.wav",
-      "CachePath": "8B/{8BA552AD-505E-355B-E962-1095047E7D66}.wem"
      },
      {
       "Id": "352828321",
@@ -137,19 +129,6 @@
      }
     ],
     "Events": [
-     {
-      "Id": "1056431533",
-      "Name": "Apt_Clock",
-      "ObjectPath": "\\Events\\Apartment\\Apt_Clock",
-      "GUID": "{F10211CC-A6EE-4420-BDFD-304BA4A2A9E5}",
-      "MaxAttenuation": "5",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "302930732"
-       }
-      ]
-     },
      {
       "Id": "329135517",
       "Name": "Apt_Creaking",
@@ -299,6 +278,6 @@
     ]
    }
   ],
-  "FileHash": "{749D3FBA-CA7A-6AC9-9522-C618204472B6}"
+  "FileHash": "{BE24BCDD-98B1-9C1F-36E0-7A5FB93C59AD}"
  }
 }

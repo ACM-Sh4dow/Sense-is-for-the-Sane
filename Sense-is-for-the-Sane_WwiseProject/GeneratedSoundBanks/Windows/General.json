@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{39E76D16-3659-462C-8AE1-BE0B06954A63}",
     "Language": "SFX",
-    "Hash": "{5A159194-3389-F8BC-238D-31F32797CC88}",
+    "Hash": "{FFD3917A-AA4C-36B5-6B39-53B7D2B9DBB6}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\General",
     "ShortName": "General",
     "Path": "General.bnk",
@@ -257,6 +257,19 @@
      }
     ],
     "Events": [
+     {
+      "Id": "3582440336",
+      "Name": "Amb_Clock",
+      "ObjectPath": "\\Events\\General Events\\Amb_Clock",
+      "GUID": "{F10211CC-A6EE-4420-BDFD-304BA4A2A9E5}",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "302930732"
+       }
+      ]
+     },
      {
       "Id": "403071693",
       "Name": "Apt_Stop_All",
@@ -736,6 +749,6 @@
     ]
    }
   ],
-  "FileHash": "{556E71FA-19A9-100F-CE97-2FFC7E4EEB6C}"
+  "FileHash": "{FF138529-0913-5DFC-520E-B96C5F56FD1F}"
  }
 }

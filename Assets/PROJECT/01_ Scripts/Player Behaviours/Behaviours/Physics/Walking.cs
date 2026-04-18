@@ -6,9 +6,9 @@ public class Walking : PhysicsBehaviour
     private static Vector2 input;
     private Vector3 velocity;
     
-    private const float movementSpeed = 2.5f;
+    public static float movementSpeed = 2.5f;
     private float LastFootstepTime = float.MaxValue;
-    private const float SecondsBetweenFootsteps = 0.83f;
+    public static float SecondsBetweenFootsteps = 0.83f;
     #endregion
     
     public static void SyncInput(Vector2 Input)

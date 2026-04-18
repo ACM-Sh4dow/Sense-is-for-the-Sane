@@ -13,7 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID APT_CLOCK = 1056431533U;
+        static const AkUniqueID AMB_CLOCK = 3582440336U;
         static const AkUniqueID APT_CREAKING = 329135517U;
         static const AkUniqueID APT_FIREPLACE = 2202553018U;
         static const AkUniqueID APT_FRIDGE = 2280025682U;
@@ -23,6 +23,7 @@ namespace AK
         static const AkUniqueID APT_SINK = 751812660U;
         static const AkUniqueID APT_STOP_ALL = 403071693U;
         static const AkUniqueID DOOR_CREAKING = 2843028372U;
+        static const AkUniqueID FNRL_AMB_LIGHT = 861317499U;
         static const AkUniqueID FNRL_AMB_PAUSE = 2963388045U;
         static const AkUniqueID FNRL_AMB_THUNDERSTORM = 1612838152U;
         static const AkUniqueID FNRL_CASKET_CREAKING = 1249783482U;

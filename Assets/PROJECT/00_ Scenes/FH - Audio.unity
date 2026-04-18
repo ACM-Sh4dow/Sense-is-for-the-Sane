@@ -2180,13 +2180,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 860913843}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.90108114, z: 0, w: -0.43365055}
+  m_LocalRotation: {x: -0.3066377, y: -0.63716036, z: -0.63716036, w: 0.3066377}
   m_LocalPosition: {x: -14.933666, y: 1.0638299, z: -3.2305708}
   m_LocalScale: {x: 0.5, y: 0.75, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: -128.601, z: 0}
 --- !u!114 &860913848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3301,7 +3301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1140955386}
   m_Layer: 0
-  m_Name: Normal AKRooms
+  m_Name: Regular AKRooms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4273,6 +4273,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1493057000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1493057001}
+  m_Layer: 0
+  m_Name: _______________________
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1493057001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493057000}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.46549, y: 5.02165, z: -7.49007}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1504654736
 GameObject:
   m_ObjectHideFlags: 0
@@ -5483,4 +5514,5 @@ SceneRoots:
   - {fileID: 2143396614}
   - {fileID: 860913846}
   - {fileID: 2027104052}
+  - {fileID: 1493057001}
   - {fileID: 1049346533}

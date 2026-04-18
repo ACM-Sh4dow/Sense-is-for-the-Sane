@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Apartment" ID="{0F5A3F40-CB3C-4746-8134-079334A4DA23}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Apt_Clock" ID="{F10211CC-A6EE-4420-BDFD-304BA4A2A9E5}">
-					<ChildrenList>
-						<Action Name="" ID="{2D7E22DC-B79A-424C-AE29-F67D48E57436}" ShortID="289264449">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Clock Seq" ID="{155C9280-3A22-4067-8629-02D834257753}" WorkUnitID="{A692D158-CB31-48BD-AAB0-5A0CC3E6E356}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Apt_Sink" ID="{5A644377-9F79-44E2-BC1C-122FF672AE25}">
 					<ChildrenList>
 						<Action Name="" ID="{E03268DB-4F14-4987-877A-12339EE1BF08}" ShortID="849267837">

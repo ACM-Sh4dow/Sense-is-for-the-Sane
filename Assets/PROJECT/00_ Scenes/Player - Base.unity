@@ -1179,7 +1179,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3805705831843274340, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
       propertyPath: m_Radius
-      value: 0.19
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4964077712132721556, guid: 2e1b263a1d101f04494aaaaea9f1df8b, type: 3}
       propertyPath: uiCursor

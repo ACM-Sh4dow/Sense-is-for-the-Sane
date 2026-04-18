@@ -10,6 +10,8 @@ public class ApartmentSpawn : MonoBehaviour
         {
             transform.GetComponent<SceneTransition>().TriggerTransition();
             AkUnitySoundEngine.SetSwitch("FootstepsSwitch", "Wood", PlayerBehaviour.Instance.gameObject);
+            Walking.movementSpeed = 1.5f;
+            Walking.SecondsBetweenFootsteps = 0.92f;
             telephone.clearToStartRinging = true;
             gameObject.SetActive(false);
         }

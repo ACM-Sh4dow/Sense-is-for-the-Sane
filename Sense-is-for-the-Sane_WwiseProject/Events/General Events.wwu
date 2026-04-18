@@ -303,6 +303,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Amb_Clock" ID="{F10211CC-A6EE-4420-BDFD-304BA4A2A9E5}">
+					<ChildrenList>
+						<Action Name="" ID="{2D7E22DC-B79A-424C-AE29-F67D48E57436}" ShortID="289264449">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clock Seq" ID="{155C9280-3A22-4067-8629-02D834257753}" WorkUnitID="{A692D158-CB31-48BD-AAB0-5A0CC3E6E356}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

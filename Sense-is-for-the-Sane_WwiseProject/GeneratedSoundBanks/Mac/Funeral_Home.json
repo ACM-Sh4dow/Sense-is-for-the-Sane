@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
     "Language": "SFX",
-    "Hash": "{B1AEA296-5E52-3471-FF50-ED484A15352B}",
+    "Hash": "{63508F94-528F-0BE3-206E-1179AE088D89}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
     "ShortName": "Funeral_Home",
     "Path": "Funeral_Home.bnk",
@@ -30,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "Breath_Exhale_003.wav",
       "CachePath": "7D/{7D2A9971-5F2F-33B6-BDC5-EAAEF137F72A}.wem"
+     },
+     {
+      "Id": "49879670",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Light_Buzz.wav",
+      "CachePath": "ED/{ED62875D-0F04-5737-26C8-271DCAC73F6F}.wem"
      },
      {
       "Id": "52400242",
@@ -193,6 +201,19 @@
      }
     ],
     "Events": [
+     {
+      "Id": "861317499",
+      "Name": "Fnrl_Amb_Light",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Amb_Light",
+      "GUID": "{3ECD472D-2FA8-458B-A1B9-AB4BF2865382}",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "49879670"
+       }
+      ]
+     },
      {
       "Id": "2963388045",
       "Name": "Fnrl_Amb_Pause",
@@ -546,6 +567,6 @@
     ]
    }
   ],
-  "FileHash": "{98326F22-4953-3BEF-0A89-9B4F9C06D64F}"
+  "FileHash": "{6ECB919C-7208-8BB4-E123-234153F3D961}"
  }
 }

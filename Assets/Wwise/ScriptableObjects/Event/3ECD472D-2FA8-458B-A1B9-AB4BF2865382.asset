@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aaebe67caac16194b9462d2071cac2eb, type: 3}
-  m_Name: F10211CC-A6EE-4420-BDFD-304BA4A2A9E5
+  m_Name: 3ECD472D-2FA8-458B-A1B9-AB4BF2865382
   m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseEventReference
-  objectName: Amb_Clock
-  id: 3582440336
-  guid: F10211CC-A6EE-4420-BDFD-304BA4A2A9E5
+  objectName: Fnrl_Amb_Light
+  id: 861317499
+  guid: 3ECD472D-2FA8-458B-A1B9-AB4BF2865382
   IsInUserDefinedSoundBank: 1

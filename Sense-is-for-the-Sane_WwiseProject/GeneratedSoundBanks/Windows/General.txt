@@ -10,6 +10,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2843028372	Door_Creaking			\General Events\Door_Creaking	
 	3151110061	Gramophone			\General Events\Gramophone	
 	3248176547	Manual_Animate_Clock_Stop			\General Events\Manual_Animate_Clock_Stop	
+	3582440336	Amb_Clock			\General Events\Amb_Clock	
 	3679762312	Resume_All			\General Events\Pause\Resume_All	
 	3864097025	Pause_All			\General Events\Pause\Pause_All	
 	4055567060	Menu_Music			\General Events\Menu_Music	

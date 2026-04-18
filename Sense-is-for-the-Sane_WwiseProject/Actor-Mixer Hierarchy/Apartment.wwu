@@ -992,11 +992,15 @@
 						</Sound>
 						<RandomSequenceContainer Name="Clock Seq" ID="{155C9280-3A22-4067-8629-02D834257753}" ShortID="385854755">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
 										<Value>87</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
@@ -1009,11 +1013,14 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Apartment Attenuation" ID="{B7FB1ACB-D54F-4E05-9377-79A6205CC257}" WorkUnitID="{EE5E383A-A28E-4288-B8AA-74712DC2AE17}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46A77C67-B87E-4FFA-96F2-3DE48F7F0873}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
+									<ObjectRef Name="General" ID="{0FB50B73-DF71-447C-8241-8FE469217543}" WorkUnitID="{B98CE8ED-19B5-42AD-B043-B7BAA79CAD7E}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>

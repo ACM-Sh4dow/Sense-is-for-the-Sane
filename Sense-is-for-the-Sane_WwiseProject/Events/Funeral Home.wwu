@@ -341,6 +341,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Fnrl_Amb_Light" ID="{3ECD472D-2FA8-458B-A1B9-AB4BF2865382}">
+					<ChildrenList>
+						<Action Name="" ID="{4F8AEC37-4190-41F7-A811-7DD112E7D64E}" ShortID="932200610">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Light_Buzz" ID="{96E948CF-A1F6-4572-96CC-9299745C36D1}" WorkUnitID="{BF8D941A-C333-4CE6-8672-CCDEE35D2FDC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

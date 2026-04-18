@@ -1027,10 +1027,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: clock_wall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8866188851930244280, guid: a4b1276aff9e45d40818904c02bf6545, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8866188851930244280, guid: a4b1276aff9e45d40818904c02bf6545, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1569528831}
+    - targetCorrespondingSourceObject: {fileID: 8866188851930244280, guid: a4b1276aff9e45d40818904c02bf6545, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1569528830}
   m_SourcePrefab: {fileID: 100100000, guid: a4b1276aff9e45d40818904c02bf6545, type: 3}
 --- !u!1001 &195799503
 PrefabInstance:
@@ -1385,6 +1395,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4846567991487446344, guid: 84f186186acadc941a2e59ce12ace979, type: 3}
   m_PrefabInstance: {fileID: 1154987168}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &266970868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+  m_PrefabInstance: {fileID: 1417942069}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &267029539 stripped
 GameObject:
@@ -2987,6 +3002,11 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!1 &489461244 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+  m_PrefabInstance: {fileID: 4629528194918520547}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &492577875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3055,6 +3075,10 @@ PrefabInstance:
     - target: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
       propertyPath: m_Name
       value: lampRoundFloor (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3397,6 +3421,11 @@ Transform:
   - {fileID: 264192988}
   m_Father: {fileID: 3713784388920116288}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &529157618 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8866188851930244280, guid: a4b1276aff9e45d40818904c02bf6545, type: 3}
+  m_PrefabInstance: {fileID: 194669941}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &535398811
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5719,6 +5748,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16781257d64bef643a5a15220e6cb72d, type: 3}
+--- !u!1 &744516335 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+  m_PrefabInstance: {fileID: 6571270337399129411}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &746604650 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 403342015311654163, guid: bf9629aaf2e4ab14498d601563585ce4, type: 3}
@@ -5813,6 +5847,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lampRoundFloor (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.683
@@ -5859,7 +5897,13 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 677362316}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1896252712}
+    - targetCorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1896252711}
   m_SourcePrefab: {fileID: 100100000, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
 --- !u!1001 &775661199
 PrefabInstance:
@@ -5980,6 +6024,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75f2b4c63b364ca468040cc8f2ae9d0b, type: 3}
+--- !u!1 &812636007 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+  m_PrefabInstance: {fileID: 774236161}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &816962545 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9162966512111866043, guid: b166b712d873b26459cbc94f94d473b6, type: 3}
@@ -6703,6 +6752,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bb59c4cbd133c34f891c94bc19d4cea, type: 3}
+--- !u!1 &913588439 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+  m_PrefabInstance: {fileID: 6195044463275702546}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &917901217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7308,10 +7362,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: clock_wall (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8866188851930244280, guid: a4b1276aff9e45d40818904c02bf6545, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8866188851930244280, guid: a4b1276aff9e45d40818904c02bf6545, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1295328480}
+    - targetCorrespondingSourceObject: {fileID: 8866188851930244280, guid: a4b1276aff9e45d40818904c02bf6545, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1295328479}
   m_SourcePrefab: {fileID: 100100000, guid: a4b1276aff9e45d40818904c02bf6545, type: 3}
 --- !u!4 &1010324983 stripped
 Transform:
@@ -7756,6 +7820,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lampRoundFloor (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.529
@@ -7802,7 +7870,13 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 479789445}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2048638083}
+    - targetCorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2048638082}
   m_SourcePrefab: {fileID: 100100000, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
 --- !u!4 &1089139552 stripped
 Transform:
@@ -9119,6 +9193,69 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1939468164487310409, guid: 5670778c9ac6eda43bc7a5a587301d65, type: 3}
   m_PrefabInstance: {fileID: 1593581400}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1295328476 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8866188851930244280, guid: a4b1276aff9e45d40818904c02bf6545, type: 3}
+  m_PrefabInstance: {fileID: 1009145137}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1295328479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295328476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e464d8dd08f58e479f1584ea6425423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkAmbient
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b65ccf0dd4792ba4e9f09f7d2f99926f, type: 2}
+  useCallbacks: 0
+  stopSoundOnDestroy: 1
+  Callbacks: []
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
+  LargeModePositions: []
+  multiPositionArray: []
+--- !u!114 &1295328480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295328476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3adcb5a3f66df8745acfeb0209f0cfdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 1
+  m_positionOffsetData:
+    KeepMe: 1
+    positionOffset: {x: 0, y: 0, z: 0.06}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!4 &1302404441 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8136420548962332272, guid: 059e69a6519678a4b8d487d4da053573, type: 3}
@@ -9927,6 +10064,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lampRoundFloor (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.586
@@ -9973,13 +10114,77 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 683925895}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1417942075}
+    - targetCorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1417942074}
   m_SourcePrefab: {fileID: 100100000, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
 --- !u!4 &1417942070 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
   m_PrefabInstance: {fileID: 1417942069}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1417942074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266970868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e464d8dd08f58e479f1584ea6425423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkAmbient
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d3f021d33836957408770255ac1db635, type: 2}
+  useCallbacks: 0
+  stopSoundOnDestroy: 1
+  Callbacks: []
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
+  LargeModePositions: []
+  multiPositionArray: []
+--- !u!114 &1417942075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266970868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3adcb5a3f66df8745acfeb0209f0cfdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 1
+  m_positionOffsetData:
+    KeepMe: 1
+    positionOffset: {x: 0, y: 1.5, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &1421933698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11403,6 +11608,64 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5994050747724274685, guid: a4b1276aff9e45d40818904c02bf6545, type: 3}
   m_PrefabInstance: {fileID: 194669941}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1569528830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529157618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e464d8dd08f58e479f1584ea6425423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkAmbient
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b65ccf0dd4792ba4e9f09f7d2f99926f, type: 2}
+  useCallbacks: 0
+  stopSoundOnDestroy: 1
+  Callbacks: []
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
+  LargeModePositions: []
+  multiPositionArray: []
+--- !u!114 &1569528831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529157618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3adcb5a3f66df8745acfeb0209f0cfdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &1571564459
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13411,6 +13674,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 403342015311654163, guid: bf9629aaf2e4ab14498d601563585ce4, type: 3}
   m_PrefabInstance: {fileID: 310235700}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1812739629 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+  m_PrefabInstance: {fileID: 6846641924636617172}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1827121209
 GameObject:
   m_ObjectHideFlags: 0
@@ -13864,6 +14132,64 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
   m_PrefabInstance: {fileID: 774236161}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1896252711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812636007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e464d8dd08f58e479f1584ea6425423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkAmbient
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d3f021d33836957408770255ac1db635, type: 2}
+  useCallbacks: 0
+  stopSoundOnDestroy: 1
+  Callbacks: []
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
+  LargeModePositions: []
+  multiPositionArray: []
+--- !u!114 &1896252712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812636007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3adcb5a3f66df8745acfeb0209f0cfdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 1
+  m_positionOffsetData:
+    KeepMe: 1
+    positionOffset: {x: 0, y: 1.5, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &1900483960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14658,6 +14984,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5047356619583867382, guid: 3642c42ab7370224693426171b276d60, type: 3}
   m_PrefabInstance: {fileID: 402815487}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1995014455 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+  m_PrefabInstance: {fileID: 1075402438}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2000240242
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14887,6 +15218,64 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
   m_PrefabInstance: {fileID: 1075402438}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2048638082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995014455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e464d8dd08f58e479f1584ea6425423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkAmbient
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d3f021d33836957408770255ac1db635, type: 2}
+  useCallbacks: 0
+  stopSoundOnDestroy: 1
+  Callbacks: []
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
+  LargeModePositions: []
+  multiPositionArray: []
+--- !u!114 &2048638083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995014455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3adcb5a3f66df8745acfeb0209f0cfdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 1
+  m_positionOffsetData:
+    KeepMe: 1
+    positionOffset: {x: 0, y: 1.5, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &2049502943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27157,6 +27546,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lampRoundFloor (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.554
@@ -27203,13 +27596,77 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2937711414667248904}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4629528194918520553}
+    - targetCorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4629528194918520552}
   m_SourcePrefab: {fileID: 100100000, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
 --- !u!4 &4629528194918520548 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
   m_PrefabInstance: {fileID: 4629528194918520547}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4629528194918520552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489461244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e464d8dd08f58e479f1584ea6425423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkAmbient
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d3f021d33836957408770255ac1db635, type: 2}
+  useCallbacks: 0
+  stopSoundOnDestroy: 1
+  Callbacks: []
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
+  LargeModePositions: []
+  multiPositionArray: []
+--- !u!114 &4629528194918520553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489461244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3adcb5a3f66df8745acfeb0209f0cfdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 1
+  m_positionOffsetData:
+    KeepMe: 1
+    positionOffset: {x: 0, y: 1.5, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!33 &4648615281453802553
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -31075,6 +31532,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lampRoundFloor (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.547
@@ -31121,13 +31582,77 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2791605609239293756}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6195044463275702552}
+    - targetCorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6195044463275702551}
   m_SourcePrefab: {fileID: 100100000, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
 --- !u!4 &6195044463275702547 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
   m_PrefabInstance: {fileID: 6195044463275702546}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6195044463275702551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913588439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e464d8dd08f58e479f1584ea6425423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkAmbient
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d3f021d33836957408770255ac1db635, type: 2}
+  useCallbacks: 0
+  stopSoundOnDestroy: 1
+  Callbacks: []
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
+  LargeModePositions: []
+  multiPositionArray: []
+--- !u!114 &6195044463275702552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913588439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3adcb5a3f66df8745acfeb0209f0cfdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 1
+  m_positionOffsetData:
+    KeepMe: 1
+    positionOffset: {x: 0, y: 1.5, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!23 &6199179148092436770
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32309,13 +32834,77 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 857436185341776999}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6571270337399129417}
+    - targetCorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6571270337399129416}
   m_SourcePrefab: {fileID: 100100000, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
 --- !u!4 &6571270337399129412 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
   m_PrefabInstance: {fileID: 6571270337399129411}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6571270337399129416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744516335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e464d8dd08f58e479f1584ea6425423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkAmbient
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d3f021d33836957408770255ac1db635, type: 2}
+  useCallbacks: 0
+  stopSoundOnDestroy: 1
+  Callbacks: []
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
+  LargeModePositions: []
+  multiPositionArray: []
+--- !u!114 &6571270337399129417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744516335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3adcb5a3f66df8745acfeb0209f0cfdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 1
+  m_positionOffsetData:
+    KeepMe: 1
+    positionOffset: {x: 0, y: 1.5, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &6607166986717935743
 GameObject:
   m_ObjectHideFlags: 0
@@ -32874,6 +33463,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lampRoundFloor (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.3708425
@@ -32920,13 +33513,77 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2907051005890703895}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6846641924636617178}
+    - targetCorrespondingSourceObject: {fileID: 150294, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6846641924636617177}
   m_SourcePrefab: {fileID: 100100000, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
 --- !u!4 &6846641924636617173 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 436864, guid: 07d17a91fbf22f44b959eb015e52f2b9, type: 3}
   m_PrefabInstance: {fileID: 6846641924636617172}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6846641924636617177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812739629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e464d8dd08f58e479f1584ea6425423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkAmbient
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d3f021d33836957408770255ac1db635, type: 2}
+  useCallbacks: 0
+  stopSoundOnDestroy: 1
+  Callbacks: []
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
+  LargeModePositions: []
+  multiPositionArray: []
+--- !u!114 &6846641924636617178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812739629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3adcb5a3f66df8745acfeb0209f0cfdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 1
+  m_positionOffsetData:
+    KeepMe: 1
+    positionOffset: {x: 0, y: 1.5, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &6846641925825754742
 PrefabInstance:
   m_ObjectHideFlags: 0

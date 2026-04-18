@@ -7,7 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Gramophone" ID="{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Mus_Organ" ID="{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Apt_Clock" ID="{F10211CC-A6EE-4420-BDFD-304BA4A2A9E5}" WorkUnitID="{0F5A3F40-CB3C-4746-8134-079334A4DA23}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_Clock" ID="{F10211CC-A6EE-4420-BDFD-304BA4A2A9E5}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Apt_Fridge" ID="{F91BE929-F651-44A2-A96F-6A1A868C61E4}" WorkUnitID="{0F5A3F40-CB3C-4746-8134-079334A4DA23}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Apt_Sink" ID="{5A644377-9F79-44E2-BC1C-122FF672AE25}" WorkUnitID="{0F5A3F40-CB3C-4746-8134-079334A4DA23}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Amb_Thunderstorm" ID="{748EF433-A22E-494E-927C-79CFE002E9FF}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
@@ -38,7 +38,6 @@
 				</SoundBank>
 				<SoundBank Name="Apartment" ID="{9F2C9685-C3F4-4D21-9319-4FF075E9A3CD}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Apt_Clock" ID="{F10211CC-A6EE-4420-BDFD-304BA4A2A9E5}" WorkUnitID="{0F5A3F40-CB3C-4746-8134-079334A4DA23}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Apt_Fridge" ID="{F91BE929-F651-44A2-A96F-6A1A868C61E4}" WorkUnitID="{0F5A3F40-CB3C-4746-8134-079334A4DA23}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Apt_Sink" ID="{5A644377-9F79-44E2-BC1C-122FF672AE25}" WorkUnitID="{0F5A3F40-CB3C-4746-8134-079334A4DA23}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Apt_Phone_Stop" ID="{9A434B8C-2FF7-49EA-A791-D6A312B5274D}" WorkUnitID="{0F5A3F40-CB3C-4746-8134-079334A4DA23}" Origin="Manual" Filter="7"/>
@@ -55,6 +54,7 @@
 						<ObjectRef Name="Fnrl_Transition_Inhale" ID="{36E22E4E-5EA4-41E7-B576-76B3D3090F0E}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Amb_Pause" ID="{BF907AB0-5AFC-4334-801F-DDC3DFF36A05}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Painting_Place" ID="{A068709C-45C1-4576-B337-02C1219D363E}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fnrl_Amb_Light" ID="{3ECD472D-2FA8-458B-A1B9-AB4BF2865382}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Mus_Strings" ID="{2A588BC6-F874-4660-A5A5-061650ED2C5C}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Front_Door_Close" ID="{F519E9BC-64B7-4700-B0FD-D5FD75960F2F}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Mus_Piano" ID="{9F02AAE3-A025-471B-A281-B77A69F45B8A}" WorkUnitID="{F6EFC250-EA9F-4A5B-87C7-CFD4BA68DC5F}" Origin="Manual" Filter="7"/>
@@ -77,6 +77,7 @@
 						<ObjectRef Name="Gramophone" ID="{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Resume_All" ID="{E8E547FF-FFE5-4144-8C6B-8868537FD81C}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Mus_Organ" ID="{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_Clock" ID="{F10211CC-A6EE-4420-BDFD-304BA4A2A9E5}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Apt_Stop_All" ID="{661646BA-B5A9-44BE-AD28-A2BD8CAFDC56}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Menu_Music" ID="{747A2611-F5DD-4834-BF2B-18ED5F7EC096}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Stop_All" ID="{73B6EED0-6329-48FD-808E-94A93741BDB3}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
