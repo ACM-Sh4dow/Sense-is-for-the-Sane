@@ -13,7 +13,7 @@ public class YellowBed : MonoBehaviour, InteractionPoint
         
         if (isCasket)
         {
-            StartCoroutine(Overseer.Instance.GetManager<UiManager>().FadeToWhite());
+            StartCoroutine(Overseer.Instance.GetManager<UiManager>().EndGame());
             return;
         }
         
