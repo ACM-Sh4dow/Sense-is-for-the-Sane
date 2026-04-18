@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{39E76D16-3659-462C-8AE1-BE0B06954A63}",
     "Language": "SFX",
-    "Hash": "{80ABDB59-EF7D-781F-141F-8A0D9C3A2814}",
+    "Hash": "{FFD3917A-AA4C-36B5-6B39-53B7D2B9DBB6}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\General",
     "ShortName": "General",
     "Path": "General.bnk",
@@ -257,6 +257,19 @@
      }
     ],
     "Events": [
+     {
+      "Id": "3582440336",
+      "Name": "Amb_Clock",
+      "ObjectPath": "\\Events\\General Events\\Amb_Clock",
+      "GUID": "{F10211CC-A6EE-4420-BDFD-304BA4A2A9E5}",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "302930732"
+       }
+      ]
+     },
      {
       "Id": "403071693",
       "Name": "Apt_Stop_All",
@@ -636,6 +649,46 @@
       ]
      },
      {
+      "Id": "2564673847",
+      "Name": "Menu_Stop_All",
+      "ObjectPath": "\\Events\\General Events\\Stop All\\Menu_Stop_All",
+      "GUID": "{A682A94A-9B7D-4B9B-9B15-D8B688E963A2}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3864097025",
+      "Name": "Pause_All",
+      "ObjectPath": "\\Events\\General Events\\Pause\\Pause_All",
+      "GUID": "{7642FD3D-74BA-4ECD-81C4-D6C2B17692A8}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3679762312",
+      "Name": "Resume_All",
+      "ObjectPath": "\\Events\\General Events\\Pause\\Resume_All",
+      "GUID": "{E8E547FF-FFE5-4144-8C6B-8868537FD81C}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "452547817",
+      "Name": "Stop_All",
+      "ObjectPath": "\\Events\\General Events\\Stop All\\Stop_All",
+      "GUID": "{737A8026-9491-4F95-B2B6-77EE3D5A1E60}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "2785809462",
       "Name": "Void_Stop_All",
       "ObjectPath": "\\Events\\General Events\\Stop All\\Void_Stop_All",
@@ -696,6 +749,6 @@
     ]
    }
   ],
-  "FileHash": "{5922687E-FA30-18BF-727D-7C357AC4AF4D}"
+  "FileHash": "{FF138529-0913-5DFC-520E-B96C5F56FD1F}"
  }
 }

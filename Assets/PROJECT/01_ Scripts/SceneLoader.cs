@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -191,7 +190,7 @@ public class SceneLoader : MonoBehaviour
     }
     #endregion
 
-    
+    /*
     #region Editor
     private void OnValidate()
     {
@@ -233,5 +232,5 @@ public class SceneLoader : MonoBehaviour
         }
     }
     #endregion
-    
+    */
 }

@@ -436,7 +436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2e036969647be147b520cef3aa4f7fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkBank
-  triggerList: f7e1664c
+  triggerList: ae8d9d44f7e1664c
   useOtherObject: 0
   data:
     idInternal: 0
@@ -1789,6 +1789,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1340867049}
+  - component: {fileID: 1340867050}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -1812,6 +1813,31 @@ Transform:
   - {fileID: 163094174}
   m_Father: {fileID: 1344477953}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1340867050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340867047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4294d6583d0fe04eaa867633d4afc5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkInitializer
+  InitializationSettings: {fileID: 11400000, guid: 1741dff70a55f4b4880a3ba35f45bf40, type: 2}
+  basePath: 
+  language: 
+  defaultPoolSize: 0
+  lowerPoolSize: 0
+  streamingPoolSize: 0
+  memoryCutoffThreshold: 0
+  monitorPoolSize: 0
+  monitorQueuePoolSize: 0
+  callbackManagerBufferSize: 0
+  spatialAudioPoolSize: 0
+  maxSoundPropagationDepth: 0
+  engineLogging: 0
 --- !u!1 &1344477952
 GameObject:
   m_ObjectHideFlags: 0
@@ -2539,7 +2565,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2045135794
 RectTransform:
   m_ObjectHideFlags: 0

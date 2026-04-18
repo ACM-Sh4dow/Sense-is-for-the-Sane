@@ -138,7 +138,6 @@ namespace AK
         static const AkUniqueID APARTMENT = 4154495109U;
         static const AkUniqueID FUNERAL_HOME = 3934820040U;
         static const AkUniqueID GENERAL = 133642231U;
-        static const AkUniqueID TEST = 3157003241U;
         static const AkUniqueID VOID = 3370470011U;
     } // namespace BANKS
 

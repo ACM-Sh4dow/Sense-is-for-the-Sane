@@ -74,6 +74,7 @@ public class MenuManager : MonoBehaviour
     }
     private IEnumerator WaitToPlay()
     {
+        AkUnitySoundEngine.PostEvent("Menu_Stop_All", loadingScreen);
         StartCoroutine(FadeBlackScreen(1, 2, Time.time, false));
         yield return new WaitForSeconds(3);  //  Waiting for fade to finish
 
@@ -81,8 +82,6 @@ public class MenuManager : MonoBehaviour
         blackScreen.gameObject.SetActive(false);
         menuButtons.SetActive(false);
         menuObjects.SetActive(false);
-
-        AkUnitySoundEngine.PostEvent("Menu_Stop_All",loadingScreen);
 
         yield return new WaitForSeconds(3);
 
