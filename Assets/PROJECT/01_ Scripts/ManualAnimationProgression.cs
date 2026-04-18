@@ -36,16 +36,15 @@ public class ManualAnimationProgression : Puzzle, InteractionPoint
 
     public void Interact()
     {
-        Debug.Log("manual anim attempt puzzle");
-        AttemptPuzzle();
-    }
-
-    public override void AttemptPuzzle()
-    {
         canProgress = !canProgress;
 
         if (canProgress) AkUnitySoundEngine.PostEvent("Manual_Animate_Clock_Start", gameObject);
         if (!canProgress) AkUnitySoundEngine.PostEvent("Manual_Animate_Clock_Stop", gameObject);
+    }
+
+    public override void AttemptPuzzle()
+    {
+        return;
     }
 
     private void Update()
