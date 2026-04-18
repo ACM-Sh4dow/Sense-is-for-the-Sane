@@ -1240,8 +1240,8 @@ MonoBehaviour:
         guid: 4aa982a67d9b9b4b9b15d8b688e963a2
       Path: Events\General Events\Stop All\Menu_Stop_All
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Stop All
       guid: 245673c71558f84e9042b3ce5be8622c
       id: 1977287596

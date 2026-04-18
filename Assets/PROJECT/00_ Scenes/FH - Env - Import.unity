@@ -20390,7 +20390,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8482965586508451586, guid: a0c3f03d31fdf924089c3dce686de208, type: 3}
+  - {fileID: 2100000, guid: da3c50b4f2e7f224e86e175f1cc9e6fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20438,7 +20438,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8482965586508451586, guid: a0c3f03d31fdf924089c3dce686de208, type: 3}
+  - {fileID: 2100000, guid: da3c50b4f2e7f224e86e175f1cc9e6fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24461,6 +24461,7 @@ GameObject:
   - component: {fileID: 8709873291565151722}
   - component: {fileID: 553594868440778313}
   - component: {fileID: 7908730424972390519}
+  - component: {fileID: 8709873291565151723}
   m_Layer: 0
   m_Name: Walls.EntranceDoor_Cube.067
   m_TagString: Untagged
@@ -24479,6 +24480,7 @@ GameObject:
   - component: {fileID: 8709873292213217864}
   - component: {fileID: 553594869625690603}
   - component: {fileID: 7908730423812648917}
+  - component: {fileID: 8709873292213217865}
   m_Layer: 0
   m_Name: Walls.EntranceDoor_Cube.067
   m_TagString: Untagged
@@ -32637,7 +32639,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6771335050537901923
 Transform:
   m_ObjectHideFlags: 0
@@ -37187,6 +37189,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 8864506871976888610}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &8709873291565151723
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3578482677858464725}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5401014787301316805, guid: a0c3f03d31fdf924089c3dce686de208, type: 3}
 --- !u!4 &8709873292213217864
 Transform:
   m_ObjectHideFlags: 0
@@ -37202,6 +37226,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 8864506873203775104}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &8709873292213217865
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3578482678850432119}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5401014787301316805, guid: a0c3f03d31fdf924089c3dce686de208, type: 3}
 --- !u!33 &8725404466213724934
 MeshFilter:
   m_ObjectHideFlags: 0

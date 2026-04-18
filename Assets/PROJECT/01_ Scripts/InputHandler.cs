@@ -49,7 +49,7 @@ public class InputHandler : MonoBehaviour
             }
         }
 
-        //ReceiveAlign();
+        ReceiveAlign();
     }
 
     private void ReceiveAlign()
