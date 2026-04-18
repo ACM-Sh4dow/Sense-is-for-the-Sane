@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UiManager : MonoBehaviour
@@ -17,6 +18,7 @@ public class UiManager : MonoBehaviour
     [SerializeField] private GameObject whiteScreen;
     [SerializeField] private float fadeSpeed;
     [SerializeField] private Color screenColor;
+    [SerializeField] private GameObject toBeContinued;
     public GameObject loadingScreen;
     public GameObject[] uiText;
     private bool textDisplaying;
@@ -59,6 +61,19 @@ public class UiManager : MonoBehaviour
         }
         whiteScreen.SetActive(false);
         screenState = ScreenState.Game;
+    }
+
+    public IEnumerator EndGame()
+    {
+        StartCoroutine(FadeToWhite());
+
+        while (screenState == ScreenState.Fading)
+        {
+            yield return null;
+        }
+        toBeContinued.SetActive(true);
+        yield return new WaitForSeconds(6);
+        SceneManager.LoadScene(0);
     }
 
     public void ActivateTextPopup(int uiTextIndex, float secondsToDisplay = 3.5f)
