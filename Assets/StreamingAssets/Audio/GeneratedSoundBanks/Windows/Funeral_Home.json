@@ -1,0 +1,551 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3934820040",
+    "Type": "User",
+    "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
+    "Language": "SFX",
+    "Hash": "{53D7CFE2-74D0-4E47-7897-C4CF0B19965A}",
+    "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
+    "ShortName": "Funeral_Home",
+    "Path": "Funeral_Home.bnk",
+    "Media": [
+     {
+      "Id": "13189859",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Menuet_Section Strings.wav",
+      "CachePath": "50/{50CE44DF-FEC7-348C-05B7-EEF5681254C9}.wem"
+     },
+     {
+      "Id": "16631637",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Exhale_003.wav",
+      "CachePath": "7D/{7D2A9971-5F2F-33B6-BDC5-EAAEF137F72A}.wem"
+     },
+     {
+      "Id": "52400242",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Flower_Vase_02.wav",
+      "CachePath": "52/{52CDD6AD-7BF6-F47C-5440-5D40A0C24AB0}.wem"
+     },
+     {
+      "Id": "59700195",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Flower_Vase_03.wav",
+      "CachePath": "4F/{4F307F07-AF11-CE38-D09C-47C3FA051899}.wem"
+     },
+     {
+      "Id": "70164577",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Casket_Creaking.wav",
+      "CachePath": "4C/{4C855808-35C5-274A-FA9E-363C8C61777C}.wem"
+     },
+     {
+      "Id": "179374628",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Funeral_Mirror_Breathing.wav",
+      "CachePath": "EB/{EB586C5B-64AD-8CF1-ACDE-6D1EB1BE05A8}.wem"
+     },
+     {
+      "Id": "230791500",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Flower_Vase_01.wav",
+      "CachePath": "0F/{0FC013A9-6583-7275-6EED-BC5452CEDFAF}.wem"
+     },
+     {
+      "Id": "277586871",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Exhale_002.wav",
+      "CachePath": "76/{76B3B84B-0C3D-1B44-5FE8-8E4E9985A00A}.wem"
+     },
+     {
+      "Id": "336069509",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Exhale_001.wav",
+      "CachePath": "3B/{3BA8AC10-DDA1-50E1-26A3-511F817C5DB4}.wem"
+     },
+     {
+      "Id": "374672725",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Painting_Place.wav",
+      "CachePath": "2C/{2C912F11-0E25-D310-76F9-BBD136295361}.wem"
+     },
+     {
+      "Id": "417704821",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Inhale_002.wav",
+      "CachePath": "9D/{9DF424F0-86A4-5D09-3C45-F96E4CA58BA0}.wem"
+     },
+     {
+      "Id": "449394520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Menuet_Winds.wav",
+      "CachePath": "50/{5097C3B7-8F5E-859D-7C84-7228C3BBBD03}.wem"
+     },
+     {
+      "Id": "485915409",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Inhale_001.wav",
+      "CachePath": "91/{91E9036F-AA36-95D0-8E60-8C46763B1D1D}.wem"
+     },
+     {
+      "Id": "551171733",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wall_Shatter_02.wav",
+      "CachePath": "71/{71567CA8-3282-460C-304B-C360A37373DA}.wem"
+     },
+     {
+      "Id": "631962267",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Funeral_Mirror_Exhale.wav",
+      "CachePath": "D9/{D933BD2E-DFE0-DF58-AB99-DC8556BCEFA7}.wem"
+     },
+     {
+      "Id": "652604346",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Menuet_Piano.wav",
+      "CachePath": "F1/{F10D2DB5-F51D-189A-EBEC-7A090E58C616}.wem"
+     },
+     {
+      "Id": "741278934",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breath_Inhale_003.wav",
+      "CachePath": "CE/{CE705DAC-1D0E-4E54-A9DA-447830616320}.wem"
+     },
+     {
+      "Id": "775675851",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Painting_Pickup.wav",
+      "CachePath": "66/{6610BA5C-1A02-159B-C541-99E33C4AFBE3}.wem"
+     },
+     {
+      "Id": "834748161",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wall_Shatter_01.wav",
+      "CachePath": "88/{887E5393-C033-0039-C449-EDF929C5E9F7}.wem"
+     },
+     {
+      "Id": "840959845",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Funeral_Ambience_Thunderstorm.wav",
+      "CachePath": "15/{156798CD-B2CE-6C02-F98A-F24F52919FA7}.wem"
+     },
+     {
+      "Id": "1003612582",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Door_Close_02.wav",
+      "CachePath": "AC/{ACF69B0F-65EB-EBB3-D996-341EE35DDB90}.wem"
+     },
+     {
+      "Id": "1061829314",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Menuet_Solo Strings.wav",
+      "CachePath": "2B/{2B1A6A52-D42B-577B-7176-B0AF9293E174}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2963388045",
+      "Name": "Fnrl_Amb_Pause",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Amb_Pause",
+      "GUID": "{BF907AB0-5AFC-4334-801F-DDC3DFF36A05}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1612838152",
+      "Name": "Fnrl_Amb_Thunderstorm",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Amb_Thunderstorm",
+      "GUID": "{748EF433-A22E-494E-927C-79CFE002E9FF}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "840959845"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1784058834",
+        "Name": "Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       }
+      ]
+     },
+     {
+      "Id": "1249783482",
+      "Name": "Fnrl_Casket_Creaking",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Casket_Creaking",
+      "GUID": "{37E4E99A-01DE-4D0C-9E14-B5535EEB953C}",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "70164577"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1784058834",
+        "Name": "Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       }
+      ]
+     },
+     {
+      "Id": "3533695665",
+      "Name": "Fnrl_Flower_Vase",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Flower_Vase",
+      "GUID": "{FBEBE904-9941-4ABB-A9BE-4542906A8DB8}",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "0.72778976",
+      "DurationMax": "1.0955184",
+      "MediaRefs": [
+       {
+        "Id": "52400242"
+       },
+       {
+        "Id": "59700195"
+       },
+       {
+        "Id": "230791500"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1784058834",
+        "Name": "Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       }
+      ]
+     },
+     {
+      "Id": "2124265127",
+      "Name": "Fnrl_Front_Door_Close",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Front_Door_Close",
+      "GUID": "{F519E9BC-64B7-4700-B0FD-D5FD75960F2F}",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "9.230266",
+      "DurationMax": "9.230266",
+      "MediaRefs": [
+       {
+        "Id": "70164577"
+       },
+       {
+        "Id": "1003612582"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1784058834",
+        "Name": "Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       },
+       {
+        "Id": "3356433602",
+        "Name": "Void_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Void_Reverb",
+        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
+       }
+      ]
+     },
+     {
+      "Id": "1736817776",
+      "Name": "Fnrl_Mirror_Breathing",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Mirror_Breathing",
+      "GUID": "{E6C0F4EC-AFAA-4EC8-8C9A-EE291FC65B35}",
+      "MaxAttenuation": "20",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "179374628"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1784058834",
+        "Name": "Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       }
+      ]
+     },
+     {
+      "Id": "305829503",
+      "Name": "Fnrl_Mirror_Complete",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Mirror_Complete",
+      "GUID": "{E3D57595-C140-4B81-A43D-81C395225298}",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "5.9554973",
+      "DurationMax": "5.9554973",
+      "MediaRefs": [
+       {
+        "Id": "374672725"
+       },
+       {
+        "Id": "631962267"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1784058834",
+        "Name": "Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       }
+      ]
+     },
+     {
+      "Id": "2549568769",
+      "Name": "Fnrl_Mus_Piano",
+      "ObjectPath": "\\Events\\Funeral Home\\Music\\Fnrl_Mus_Piano",
+      "GUID": "{9F02AAE3-A025-471B-A281-B77A69F45B8A}",
+      "MaxAttenuation": "20",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "652604346"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1784058834",
+        "Name": "Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       }
+      ]
+     },
+     {
+      "Id": "3506702008",
+      "Name": "Fnrl_Mus_Strings",
+      "ObjectPath": "\\Events\\Funeral Home\\Music\\Fnrl_Mus_Strings",
+      "GUID": "{2A588BC6-F874-4660-A5A5-061650ED2C5C}",
+      "MaxAttenuation": "20",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "13189859"
+       },
+       {
+        "Id": "1061829314"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "3356433602",
+        "Name": "Void_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Void_Reverb",
+        "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}"
+       }
+      ]
+     },
+     {
+      "Id": "3153082963",
+      "Name": "Fnrl_Mus_Winds",
+      "ObjectPath": "\\Events\\Funeral Home\\Music\\Fnrl_Mus_Winds",
+      "GUID": "{E52DB62D-C829-4CA3-ADF8-B3ECCB3CE7CB}",
+      "MaxAttenuation": "20",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "449394520"
+       }
+      ]
+     },
+     {
+      "Id": "306777062",
+      "Name": "Fnrl_Painting_Pick_Up",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Painting_Pick_Up",
+      "GUID": "{C328E2F2-2F3D-4AE0-8281-5B977F5FD1CB}",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8726191",
+      "DurationMax": "0.8726191",
+      "MediaRefs": [
+       {
+        "Id": "775675851"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1784058834",
+        "Name": "Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       }
+      ]
+     },
+     {
+      "Id": "2914489546",
+      "Name": "Fnrl_Painting_Place",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Painting_Place",
+      "GUID": "{A068709C-45C1-4576-B337-02C1219D363E}",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5252242",
+      "DurationMax": "0.5564557",
+      "MediaRefs": [
+       {
+        "Id": "374672725"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1784058834",
+        "Name": "Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       }
+      ]
+     },
+     {
+      "Id": "2938809645",
+      "Name": "Fnrl_Transition_Exhale",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Transition_Exhale",
+      "GUID": "{3F85E934-BD61-4E41-BC35-937B2BC821BB}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5908475",
+      "DurationMax": "2.6253827",
+      "MediaRefs": [
+       {
+        "Id": "16631637"
+       },
+       {
+        "Id": "277586871"
+       },
+       {
+        "Id": "336069509"
+       }
+      ]
+     },
+     {
+      "Id": "2161155719",
+      "Name": "Fnrl_Transition_Inhale",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Transition_Inhale",
+      "GUID": "{36E22E4E-5EA4-41E7-B576-76B3D3090F0E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.48194632",
+      "DurationMax": "0.6314552",
+      "MediaRefs": [
+       {
+        "Id": "417704821"
+       },
+       {
+        "Id": "485915409"
+       },
+       {
+        "Id": "741278934"
+       }
+      ]
+     },
+     {
+      "Id": "650669748",
+      "Name": "Fnrl_Wall_Shatter",
+      "ObjectPath": "\\Events\\Funeral Home\\Fnrl_Wall_Shatter",
+      "GUID": "{1C722E0F-588B-4920-8B98-FDF8AA4464C1}",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "5.885821",
+      "DurationMax": "6.321163",
+      "MediaRefs": [
+       {
+        "Id": "551171733"
+       },
+       {
+        "Id": "834748161"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1784058834",
+        "Name": "Fnrl_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
+        "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "553709980",
+      "Name": "InAudibleZone",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\InAudibleZone",
+      "GUID": "{4BEBB738-CD5B-4CE1-AFCB-393067F45FA2}"
+     },
+     {
+      "Id": "1288081852",
+      "Name": "DistanceAnimationRate",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\DistanceAnimationRate",
+      "GUID": "{88001F93-59F8-4874-A886-D90134697D52}"
+     },
+     {
+      "Id": "1768319275",
+      "Name": "DistanceFromTarget",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\DistanceFromTarget",
+      "GUID": "{55BD23C9-D128-4C2A-B2F8-B1224C5F1FD8}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9040E039-966F-B49F-D11D-6150DE95A9F2}"
+ }
+}

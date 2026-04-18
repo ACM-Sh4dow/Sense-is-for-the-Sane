@@ -1,0 +1,388 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{7D7952DB-63C0-3E83-634E-92EA7EAD6A49}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "484890516",
+       "Name": "Church_Small_Wood",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Cathedrals\\Church_Small_Wood",
+       "GUID": "{940CCB47-F031-4C6A-B0E6-726CAC418C02}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2513915904",
+       "Name": "Hall_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large",
+       "GUID": "{6D154498-FF6D-4823-96FC-56841B70E079}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{27C9914B-B3AC-40AF-B017-E0E42CC6E1EF}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{85D184D3-671C-4694-B264-CDE75AFE116D}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "6959393",
+      "Name": "Void_Player",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_Player",
+      "GUID": "{FA711CFA-14DE-4218-812F-61562211DD29}"
+     },
+     {
+      "Id": "133642231",
+      "Name": "General",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\General",
+      "GUID": "{0FB50B73-DF71-447C-8241-8FE469217543}"
+     },
+     {
+      "Id": "348963605",
+      "Name": "Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+      "GUID": "{933B206B-44B9-4DDA-BDB8-9ACA1E3BD603}"
+     },
+     {
+      "Id": "439711954",
+      "Name": "Fnrl_World",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home\\Fnrl_World",
+      "GUID": "{F28C13AB-2B28-4B54-AC57-40D80E919288}"
+     },
+     {
+      "Id": "750859935",
+      "Name": "Funeral Home",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home",
+      "GUID": "{808911AC-F824-4277-9852-58568C970CED}"
+     },
+     {
+      "Id": "1035059981",
+      "Name": "Gnrl_World",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\General\\Gnrl_World",
+      "GUID": "{5F82077A-1086-45D6-A569-B616BA0A2EFC}"
+     },
+     {
+      "Id": "1156430435",
+      "Name": "Fnrl_Mus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home\\Fnrl_Mus",
+      "GUID": "{6CFA9A41-8F8D-4112-BC08-ACF30712A51B}"
+     },
+     {
+      "Id": "1443924366",
+      "Name": "Apt_Mus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Apartment\\Apt_Mus",
+      "GUID": "{97E6D177-D20A-4382-AD51-65DA9E26DF07}"
+     },
+     {
+      "Id": "1559784790",
+      "Name": "Fnrl_Amb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home\\Fnrl_Amb",
+      "GUID": "{F74A7EC4-EFC7-4FBD-BFD0-93BA88C97145}"
+     },
+     {
+      "Id": "1576174051",
+      "Name": "Apt_Amb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Apartment\\Apt_Amb",
+      "GUID": "{4624BFF2-BF7F-46AB-9DD8-E53FB1F29DA0}"
+     },
+     {
+      "Id": "2125642148",
+      "Name": "Gnrl_Player",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\General\\Gnrl_Player",
+      "GUID": "{3921049D-D54A-4108-856A-0E5E4A0614C6}"
+     },
+     {
+      "Id": "2287246371",
+      "Name": "Apt_World",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Apartment\\Apt_World",
+      "GUID": "{0A1F617D-429D-4C52-B091-70D175819868}"
+     },
+     {
+      "Id": "3370470011",
+      "Name": "Void",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void",
+      "GUID": "{A1805BDC-192C-478A-B880-F40F2AF92361}"
+     },
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3863178242",
+      "Name": "Void_World",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_World",
+      "GUID": "{98D02A70-DA7D-4203-9816-8CF89FAD39E0}"
+     },
+     {
+      "Id": "3905838582",
+      "Name": "Apt_Player",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Apartment\\Apt_Player",
+      "GUID": "{0E9E1E5B-C7D3-4CE2-BB5E-212342A3D2F2}"
+     },
+     {
+      "Id": "3962830982",
+      "Name": "Void_Amb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_Amb",
+      "GUID": "{FFC4D725-42EE-41B7-B2A8-4B3B09301041}"
+     },
+     {
+      "Id": "4096463699",
+      "Name": "Void_Mus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Void\\Void_Mus",
+      "GUID": "{385B02EF-29F7-4B8D-8C10-1FFBA8E38DCE}"
+     },
+     {
+      "Id": "4154495109",
+      "Name": "Apartment",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Apartment",
+      "GUID": "{45DEE7B8-21A5-48E8-9C50-6CAC864F8555}"
+     },
+     {
+      "Id": "4213812209",
+      "Name": "Fnrl_Player",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Funeral Home\\Fnrl_Player",
+      "GUID": "{389F6201-8825-4D43-89F3-F2CF99884313}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "1676289129",
+      "Name": "Apt_Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Apt_Reverb",
+      "GUID": "{B28A58E4-2BBF-4849-B95C-3ACC849A967E}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2995775460"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1784058834",
+      "Name": "Fnrl_Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fnrl_Reverb",
+      "GUID": "{4C034AEA-7767-4998-B9EB-53B83227D7CB}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "484890516"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3356433602",
+      "Name": "Void_Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Void_Reverb",
+      "GUID": "{AE77AE0C-6CB7-434D-9131-3A80AA5FD3A6}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2513915904"
+        }
+       ]
+      }
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "553709980",
+      "Name": "InAudibleZone",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\InAudibleZone",
+      "GUID": "{4BEBB738-CD5B-4CE1-AFCB-393067F45FA2}"
+     },
+     {
+      "Id": "953461546",
+      "Name": "GramophoneBlend",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\GramophoneBlend",
+      "GUID": "{7C208A0D-9A3F-419E-8437-AA383555FB0A}"
+     },
+     {
+      "Id": "1288081852",
+      "Name": "DistanceAnimationRate",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\DistanceAnimationRate",
+      "GUID": "{88001F93-59F8-4874-A886-D90134697D52}"
+     },
+     {
+      "Id": "1768319275",
+      "Name": "DistanceFromTarget",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\DistanceFromTarget",
+      "GUID": "{55BD23C9-D128-4C2A-B2F8-B1224C5F1FD8}"
+     },
+     {
+      "Id": "3357858816",
+      "Name": "ClockTickRate",
+      "ObjectPath": "\\Game Parameters\\Game Parameters WU\\ClockTickRate",
+      "GUID": "{4B800971-A9A2-4A67-9426-86D6F78BF5A4}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2121736680",
+      "Name": "CurrentScene",
+      "ObjectPath": "\\States\\States WU\\CurrentScene",
+      "GUID": "{4096DFB2-433F-4D69-BAFF-D67984F6FB84}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\States WU\\CurrentScene\\None",
+        "GUID": "{A69EBB97-976D-4175-A28B-344441D6C540}"
+       },
+       {
+        "Id": "3370470011",
+        "Name": "Void",
+        "ObjectPath": "\\States\\States WU\\CurrentScene\\Void",
+        "GUID": "{AE9041A4-3A52-434E-87E3-476B865CAD06}"
+       },
+       {
+        "Id": "4154495109",
+        "Name": "Apartment",
+        "ObjectPath": "\\States\\States WU\\CurrentScene\\Apartment",
+        "GUID": "{EFF73982-9D45-4CA7-AE54-C32C65FE126E}"
+       },
+       {
+        "Id": "4219119955",
+        "Name": "FuneralHome",
+        "ObjectPath": "\\States\\States WU\\CurrentScene\\FuneralHome",
+        "GUID": "{50CDA5F0-F984-45A3-AE5C-B0A598DD576C}"
+       }
+      ]
+     },
+     {
+      "Id": "3585118241",
+      "Name": "FuneralHomeVersion",
+      "ObjectPath": "\\States\\States WU\\FuneralHomeVersion",
+      "GUID": "{F0D40430-B72C-4672-A0D9-74C2EC3DDC10}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\States WU\\FuneralHomeVersion\\None",
+        "GUID": "{873F2610-2C00-4B76-B36A-67906D77920C}"
+       },
+       {
+        "Id": "2628937827",
+        "Name": "Regular",
+        "ObjectPath": "\\States\\States WU\\FuneralHomeVersion\\Regular",
+        "GUID": "{D9284D7B-08F7-4DC9-A8CC-337FD32E14CB}"
+       },
+       {
+        "Id": "2915544473",
+        "Name": "Alternate",
+        "ObjectPath": "\\States\\States WU\\FuneralHomeVersion\\Alternate",
+        "GUID": "{DCCA95AB-DF88-4C88-AC1B-F2C2B6E3BD12}"
+       }
+      ]
+     },
+     {
+      "Id": "3649513479",
+      "Name": "PuzzlesCompleted",
+      "ObjectPath": "\\States\\States WU\\PuzzlesCompleted",
+      "GUID": "{D72939F0-4780-4D06-AC4C-12717BBCDF2C}",
+      "States": [
+       {
+        "Id": "678209053",
+        "Name": "Two",
+        "ObjectPath": "\\States\\States WU\\PuzzlesCompleted\\Two",
+        "GUID": "{2143B4A2-A7BC-4709-B720-E3A3B48D78AB}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\States WU\\PuzzlesCompleted\\None",
+        "GUID": "{ABD927F8-3F77-4A42-86F4-23A891F082E5}"
+       },
+       {
+        "Id": "766521211",
+        "Name": "Zero",
+        "ObjectPath": "\\States\\States WU\\PuzzlesCompleted\\Zero",
+        "GUID": "{98BB88D2-3482-4A79-A31A-195F0C2A3385}"
+       },
+       {
+        "Id": "1064933119",
+        "Name": "One",
+        "ObjectPath": "\\States\\States WU\\PuzzlesCompleted\\One",
+        "GUID": "{2D3ECCF9-C1F2-43CC-85D8-1D6F732B4F46}"
+       },
+       {
+        "Id": "1683001833",
+        "Name": "CasketComplete",
+        "ObjectPath": "\\States\\States WU\\PuzzlesCompleted\\CasketComplete",
+        "GUID": "{FED6848A-3338-4924-AE93-DCB962C36DA4}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3586861854",
+      "Name": "FootstepsSwitch",
+      "ObjectPath": "\\Switches\\Switches WU\\FootstepsSwitch",
+      "GUID": "{43593057-AD40-4D38-B05E-E3BBBF32E638}",
+      "Switches": [
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Switches WU\\FootstepsSwitch\\Wood",
+        "GUID": "{7391596E-EA8A-45AC-8EAC-58BF193C4023}"
+       },
+       {
+        "Id": "2412606308",
+        "Name": "Carpet",
+        "ObjectPath": "\\Switches\\Switches WU\\FootstepsSwitch\\Carpet",
+        "GUID": "{EFEBB564-F323-421C-B416-DE7B81C944D2}"
+       },
+       {
+        "Id": "3370470011",
+        "Name": "Void",
+        "ObjectPath": "\\Switches\\Switches WU\\FootstepsSwitch\\Void",
+        "GUID": "{8C7446C5-EDFF-4FE3-9C23-CCEE1966000C}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7A92350E-34C6-83AB-27F1-2B3CB528A77B}"
+ }
+}

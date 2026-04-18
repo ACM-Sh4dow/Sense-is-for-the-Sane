@@ -1,7 +1,7 @@
 {
  "SoundBanksInfo": {
-  "Platform": "Mac",
-  "BasePlatform": "Mac",
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
   "SchemaVersion": "16",
   "SoundBankVersion": "154",
   "SoundBanks": [
@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{39E76D16-3659-462C-8AE1-BE0B06954A63}",
     "Language": "SFX",
-    "Hash": "{C75F26E1-962F-85CF-DC73-F2A758E2CECE}",
+    "Hash": "{80ABDB59-EF7D-781F-141F-8A0D9C3A2814}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\General",
     "ShortName": "General",
     "Path": "General.bnk",
@@ -636,16 +636,6 @@
       ]
      },
      {
-      "Id": "2564673847",
-      "Name": "Menu_Stop_All",
-      "ObjectPath": "\\Events\\General Events\\Stop All\\Menu_Stop_All",
-      "GUID": "{A682A94A-9B7D-4B9B-9B15-D8B688E963A2}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
       "Id": "2785809462",
       "Name": "Void_Stop_All",
       "ObjectPath": "\\Events\\General Events\\Stop All\\Void_Stop_All",
@@ -706,6 +696,6 @@
     ]
    }
   ],
-  "FileHash": "{69892976-FAF4-859E-219C-8ADE6F5AA5B7}"
+  "FileHash": "{5922687E-FA30-18BF-727D-7C357AC4AF4D}"
  }
 }

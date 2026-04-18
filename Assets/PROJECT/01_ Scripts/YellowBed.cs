@@ -30,6 +30,7 @@ public class YellowBed : MonoBehaviour, InteractionPoint
             yield return null;
         }
         PlayerBehaviour.Instance.transform.position = Overseer.Instance.GetManager<VoidManager>().apartmentSpawn.position;
+        Overseer.Instance.GetManager<VoidManager>().ActivateShadows();
         StartCoroutine(Overseer.Instance.GetManager<UiManager>().FadeToGame());
     }
 }
