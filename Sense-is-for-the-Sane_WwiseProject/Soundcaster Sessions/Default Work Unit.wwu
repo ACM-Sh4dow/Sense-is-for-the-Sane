@@ -9,6 +9,22 @@
 							<ObjectRef Name="Void_Mus_Voices" ID="{B4E40B53-E85E-4BCC-A4A5-9751138CC9F6}" WorkUnitID="{274F03AB-EC17-44FA-A98A-DDEFAD73AAD5}"/>
 							<Position X="0" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Door_Creaking" ID="{0CBA965B-EA68-4CF1-A7E1-87707066D038}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Pause_All" ID="{7642FD3D-74BA-4ECD-81C4-D6C2B17692A8}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Gramophone" ID="{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Resume_All" ID="{E8E547FF-FFE5-4144-8C6B-8868537FD81C}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}"/>
+							<Position X="2" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>

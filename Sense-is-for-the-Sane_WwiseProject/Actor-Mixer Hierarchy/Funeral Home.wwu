@@ -88,6 +88,39 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="PuzzlesCompleted" ID="{D72939F0-4780-4D06-AC4C-12717BBCDF2C}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="One" ID="{2D3ECCF9-C1F2-43CC-85D8-1D6F732B4F46}"/>
+								<CustomState Name="" ID="{7F650E99-26AC-4191-8148-D5EDFBCAB1F6}" ShortID="907809346"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Two" ID="{2143B4A2-A7BC-4709-B720-E3A3B48D78AB}"/>
+								<CustomState Name="" ID="{94C8124B-32FB-4A35-A4A8-7AC9A0F71063}" ShortID="978211384"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="CasketComplete" ID="{FED6848A-3338-4924-AE93-DCB962C36DA4}"/>
+								<CustomState Name="" ID="{FD95AF6B-2CB7-45C4-8788-2D5628E61937}" ShortID="75500502">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{ABD927F8-3F77-4A42-86F4-23A891F082E5}"/>
+								<CustomState Name="" ID="{B36AF0E0-FEAE-4AF4-98B8-C2B6D2BF9CF3}" ShortID="613746760"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Zero" ID="{98BB88D2-3482-4A79-A31A-195F0C2A3385}"/>
+								<CustomState Name="" ID="{F7E2D22B-F5F2-4A23-AB91-20178086C1AE}" ShortID="433592263"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<ObjectLists>
 						<ObjectList Name="Playlist">
 							<Reference>
@@ -1671,6 +1704,39 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="PuzzlesCompleted" ID="{D72939F0-4780-4D06-AC4C-12717BBCDF2C}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="One" ID="{2D3ECCF9-C1F2-43CC-85D8-1D6F732B4F46}"/>
+								<CustomState Name="" ID="{6CEB2CF9-A17D-4CC4-B435-6438324A1DD0}" ShortID="561942799"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Two" ID="{2143B4A2-A7BC-4709-B720-E3A3B48D78AB}"/>
+								<CustomState Name="" ID="{B1079608-138C-42C0-91DD-84C459A7D763}" ShortID="281578260"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="CasketComplete" ID="{FED6848A-3338-4924-AE93-DCB962C36DA4}"/>
+								<CustomState Name="" ID="{84B3E732-E147-486C-9C86-51DD4C6DD421}" ShortID="386805572">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{ABD927F8-3F77-4A42-86F4-23A891F082E5}"/>
+								<CustomState Name="" ID="{A9510615-EF9C-4318-8F95-302D2EC9A7F7}" ShortID="618518733"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Zero" ID="{98BB88D2-3482-4A79-A31A-195F0C2A3385}"/>
+								<CustomState Name="" ID="{1F860B82-4009-42D5-A9F8-9F9356D05517}" ShortID="525780553"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</ActorMixer>
 				<RandomSequenceContainer Name="Casket Creaking Seq" ID="{034752D7-6C74-488C-B886-AF4EC28C0FBA}" ShortID="1015611691">
 					<PropertyList>

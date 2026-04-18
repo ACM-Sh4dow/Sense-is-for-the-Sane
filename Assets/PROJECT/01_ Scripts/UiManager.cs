@@ -72,6 +72,7 @@ public class UiManager : MonoBehaviour
             yield return null;
         }
         toBeContinued.SetActive(true);
+        AkUnitySoundEngine.PostEvent("Stop_All", gameObject);
         yield return new WaitForSeconds(6);
         SceneManager.LoadScene(0);
     }

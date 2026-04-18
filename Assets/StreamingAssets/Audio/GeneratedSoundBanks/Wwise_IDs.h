@@ -47,6 +47,9 @@ namespace AK
         static const AkUniqueID MANUAL_ANIMATE_CLOCK_STOP = 3248176547U;
         static const AkUniqueID MENU_MUSIC = 4055567060U;
         static const AkUniqueID MENU_STOP_ALL = 2564673847U;
+        static const AkUniqueID PAUSE_ALL = 3864097025U;
+        static const AkUniqueID RESUME_ALL = 3679762312U;
+        static const AkUniqueID STOP_ALL = 452547817U;
         static const AkUniqueID VOID_DOOR_SPAWN = 1778555802U;
         static const AkUniqueID VOID_MUS_HIGH_2ND = 1322957119U;
         static const AkUniqueID VOID_MUS_HIGH_4TH = 886444887U;

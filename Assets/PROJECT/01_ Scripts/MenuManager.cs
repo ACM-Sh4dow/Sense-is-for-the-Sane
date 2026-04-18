@@ -16,6 +16,11 @@ public class MenuManager : MonoBehaviour
 
     private bool isPlaying;
 
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.None;
+    }
+
     //future note make sure that SceneManagement isn't static and that it has MonoBehaviour
     public static void StartLevel(string sceneName)
     {

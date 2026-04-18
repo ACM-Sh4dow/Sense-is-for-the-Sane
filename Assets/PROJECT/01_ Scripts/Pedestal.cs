@@ -15,21 +15,22 @@ public class Pedestal : Puzzle, InteractionPoint
 
     public void Interact()
     {
-        AttemptPuzzle();
-    }
-
-    public override void AttemptPuzzle()
-    {
-        if ((Overseer.Instance.GetManager<FuneralManager>().flowerPuzzleCompleted && !isPaintingPedestal) || 
+        if ((Overseer.Instance.GetManager<FuneralManager>().flowerPuzzleCompleted && !isPaintingPedestal) ||
             (Overseer.Instance.GetManager<FuneralManager>().paintingPuzzleCompleted && isPaintingPedestal))
         {
             PedestalCompleted();
         }
     }
+
+    public override void AttemptPuzzle()
+    {
+        return;
+    }
     
 
     private void PedestalCompleted()
     {
+        if (state == State.fullyResolved) return;
         state = State.fullyResolved;
         RegisterCompletion();
             

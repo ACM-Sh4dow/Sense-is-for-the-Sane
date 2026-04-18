@@ -5,7 +5,7 @@ using UnityEngine.ProBuilder.Shapes;
 public class CloseOffApartment : MonoBehaviour
 {
     [SerializeField] private GameObject funeralHomeDoor;
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {

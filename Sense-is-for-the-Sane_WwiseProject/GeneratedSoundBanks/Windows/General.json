@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{39E76D16-3659-462C-8AE1-BE0B06954A63}",
     "Language": "SFX",
-    "Hash": "{C75F26E1-962F-85CF-DC73-F2A758E2CECE}",
+    "Hash": "{5A159194-3389-F8BC-238D-31F32797CC88}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\General",
     "ShortName": "General",
     "Path": "General.bnk",
@@ -646,6 +646,36 @@
       "DurationMax": "0"
      },
      {
+      "Id": "3864097025",
+      "Name": "Pause_All",
+      "ObjectPath": "\\Events\\General Events\\Pause\\Pause_All",
+      "GUID": "{7642FD3D-74BA-4ECD-81C4-D6C2B17692A8}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3679762312",
+      "Name": "Resume_All",
+      "ObjectPath": "\\Events\\General Events\\Pause\\Resume_All",
+      "GUID": "{E8E547FF-FFE5-4144-8C6B-8868537FD81C}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "452547817",
+      "Name": "Stop_All",
+      "ObjectPath": "\\Events\\General Events\\Stop All\\Stop_All",
+      "GUID": "{737A8026-9491-4F95-B2B6-77EE3D5A1E60}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "2785809462",
       "Name": "Void_Stop_All",
       "ObjectPath": "\\Events\\General Events\\Stop All\\Void_Stop_All",
@@ -706,6 +736,6 @@
     ]
    }
   ],
-  "FileHash": "{F9C0B3FB-761E-F52A-0EAF-BB0E4AF52F6B}"
+  "FileHash": "{556E71FA-19A9-100F-CE97-2FFC7E4EEB6C}"
  }
 }

@@ -75,6 +75,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Manual_Animate_Clock_Stop" ID="{F935F2F2-B593-404F-BCC0-2654C7765D3D}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Gramophone" ID="{E3CA9E91-E0D4-40C7-9E1E-26F0A2BF6C0C}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Resume_All" ID="{E8E547FF-FFE5-4144-8C6B-8868537FD81C}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fnrl_Mus_Organ" ID="{977BD10B-9A6C-41DB-9FE4-362AC1B5A8D3}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Apt_Stop_All" ID="{661646BA-B5A9-44BE-AD28-A2BD8CAFDC56}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Menu_Music" ID="{747A2611-F5DD-4834-BF2B-18ED5F7EC096}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
@@ -82,9 +83,11 @@
 						<ObjectRef Name="Manual_Animate_Clock_Start" ID="{24EF0CE2-7F9F-4AD5-A7F1-778501E3CE65}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Menu_Stop_All" ID="{A682A94A-9B7D-4B9B-9B15-D8B688E963A2}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door_Creaking" ID="{0CBA965B-EA68-4CF1-A7E1-87707066D038}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pause_All" ID="{7642FD3D-74BA-4ECD-81C4-D6C2B17692A8}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footstep" ID="{651BF6F5-5E00-4EEC-BC2C-B99851AB9555}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footstep_Scratch" ID="{7E8D7626-8306-4EEC-9072-57BFA5DBCC6C}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Void_Stop_All" ID="{04E0E4E3-7502-4F22-B18E-CBE2BF33822A}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_All" ID="{737A8026-9491-4F95-B2B6-77EE3D5A1E60}" WorkUnitID="{9296F51F-E3A3-4428-9B9B-4C99FAD941F7}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

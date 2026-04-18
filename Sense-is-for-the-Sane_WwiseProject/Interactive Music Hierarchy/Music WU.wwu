@@ -233,14 +233,13 @@
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="Menuet_Piano" ID="{BAE713DF-8C12-4D5E-8A70-FFAD35334E29}" ShortID="616450873">
 					<PropertyList>
-						<Property Name="3DPosition" Type="int16" Value="2"/>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="3DPosition" Type="int16" Value="1"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="Highpass" Type="int16">
 							<ValueList>
 								<Value>16</Value>
 							</ValueList>
 						</Property>
-						<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 						<Property Name="Tempo" Type="Real64" Value="92"/>
 						<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>

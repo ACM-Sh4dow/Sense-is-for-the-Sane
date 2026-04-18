@@ -245,11 +245,27 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_All" ID="{737A8026-9491-4F95-B2B6-77EE3D5A1E60}">
+							<ChildrenList>
+								<Action Name="" ID="{96999FC3-B8BB-4613-B881-9402202D09D6}" ShortID="1031484243">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Menu_Music" ID="{747A2611-F5DD-4834-BF2B-18ED5F7EC096}">
 					<ChildrenList>
 						<Action Name="" ID="{488EAD73-91B0-4CDC-9B2E-38E49F11140D}" ShortID="155145061">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Main Menu" ID="{35A05C5B-CA3F-4F98-934C-4D055B22E71F}" WorkUnitID="{75308C12-293D-4507-9A45-E39BBC97D763}"/>
@@ -258,6 +274,35 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Pause" ID="{A045912E-0854-48CB-B8FE-1D3917FABEB1}" ShortID="591247505">
+					<ChildrenList>
+						<Event Name="Pause_All" ID="{7642FD3D-74BA-4ECD-81C4-D6C2B17692A8}">
+							<ChildrenList>
+								<Action Name="" ID="{D1E00D1C-1646-4EA7-BD96-F6CC647D74D9}" ShortID="539792895">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="8"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Resume_All" ID="{E8E547FF-FFE5-4144-8C6B-8868537FD81C}">
+							<ChildrenList>
+								<Action Name="" ID="{A1E39A9E-897E-4D1D-8D90-1FCCF021BDEF}" ShortID="210042498">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="10"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

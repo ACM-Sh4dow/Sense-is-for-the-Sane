@@ -504,7 +504,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Soundbanks WU
     guid: f07745933e5d8a42b73e28d4a0c7c93c
     GuidInternal: 
-    m_lastTime: -8584251428481451318
+    m_lastTime: -8584250844919213124
     List:
     - name: Apartment
       guid: 85962c9ff4c3214d93194ff075e9a3cd
@@ -1044,7 +1044,7 @@ MonoBehaviour:
     ParentPath: Events\General Events
     guid: 1ff59692a3e328449b9b4c99fad941f7
     GuidInternal: 
-    m_lastTime: -8584251428481461371
+    m_lastTime: -8584250845044175661
     List:
     - name: Apt_Stop_All
       guid: ba461666a9b5be44ad28a2bd8cafdc56
@@ -1242,6 +1242,63 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Pause
+      guid: 2e9145a05408cb48b8fe1d3917fabeb1
+      id: 3092587493
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: General Events
+        ObjectType: 12
+        guid: 1ff59692a3e328449b9b4c99fad941f7
+      - ElementName: Pause
+        ObjectType: 4
+        guid: 2e9145a05408cb48b8fe1d3917fabeb1
+      Path: Events\General Events\Pause
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Pause_All
+      guid: 3dfd4276ba74cd4e81c4d6c2b17692a8
+      id: 3864097025
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: General Events
+        ObjectType: 12
+        guid: 1ff59692a3e328449b9b4c99fad941f7
+      - ElementName: Pause
+        ObjectType: 4
+        guid: 2e9145a05408cb48b8fe1d3917fabeb1
+      - ElementName: Pause_All
+        ObjectType: 3
+        guid: 3dfd4276ba74cd4e81c4d6c2b17692a8
+      Path: Events\General Events\Pause\Pause_All
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Resume_All
+      guid: ff47e5e8e5ff44418c6b8868537fd81c
+      id: 3679762312
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: General Events
+        ObjectType: 12
+        guid: 1ff59692a3e328449b9b4c99fad941f7
+      - ElementName: Pause
+        ObjectType: 4
+        guid: 2e9145a05408cb48b8fe1d3917fabeb1
+      - ElementName: Resume_All
+        ObjectType: 3
+        guid: ff47e5e8e5ff44418c6b8868537fd81c
+      Path: Events\General Events\Pause\Resume_All
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop All
       guid: 245673c71558f84e9042b3ce5be8622c
       id: 1977287596
@@ -1259,6 +1316,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_All
+      guid: 26807a739194954fb2b677ee3d5a1e60
+      id: 452547817
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: General Events
+        ObjectType: 12
+        guid: 1ff59692a3e328449b9b4c99fad941f7
+      - ElementName: Stop All
+        ObjectType: 4
+        guid: 245673c71558f84e9042b3ce5be8622c
+      - ElementName: Stop_All
+        ObjectType: 3
+        guid: 26807a739194954fb2b677ee3d5a1e60
+      Path: Events\General Events\Stop All\Stop_All
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Void_Stop_All
       guid: e3e4e0040275224fb18ecbe2bf33822a
       id: 2785809462

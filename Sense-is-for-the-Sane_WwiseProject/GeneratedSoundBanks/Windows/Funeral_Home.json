@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{36ACC5E3-9754-4EFE-8814-73F1D671A324}",
     "Language": "SFX",
-    "Hash": "{53D7CFE2-74D0-4E47-7897-C4CF0B19965A}",
+    "Hash": "{B1AEA296-5E52-3471-FF50-ED484A15352B}",
     "ObjectPath": "\\SoundBanks\\Soundbanks WU\\Funeral_Home",
     "ShortName": "Funeral_Home",
     "Path": "Funeral_Home.bnk",
@@ -546,6 +546,6 @@
     ]
    }
   ],
-  "FileHash": "{9040E039-966F-B49F-D11D-6150DE95A9F2}"
+  "FileHash": "{2CE43163-EECE-9ADA-B2B7-F2EE2BECD48A}"
  }
 }
