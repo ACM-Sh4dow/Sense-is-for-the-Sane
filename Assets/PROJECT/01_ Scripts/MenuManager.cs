@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
 {
@@ -13,12 +14,19 @@ public class MenuManager : MonoBehaviour
     [SerializeField] GameObject menuObjects;
     [SerializeField] GameObject creditsObjects;
     [SerializeField] GameObject loadingScreen;
+    [SerializeField] Image blackScreen;
+
+    [SerializeField] float fadeTime = 3;
+    public float timeDifference = 0;
 
     private bool isPlaying;
 
     private void Start()
     {
+        blackScreen.enabled = true;
         Cursor.lockState = CursorLockMode.None;
+
+        StartCoroutine(FadeBlackScreen(0, fadeTime, Time.time, true));
     }
 
     //future note make sure that SceneManagement isn't static and that it has MonoBehaviour
@@ -66,11 +74,18 @@ public class MenuManager : MonoBehaviour
     }
     private IEnumerator WaitToPlay()
     {
+        StartCoroutine(FadeBlackScreen(1, 2, Time.time, false));
+        yield return new WaitForSeconds(3);  //  Waiting for fade to finish
+
         loadingScreen.SetActive(true);
+        blackScreen.gameObject.SetActive(false);
         menuButtons.SetActive(false);
         menuObjects.SetActive(false);
+
         AkUnitySoundEngine.PostEvent("Menu_Stop_All",loadingScreen);
-        yield return new WaitForSeconds(5);
+
+        yield return new WaitForSeconds(3);
+
         SceneManager.LoadScene(1);
     }
     public void Credits()
@@ -86,6 +101,30 @@ public class MenuManager : MonoBehaviour
         creditsObjects.SetActive(false);
         menuButtons.SetActive(true);
         menuObjects.SetActive(true);
+    }
+
+    private IEnumerator FadeBlackScreen(float targetOpacity, float duration, float startTime, bool deactivateWhenFinished)
+    {
+        blackScreen.gameObject.SetActive(true);
+        float startOpacity = blackScreen.color.a;
+        float timeDiff = 0;
+
+        while (timeDiff < duration)
+        {
+            timeDiff = (Time.time - startTime);
+            timeDifference = timeDiff;
+
+            float alpha = Mathf.Lerp(startOpacity, targetOpacity, timeDiff / duration);
+
+            blackScreen.color = new Color(0, 0, 0, alpha);
+
+
+            yield return null;
+        }
+
+        blackScreen.color = blackScreen.color = new Color(0, 0, 0, targetOpacity);
+
+        if(deactivateWhenFinished) blackScreen.gameObject.SetActive(false);
     }
 
     #region Pausing and resuming
