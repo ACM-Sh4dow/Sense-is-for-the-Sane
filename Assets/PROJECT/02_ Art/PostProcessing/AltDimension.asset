@@ -61,7 +61,7 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.309
+    m_Value: 0.281
   smoothness:
     m_OverrideState: 1
     m_Value: 0.509
@@ -111,7 +111,6 @@ MonoBehaviour:
   components:
   - {fileID: -7158514778195857827}
   - {fileID: -2344058541416941770}
-  - {fileID: 8023221594031825409}
   - {fileID: -149299733373089765}
   - {fileID: 5643518076518944844}
   - {fileID: 7438790914157505928}
@@ -147,13 +146,13 @@ MonoBehaviour:
   active: 1
   lift:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 6.002227e-10}
+    m_Value: {x: 1, y: 1, z: 1, w: -0.038809836}
   gamma:
     m_OverrideState: 1
-    m_Value: {x: 0.8687639, y: 1, z: 0.98441565, w: 0.5433377}
+    m_Value: {x: 0.90607214, y: 1, z: 0.9944047, w: 0.3492886}
   gain:
     m_OverrideState: 1
-    m_Value: {x: 0.94881153, y: 0.97269505, z: 1, w: -0.23285902}
+    m_Value: {x: 0.94881153, y: 0.97269505, z: 1, w: 0.55627435}
 --- !u!114 &7438790914157505928
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -169,10 +168,10 @@ MonoBehaviour:
   active: 1
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 0.83435404, y: 1, z: 0.9127389, w: -0.25873226}
+    m_Value: {x: 0.90339494, y: 1, z: 0.9165281, w: -0.24579558}
   midtones:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.8742978, z: 0.7035048, w: 0.4786547}
+    m_Value: {x: 1, y: 0.82690424, z: 0.74776745, w: 0.10349289}
   highlights:
     m_OverrideState: 0
     m_Value: {x: 1, y: 1, z: 1, w: 0}
@@ -181,57 +180,10 @@ MonoBehaviour:
     m_Value: 0
   shadowsEnd:
     m_OverrideState: 1
-    m_Value: 0.37
+    m_Value: 0.34
   highlightsStart:
     m_OverrideState: 0
     m_Value: 0.55
   highlightsEnd:
     m_OverrideState: 0
     m_Value: 1
---- !u!114 &8023221594031825409
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
-  m_Name: Bloom
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.Bloom
-  active: 0
-  skipIterations:
-    m_OverrideState: 1
-    m_Value: 1
-  threshold:
-    m_OverrideState: 1
-    m_Value: 0.9
-  intensity:
-    m_OverrideState: 1
-    m_Value: 3.19
-  scatter:
-    m_OverrideState: 1
-    m_Value: 0.264
-  clamp:
-    m_OverrideState: 1
-    m_Value: 462
-  tint:
-    m_OverrideState: 1
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
-  highQualityFiltering:
-    m_OverrideState: 0
-    m_Value: 1
-  downscale:
-    m_OverrideState: 0
-    m_Value: 0
-  maxIterations:
-    m_OverrideState: 0
-    m_Value: 6
-  dirtTexture:
-    m_OverrideState: 1
-    m_Value: {fileID: 0}
-    dimension: 1
-  dirtIntensity:
-    m_OverrideState: 1
-    m_Value: 0
