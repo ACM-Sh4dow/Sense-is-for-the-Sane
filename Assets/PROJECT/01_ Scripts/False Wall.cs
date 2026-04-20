@@ -2,11 +2,18 @@ using System;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class FalseWall : MonoBehaviour
+public class FalseWall : MonoBehaviour, InteractionPoint
 {
     private Camera camera;
     private Renderer renderer;
     private Collider collider;
+
+    private enum DoorSide
+    {
+        Left,
+        Right
+    }
+    [SerializeField] private DoorSide doorSide;
 
     private void Start()
     {
@@ -32,7 +39,7 @@ public class FalseWall : MonoBehaviour
         if (!other.CompareTag("Player")) return;
         transform.parent.gameObject.SetActive(false);
     }
-
+    
     void Update()
     {
         if (!IsInView())
@@ -44,4 +51,18 @@ public class FalseWall : MonoBehaviour
             collider.isTrigger = false;
         }
     }
+
+    public void Interact()
+    {
+        switch (doorSide)
+        {
+            case DoorSide.Left:
+                Overseer.Instance.GetManager<UiManager>().ActivateTextPopup(4, 5);
+                break;
+            case DoorSide.Right:
+                Overseer.Instance.GetManager<UiManager>().ActivateTextPopup(3, 5);
+                break;
+        }
+    }
+    
 }
