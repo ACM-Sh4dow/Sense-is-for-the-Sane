@@ -560,7 +560,8 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 0.5
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6599588, guid: c53f42399abc6d44c8a340f4938d9dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -642,7 +643,8 @@ PrefabInstance:
       propertyPath: m_ColorTemperature
       value: 9728
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6599588, guid: c53f42399abc6d44c8a340f4938d9dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2656,7 +2658,8 @@ PrefabInstance:
       propertyPath: m_ColorTemperature
       value: 9728
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6599588, guid: c53f42399abc6d44c8a340f4938d9dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2722,7 +2725,8 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 0.18
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6599588, guid: c53f42399abc6d44c8a340f4938d9dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3871,7 +3875,8 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 0.5
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6560632, guid: d2dcf7a41d7c6c6449372306a5c54300, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3949,7 +3954,8 @@ PrefabInstance:
       propertyPath: m_ColorTemperature
       value: 9728
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6560632, guid: d2dcf7a41d7c6c6449372306a5c54300, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5329,7 +5335,8 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 0.16
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6599588, guid: c53f42399abc6d44c8a340f4938d9dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5407,7 +5414,8 @@ PrefabInstance:
       propertyPath: m_ColorTemperature
       value: 9728
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6599588, guid: c53f42399abc6d44c8a340f4938d9dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5635,7 +5643,8 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 0.91
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6565174, guid: 96fc896042c042a48a4ff3183f44ab20, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5713,7 +5722,8 @@ PrefabInstance:
       propertyPath: m_ColorTemperature
       value: 9728
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6565174, guid: 96fc896042c042a48a4ff3183f44ab20, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6041,7 +6051,8 @@ PrefabInstance:
       propertyPath: m_ColorTemperature
       value: 9728
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6560632, guid: d2dcf7a41d7c6c6449372306a5c54300, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6107,7 +6118,8 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 0.5
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6560632, guid: d2dcf7a41d7c6c6449372306a5c54300, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6173,7 +6185,8 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 0.5
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6560632, guid: d2dcf7a41d7c6c6449372306a5c54300, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6251,7 +6264,8 @@ PrefabInstance:
       propertyPath: m_ColorTemperature
       value: 9728
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6560632, guid: d2dcf7a41d7c6c6449372306a5c54300, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6715,7 +6729,8 @@ PrefabInstance:
       propertyPath: m_ColorTemperature
       value: 9728
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6565174, guid: 96fc896042c042a48a4ff3183f44ab20, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6781,7 +6796,8 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 0.29
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6565174, guid: 96fc896042c042a48a4ff3183f44ab20, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -9285,7 +9301,8 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 0.2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6565174, guid: 96fc896042c042a48a4ff3183f44ab20, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -9363,7 +9380,8 @@ PrefabInstance:
       propertyPath: m_ColorTemperature
       value: 9728
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6565174, guid: 96fc896042c042a48a4ff3183f44ab20, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
