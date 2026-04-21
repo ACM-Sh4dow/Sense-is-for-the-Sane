@@ -7,8 +7,14 @@ public static class GroundCheck
     {
         #region Variables
         Vector3 capsuleCenter = collider.transform.TransformPoint(collider.center);
-        float worldRadius = collider.radius * collider.transform.lossyScale.x;
-        Vector3 origin = capsuleCenter - Vector3.up * ((collider.height / 2) - worldRadius);
+        float worldRadius = collider.radius * Mathf.Max(
+            collider.transform.lossyScale.x, 
+            collider.transform.lossyScale.z);
+        float castLift = worldRadius; 
+        float skinWidth = 0.2f;
+        
+        Vector3 origin = capsuleCenter - Vector3.up * ((collider.height / 2f - collider.radius) * collider.transform.lossyScale.y - castLift);
+        float castDistance = castLift + skinWidth;
         #endregion
         
         #region Hit
@@ -17,7 +23,7 @@ public static class GroundCheck
                 worldRadius,
                 Vector3.down,
                 out RaycastHit hit,
-                collider.height,
+                castDistance,
                 groundLayer,
                 QueryTriggerInteraction.Ignore))
         {
@@ -29,3 +35,4 @@ public static class GroundCheck
         #endregion
     }
 }
+

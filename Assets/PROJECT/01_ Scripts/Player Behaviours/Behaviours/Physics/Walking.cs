@@ -32,6 +32,13 @@ public class Walking : PhysicsBehaviour
             LastFootstepTime = Time.time;
         }
         #endregion
+        #region FallCheck
+        if (GroundCheck.Execute(PlayerBehaviour.Instance.playerCollider, PlayerBehaviour.Instance.collisionLayers) == null
+            && !PlayerBehaviour.Instance.InState<Falling>())
+        {
+            PlayerBehaviour.Instance.Begin<Falling>();
+        }
+        #endregion
         
         #region Logic
         Vector3 newMovementInput = new Vector3(input.x, 0, input.y);
